@@ -40,6 +40,8 @@ jobs:
           git diff --cached --quiet || git commit -m "Update Hong Kong regulatory feed"
           git push
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
