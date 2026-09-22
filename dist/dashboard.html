@@ -1,10 +1,91 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard · RegWatch HK</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="dashboard.css"></head>
-<body><div id="app-shell">
-  <aside><div class="logo"><i>R</i><b>RegWatch</b><small>HK</small></div><nav><button class="active" data-view="monitor">Monitor</button><button data-view="sources">Sources</button><button data-view="method">Validation</button></nav><div class="run"><span></span><b>Last run</b><br>Loading latest data…<br><em>AI triage enabled</em></div></aside>
-  <main><header><div><p class="eyebrow">HONG KONG · REGULATORY MONITOR</p><h1 id="page-title">Recent updates</h1></div><div class="header-actions"><button class="sign-out" id="sign-out">Sign out</button><button class="run-btn" id="run">Refresh data <strong>↻</strong></button></div></header>
-    <section id="monitor" class="view"><div class="stat-row"><article><small>Verified updates</small><strong>1</strong><span>Official evidence retained</span></article><article><small>Recent releases</small><strong>4</strong><span>Classified by AI triage</span></article><article><small>Sources checked</small><strong>2</strong><span>HKEX and HKMA</span></article><article><small>Review required</small><strong>0</strong><span>Invalid evidence held back</span></article></div><div class="layout"><section class="feed"><div class="section-title"><div><p class="eyebrow">EVENT FEED</p><h2>Latest official releases</h2></div><span class="filter">Evidence-first</span></div></section><section class="detail" id="detail"></section></div></section>
-    <section id="sources" class="view hidden"><div class="source-head"><p class="eyebrow">SOURCE DIRECTORY</p><h2>Hong Kong update sources</h2><p>Only sources with validated collectors can generate alerts.</p></div><div class="source-table"></div></section>
-    <section id="method" class="view hidden"><p class="eyebrow">EVIDENCE-FIRST VALIDATION</p><h2>How regulatory alerts are verified</h2><div class="rule"><div><span>1</span><h3>Approved source</h3><p>Each item originates from a registered official endpoint.</p></div><div><span>2</span><h3>Snapshot comparison</h3><p>Only new or recent official releases are collected.</p></div><div><span>3</span><h3>Primary-document check</h3><p>The agent keeps publication details and source excerpts.</p></div><div><span>4</span><h3>Human review</h3><p>AI triage never replaces a legal or business decision.</p></div></div></section>
-  </main><div id="toast" class="toast">Data refreshed</div>
-</div><script src="app.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Evidence-first Hong Kong regulatory monitoring workspace.">
+  <title>Regulatory Monitor · RegWatch HK</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">R</span><span class="brand-copy"><b>RegWatch</b><small>REGULATORY INTELLIGENCE</small></span></div>
+      <nav class="side-nav" aria-label="Primary navigation">
+        <button class="side-link active" data-view="monitor"><span class="nav-icon">⌂</span><span>Monitor</span><b id="nav-alert-count">0</b></button>
+        <button class="side-link" data-view="sources"><span class="nav-icon">◎</span><span>Sources</span></button>
+        <button class="side-link" data-view="method"><span class="nav-icon">✓</span><span>Validation</span></button>
+      </nav>
+      <div class="system-card">
+        <div class="system-title"><span class="live-dot"></span><b>Monitoring active</b></div>
+        <p id="last-run">Loading latest run…</p>
+        <span id="source-health">Checking source health</span>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-title"><h1 id="page-title">Frameworks &amp; Monitor</h1><span class="info-dot" title="Official-source regulatory monitoring workspace">i</span></div>
+        <div class="view-switcher" role="tablist" aria-label="Workspace views">
+          <button class="active" data-view="monitor">▦ Workspace</button>
+          <button data-view="sources">◎ Source Registry</button>
+          <button data-view="method">✓ Validation</button>
+        </div>
+        <div class="topbar-actions">
+          <button class="language" aria-label="Language">ENG</button>
+          <button class="refresh-button" id="run"><span>↻</span> Refresh results</button>
+          <button class="avatar" title="ivan.ml.choy@wizpresso.com">IC</button>
+          <button class="sign-out" id="sign-out">Sign out</button>
+        </div>
+      </header>
+
+      <main>
+        <section id="monitor" class="view">
+          <div class="page-heading">
+            <div><p class="eyebrow">HONG KONG · LIVE OFFICIAL SOURCES</p><h2>Regulatory monitoring workspace</h2><p>New publications are collected from validated official endpoints and held for human review.</p></div>
+            <span class="evidence-badge">Evidence-first</span>
+          </div>
+          <section class="priority-section">
+            <div class="panel-toolbar">
+              <div class="panel-title"><span class="pulse-dot"></span><h3>Priority Alerts</h3><span class="count-pill" id="priority-count">0 actionable</span></div>
+              <div class="toolbar-actions"><input id="alert-search" type="search" placeholder="Search updates…" aria-label="Search updates"><button class="segmented active" data-mode="board">▦ Board</button><button class="segmented" data-mode="table">☷ Table</button></div>
+            </div>
+            <div id="priority-feed" class="alert-grid" aria-live="polite"></div>
+          </section>
+          <section class="catalog-section">
+            <div class="catalog-tabs">
+              <button class="catalog-tab active" data-catalog="regulations">▤ Regulations <span id="regulation-count">0</span></button>
+              <button class="catalog-tab" data-catalog="regulators">▣ Regulators <span id="regulator-count">0</span></button>
+            </div>
+            <div class="catalog-filter"><input id="catalog-search" type="search" placeholder="Search title, authority or reference…"><select id="materiality-filter"><option>All materiality</option><option>High</option><option>Medium</option><option>Low</option></select><span id="matching-count">0 results</span></div>
+            <div id="catalog-content" class="table-card"></div>
+          </section>
+        </section>
+
+        <section id="sources" class="view hidden">
+          <div class="page-heading"><div><p class="eyebrow">SOURCE REGISTRY</p><h2>Connected Hong Kong sources</h2><p>Only endpoints with a tested collector can create alerts.</p></div><span class="evidence-badge">Live configuration</span></div>
+          <div class="summary-grid"><article><small>Connected</small><strong id="connected-count">0</strong><span>Collectors checked in the latest run</span></article><article><small>Healthy</small><strong id="healthy-count">0</strong><span>Sources returning usable results</span></article><article><small>Jurisdiction</small><strong>HK</strong><span>Hong Kong</span></article></div>
+          <div id="source-table" class="table-card"></div>
+        </section>
+
+        <section id="method" class="view hidden">
+          <div class="page-heading"><div><p class="eyebrow">CONTROL FRAMEWORK</p><h2>Evidence-first validation</h2><p>The AI layer classifies collected documents; it does not invent the regulatory event.</p></div><span class="evidence-badge">Human-in-the-loop</span></div>
+          <div class="workflow-grid">
+            <article><span>01</span><h3>Approved source</h3><p>The collector runs only against registered official authority endpoints.</p></article>
+            <article><span>02</span><h3>Change detection</h3><p>URLs and publication dates are compared with the previous saved run.</p></article>
+            <article><span>03</span><h3>Evidence validation</h3><p>AI evidence must be an exact excerpt from the fetched source or the result is held back.</p></article>
+            <article><span>04</span><h3>Human decision</h3><p>Every item remains review-required until a person confirms scope and impact.</p></article>
+          </div>
+          <div class="guardrail-card"><div><span>✓</span></div><div><h3>Anti-hallucination control</h3><p>No fallback regulation is displayed when the live data file is unavailable. The workspace shows an explicit error or empty state instead.</p></div></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div id="drawer-backdrop" class="drawer-backdrop hidden"></div>
+  <aside id="detail-drawer" class="detail-drawer" aria-hidden="true"><button id="drawer-close" class="drawer-close" aria-label="Close details">×</button><div id="drawer-content"></div></aside>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
