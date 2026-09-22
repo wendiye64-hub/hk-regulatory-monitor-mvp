@@ -1,0 +1,1 @@
+.header-actions{display:flex;align-items:center;gap:10px}.sign-out{padding:11px 15px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--muted);font:700 14px inherit;cursor:pointer}.sign-out:hover{border-color:#9bb5ef;color:var(--blue)}
