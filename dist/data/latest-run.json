@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T09:27:32.076Z",
+  "generated_at": "2026-09-22T09:29:30.144Z",
   "monitor_request": "监测香港今天的新法规和监管更新",
-  "sources_checked": 1,
+  "sources_checked": 2,
   "items": [
     {
       "publication_date": "2026-09-22",
@@ -92,6 +92,22 @@
         "According to the quarterly statistics, the total number of credit cards in circulation ( Note 2 ) was 31.03 million by the end of Q2/2026."
       ],
       "human_review_required": true
+    }
+  ],
+  "source_runs": [
+    {
+      "source_id": "DEDUP-00033",
+      "label": "HKEX Regulatory Announcements",
+      "status": "completed",
+      "regulatory_items": 1
+    },
+    {
+      "source_id": "DEDUP-00031",
+      "label": "HKMA Press Releases",
+      "status": "baseline_observation_only",
+      "observed": 6,
+      "regulatory_items": 1,
+      "held_for_evidence": 3
     }
   ]
 }
