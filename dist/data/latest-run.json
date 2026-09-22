@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-22T09:27:32.076Z",
+  "monitor_request": "监测香港今天的新法规和监管更新",
+  "sources_checked": 1,
+  "items": [
+    {
+      "publication_date": "2026-09-22",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260922-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "observed_current_release",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "tender_results",
+      "impact_status": "no_clear_impact",
+      "summary": "HKMA publishes Exchange Fund Bills tender results for Q2638, H2667, Y2695, Q2639, H2668 issues",
+      "evidence": [
+        "Tender date : 22 September 2026 Paper on offer : EF Bills Issue number : Q2638 Issue date : 23 September 2026 Maturity date : 23 December 2026",
+        "Tender date : 22 September 2026 Paper on offer : EF Bills Issue number : H2667 Issue date : 23 September 2026 Maturity date : 24 March 2027",
+        "Tender date : 22 September 2026 Paper on offer : EF Bills Issue number : Y2695 Issue date : 23 September 2026 Maturity date : 22 September 2027"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-22",
+      "title": "HKICL alerts public of fraudulent websites",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260922-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "observed_current_release",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "fraud_alert",
+      "impact_status": "no_clear_impact",
+      "summary": "HKICL warned the public about fraudulent websites impersonating its services; this is an operational fraud alert, not a rule change.",
+      "evidence": [
+        "Hong Kong Interbank Clearing Limited (HKICL) has recently noted two fraudulent websites purported to be from HKICL: Type 1: fpshkpay.life",
+        "HKICL advises that these fraudulent websites have no affiliation with HKICL, or any business of HKICL.",
+        "The genuine official website addresses of HKICL are https://www.hkicl.com.hk and https://fps.hkicl.com.hk"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-21",
+      "title": "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260921news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "regulatory_domain": "listing_rules",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "HKEX is consulting on changes to post-listing transaction, connected-transaction and spin-off requirements.",
+      "evidence": [
+        "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
+        "The Exchange publishes proposals to enhance the competitiveness of its listing framework",
+        "The proposals form the second phase of the Exchange's listing framework competitiveness review and focus on the post-listing requirements governing notifiable transactions, connected transactions and spin-off transactions."
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-21",
+      "title": "The People’s Bank of China will issue Renminbi Bills through Central Moneymarkets Unit of Hong Kong Monetary Authority",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260921-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "observed_current_release",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "announcement",
+      "impact_status": "no_clear_impact",
+      "summary": "PBOC issues Renminbi Bills via HKMA's Central Moneymarkets Unit",
+      "evidence": [
+        "The People’s Bank of China (the PBOC) will issue Renminbi Bills through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (the HKMA).",
+        "Please find attached the tender notice and the tender information memorandum of the Renminbi Bills to be issued by the PBOC.",
+        "Hong Kong Monetary Authority 21 September 2026"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-18",
+      "title": "Statistics of Payment Cards Issued in Hong Kong for Second Quarter 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260918-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "observed_current_release",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "statistical_release",
+      "impact_status": "no_clear_impact",
+      "summary": "HKMA releases Q2 2026 payment card statistics with credit/debit card transaction data",
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) published today statistics of payment cards issued in Hong Kong for the second quarter of 2026.",
+        "The payment card statistics (see Annex ) include quarterly data on credit and debit cards issued in Hong Kong under the credit and/or debit card schemes of the eight payment card scheme operators ( Note 1 ).",
+        "According to the quarterly statistics, the total number of credit cards in circulation ( Note 2 ) was 31.03 million by the end of Q2/2026."
+      ],
+      "human_review_required": true
+    }
+  ]
+}
