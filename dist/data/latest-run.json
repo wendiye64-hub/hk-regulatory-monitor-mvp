@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:18:08.789Z",
+  "generated_at": "2026-09-23T04:44:21.396Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
   "sources_checked": 2,
   "source_runs": [
@@ -15,6 +15,22 @@
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-23",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-3/",
+      "title": "Result of the tender of the People's Bank of China RMB Bills held on 23 September 2026",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Result of the tender of the People's Bank of China RMB Bills held on 23 September 2026",
+      "evidence": [
+        "Result of the tender of the People's Bank of China RMB Bills held on 23 September 2026"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-22",
       "title": "Exchange Fund Bills Tender Results",
