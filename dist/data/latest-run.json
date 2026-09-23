@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:44:21.396Z",
+  "generated_at": "2026-09-23T11:35:14.862Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
   "sources_checked": 2,
   "source_runs": [
@@ -15,6 +15,54 @@
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-23",
+      "title": "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260923news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
+      "evidence": [
+        "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-23",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-5/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-23",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-4/",
+      "title": "Treasury Markets Summit 2026",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Treasury Markets Summit 2026",
+      "evidence": [
+        "Treasury Markets Summit 2026"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-23",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-3/",
