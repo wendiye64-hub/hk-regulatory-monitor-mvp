@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T04:49:26.179Z",
+  "generated_at": "2026-09-24T11:45:08.439Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "sources_checked": 1,
+  "sources_checked": 2,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
@@ -11,10 +11,90 @@
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
-      "status": "rejected"
+      "status": "fulfilled"
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-24",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-7/",
+      "title": "HKICL alerts public of fraudulent websites",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKICL alerts public of fraudulent websites",
+      "evidence": [
+        "HKICL alerts public of fraudulent websites"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-24",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-6/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-24",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-5/",
+      "title": "20th Anniversary of Deposit Protection Scheme",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: 20th Anniversary of Deposit Protection Scheme",
+      "evidence": [
+        "20th Anniversary of Deposit Protection Scheme"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-24",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-4/",
+      "title": "Hong Kong Monetary Authority and Bank Indonesia Strengthen Cooperation in Cross-Border Payments",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Indonesia Strengthen Cooperation in Cross-Border Payments",
+      "evidence": [
+        "Hong Kong Monetary Authority and Bank Indonesia Strengthen Cooperation in Cross-Border Payments"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-24",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-3/",
+      "title": "Coin Collection Programme",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Coin Collection Programme",
+      "evidence": [
+        "Coin Collection Programme"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-23",
       "title": "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
