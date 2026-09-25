@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T04:56:55.413Z",
+  "generated_at": "2026-09-25T11:49:58.410Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
   "sources_checked": 2,
   "source_runs": [
@@ -15,6 +15,54 @@
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-25",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-5/",
+      "title": "Interest rate of second interest payment for Silver Bond Series due 2028",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Interest rate of second interest payment for Silver Bond Series due 2028",
+      "evidence": [
+        "Interest rate of second interest payment for Silver Bond Series due 2028"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-25",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-4/",
+      "title": "Interest rate of sixth interest payment for series of retail green bonds due 2026",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Interest rate of sixth interest payment for series of retail green bonds due 2026",
+      "evidence": [
+        "Interest rate of sixth interest payment for series of retail green bonds due 2026"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-25",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-3/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-24",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260924-7/",
@@ -454,38 +502,6 @@
       "summary": "Official release detected: Exchange’s Disciplinary Action against a Former Director of China Aoyuan Group Limited (Stock Code: 3883)",
       "evidence": [
         "Exchange’s Disciplinary Action against a Former Director of China Aoyuan Group Limited (Stock Code: 3883)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-05",
-      "title": "Announcement - In relation to the matter of Boill Healthcare Holdings Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1246) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260805news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Announcement - In relation to the matter of Boill Healthcare Holdings Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1246) Cancellation of listing",
-      "evidence": [
-        "Announcement - In relation to the matter of Boill Healthcare Holdings Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1246) Cancellation of listing"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-07-28",
-      "title": "Exchange’s Disciplinary Action Against Redco Healthy Living Company Limited (Stock Code: 2370) and Two Current Directors",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260728news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange’s Disciplinary Action Against Redco Healthy Living Company Limited (Stock Code: 2370) and Two Current Directors",
-      "evidence": [
-        "Exchange’s Disciplinary Action Against Redco Healthy Living Company Limited (Stock Code: 2370) and Two Current Directors"
       ],
       "human_review_required": true
     }
