@@ -2,6 +2,10 @@ const ACCESS_KEY='regwatch-demo-access';
 if(sessionStorage.getItem(ACCESS_KEY)!=='granted')window.location.replace('index.html');
 
 const state={run:null,items:[],view:'monitor',displayMode:'board',catalog:'regulations',acknowledged:new Set(),dismissed:new Set()};
+const RUN_API=window.REGWATCH_RUN_API||'/api/run';
+const ACTIONS_URL='https://github.com/wendiye64-hub/hk-regulatory-monitor-mvp/actions/workflows/monitor-and-deploy.yml';
+const hasLiveRunApi=Boolean(window.REGWATCH_RUN_API)||['127.0.0.1','localhost'].includes(window.location.hostname);
+const signedInEmail=sessionStorage.getItem('regwatch-demo-email')||'';
 const sourceConfig={
   'DEDUP-00033':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Regulatory-Announcements?sc_lang=en',category:'Securities & Capital Markets'},
   'DEDUP-00031':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://www.hkma.gov.hk/eng/news-and-media/press-releases/',category:'Banking & Financial Stability'}
@@ -106,11 +110,35 @@ async function hydrate({notify=false}={}){
   finally{button.classList.remove('loading');button.disabled=false}
 }
 
+async function triggerMonitor(){
+  if(!hasLiveRunApi){
+    showToast('Opening the authenticated GitHub run control…');
+    window.open(ACTIONS_URL,'_blank','noopener');
+    return;
+  }
+  const button=$('#run'),original=button.innerHTML;
+  button.classList.add('loading');button.disabled=true;button.innerHTML='<span>↻</span> Running collector & AI triage…';
+  try{
+    const response=await fetch(RUN_API,{method:'POST',headers:{accept:'application/json'}});
+    const result=await response.json().catch(()=>({}));
+    if(response.status===409)throw new Error('A monitor run is already in progress.');
+    if(!response.ok||result.status!=='completed')throw new Error(result.error||'The monitor run failed.');
+    button.innerHTML='<span>↻</span> Loading new results…';
+    await hydrate();
+    showToast(`Monitor completed · ${result.items||state.items.length} results from ${result.sources_checked||0} sources`);
+  }catch(error){showToast(error.message||'Unable to start the monitor run')}
+  finally{button.classList.remove('loading');button.disabled=false;button.innerHTML=original}
+}
+
 function changeView(view){state.view=view;$$('.view').forEach(section=>section.classList.toggle('hidden',section.id!==view));$$('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===view));$('#page-title').textContent={monitor:'Frameworks & Monitor',sources:'Source Registry',method:'Validation Controls'}[view]}
 
+const accountAvatar=$('#account-avatar');
+accountAvatar.title=signedInEmail;
+accountAvatar.textContent=signedInEmail.split('@')[0].split(/[._-]/).filter(Boolean).slice(0,2).map(part=>part[0].toUpperCase()).join('')||'RW';
 $('#sign-out').addEventListener('click',()=>{sessionStorage.removeItem(ACCESS_KEY);sessionStorage.removeItem('regwatch-demo-email');window.location.replace('index.html')});
+if(!hasLiveRunApi){$('#run').innerHTML='<span>↻</span> Run via GitHub';$('#run').title='Opens the authenticated GitHub Actions control. No access token is stored in this public site.'}
 $$('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
 $$('[data-mode]').forEach(button=>button.addEventListener('click',()=>{state.displayMode=button.dataset.mode;$$('[data-mode]').forEach(item=>item.classList.toggle('active',item===button));renderAlerts()}));
 $$('[data-catalog]').forEach(button=>button.addEventListener('click',()=>{state.catalog=button.dataset.catalog;$$('[data-catalog]').forEach(item=>item.classList.toggle('active',item===button));$('#materiality-filter').style.display=state.catalog==='regulations'?'block':'none';renderCatalog()}));
-$('#alert-search').addEventListener('input',renderAlerts);$('#catalog-search').addEventListener('input',renderCatalog);$('#materiality-filter').addEventListener('change',renderCatalog);$('#run').addEventListener('click',()=>hydrate({notify:true}));$('#drawer-close').addEventListener('click',closeDrawer);$('#drawer-backdrop').addEventListener('click',closeDrawer);document.addEventListener('keydown',event=>{if(event.key==='Escape')closeDrawer()});
+$('#alert-search').addEventListener('input',renderAlerts);$('#catalog-search').addEventListener('input',renderCatalog);$('#materiality-filter').addEventListener('change',renderCatalog);$('#run').addEventListener('click',triggerMonitor);$('#drawer-close').addEventListener('click',closeDrawer);$('#drawer-backdrop').addEventListener('click',closeDrawer);document.addEventListener('keydown',event=>{if(event.key==='Escape')closeDrawer()});
 hydrate();

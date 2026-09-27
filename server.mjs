@@ -1,28 +1,31 @@
 import { createReadStream } from 'node:fs';
-import { access } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const backend = path.resolve(here, '../global-regulatory-monitoring-platform');
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8' };
 let running = false;
-function run(command, args) { return new Promise((resolve, reject) => { const process = spawn(command, args, { cwd: backend }); let output = ''; process.stdout.on('data', (data) => { output += data; }); process.stderr.on('data', (data) => { output += data; }); process.on('close', (code) => code === 0 ? resolve(output) : reject(new Error(output || `exit ${code}`))); }); }
+let lastRun = null;
+function json(res, status, payload) { res.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' }); res.end(JSON.stringify(payload)); }
+function run(command, args) { return new Promise((resolve, reject) => { const child = spawn(command, args, { cwd: here, env: process.env }); let output = ''; child.stdout.on('data', (data) => { output += data; }); child.stderr.on('data', (data) => { output += data; }); child.on('close', (code) => code === 0 ? resolve(output) : reject(new Error(output || `exit ${code}`))); }); }
 
 http.createServer(async (req, res) => {
+  if (req.method === 'GET' && req.url === '/api/run/status') {
+    return json(res, 200, { status: running ? 'running' : 'idle', last_run: lastRun });
+  }
   if (req.method === 'POST' && req.url === '/api/run') {
-    if (running) { res.writeHead(409, { 'content-type': 'application/json' }); return res.end(JSON.stringify({ status: 'already_running' })); }
+    if (running) return json(res, 409, { status: 'already_running' });
     running = true;
     try {
-      await run('node', ['mvp-hkex-monitor/run.mjs']);
-      await run('node', ['mvp-hkex-monitor/run-hkma-first-scan.mjs']);
-      await run('node', ['mvp-hkex-monitor/sync-hkma-observation.mjs']);
-      res.writeHead(200, { 'content-type': 'application/json' }); res.end(JSON.stringify({ status: 'completed' }));
-    } catch (error) { res.writeHead(500, { 'content-type': 'application/json' }); res.end(JSON.stringify({ status: 'failed', error: error.message })); }
+      const output = await run(process.execPath, ['scripts/monitor.mjs']);
+      const payload = JSON.parse(await readFile(path.join(here, 'dist/data/latest-run.json'), 'utf8'));
+      lastRun = { generated_at: payload.generated_at, sources_checked: payload.sources_checked, items: payload.items?.length || 0 };
+      return json(res, 200, { status: 'completed', ...lastRun, output: output.trim() });
+    } catch (error) { return json(res, 500, { status: 'failed', error: error.message }); }
     finally { running = false; }
-    return;
   }
   const requestPath = req.url === '/' ? '/index.html' : decodeURIComponent(req.url.split('?')[0]);
   const file = path.resolve(here, 'dist', `.${requestPath}`);
