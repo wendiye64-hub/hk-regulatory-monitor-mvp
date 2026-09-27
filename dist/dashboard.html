@@ -48,10 +48,16 @@
           </div>
           <section class="priority-section">
             <div class="panel-toolbar">
-              <div class="panel-title"><span class="pulse-dot"></span><h3>Priority Alerts</h3><span class="count-pill" id="priority-count">0 actionable</span></div>
-              <div class="toolbar-actions"><input id="alert-search" type="search" placeholder="Search updates…" aria-label="Search updates"><button class="segmented active" data-mode="board">▦ Board</button><button class="segmented" data-mode="table">☷ Table</button></div>
+              <button class="priority-toggle" id="priority-toggle" aria-expanded="true" aria-controls="priority-content"><span class="pulse-dot"></span><span class="priority-label">Priority Alerts</span><span class="count-pill" id="priority-count">0 actionable</span><span class="collapse-chevron" aria-hidden="true">⌃</span></button>
+              <div class="toolbar-actions"><input id="alert-search" type="search" placeholder="Search updates…" aria-label="Search updates"><button class="history-button" id="history-toggle" aria-expanded="false" aria-controls="history-panel">↶ History <span id="history-count">0</span></button><button class="segmented active" data-mode="board">▦ Board</button><button class="segmented" data-mode="table">☷ Table</button></div>
             </div>
-            <div id="priority-feed" class="alert-grid" aria-live="polite"></div>
+            <div id="priority-content">
+              <div id="history-panel" class="history-panel hidden">
+                <div class="history-heading"><div><h4>Alert history</h4><p>Acknowledged and dismissed alerts from this browser.</p></div><span id="history-summary">0 actions</span></div>
+                <div id="history-list" class="history-list"></div>
+              </div>
+              <div id="priority-feed" class="alert-grid" aria-live="polite"></div>
+            </div>
           </section>
           <section class="catalog-section">
             <div class="catalog-tabs">

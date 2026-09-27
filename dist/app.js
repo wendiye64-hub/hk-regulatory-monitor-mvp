@@ -1,11 +1,14 @@
 const ACCESS_KEY='regwatch-demo-access';
 if(sessionStorage.getItem(ACCESS_KEY)!=='granted')window.location.replace('index.html');
 
-const state={run:null,items:[],view:'monitor',displayMode:'board',catalog:'regulations',acknowledged:new Set(),dismissed:new Set()};
+const signedInEmail=sessionStorage.getItem('regwatch-demo-email')||'';
+const HISTORY_KEY=`regwatch-alert-history:${signedInEmail||'guest'}`;
+const COLLAPSE_KEY='regwatch-priority-collapsed';
+const storedHistory=(()=>{try{const value=JSON.parse(localStorage.getItem(HISTORY_KEY)||'[]');return Array.isArray(value)?value:[]}catch{return[]}})();
+const state={run:null,items:[],view:'monitor',displayMode:'board',catalog:'regulations',acknowledged:new Set(),dismissed:new Set(),history:storedHistory,historyOpen:false,priorityCollapsed:localStorage.getItem(COLLAPSE_KEY)==='true'};
 const RUN_API=window.REGWATCH_RUN_API||'/api/run';
 const ACTIONS_URL='https://github.com/wendiye64-hub/hk-regulatory-monitor-mvp/actions/workflows/monitor-and-deploy.yml';
 const hasLiveRunApi=Boolean(window.REGWATCH_RUN_API)||['127.0.0.1','localhost'].includes(window.location.hostname);
-const signedInEmail=sessionStorage.getItem('regwatch-demo-email')||'';
 const sourceConfig={
   'DEDUP-00033':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Regulatory-Announcements?sc_lang=en',category:'Securities & Capital Markets'},
   'DEDUP-00031':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://www.hkma.gov.hk/eng/news-and-media/press-releases/',category:'Banking & Financial Stability'}
@@ -23,8 +26,18 @@ const formatDate=value=>{const date=new Date(`${value}T00:00:00`);return Number.
 const formatRun=value=>{const date=new Date(value);return Number.isNaN(date.getTime())?'Run time unavailable':date.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Hong_Kong'})+' HKT'};
 const recentItems=()=>{if(!state.items.length)return[];const newest=Math.max(...state.items.map(item=>new Date(`${item.publication_date}T00:00:00`).getTime()).filter(Number.isFinite));const cutoff=newest-7*86400000;const weekly=state.items.filter(item=>new Date(`${item.publication_date}T00:00:00`).getTime()>=cutoff);return weekly.length?weekly:state.items.slice(0,6)};
 
+{
+  const restored=new Set();
+  state.history.forEach(entry=>{if(!entry?.official_url||restored.has(entry.official_url))return;restored.add(entry.official_url);if(entry.action==='acknowledged')state.acknowledged.add(entry.official_url);if(entry.action==='dismissed')state.dismissed.add(entry.official_url)});
+}
+
 function showToast(message){const toast=$('#toast');toast.textContent=message;toast.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>toast.classList.remove('show'),2600)}
 function emptyState(title,message){return `<div class="empty-state"><b>${esc(title)}</b>${esc(message)}</div>`}
+function saveHistory(){localStorage.setItem(HISTORY_KEY,JSON.stringify(state.history.slice(0,50)))}
+function recordAlertAction(item,action){
+  state.history.unshift({id:`${Date.now()}-${Math.random().toString(16).slice(2)}`,action,official_url:item.official_url,title:item.title,source_id:item.source_id,source_label:item.source_label,publication_date:item.publication_date,recorded_at:new Date().toISOString()});
+  state.history=state.history.slice(0,50);saveHistory();
+}
 
 function alertCard(item){
   const source=sourceFor(item),level=materiality(item),tableClass=state.displayMode==='table'?' table-row':'';
@@ -40,9 +53,32 @@ function bindAlertCards(){
     const item=state.items.find(entry=>entry.official_url===card.dataset.url);
     card.addEventListener('click',event=>{if(event.target.closest('button'))return;openDrawer(item)});
     card.addEventListener('keydown',event=>{if(event.key==='Enter')openDrawer(item)});
-    card.querySelector('[data-action="acknowledge"]')?.addEventListener('click',()=>{state.acknowledged.add(item.official_url);state.dismissed.delete(item.official_url);showToast('Alert acknowledged and retained for review');renderAll()});
-    card.querySelector('[data-action="dismiss"]')?.addEventListener('click',()=>{state.dismissed.add(item.official_url);showToast('Alert dismissed from the priority feed');renderAll()});
+    card.querySelector('[data-action="acknowledge"]')?.addEventListener('click',()=>{state.acknowledged.add(item.official_url);state.dismissed.delete(item.official_url);recordAlertAction(item,'acknowledged');showToast('Alert acknowledged and added to History');renderAll()});
+    card.querySelector('[data-action="dismiss"]')?.addEventListener('click',()=>{state.dismissed.add(item.official_url);state.acknowledged.delete(item.official_url);recordAlertAction(item,'dismissed');showToast('Alert dismissed and added to History');renderAll()});
   });
+}
+
+function renderHistory(){
+  $('#history-count').textContent=state.history.length;
+  $('#history-summary').textContent=`${state.history.length} ${state.history.length===1?'action':'actions'}`;
+  $('#history-list').innerHTML=state.history.length?state.history.map(entry=>{const source=sourceConfig[entry.source_id]||{acronym:'HK',authority:entry.source_label||'Official authority'};const time=new Date(entry.recorded_at);const recorded=Number.isNaN(time.getTime())?'Time unavailable':time.toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Hong_Kong'})+' HKT';return `<button class="history-item" data-history-url="${esc(entry.official_url)}"><span class="history-status ${esc(entry.action)}">${entry.action==='acknowledged'?'✓ Acknowledged':'× Dismissed'}</span><span class="history-copy"><b>${esc(entry.title)}</b><small>${esc(source.acronym)} · ${esc(recorded)}</small></span><span class="history-open">View →</span></button>`}).join(''):emptyState('No alert history yet','Acknowledge or dismiss an alert and the action will appear here.');
+  $$('[data-history-url]').forEach(row=>row.addEventListener('click',()=>openDrawer(state.items.find(item=>item.official_url===row.dataset.historyUrl))));
+}
+
+function setHistoryOpen(open){
+  state.historyOpen=open;
+  $('#history-panel').classList.toggle('hidden',!open);
+  $('#history-toggle').classList.toggle('active',open);
+  $('#history-toggle').setAttribute('aria-expanded',String(open));
+  if(open&&state.priorityCollapsed)setPriorityCollapsed(false);
+}
+
+function setPriorityCollapsed(collapsed){
+  state.priorityCollapsed=collapsed;
+  $('#priority-content').classList.toggle('hidden',collapsed);
+  $('#priority-toggle').classList.toggle('collapsed',collapsed);
+  $('#priority-toggle').setAttribute('aria-expanded',String(!collapsed));
+  localStorage.setItem(COLLAPSE_KEY,String(collapsed));
 }
 
 function renderAlerts(){
@@ -94,7 +130,7 @@ function renderRunMeta(){
   $('#regulation-count').textContent=state.items.length;
   renderSources();
 }
-function renderAll(){renderAlerts();renderCatalog();renderRunMeta()}
+function renderAll(){renderAlerts();renderHistory();renderCatalog();renderRunMeta()}
 
 function openDrawer(item){
   if(!item)return;const source=sourceFor(item),level=materiality(item),evidence=(item.evidence||[]).filter(text=>text&&String(text).trim());
@@ -140,5 +176,7 @@ if(!hasLiveRunApi){$('#run').innerHTML='<span>↻</span> Run via GitHub';$('#run
 $$('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
 $$('[data-mode]').forEach(button=>button.addEventListener('click',()=>{state.displayMode=button.dataset.mode;$$('[data-mode]').forEach(item=>item.classList.toggle('active',item===button));renderAlerts()}));
 $$('[data-catalog]').forEach(button=>button.addEventListener('click',()=>{state.catalog=button.dataset.catalog;$$('[data-catalog]').forEach(item=>item.classList.toggle('active',item===button));$('#materiality-filter').style.display=state.catalog==='regulations'?'block':'none';renderCatalog()}));
+$('#priority-toggle').addEventListener('click',()=>setPriorityCollapsed(!state.priorityCollapsed));$('#history-toggle').addEventListener('click',()=>setHistoryOpen(!state.historyOpen));
 $('#alert-search').addEventListener('input',renderAlerts);$('#catalog-search').addEventListener('input',renderCatalog);$('#materiality-filter').addEventListener('change',renderCatalog);$('#run').addEventListener('click',triggerMonitor);$('#drawer-close').addEventListener('click',closeDrawer);$('#drawer-backdrop').addEventListener('click',closeDrawer);document.addEventListener('keydown',event=>{if(event.key==='Escape')closeDrawer()});
+setPriorityCollapsed(state.priorityCollapsed);
 hydrate();
