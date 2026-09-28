@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:23:02.459Z",
+  "generated_at": "2026-09-28T13:53:17.921Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
   "sources_checked": 2,
   "source_runs": [
@@ -15,6 +15,54 @@
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
+      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "evidence": [
+        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
+      "title": "HKICL alerts public of fraudulent website",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKICL alerts public of fraudulent website",
+      "evidence": [
+        "HKICL alerts public of fraudulent website"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-25",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-5/",
@@ -454,54 +502,6 @@
       "summary": "Official release detected: The Exchange to Extend Validity Period of New Listing Applications",
       "evidence": [
         "The Exchange to Extend Validity Period of New Listing Applications"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-20",
-      "title": "Announcement - In relation to the matter of Greentech Technology International Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 195) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260820news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Announcement - In relation to the matter of Greentech Technology International Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 195) Cancellation of listing",
-      "evidence": [
-        "Announcement - In relation to the matter of Greentech Technology International Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 195) Cancellation of listing"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-12",
-      "title": "Announcement - In relation to the matter of Renco Holdings Group Limited (In Compulsory Liquidation) (incorporated in Bermuda with limited liability) (Stock Code: 2323) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260812news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Announcement - In relation to the matter of Renco Holdings Group Limited (In Compulsory Liquidation) (incorporated in Bermuda with limited liability) (Stock Code: 2323) Cancellation of listing",
-      "evidence": [
-        "Announcement - In relation to the matter of Renco Holdings Group Limited (In Compulsory Liquidation) (incorporated in Bermuda with limited liability) (Stock Code: 2323) Cancellation of listing"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-11",
-      "title": "Exchange’s Disciplinary Action against a Former Director of China Aoyuan Group Limited (Stock Code: 3883)",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260811news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange’s Disciplinary Action against a Former Director of China Aoyuan Group Limited (Stock Code: 3883)",
-      "evidence": [
-        "Exchange’s Disciplinary Action against a Former Director of China Aoyuan Group Limited (Stock Code: 3883)"
       ],
       "human_review_required": true
     }
