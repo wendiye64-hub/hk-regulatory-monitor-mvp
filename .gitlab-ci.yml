@@ -1,0 +1,18 @@
+default:
+  image: node:22-bookworm-slim
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - node scripts/monitor.mjs
+    - cp -R dist public
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 days
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+
