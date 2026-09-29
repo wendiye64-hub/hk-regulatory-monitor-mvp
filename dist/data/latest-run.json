@@ -1,109 +1,189 @@
 {
-  "generated_at": "2026-09-29T08:48:37.140Z",
+  "generated_at": "2026-09-29T12:51:37.836Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 6161,
+  "duration_ms": 4345,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4815,
+      "duration_ms": 4344,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4412,
+      "duration_ms": 3399,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4386,
+      "duration_ms": 3059,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3840,
+      "duration_ms": 4185,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 6110,
+      "duration_ms": 1980,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1818,
+      "duration_ms": 2931,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3001,
+      "duration_ms": 1861,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 757,
-      "count": 12
+      "duration_ms": 1404,
+      "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3352,
+      "duration_ms": 3142,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3349,
+      "duration_ms": 3140,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3349,
+      "duration_ms": 3140,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3349,
+      "duration_ms": 3140,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3349,
+      "duration_ms": 3140,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3349,
+      "duration_ms": 3140,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-29",
+      "title": "Trading Arrangements of ChinaAMC FTSE Hong Kong Growth ETF and ChinaAMC HK-US HALO ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_153_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Trading Arrangements of ChinaAMC FTSE Hong Kong Growth ETF and ChinaAMC HK-US HALO ETF pdf",
+      "evidence": [
+        "Trading Arrangements of ChinaAMC FTSE Hong Kong Growth ETF and ChinaAMC HK-US HALO ETF pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_156_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
+      "evidence": [
+        "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Trading Arrangements of ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) and ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_154_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Trading Arrangements of ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) and ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) pdf",
+      "evidence": [
+        "Trading Arrangements of ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) and ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "FINI Services Suspension on 03-04 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_343_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: FINI Services Suspension on 03-04 October 2026 pdf",
+      "evidence": [
+        "FINI Services Suspension on 03-04 October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Selling pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_155_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Selling pdf",
+      "evidence": [
+        "Changes of SSE-Listed China Connect Securities List, List of Eligible SSE Securities for Margin Trading and List of Eligible SSE Securities for Short Selling pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-29",
       "title": "Margin Rates pdf",
@@ -195,6 +275,22 @@
     },
     {
       "publication_date": "2026-09-29",
+      "title": "HKSAR Government’s Fourth Digital Green Bonds Offering",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-6/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKSAR Government’s Fourth Digital Green Bonds Offering",
+      "evidence": [
+        "HKSAR Government’s Fourth Digital Green Bonds Offering"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
       "title": "HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-5/",
       "source_id": "DEDUP-00031",
@@ -275,6 +371,54 @@
     },
     {
       "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
+      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "evidence": [
+        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
+      "title": "HKICL alerts public of fraudulent website",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKICL alerts public of fraudulent website",
+      "evidence": [
+        "HKICL alerts public of fraudulent website"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
       "title": "Compliance Bulletin (Issue No. 19) - (1) Standard Penalties under HKEX Rules; (2) Participants’ Obligation to Make Timely Submissions to HKEX; (3) Client Protection Measures; and (4) Updated Guidelines on Client Margin Requirements pdf",
       "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/MSM_011_2026-(EN).pdf",
       "source_id": "HKEX-PARTICIPANT-CIRC",
@@ -344,54 +488,6 @@
       "summary": "Official HKEX participant circular detected: Admission of the Units of ChinaAMC Choice Fund to CCASS as a Multi-counter Eligible Security ChinaAMC FTSE Hong Kong Growth ETF - HKD counter (stock code: 3459) (domain stock code) - USD counter (stock code: 9459) - RMB counter (stock code: 83459) ChinaAMC HK-US HALO ETF - HKD counter (stock code: 3479) (domain stock code) - USD counter (stock code: 9479) - RMB counter (stock code: 83479) ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) - HKD counter (stock code: 3590) (domain stock code) - USD counter (stock code: 41590) - RMB counter (stock code: 83590) ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) - HKD counter (stock code: 3592) (domain stock code) - USD counter (stock code: 41592) - RMB counter (stock code: 83592) (collectively, the “ChinaAMC Choice Fund”) pdf",
       "evidence": [
         "Admission of the Units of ChinaAMC Choice Fund to CCASS as a Multi-counter Eligible Security ChinaAMC FTSE Hong Kong Growth ETF - HKD counter (stock code: 3459) (domain stock code) - USD counter (stock code: 9459) - RMB counter (stock code: 83459) ChinaAMC HK-US HALO ETF - HKD counter (stock code: 3479) (domain stock code) - USD counter (stock code: 9479) - RMB counter (stock code: 83479) ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) - HKD counter (stock code: 3590) (domain stock code) - USD counter (stock code: 41590) - RMB counter (stock code: 83590) ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) - HKD counter (stock code: 3592) (domain stock code) - USD counter (stock code: 41592) - RMB counter (stock code: 83592) (collectively, the “ChinaAMC Choice Fund”) pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
-      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
-      "evidence": [
-        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
-      "title": "HKICL alerts public of fraudulent website",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: HKICL alerts public of fraudulent website",
-      "evidence": [
-        "HKICL alerts public of fraudulent website"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
-      "title": "Scam alert related to banks",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
-      "evidence": [
-        "Scam alert related to banks"
       ],
       "human_review_required": true
     },
@@ -1967,106 +2063,6 @@
       "summary": "Official HKMA authorization guide detected: Guide to Authorization Annex 2: Documents Required to be Submitted on Application",
       "evidence": [
         "Guide to Authorization Annex 2: Documents Required to be Submitted on Application"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization-Chapter 1-Introduction",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-2-EN",
-      "reference": "20260226-2-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 1-Introduction",
-      "evidence": [
-        "Guide to Authorization-Chapter 1-Introduction"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-02",
-      "title": "Network Equipment Replacement for HSN, HSTN and NTP Services",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note/HDS260202/Network-Equipment-Replacement-for-HSN-HSTN-and-NTP-Services_HDS260202v,-d-,1_e.pdf",
-      "reference": "HDS/26/0202",
-      "source_id": "HKEX-HOSTING-NOTICES",
-      "source_label": "HKEX Hosting Subscriber Notices",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "summary": "Official HKEX official notice detected: Network Equipment Replacement for HSN, HSTN and NTP Services",
-      "evidence": [
-        "Network Equipment Replacement for HSN, HSTN and NTP Services"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2025-12-18",
-      "title": "December 2025 - Consultation Paper on Board Lot Framework Enhancements in the Hong Kong Securities Market",
-      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/December-2025-Board-Lot-Framework-Enhancements?sc_lang=en",
-      "source_id": "HKEX-MARKET-CONSULT",
-      "source_label": "HKEX Market Consultations",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "Official HKEX market consultation detected: December 2025 - Consultation Paper on Board Lot Framework Enhancements in the Hong Kong Securities Market",
-      "evidence": [
-        "December 2025 - Consultation Paper on Board Lot Framework Enhancements in the Hong Kong Securities Market"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2025-09-30",
-      "title": "September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products",
-      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/September-2025-Review-of-Chapter-15A?sc_lang=en",
-      "source_id": "HKEX-MARKET-CONSULT",
-      "source_label": "HKEX Market Consultations",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "Official HKEX market consultation detected: September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products",
-      "evidence": [
-        "September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2025-08-01",
-      "title": "August 2025 - Further Consultation on Ongoing Public Float Requirements",
-      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/August-2025-Ongoing-Public-Float?sc_lang=en",
-      "source_id": "HKEX-MARKET-CONSULT",
-      "source_label": "HKEX Market Consultations",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "Official HKEX market consultation detected: August 2025 - Further Consultation on Ongoing Public Float Requirements",
-      "evidence": [
-        "August 2025 - Further Consultation on Ongoing Public Float Requirements"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2025-06-24",
-      "title": "Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note/HDS250606/HDS250606_e.pdf",
-      "reference": "HDS/25/0606",
-      "source_id": "HKEX-HOSTING-NOTICES",
-      "source_label": "HKEX Hosting Subscriber Notices",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "summary": "Official HKEX hosting notice detected: Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025",
-      "evidence": [
-        "Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025"
       ],
       "human_review_required": true
     }
