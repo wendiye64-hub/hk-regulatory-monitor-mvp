@@ -1,109 +1,125 @@
 {
-  "generated_at": "2026-09-29T12:51:37.836Z",
+  "generated_at": "2026-09-29T22:14:45.137Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4345,
+  "duration_ms": 3437,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4344,
+      "duration_ms": 3075,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3399,
+      "duration_ms": 3390,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3059,
+      "duration_ms": 2799,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4185,
+      "duration_ms": 2044,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1980,
-      "count": 10
+      "duration_ms": 1770,
+      "count": 9
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2931,
+      "duration_ms": 3299,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1861,
+      "duration_ms": 1970,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1404,
+      "duration_ms": 552,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3142,
+      "duration_ms": 2956,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 2954,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 2954,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 2954,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 2954,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 2954,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-29",
+      "title": "Trading Arrangements of ICBC UBS HK-Global Artificial Intelligence ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_157_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Trading Arrangements of ICBC UBS HK-Global Artificial Intelligence ETF pdf",
+      "evidence": [
+        "Trading Arrangements of ICBC UBS HK-Global Artificial Intelligence ETF pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-29",
       "title": "Trading Arrangements of ChinaAMC FTSE Hong Kong Growth ETF and ChinaAMC HK-US HALO ETF pdf",
@@ -230,34 +246,6 @@
     },
     {
       "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026153_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026152_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
       "title": "Addition of Headline Category in Issuer Information feed Service (IIS)",
       "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-09-29%20Addition%20of%20Headline%20Category%20in%20IIS.pdf",
       "reference": "MDD/26/583",
@@ -335,6 +323,34 @@
       "evidence": [
         "Exchange Fund Bills Tender Results"
       ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026153_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "evidence": [],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026152_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
+      "evidence": [],
       "human_review_required": true
     },
     {
@@ -2045,24 +2061,6 @@
       "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 4-Authorization",
       "evidence": [
         "Guide to Authorization-Chapter 4-Authorization"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization Annex 2: Documents Required to be Submitted on Application",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-9-EN",
-      "reference": "20260226-9-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization Annex 2: Documents Required to be Submitted on Application",
-      "evidence": [
-        "Guide to Authorization Annex 2: Documents Required to be Submitted on Application"
       ],
       "human_review_required": true
     }
