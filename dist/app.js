@@ -11,10 +11,16 @@ const ACTIONS_URL='https://github.com/wendiye64-hub/hk-regulatory-monitor-mvp/ac
 const hasLiveRunApi=Boolean(window.REGWATCH_RUN_API)||['127.0.0.1','localhost'].includes(window.location.hostname);
 const sourceConfig={
   'DEDUP-00033':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Regulatory-Announcements?sc_lang=en',category:'Securities & Capital Markets'},
-  'DEDUP-00031':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://www.hkma.gov.hk/eng/news-and-media/press-releases/',category:'Banking & Financial Stability'}
+  'DEDUP-00031':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://www.hkma.gov.hk/eng/news-and-media/press-releases/',category:'Banking & Financial Stability'},
+  'HKEX-CORP-NEWS':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/News-Release?Category=Corporate&sc_lang=en',category:'Corporate News'},
+  'HKEX-MARKET-COMMS':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Market-Communications?sc_lang=en',category:'Market Communications'},
+  'HKEX-MARKET-CONSULT':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Market-Consultations?sc_lang=en',category:'Market Consultations'},
+  'HKEX-PARTICIPANT-CIRC':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars?sc_lang=en',category:'Participant Circulars'},
+  'HKEX-MARKET-DATA-NOTICES':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/eng/prod/dataprod/2026notices.htm',category:'Market Data Notices'},
+  'HKEX-HOSTING-NOTICES':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note?sc_lang=en',category:'Hosting Notices'}
 };
 const domainLabels={listing_rules:'Market conduct and listing rules',market_infrastructure:'Market infrastructure',licensing_benchmark:'Licensing & benchmarks',enforcement:'Enforcement',prudential:'Prudential and capital requirements',other_regulatory:'Other regulatory',unclear:'Unclear'};
-const changeLabels={consultation_paper:'Consultation Paper',regulatory_update:'Regulatory Update',official_release:'Official Release'};
+const changeLabels={consultation_paper:'Consultation Paper',regulatory_update:'Regulatory Update',official_release:'Official Release',corporate_news:'Corporate News',market_communication:'Market Communication',participant_circular:'Participant Circular',official_notice:'Official Notice'};
 const $=selector=>document.querySelector(selector);
 const $$=selector=>[...document.querySelectorAll(selector)];
 const esc=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
