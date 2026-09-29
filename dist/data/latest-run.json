@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:48:47.704Z",
+  "generated_at": "2026-09-29T07:56:07.636Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
   "sources_checked": 8,
   "source_runs": [
@@ -47,34 +47,6 @@
   "items": [
     {
       "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026153_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026152_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
       "title": "CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
       "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_342_2026.pdf",
       "source_id": "HKEX-PARTICIPANT-CIRC",
@@ -98,6 +70,34 @@
       "change_type": "participant_circular",
       "impact_status": "review_required",
       "summary": "Official HKEX participant circular detected: Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
+      "evidence": [],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026153_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "evidence": [],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026152_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
       "evidence": [],
       "human_review_required": true
     },
