@@ -1,50 +1,125 @@
 {
-  "generated_at": "2026-09-29T07:56:07.636Z",
+  "generated_at": "2026-09-29T08:46:44.697Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "sources_checked": 8,
+  "duration_ms": 23336,
+  "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
-      "status": "fulfilled"
-    },
-    {
-      "source_id": "DEDUP-00031",
-      "label": "HKMA Press Releases",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 23327,
+      "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 5111,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 11056,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 6555,
+      "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 3928,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 2650,
+      "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
-      "status": "fulfilled"
+      "status": "fulfilled",
+      "duration_ms": 4362,
+      "count": 10
+    },
+    {
+      "source_id": "DEDUP-00031",
+      "label": "HKMA Press Releases",
+      "status": "fulfilled",
+      "duration_ms": 3519,
+      "count": 10
+    },
+    {
+      "source_id": "HKMA-CIRCULARS",
+      "label": "HKMA Circulars",
+      "status": "fulfilled",
+      "duration_ms": 5157,
+      "count": 12
+    },
+    {
+      "source_id": "HKMA-GUIDELINES",
+      "label": "HKMA Guidelines",
+      "status": "fulfilled",
+      "duration_ms": 5156,
+      "count": 2
+    },
+    {
+      "source_id": "HKMA-SPM",
+      "label": "HKMA Supervisory Policy Manual",
+      "status": "fulfilled",
+      "duration_ms": 5156,
+      "count": 3
+    },
+    {
+      "source_id": "HKMA-CONSULTATIONS",
+      "label": "HKMA Consultation Papers",
+      "status": "fulfilled",
+      "duration_ms": 5156,
+      "count": 3
+    },
+    {
+      "source_id": "HKMA-GTA",
+      "label": "HKMA Guide to Authorization",
+      "status": "fulfilled",
+      "duration_ms": 5156,
+      "count": 7
+    },
+    {
+      "source_id": "HKMA-CODES",
+      "label": "HKMA Codes of Practice",
+      "status": "fulfilled",
+      "duration_ms": 5156,
+      "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-29",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_243_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Margin Rates pdf",
+      "evidence": [
+        "Margin Rates pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-29",
       "title": "CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
@@ -102,25 +177,42 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
-      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
+      "publication_date": "2026-09-29",
+      "title": "Addition of Headline Category in Issuer Information feed Service (IIS)",
+      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-09-29%20Addition%20of%20Headline%20Category%20in%20IIS.pdf",
+      "reference": "MDD/26/583",
+      "source_id": "HKEX-MARKET-DATA-NOTICES",
+      "source_label": "HKEX Market Data Client Notices",
       "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_notice",
       "impact_status": "review_required",
-      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "summary": "Official HKEX market data notice detected: Addition of Headline Category in Issuer Information feed Service (IIS)",
       "evidence": [
-        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
+        "Addition of Headline Category in Issuer Information feed Service (IIS)"
       ],
       "human_review_required": true
     },
     {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
+      "publication_date": "2026-09-29",
+      "title": "HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)",
+      "evidence": [
+        "HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
       "title": "HKICL alerts public of fraudulent website",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-4/",
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
@@ -134,18 +226,18 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
-      "title": "Scam alert related to banks",
+      "publication_date": "2026-09-29",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-3/",
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
+      "summary": "Official release detected: Exchange Fund Bills Tender Results",
       "evidence": [
-        "Scam alert related to banks"
+        "Exchange Fund Bills Tender Results"
       ],
       "human_review_required": true
     },
@@ -257,6 +349,54 @@
     },
     {
       "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
+      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
+      "evidence": [
+        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
+      "title": "HKICL alerts public of fraudulent website",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKICL alerts public of fraudulent website",
+      "evidence": [
+        "HKICL alerts public of fraudulent website"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
+      "title": "Scam alert related to banks",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-28",
       "title": "Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf",
       "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_337_2026.pdf",
       "source_id": "HKEX-PARTICIPANT-CIRC",
@@ -268,6 +408,22 @@
       "summary": "Official HKEX participant circular detected: Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf",
       "evidence": [
         "Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-25",
+      "title": "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
+      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260925news?sc_lang=en",
+      "source_id": "HKEX-MARKET-COMMS",
+      "source_label": "HKEX Market Communications",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "market_communication",
+      "impact_status": "review_required",
+      "summary": "Official HKEX market communication detected: HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
+      "evidence": [
+        "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026"
       ],
       "human_review_required": true
     },
@@ -316,22 +472,6 @@
       "summary": "Official release detected: Scam alert related to banks",
       "evidence": [
         "Scam alert related to banks"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-25",
-      "title": "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260925news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
-      "evidence": [
-        "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026"
       ],
       "human_review_required": true
     },
@@ -433,6 +573,42 @@
     },
     {
       "publication_date": "2026-09-23",
+      "title": "Review of the Enhanced Competency Framework for Banking Practitioners Enclosure: Review of the Enhanced Competency Framework for Banking Practitioners",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260922-2-EN",
+      "reference": "20260922-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Review of the Enhanced Competency Framework for Banking Practitioners Enclosure: Review of the Enhanced Competency Framework for Banking Practitioners",
+      "evidence": [
+        "Review of the Enhanced Competency Framework for Banking Practitioners Enclosure: Review of the Enhanced Competency Framework for Banking Practitioners"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-23",
+      "title": "Review of the Enhanced Competency Framework for Banking Practitioners",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260922-1-EN",
+      "reference": "20260922-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Review of the Enhanced Competency Framework for Banking Practitioners",
+      "evidence": [
+        "Review of the Enhanced Competency Framework for Banking Practitioners"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-23",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-5/",
       "title": "Scam alert related to banks",
       "source_id": "DEDUP-00031",
@@ -476,6 +652,42 @@
       "summary": "Official release detected: Result of the tender of the People's Bank of China RMB Bills held on 23 September 2026",
       "evidence": [
         "Result of the tender of the People's Bank of China RMB Bills held on 23 September 2026"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-22",
+      "title": "GS-2 Transition Planning",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260820-5-EN",
+      "reference": "20260820-5-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: GS-2 Transition Planning",
+      "evidence": [
+        "GS-2 Transition Planning"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-22",
+      "title": "Transition Planning",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260820-6-EN",
+      "reference": "GS-2",
+      "document_type": "SPM-NGL - SPM Non-Statutory Guideline",
+      "source_id": "HKMA-SPM",
+      "source_label": "HKMA Supervisory Policy Manual",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "supervisory_policy",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA supervisory policy document detected: Transition Planning",
+      "evidence": [
+        "Transition Planning"
       ],
       "human_review_required": true
     },
@@ -773,6 +985,24 @@
       "human_review_required": true
     },
     {
+      "publication_date": "2026-09-09",
+      "title": "Circular on Private Market Investments",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260909-2-EN",
+      "reference": "20260909-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Circular on Private Market Investments",
+      "evidence": [
+        "Circular on Private Market Investments"
+      ],
+      "human_review_required": true
+    },
+    {
       "publication_date": "2026-09-08",
       "title": "Exchange’s Disciplinary Action against Home Control International Limited (Stock Code: 1747) and Two Former Directors",
       "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260908news?sc_lang=en",
@@ -801,6 +1031,60 @@
       "summary": "Official release detected: Announcement - In relation to the matter of Wisdom Wealth Resources Investment Holding Group Limited (incorporated in Bermuda with limited liability) (Stock Code: 7) Cancellation of listing",
       "evidence": [
         "Announcement - In relation to the matter of Wisdom Wealth Resources Investment Holding Group Limited (incorporated in Bermuda with limited liability) (Stock Code: 7) Cancellation of listing"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-07",
+      "title": "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance Enclosure: Prototype of Hong Kong Taxonomy for Sustainable Finance (Phase 2B)",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260820-4-EN",
+      "reference": "20260820-4-EN",
+      "document_type": "CPR - Consultation Paper",
+      "source_id": "HKMA-CONSULTATIONS",
+      "source_label": "HKMA Consultation Papers",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA consultation detected: Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance Enclosure: Prototype of Hong Kong Taxonomy for Sustainable Finance (Phase 2B)",
+      "evidence": [
+        "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance Enclosure: Prototype of Hong Kong Taxonomy for Sustainable Finance (Phase 2B)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-07",
+      "title": "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260819-7-EN",
+      "reference": "20260819-7-EN",
+      "document_type": "CPR - Consultation Paper",
+      "source_id": "HKMA-CONSULTATIONS",
+      "source_label": "HKMA Consultation Papers",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA consultation detected: Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance",
+      "evidence": [
+        "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-03",
+      "title": "Remote on-boarding of individual customers",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260902-1-EN",
+      "reference": "20260902-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Remote on-boarding of individual customers",
+      "evidence": [
+        "Remote on-boarding of individual customers"
       ],
       "human_review_required": true
     },
@@ -863,6 +1147,42 @@
       "impact_status": "review_required",
       "summary": "Official HKEX official notice detected: Arrangement in HKEX Orion Market Data Platform - Derivatives Market (OMD-D) for Introduction of New Stock Option Class on SHEIN Global Holdings Limited",
       "evidence": [],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-28",
+      "title": "Guidance on risk-based AML/CFT controls for politically exposed persons Enclosure: Smart Tips on the Treatment of Politically Exposed Persons_Version 2.0",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260827-5-EN",
+      "reference": "20260827-5-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Guidance on risk-based AML/CFT controls for politically exposed persons Enclosure: Smart Tips on the Treatment of Politically Exposed Persons_Version 2.0",
+      "evidence": [
+        "Guidance on risk-based AML/CFT controls for politically exposed persons Enclosure: Smart Tips on the Treatment of Politically Exposed Persons_Version 2.0"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-28",
+      "title": "Guidance on risk-based AML/CFT controls for politically exposed persons",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260827-4-EN",
+      "reference": "20260827-4-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Guidance on risk-based AML/CFT controls for politically exposed persons",
+      "evidence": [
+        "Guidance on risk-based AML/CFT controls for politically exposed persons"
+      ],
       "human_review_required": true
     },
     {
@@ -940,6 +1260,96 @@
       "summary": "Official release detected: Announcement - In relation to the matter of Greentech Technology International Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 195) Cancellation of listing",
       "evidence": [
         "Announcement - In relation to the matter of Greentech Technology International Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 195) Cancellation of listing"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-20",
+      "title": "Implementation guidance on Banking (Capital) Rules",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260810-1-EN",
+      "reference": "20260810-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Implementation guidance on Banking (Capital) Rules",
+      "evidence": [
+        "Implementation guidance on Banking (Capital) Rules"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-20",
+      "title": "Implementation guidance on Banking (Capital) Rules Annex 1: Chapter III - STC approach",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260810-2-EN",
+      "reference": "20260810-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Implementation guidance on Banking (Capital) Rules Annex 1: Chapter III - STC approach",
+      "evidence": [
+        "Implementation guidance on Banking (Capital) Rules Annex 1: Chapter III - STC approach"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-20",
+      "title": "Implementation guidance on Banking (Capital) Rules Annex 2: Chapter IV - IRB approach",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260810-3-EN",
+      "reference": "20260810-3-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Implementation guidance on Banking (Capital) Rules Annex 2: Chapter IV - IRB approach",
+      "evidence": [
+        "Implementation guidance on Banking (Capital) Rules Annex 2: Chapter IV - IRB approach"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-20",
+      "title": "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities Enclosure : IA circular of 20 August 2026",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260818-2-EN",
+      "reference": "20260818-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities Enclosure : IA circular of 20 August 2026",
+      "evidence": [
+        "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities Enclosure : IA circular of 20 August 2026"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-08-20",
+      "title": "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260818-1-EN",
+      "reference": "20260818-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities",
+      "evidence": [
+        "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities"
       ],
       "human_review_required": true
     },
@@ -1145,6 +1555,60 @@
       "human_review_required": true
     },
     {
+      "publication_date": "2026-07-24",
+      "title": "The HKMA's Approach to Valuation in Resolution (VIR-1)",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260713-2-EN",
+      "reference": "20260713-2-EN",
+      "document_type": "COP - Code of Practice",
+      "source_id": "HKMA-CODES",
+      "source_label": "HKMA Codes of Practice",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "code_of_practice",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA code of practice detected: The HKMA's Approach to Valuation in Resolution (VIR-1)",
+      "evidence": [
+        "The HKMA's Approach to Valuation in Resolution (VIR-1)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-07-24",
+      "title": "Operational Independence of the Monetary Authority as Resolution Authority (RA-1)",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260713-4-EN",
+      "reference": "20260713-4-EN",
+      "document_type": "COP - Code of Practice",
+      "source_id": "HKMA-CODES",
+      "source_label": "HKMA Codes of Practice",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "code_of_practice",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA code of practice detected: Operational Independence of the Monetary Authority as Resolution Authority (RA-1)",
+      "evidence": [
+        "Operational Independence of the Monetary Authority as Resolution Authority (RA-1)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-07-24",
+      "title": "Valuation in Resolution Capabilities (VIR-2)",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260713-3-EN",
+      "reference": "20260713-3-EN",
+      "document_type": "COP - Code of Practice",
+      "source_id": "HKMA-CODES",
+      "source_label": "HKMA Codes of Practice",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "code_of_practice",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA code of practice detected: Valuation in Resolution Capabilities (VIR-2)",
+      "evidence": [
+        "Valuation in Resolution Capabilities (VIR-2)"
+      ],
+      "human_review_required": true
+    },
+    {
       "publication_date": "2026-07-17",
       "title": "HKEX to Facilitate Stamp Duty and Trading-Related Fees Payment in RMB",
       "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/2607172news?sc_lang=en",
@@ -1225,6 +1689,78 @@
       "human_review_required": true
     },
     {
+      "publication_date": "2026-06-12",
+      "title": "The Sharing and Use of Consumer Credit Data through Credit Reference Agencies",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260609-14-EN",
+      "reference": "IC-6",
+      "document_type": "SPM-SGL - SPM Statutory Guideline",
+      "source_id": "HKMA-SPM",
+      "source_label": "HKMA Supervisory Policy Manual",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "supervisory_policy",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA supervisory policy document detected: The Sharing and Use of Consumer Credit Data through Credit Reference Agencies",
+      "evidence": [
+        "The Sharing and Use of Consumer Credit Data through Credit Reference Agencies"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-06-05",
+      "title": "Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions Annex: Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260605-6-EN",
+      "reference": "20260605-6-EN",
+      "document_type": "CPR - Consultation Paper",
+      "source_id": "HKMA-CONSULTATIONS",
+      "source_label": "HKMA Consultation Papers",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA consultation detected: Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions Annex: Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions",
+      "evidence": [
+        "Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions Annex: Joint consultation conclusions on proposed amendments to the Clearing Rules for over-the-counter derivative transactions"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-06-02",
+      "title": "Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators) Annex : Templates for notifications required under category 1 and category 2 obligations",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260527-26-EN",
+      "reference": "20260527-26-EN",
+      "document_type": "COP - Code of Practice",
+      "source_id": "HKMA-CODES",
+      "source_label": "HKMA Codes of Practice",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "code_of_practice",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA code of practice detected: Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators) Annex : Templates for notifications required under category 1 and category 2 obligations",
+      "evidence": [
+        "Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators) Annex : Templates for notifications required under category 1 and category 2 obligations"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-06-02",
+      "title": "Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators)",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260527-25-EN",
+      "reference": "20260527-25-EN",
+      "document_type": "COP - Code of Practice",
+      "source_id": "HKMA-CODES",
+      "source_label": "HKMA Codes of Practice",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "code_of_practice",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA code of practice detected: Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators)",
+      "evidence": [
+        "Code of Practice Pursuant to the Protection of Critical Infrastructures (Computer Systems) Ordinance (for Authorized Institutions designated by the Monetary Authority as Critical Infrastructure Operators)"
+      ],
+      "human_review_required": true
+    },
+    {
       "publication_date": "2026-05-29",
       "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (May 2026)",
       "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/2605292news?sc_lang=en",
@@ -1257,6 +1793,24 @@
       "human_review_required": true
     },
     {
+      "publication_date": "2026-04-13",
+      "title": "Stress-testing",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260312-7-EN",
+      "reference": "IC-5",
+      "document_type": "SPM-NGL - SPM Non-Statutory Guideline",
+      "source_id": "HKMA-SPM",
+      "source_label": "HKMA Supervisory Policy Manual",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "supervisory_policy",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA supervisory policy document detected: Stress-testing",
+      "evidence": [
+        "Stress-testing"
+      ],
+      "human_review_required": true
+    },
+    {
       "publication_date": "2026-03-13",
       "title": "March 2026 - Consultation Paper on Competitiveness Review of Listing Framework",
       "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/March-2026-Competitiveness-Review?sc_lang=en",
@@ -1269,6 +1823,168 @@
       "summary": "Official HKEX market consultation detected: March 2026 - Consultation Paper on Competitiveness Review of Listing Framework",
       "evidence": [
         "March 2026 - Consultation Paper on Competitiveness Review of Listing Framework"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guideline on specific consent to use banking names and descriptions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-10-EN",
+      "reference": "20260226-10-EN",
+      "document_type": "GLI - Guideline",
+      "source_id": "HKMA-GUIDELINES",
+      "source_label": "HKMA Guidelines",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_guideline",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA guideline detected: Guideline on specific consent to use banking names and descriptions",
+      "evidence": [
+        "Guideline on specific consent to use banking names and descriptions"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guideline on Minimum Criteria for Authorization",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-1-EN",
+      "reference": "20260226-1-EN",
+      "document_type": "GLI - Guideline",
+      "source_id": "HKMA-GUIDELINES",
+      "source_label": "HKMA Guidelines",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "regulatory_guideline",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA guideline detected: Guideline on Minimum Criteria for Authorization",
+      "evidence": [
+        "Guideline on Minimum Criteria for Authorization"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization-Chapter 3-The Legal and Supervisory Framework",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-3-EN",
+      "reference": "20260226-3-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 3-The Legal and Supervisory Framework",
+      "evidence": [
+        "Guide to Authorization-Chapter 3-The Legal and Supervisory Framework"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization - Chapter 9 - Authorization of Digital Banks",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-7-EN",
+      "reference": "20260226-7-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization - Chapter 9 - Authorization of Digital Banks",
+      "evidence": [
+        "Guide to Authorization - Chapter 9 - Authorization of Digital Banks"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-4-EN",
+      "reference": "20260226-4-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions",
+      "evidence": [
+        "Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-5-EN",
+      "reference": "20260226-5-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions",
+      "evidence": [
+        "Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization-Chapter 4-Authorization",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-12-EN",
+      "reference": "20260226-12-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 4-Authorization",
+      "evidence": [
+        "Guide to Authorization-Chapter 4-Authorization"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization Annex 2: Documents Required to be Submitted on Application",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-9-EN",
+      "reference": "20260226-9-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization Annex 2: Documents Required to be Submitted on Application",
+      "evidence": [
+        "Guide to Authorization Annex 2: Documents Required to be Submitted on Application"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-02-27",
+      "title": "Guide to Authorization-Chapter 1-Introduction",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-2-EN",
+      "reference": "20260226-2-EN",
+      "document_type": "GTA - Guide to Authorization",
+      "source_id": "HKMA-GTA",
+      "source_label": "HKMA Guide to Authorization",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "authorization_guide",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 1-Introduction",
+      "evidence": [
+        "Guide to Authorization-Chapter 1-Introduction"
       ],
       "human_review_required": true
     },
@@ -1302,6 +2018,55 @@
       "summary": "Official HKEX market consultation detected: December 2025 - Consultation Paper on Board Lot Framework Enhancements in the Hong Kong Securities Market",
       "evidence": [
         "December 2025 - Consultation Paper on Board Lot Framework Enhancements in the Hong Kong Securities Market"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2025-09-30",
+      "title": "September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products",
+      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/September-2025-Review-of-Chapter-15A?sc_lang=en",
+      "source_id": "HKEX-MARKET-CONSULT",
+      "source_label": "HKEX Market Consultations",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "Official HKEX market consultation detected: September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products",
+      "evidence": [
+        "September 2025 - Consultation Paper on Review of Chapter 15A – Structured Products"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2025-08-01",
+      "title": "August 2025 - Further Consultation on Ongoing Public Float Requirements",
+      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/August-2025-Ongoing-Public-Float?sc_lang=en",
+      "source_id": "HKEX-MARKET-CONSULT",
+      "source_label": "HKEX Market Consultations",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "consultation_paper",
+      "impact_status": "potential_impact",
+      "summary": "Official HKEX market consultation detected: August 2025 - Further Consultation on Ongoing Public Float Requirements",
+      "evidence": [
+        "August 2025 - Further Consultation on Ongoing Public Float Requirements"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2025-06-24",
+      "title": "Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note/HDS250606/HDS250606_e.pdf",
+      "reference": "HDS/25/0606",
+      "source_id": "HKEX-HOSTING-NOTICES",
+      "source_label": "HKEX Hosting Subscriber Notices",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_notice",
+      "impact_status": "review_required",
+      "summary": "Official HKEX hosting notice detected: Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025",
+      "evidence": [
+        "Regular System Recovery Rehearsal for Hosting Services on 19 Jul 2025"
       ],
       "human_review_required": true
     }

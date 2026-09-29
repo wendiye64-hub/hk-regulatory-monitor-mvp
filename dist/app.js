@@ -8,6 +8,8 @@ const storedHistory=(()=>{try{const value=JSON.parse(localStorage.getItem(HISTOR
 const state={run:null,items:[],view:'monitor',displayMode:'board',catalog:'regulations',acknowledged:new Set(),dismissed:new Set(),history:storedHistory,historyOpen:false,priorityCollapsed:localStorage.getItem(COLLAPSE_KEY)==='true'};
 const RUN_API=window.REGWATCH_RUN_API||'/api/run';
 const ACTIONS_URL='https://github.com/wendiye64-hub/hk-regulatory-monitor-mvp/actions/workflows/monitor-and-deploy.yml';
+const GITLAB_PIPELINE_URL='https://gitlab.wizpresso.com/wendy.ye/hk-regulatory-monitor-mvp/-/pipelines/new';
+const REMOTE_RUN_URL=window.location.hostname.endsWith('github.io')?ACTIONS_URL:GITLAB_PIPELINE_URL;
 const hasLiveRunApi=Boolean(window.REGWATCH_RUN_API)||['127.0.0.1','localhost'].includes(window.location.hostname);
 const sourceConfig={
   'DEDUP-00033':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Regulatory-Announcements?sc_lang=en',category:'Securities & Capital Markets'},
@@ -17,10 +19,16 @@ const sourceConfig={
   'HKEX-MARKET-CONSULT':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/News/Market-Consultations?sc_lang=en',category:'Market Consultations'},
   'HKEX-PARTICIPANT-CIRC':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/Services/Circulars-and-Notices/Participant-and-Members-Circulars?sc_lang=en',category:'Participant Circulars'},
   'HKEX-MARKET-DATA-NOTICES':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/eng/prod/dataprod/2026notices.htm',category:'Market Data Notices'},
-  'HKEX-HOSTING-NOTICES':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note?sc_lang=en',category:'Hosting Notices'}
+  'HKEX-HOSTING-NOTICES':{authority:'Hong Kong Exchanges and Clearing',acronym:'HKEX',endpoint:'https://www.hkex.com.hk/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note?sc_lang=en',category:'Hosting Notices'},
+  'HKMA-CIRCULARS':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/fltr-rslt/doc-type/CIR',category:'Circulars'},
+  'HKMA-GUIDELINES':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/fltr-rslt/doc-type/GLI',category:'Guidelines'},
+  'HKMA-SPM':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/spm',category:'Supervisory Policy Manual'},
+  'HKMA-CONSULTATIONS':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/fltr-rslt/doc-type/CPR',category:'Consultations'},
+  'HKMA-GTA':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/gta',category:'Guide to Authorization'},
+  'HKMA-CODES':{authority:'Hong Kong Monetary Authority',acronym:'HKMA',endpoint:'https://brdr.hkma.gov.hk/eng/fltr-rslt/doc-type/COP',category:'Codes of Practice'}
 };
 const domainLabels={listing_rules:'Market conduct and listing rules',market_infrastructure:'Market infrastructure',licensing_benchmark:'Licensing & benchmarks',enforcement:'Enforcement',prudential:'Prudential and capital requirements',other_regulatory:'Other regulatory',unclear:'Unclear'};
-const changeLabels={consultation_paper:'Consultation Paper',regulatory_update:'Regulatory Update',official_release:'Official Release',corporate_news:'Corporate News',market_communication:'Market Communication',participant_circular:'Participant Circular',official_notice:'Official Notice'};
+const changeLabels={consultation_paper:'Consultation Paper',regulatory_update:'Regulatory Update',official_release:'Official Release',corporate_news:'Corporate News',market_communication:'Market Communication',participant_circular:'Participant Circular',official_notice:'Official Notice',regulatory_circular:'Regulatory Circular',regulatory_guideline:'Regulatory Guideline',supervisory_policy:'Supervisory Policy',authorization_guide:'Authorization Guide',code_of_practice:'Code of Practice'};
 const $=selector=>document.querySelector(selector);
 const $$=selector=>[...document.querySelectorAll(selector)];
 const esc=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
@@ -154,8 +162,8 @@ async function hydrate({notify=false}={}){
 
 async function triggerMonitor(){
   if(!hasLiveRunApi){
-    showToast('Opening the authenticated GitHub run control…');
-    window.open(ACTIONS_URL,'_blank','noopener');
+    showToast('Opening the authenticated pipeline run control…');
+    window.open(REMOTE_RUN_URL,'_blank','noopener');
     return;
   }
   const button=$('#run'),original=button.innerHTML;
@@ -178,7 +186,7 @@ const accountAvatar=$('#account-avatar');
 accountAvatar.title=signedInEmail;
 accountAvatar.textContent=signedInEmail.split('@')[0].split(/[._-]/).filter(Boolean).slice(0,2).map(part=>part[0].toUpperCase()).join('')||'RW';
 $('#sign-out').addEventListener('click',()=>{sessionStorage.removeItem(ACCESS_KEY);sessionStorage.removeItem('regwatch-demo-email');window.location.replace('index.html')});
-if(!hasLiveRunApi){$('#run').innerHTML='<span>↻</span> Run via GitHub';$('#run').title='Opens the authenticated GitHub Actions control. No access token is stored in this public site.'}
+if(!hasLiveRunApi){const provider=window.location.hostname.endsWith('github.io')?'GitHub':'GitLab';$('#run').innerHTML=`<span>↻</span> Run via ${provider}`;$('#run').title=`Opens the authenticated ${provider} pipeline control. No access token is stored in this site.`}
 $$('[data-view]').forEach(button=>button.addEventListener('click',()=>changeView(button.dataset.view)));
 $$('[data-mode]').forEach(button=>button.addEventListener('click',()=>{state.displayMode=button.dataset.mode;$$('[data-mode]').forEach(item=>item.classList.toggle('active',item===button));renderAlerts()}));
 $$('[data-catalog]').forEach(button=>button.addEventListener('click',()=>{state.catalog=button.dataset.catalog;$$('[data-catalog]').forEach(item=>item.classList.toggle('active',item===button));$('#materiality-filter').style.display=state.catalog==='regulations'?'block':'none';renderCatalog()}));
