@@ -1,109 +1,189 @@
 {
-  "generated_at": "2026-09-29T22:14:45.137Z",
+  "generated_at": "2026-09-30T05:31:49.017Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 3437,
+  "duration_ms": 5115,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3075,
+      "duration_ms": 2613,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3390,
+      "duration_ms": 4275,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2799,
+      "duration_ms": 3144,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2044,
+      "duration_ms": 4048,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1770,
-      "count": 9
+      "duration_ms": 5060,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3299,
+      "duration_ms": 2763,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1970,
+      "duration_ms": 3121,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 552,
+      "duration_ms": 1120,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2956,
+      "duration_ms": 3234,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 3231,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 3231,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 3231,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 3231,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 3231,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-30",
+      "title": "Ad Hoc Review on Guarantee Fund pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_244_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Ad Hoc Review on Guarantee Fund pdf",
+      "evidence": [
+        "Ad Hoc Review on Guarantee Fund pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026155_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf",
+      "evidence": [
+        "Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026154_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
+      "evidence": [
+        "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases",
+      "evidence": [
+        "Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Instant Message and Website Alert – Fraudulent website related to Mastercard",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Instant Message and Website Alert – Fraudulent website related to Mastercard",
+      "evidence": [
+        "Instant Message and Website Alert – Fraudulent website related to Mastercard"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-29",
       "title": "Trading Arrangements of ICBC UBS HK-Global Artificial Intelligence ETF pdf",
@@ -218,34 +298,6 @@
     },
     {
       "publication_date": "2026-09-29",
-      "title": "CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_342_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_341_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
       "title": "Addition of Headline Category in Issuer Information feed Service (IIS)",
       "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-09-29%20Addition%20of%20Headline%20Category%20in%20IIS.pdf",
       "reference": "MDD/26/583",
@@ -323,6 +375,34 @@
       "evidence": [
         "Exchange Fund Bills Tender Results"
       ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_342_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
+      "evidence": [],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_341_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
+      "evidence": [],
       "human_review_required": true
     },
     {
@@ -1971,96 +2051,6 @@
       "summary": "Official HKMA guideline detected: Guideline on Minimum Criteria for Authorization",
       "evidence": [
         "Guideline on Minimum Criteria for Authorization"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization-Chapter 3-The Legal and Supervisory Framework",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-3-EN",
-      "reference": "20260226-3-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 3-The Legal and Supervisory Framework",
-      "evidence": [
-        "Guide to Authorization-Chapter 3-The Legal and Supervisory Framework"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization - Chapter 9 - Authorization of Digital Banks",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-7-EN",
-      "reference": "20260226-7-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization - Chapter 9 - Authorization of Digital Banks",
-      "evidence": [
-        "Guide to Authorization - Chapter 9 - Authorization of Digital Banks"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-4-EN",
-      "reference": "20260226-4-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions",
-      "evidence": [
-        "Guide to Authorization-Chapter 6-Powers of Control over Authorized Institutions"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-5-EN",
-      "reference": "20260226-5-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions",
-      "evidence": [
-        "Guide to Authorization-Chapter 7-Restrictions on Use of Banking Names and Descriptions"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-02-27",
-      "title": "Guide to Authorization-Chapter 4-Authorization",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260226-12-EN",
-      "reference": "20260226-12-EN",
-      "document_type": "GTA - Guide to Authorization",
-      "source_id": "HKMA-GTA",
-      "source_label": "HKMA Guide to Authorization",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "authorization_guide",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA authorization guide detected: Guide to Authorization-Chapter 4-Authorization",
-      "evidence": [
-        "Guide to Authorization-Chapter 4-Authorization"
       ],
       "human_review_required": true
     }
