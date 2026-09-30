@@ -1,115 +1,125 @@
 {
-  "generated_at": "2026-09-30T12:33:58.806Z",
+  "generated_at": "2026-09-30T22:15:25.543Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 40312,
-  "sources_checked": 8,
+  "duration_ms": 9440,
+  "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4375,
+      "duration_ms": 5141,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4127,
+      "duration_ms": 4634,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4522,
+      "duration_ms": 5324,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2391,
+      "duration_ms": 9386,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4472,
+      "duration_ms": 6162,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2318,
+      "duration_ms": 3364,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2743,
+      "duration_ms": 4225,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1176,
+      "duration_ms": 1179,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
-      "status": "rejected",
-      "duration_ms": 40254,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2922,
+      "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
-      "status": "rejected",
-      "duration_ms": 40252,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2919,
+      "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
-      "status": "rejected",
-      "duration_ms": 40252,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2919,
+      "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
-      "status": "rejected",
-      "duration_ms": 40252,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2919,
+      "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
-      "status": "rejected",
-      "duration_ms": 40252,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2919,
+      "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
-      "status": "rejected",
-      "duration_ms": 40252,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2919,
+      "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-09-30",
+      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
+      "source_id": "HKEX-MARKET-COMMS",
+      "source_label": "HKEX Market Communications",
+      "detection": "new_official_publication",
+      "regulatory_domain": "listing_rules",
+      "change_type": "market_communication",
+      "impact_status": "review_required",
+      "summary": "Official HKEX market communication detected: Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "evidence": [
+        "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-09-30",
       "title": "Change of SZSE-Listed China Connect Securities List, List of Eligible SZSE Securities for Margin Trading and List of Eligible SZSE Securities for Short Selling pdf",
@@ -224,17 +234,17 @@
     },
     {
       "publication_date": "2026-09-30",
-      "title": "HKICL alerts public of fraudulent website",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-10/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
+      "title": "New Index Options Strike Series pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_231_26_ec.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
       "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
       "impact_status": "review_required",
-      "summary": "Official release detected: HKICL alerts public of fraudulent website",
+      "summary": "Official HKEX participant circular detected: New Index Options Strike Series pdf",
       "evidence": [
-        "HKICL alerts public of fraudulent website"
+        "New Index Options Strike Series pdf"
       ],
       "human_review_required": true
     },
@@ -304,22 +314,6 @@
     },
     {
       "publication_date": "2026-09-30",
-      "title": "Scam alert related to banks",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-5/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
-      "evidence": [
-        "Scam alert related to banks"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
       "title": "Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-4/",
       "source_id": "DEDUP-00031",
@@ -331,6 +325,38 @@
       "summary": "Official release detected: Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases",
       "evidence": [
         "Participating banks in IP Financing Sandbox complete credit approval for first batch of pilot cases"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "HKICL alerts public of fraudulent website",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-10/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKICL alerts public of fraudulent website",
+      "evidence": [
+        "HKICL alerts public of fraudulent website"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
+      "title": "Scam alert related to banks",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Scam alert related to banks",
+      "evidence": [
+        "Scam alert related to banks"
       ],
       "human_review_required": true
     },
@@ -384,22 +410,6 @@
     },
     {
       "publication_date": "2026-09-29",
-      "title": "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_156_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
-      "evidence": [
-        "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
       "title": "Addition of Headline Category in Issuer Information feed Service (IIS)",
       "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-09-29%20Addition%20of%20Headline%20Category%20in%20IIS.pdf",
       "reference": "MDD/26/583",
@@ -444,6 +454,38 @@
       "summary": "Official release detected: HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)",
       "evidence": [
         "HKMA Half-Yearly Monetary and Financial Stability Report (September 2026 Issue)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Exchange Fund Bills Tender Results",
+      "evidence": [
+        "Exchange Fund Bills Tender Results"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-29",
+      "title": "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_156_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf",
+      "evidence": [
+        "Trading Arrangements of Ping An Healthcare 50 Select ETF and Ping An AI Select ETF pdf"
       ],
       "human_review_required": true
     },
@@ -524,22 +566,6 @@
       "summary": "Official release detected: HKICL alerts public of fraudulent website",
       "evidence": [
         "HKICL alerts public of fraudulent website"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Exchange Fund Bills Tender Results",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange Fund Bills Tender Results",
-      "evidence": [
-        "Exchange Fund Bills Tender Results"
       ],
       "human_review_required": true
     },
@@ -2011,38 +2037,6 @@
       "summary": "Official HKEX market communication detected: Report on Initial Public Offering Applications, Delisting and Suspensions (June 2026)",
       "evidence": [
         "Report on Initial Public Offering Applications, Delisting and Suspensions (June 2026)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-06-25",
-      "title": "HKEX to Enhance Strike Price Intervals for Weekly Options",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/2606252news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: HKEX to Enhance Strike Price Intervals for Weekly Options",
-      "evidence": [
-        "HKEX to Enhance Strike Price Intervals for Weekly Options"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-06-22",
-      "title": "HKEX Enhances Client Margin Framework to Strengthen Derivatives Market Efficiency",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260622news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: HKEX Enhances Client Margin Framework to Strengthen Derivatives Market Efficiency",
-      "evidence": [
-        "HKEX Enhances Client Margin Framework to Strengthen Derivatives Market Efficiency"
       ],
       "human_review_required": true
     }
