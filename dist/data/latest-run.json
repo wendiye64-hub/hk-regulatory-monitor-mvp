@@ -1,109 +1,173 @@
 {
-  "generated_at": "2026-10-05T05:38:46.939Z",
+  "generated_at": "2026-10-05T14:36:24.570Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8050,
+  "duration_ms": 4187,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1884,
+      "duration_ms": 2901,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4337,
+      "duration_ms": 2353,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3079,
+      "duration_ms": 3144,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3227,
+      "duration_ms": 4132,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 8015,
+      "duration_ms": 3949,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1563,
+      "duration_ms": 1359,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4349,
+      "duration_ms": 1861,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1457,
+      "duration_ms": 1665,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2762,
+      "duration_ms": 3024,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2761,
+      "duration_ms": 3023,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2761,
+      "duration_ms": 3023,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2761,
+      "duration_ms": 3023,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2761,
+      "duration_ms": 3023,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2761,
+      "duration_ms": 3023,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-05",
+      "title": "Collateral Haircut Adjustment pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_253_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Collateral Haircut Adjustment pdf",
+      "evidence": [
+        "Collateral Haircut Adjustment pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "Routine Collateral Haircut Review and Adjustment pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Oct-2026_255.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Routine Collateral Haircut Review and Adjustment pdf",
+      "evidence": [
+        "Routine Collateral Haircut Review and Adjustment pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "Available Quotas in Liquidity Provider Incentive Program for Gold Futures in October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/20261005_MKS_FIC_009_26_E.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Available Quotas in Liquidity Provider Incentive Program for Gold Futures in October 2026 pdf",
+      "evidence": [
+        "Available Quotas in Liquidity Provider Incentive Program for Gold Futures in October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "Routine recalculation of Notional Exchange Risk Multiplier pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Oct-2026_252.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Routine recalculation of Notional Exchange Risk Multiplier pdf",
+      "evidence": [
+        "Routine recalculation of Notional Exchange Risk Multiplier pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-05",
       "title": "Display of Adjusted Previous Closing Price of CSOP Samsung Electronics Daily Max (-2x) Inverse Product (stock code 7347) on OTP-C for its 5-into-1 Unit Consolidation on 7 October 2026 pdf",
@@ -165,6 +229,38 @@
       "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of China Sandi Holdings Limited (stock code 910) on OTP-C for its 200-into-1 Share Consolidation on 6 October 2026 pdf",
       "evidence": [
         "Display of Adjusted Previous Closing Price of China Sandi Holdings Limited (stock code 910) on OTP-C for its 200-into-1 Share Consolidation on 6 October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
+      "evidence": [
+        "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
+      "evidence": [
+        "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity"
       ],
       "human_review_required": true
     },
@@ -1943,97 +2039,6 @@
       "evidence": [
         "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities"
       ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-19",
-      "title": "Condensed Consolidated Financial Statements for the Six Months Ended 30 June 2026 (Unaudited) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/2608192news/2608192news_financial-statement_eng.pdf",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: Condensed Consolidated Financial Statements for the Six Months Ended 30 June 2026 (Unaudited) pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-19",
-      "title": "HKEX 2026 Interim Results pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260819news/260819news_eng.pdf",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: HKEX 2026 Interim Results pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-18",
-      "title": "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/260818news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs",
-      "evidence": [
-        "HKEX Welcomes Mainland Insurance Funds to Invest in Hong Kong ETFs"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-18",
-      "title": "HKEX Enhances HKEX Tech 100 Index Methodology",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260818news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: HKEX Enhances HKEX Tech 100 Index Methodology",
-      "evidence": [
-        "HKEX Enhances HKEX Tech 100 Index Methodology"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-17",
-      "title": "Renewal of Contract of HKEX Chief Executive Officer",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/260817news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: Renewal of Contract of HKEX Chief Executive Officer",
-      "evidence": [
-        "Renewal of Contract of HKEX Chief Executive Officer"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-14",
-      "title": "Final Strike Information for Stock Option Contracts on 6 New Stock Option Classes",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-08-14%20Final%20Strike%20Information%20for%20Stock%20Option%20Contracts%20on%206%20New%20Stock%20Option%20Classes.pdf",
-      "reference": "MDD/26/465",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "summary": "Official HKEX official notice detected: Final Strike Information for Stock Option Contracts on 6 New Stock Option Classes",
-      "evidence": [],
       "human_review_required": true
     }
   ]
