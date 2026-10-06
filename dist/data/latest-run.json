@@ -1,109 +1,125 @@
 {
-  "generated_at": "2026-10-06T00:02:48.043Z",
+  "generated_at": "2026-10-06T06:19:28.872Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5095,
+  "duration_ms": 5290,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3697,
+      "duration_ms": 3796,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4558,
+      "duration_ms": 3401,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3162,
+      "duration_ms": 5258,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4710,
+      "duration_ms": 2329,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3092,
+      "duration_ms": 4267,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1561,
+      "duration_ms": 2319,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2539,
+      "duration_ms": 4199,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1450,
+      "duration_ms": 1322,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2621,
+      "duration_ms": 2444,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2620,
+      "duration_ms": 2443,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2620,
+      "duration_ms": 2443,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2620,
+      "duration_ms": 2443,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2620,
+      "duration_ms": 2443,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2620,
+      "duration_ms": 2443,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-06",
+      "title": "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026161_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf",
+      "evidence": [
+        "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-05",
       "title": "Collateral Haircut Adjustment pdf",
@@ -2020,24 +2036,6 @@
       "summary": "Official HKMA circular detected: Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities Enclosure : IA circular of 20 August 2026",
       "evidence": [
         "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities Enclosure : IA circular of 20 August 2026"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-20",
-      "title": "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260818-1-EN",
-      "reference": "20260818-1-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA circular detected: Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities",
-      "evidence": [
-        "Circular issued by the Insurance Authority (“IA”) regarding observations on insurance business carried on with the use of premium financing facilities"
       ],
       "human_review_required": true
     }
