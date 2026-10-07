@@ -1,109 +1,125 @@
 {
-  "generated_at": "2026-10-07T05:58:02.084Z",
+  "generated_at": "2026-10-07T08:24:49.021Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4101,
+  "duration_ms": 4001,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3841,
+      "duration_ms": 2798,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2207,
+      "duration_ms": 2806,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3814,
+      "duration_ms": 3968,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4044,
+      "duration_ms": 3637,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1615,
-      "count": 3
+      "duration_ms": 2953,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2319,
+      "duration_ms": 1335,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1773,
+      "duration_ms": 2711,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1023,
+      "duration_ms": 1483,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3081,
+      "duration_ms": 3159,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3078,
+      "duration_ms": 3157,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3078,
+      "duration_ms": 3157,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3078,
+      "duration_ms": 3157,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3078,
+      "duration_ms": 3157,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3078,
+      "duration_ms": 3157,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-07",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_257_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
+      "evidence": [
+        "Inter-commodity Spread pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-07",
       "title": "Display of Adjusted Previous Closing Price of Green Power Group Limited (stock code 1870) on OTP-C for its 1-for-4 Rights Issue on Ex-Rights Date, 9 October 2026 pdf",
@@ -186,38 +202,6 @@
     },
     {
       "publication_date": "2026-10-06",
-      "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "evidence": [
-        "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Exchange Fund Bills Tender Results",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange Fund Bills Tender Results",
-      "evidence": [
-        "Exchange Fund Bills Tender Results"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
       "title": "Inter-commodity Spread pdf",
       "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_256_2026.pdf",
       "source_id": "HKEX-PARTICIPANT-CIRC",
@@ -249,34 +233,34 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-10-05",
-      "title": "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
-      "evidence": [
-        "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-05",
-      "title": "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-3/",
+      "publication_date": "2026-10-06",
+      "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
+      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
       "evidence": [
-        "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity"
+        "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-06",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Exchange Fund Bills Tender Results",
+      "evidence": [
+        "Exchange Fund Bills Tender Results"
       ],
       "human_review_required": true
     },
@@ -341,6 +325,38 @@
       "summary": "Official HKEX participant circular detected: Routine recalculation of Notional Exchange Risk Multiplier pdf",
       "evidence": [
         "Routine recalculation of Notional Exchange Risk Multiplier pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
+      "evidence": [
+        "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-05",
+      "title": "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: HKMA hosts Cargo x Solution Day to promote regional trade data connectivity",
+      "evidence": [
+        "HKMA hosts Cargo x Solution Day to promote regional trade data connectivity"
       ],
       "human_review_required": true
     },
@@ -2014,22 +2030,6 @@
       "summary": "Official HKMA circular detected: Guidance on risk-based AML/CFT controls for politically exposed persons",
       "evidence": [
         "Guidance on risk-based AML/CFT controls for politically exposed persons"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-08-24",
-      "title": "HKEX Appoints Head of External Communications",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/260824news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: HKEX Appoints Head of External Communications",
-      "evidence": [
-        "HKEX Appoints Head of External Communications"
       ],
       "human_review_required": true
     }
