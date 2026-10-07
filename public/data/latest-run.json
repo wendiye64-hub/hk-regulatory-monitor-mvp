@@ -1,109 +1,125 @@
 {
-  "generated_at": "2026-10-07T13:22:00.030Z",
+  "generated_at": "2026-10-07T23:04:55.893Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4711,
+  "duration_ms": 4729,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4709,
+      "duration_ms": 3970,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3477,
+      "duration_ms": 2750,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3252,
+      "duration_ms": 4687,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3341,
+      "duration_ms": 3577,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2319,
+      "duration_ms": 1940,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1725,
+      "duration_ms": 2277,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2304,
+      "duration_ms": 2643,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1435,
+      "duration_ms": 1324,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2838,
+      "duration_ms": 2601,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2836,
+      "duration_ms": 2599,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2836,
+      "duration_ms": 2599,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2836,
-      "count": 3
+      "duration_ms": 2599,
+      "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2836,
+      "duration_ms": 2599,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2836,
+      "duration_ms": 2599,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-07",
+      "title": "Stock Admission - New Listing of Securities pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_350_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Stock Admission - New Listing of Securities pdf",
+      "evidence": [
+        "Stock Admission - New Listing of Securities pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-07",
       "title": "Suspension of CCASS Services on the following Saturdays pdf",
@@ -298,22 +314,6 @@
     },
     {
       "publication_date": "2026-10-06",
-      "title": "Renminbi (RMB) Haircut pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/ce_HKSCC_CM2_034_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Renminbi (RMB) Haircut pdf",
-      "evidence": [
-        "Renminbi (RMB) Haircut pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
       "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
       "source_id": "DEDUP-00031",
@@ -341,6 +341,22 @@
       "summary": "Official release detected: Exchange Fund Bills Tender Results",
       "evidence": [
         "Exchange Fund Bills Tender Results"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-06",
+      "title": "Renminbi (RMB) Haircut pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/ce_HKSCC_CM2_034_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Renminbi (RMB) Haircut pdf",
+      "evidence": [
+        "Renminbi (RMB) Haircut pdf"
       ],
       "human_review_required": true
     },
@@ -2009,24 +2025,6 @@
       "summary": "Official HKMA consultation detected: Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance Enclosure: Prototype of Hong Kong Taxonomy for Sustainable Finance (Phase 2B)",
       "evidence": [
         "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance Enclosure: Prototype of Hong Kong Taxonomy for Sustainable Finance (Phase 2B)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-07",
-      "title": "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260819-7-EN",
-      "reference": "20260819-7-EN",
-      "document_type": "CPR - Consultation Paper",
-      "source_id": "HKMA-CONSULTATIONS",
-      "source_label": "HKMA Consultation Papers",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA consultation detected: Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance",
-      "evidence": [
-        "Consultation on Phase 2B prototype of Hong Kong Taxonomy for Sustainable Finance"
       ],
       "human_review_required": true
     }
