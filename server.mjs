@@ -12,6 +12,8 @@ let lastRun = null;
 function json(res, status, payload) { res.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' }); res.end(JSON.stringify(payload)); }
 function run(command, args) { return new Promise((resolve, reject) => { const child = spawn(command, args, { cwd: here, env: process.env }); let output = ''; child.stdout.on('data', (data) => { output += data; }); child.stderr.on('data', (data) => { output += data; }); child.on('close', (code) => code === 0 ? resolve(output) : reject(new Error(output || `exit ${code}`))); }); }
 
+const port = Number(process.env.PORT || 4173);
+
 http.createServer(async (req, res) => {
   if (req.method === 'GET' && req.url === '/api/run/status') {
     return json(res, 200, { status: running ? 'running' : 'idle', last_run: lastRun });
@@ -32,4 +34,4 @@ http.createServer(async (req, res) => {
   if (!file.startsWith(path.join(here, 'dist'))) { res.writeHead(403); return res.end(); }
   try { await access(file); res.writeHead(200, { 'content-type': mime[path.extname(file)] || 'application/octet-stream' }); createReadStream(file).pipe(res); }
   catch { res.writeHead(404); res.end('Not found'); }
-}).listen(4173, '127.0.0.1', () => console.log('RegWatch HK backend preview: http://127.0.0.1:4173'));
+}).listen(port, '127.0.0.1', () => console.log(`RegWatch HK backend preview: http://127.0.0.1:${port}`));

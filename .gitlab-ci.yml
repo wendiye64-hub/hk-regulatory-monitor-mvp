@@ -7,12 +7,13 @@ stages:
 pages:
   stage: deploy
   script:
+    - npm ci
     - node scripts/monitor.mjs
-    - cp -R dist public
+    - npm run build
+    - cp -R dist/. public/
   artifacts:
     paths:
       - public
     expire_in: 30 days
   rules:
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-

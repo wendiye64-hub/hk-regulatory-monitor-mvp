@@ -4,7 +4,8 @@ import { clean } from './lib/collector-utils.mjs';
 import { aiTriage, deterministicTriage } from './lib/triage.mjs';
 import { sources } from './source-registry.mjs';
 
-const outputPath = new URL('../dist/data/latest-run.json', import.meta.url);
+const outputPath = new URL('../public/data/latest-run.json', import.meta.url);
+const builtOutputPath = new URL('../dist/data/latest-run.json', import.meta.url);
 const previous = JSON.parse(await readFile(outputPath, 'utf8'));
 const previousByUrl = new Map((previous.items || []).map(item => [item.official_url, item]));
 const startedAt = Date.now();
@@ -48,5 +49,12 @@ const payload = {
     .slice(0, Number(process.env.MAX_DASHBOARD_ITEMS || 120))
 };
 
-await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+const serialized = `${JSON.stringify(payload, null, 2)}\n`;
+await writeFile(outputPath, serialized);
+// Keep an already-built local preview fresh without requiring a full rebuild.
+// CI disables this mirror so the workflow can rebase/commit only the canonical
+// public artifact without an unrelated dirty dist worktree.
+if (process.env.SYNC_DIST !== 'false') {
+  try { await writeFile(builtOutputPath, serialized); } catch {}
+}
 console.log(`Updated ${payload.items.length} dashboard items from ${payload.sources_checked}/${sources.length} sources in ${payload.duration_ms}ms.`);
