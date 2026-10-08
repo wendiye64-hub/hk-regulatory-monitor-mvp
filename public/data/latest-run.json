@@ -1,109 +1,125 @@
 {
-  "generated_at": "2026-10-07T23:04:55.893Z",
+  "generated_at": "2026-10-08T06:02:33.643Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4729,
+  "duration_ms": 4351,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3970,
+      "duration_ms": 3337,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2750,
+      "duration_ms": 2558,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4687,
+      "duration_ms": 4308,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3577,
+      "duration_ms": 3885,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1940,
-      "count": 10
+      "duration_ms": 4097,
+      "count": 0
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2277,
+      "duration_ms": 2390,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2643,
+      "duration_ms": 4169,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1324,
+      "duration_ms": 1697,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2951,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2599,
+      "duration_ms": 2948,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2599,
+      "duration_ms": 2948,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2599,
+      "duration_ms": 2948,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2599,
+      "duration_ms": 2948,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2599,
+      "duration_ms": 2948,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-07",
+      "title": "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261007-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
+      "evidence": [
+        "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-07",
       "title": "Stock Admission - New Listing of Securities pdf",
@@ -249,22 +265,6 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-10-07",
-      "title": "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261007-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
-      "evidence": [
-        "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released"
-      ],
-      "human_review_required": true
-    },
-    {
       "publication_date": "2026-10-06",
       "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
       "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
@@ -298,22 +298,6 @@
     },
     {
       "publication_date": "2026-10-06",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_345_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "evidence": [
-        "Discontinuation of the Eligibility of CCASS Stocks pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
       "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
       "source_id": "DEDUP-00031",
@@ -341,6 +325,22 @@
       "summary": "Official release detected: Exchange Fund Bills Tender Results",
       "evidence": [
         "Exchange Fund Bills Tender Results"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-06",
+      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_345_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
+      "evidence": [
+        "Discontinuation of the Eligibility of CCASS Stocks pdf"
       ],
       "human_review_required": true
     },
