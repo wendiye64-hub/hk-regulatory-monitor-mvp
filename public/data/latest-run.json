@@ -1,109 +1,189 @@
 {
-  "generated_at": "2026-10-09T06:07:36.389Z",
+  "generated_at": "2026-10-09T13:15:50.382Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4320,
+  "duration_ms": 5887,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1915,
+      "duration_ms": 3186,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4242,
+      "duration_ms": 2789,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2383,
+      "duration_ms": 5843,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3140,
+      "duration_ms": 3982,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1831,
+      "duration_ms": 3521,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3338,
+      "duration_ms": 2493,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3523,
+      "duration_ms": 3446,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1765,
+      "duration_ms": 3955,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2925,
+      "duration_ms": 2625,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2923,
+      "duration_ms": 2623,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2923,
+      "duration_ms": 2623,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2923,
+      "duration_ms": 2623,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2923,
+      "duration_ms": 2623,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2923,
+      "duration_ms": 2623,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-09",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_259_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Margin Rates pdf",
+      "evidence": [
+        "Margin Rates pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_358_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf",
+      "evidence": [
+        "Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_357_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
+      "evidence": [
+        "Discontinuation of the Eligibility of CCASS Stocks pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_260_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
+      "evidence": [
+        "Inter-commodity Spread pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_356_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "summary": "Official HKEX participant circular detected: Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf",
+      "evidence": [
+        "Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf"
+      ],
+      "human_review_required": true
+    },
     {
       "publication_date": "2026-10-09",
       "title": "Beijing DeepZero Technology Co., Ltd. (Stock Code: 2723) - Proposal of Share Subdivision pdf",
@@ -133,6 +213,22 @@
       "summary": "Official HKEX participant circular detected: USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price pdf",
       "evidence": [
         "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-09",
+      "title": "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261009-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
+      "evidence": [
+        "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme"
       ],
       "human_review_required": true
     },
@@ -266,6 +362,40 @@
     },
     {
       "publication_date": "2026-10-08",
+      "title": "Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261008-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "evidence": [
+        "Interest rate of fourth interest payment for Silver Bond Series due 2027"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-08",
+      "title": "Complaints Against Debt Collection Agents Employed by Authorized Institutions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261008-1-EN",
+      "reference": "20261008-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Complaints Against Debt Collection Agents Employed by Authorized Institutions",
+      "evidence": [
+        "Complaints Against Debt Collection Agents Employed by Authorized Institutions"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-08",
       "title": "China United Venture Investment Limited (Stock Code: 8159) - Proposal of Share Consolidation pdf",
       "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_352_2026.pdf",
       "source_id": "HKEX-PARTICIPANT-CIRC",
@@ -297,36 +427,18 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-10-08",
-      "title": "Interest rate of fourth interest payment for Silver Bond Series due 2027",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261008-3/",
+      "publication_date": "2026-10-07",
+      "title": "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261007-3/",
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
+      "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "summary": "Official release detected: Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
       "evidence": [
-        "Interest rate of fourth interest payment for Silver Bond Series due 2027"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-08",
-      "title": "Complaints Against Debt Collection Agents Employed by Authorized Institutions",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261008-1-EN",
-      "reference": "20261008-1-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA circular detected: Complaints Against Debt Collection Agents Employed by Authorized Institutions",
-      "evidence": [
-        "Complaints Against Debt Collection Agents Employed by Authorized Institutions"
+        "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released"
       ],
       "human_review_required": true
     },
@@ -375,22 +487,6 @@
       "summary": "Official HKEX participant circular detected: Genscript Biotech Corporation (Stock Code : 1548) - Change in Board Lot Size pdf",
       "evidence": [
         "Genscript Biotech Corporation (Stock Code : 1548) - Change in Board Lot Size pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261007-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
-      "evidence": [
-        "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released"
       ],
       "human_review_required": true
     },
@@ -1926,108 +2022,6 @@
         "Hong Kong Interbank Clearing Limited (HKICL) has recently noted two fraudulent websites purported to be from HKICL: Type 1: fpshkpay.life",
         "HKICL advises that these fraudulent websites have no affiliation with HKICL, or any business of HKICL.",
         "The genuine official website addresses of HKICL are https://www.hkicl.com.hk and https://fps.hkicl.com.hk"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-22",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260922-3/",
-      "title": "Scam alert related to banks",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
-      "evidence": [
-        "Scam alert related to banks"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-21",
-      "title": "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260921news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "HKEX is consulting on changes to post-listing transaction, connected-transaction and spin-off requirements.",
-      "evidence": [
-        "Exchange Publishes Consultation Paper on Phase II of Listing Framework Competitiveness Review",
-        "The Exchange publishes proposals to enhance the competitiveness of its listing framework",
-        "The proposals form the second phase of the Exchange's listing framework competitiveness review and focus on the post-listing requirements governing notifiable transactions, connected transactions and spin-off transactions."
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-21",
-      "title": "September 2026 - Consultation Paper on Competitiveness Review of Listing Framework (Phase 2)",
-      "official_url": "https://www.hkex.com.hk/News/Market-Consultations/2016-to-Present/September-2026-Competitiveness-Review-Phase-2?sc_lang=en",
-      "source_id": "HKEX-MARKET-CONSULT",
-      "source_label": "HKEX Market Consultations",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "consultation_paper",
-      "impact_status": "potential_impact",
-      "summary": "Official HKEX market consultation detected: September 2026 - Consultation Paper on Competitiveness Review of Listing Framework (Phase 2)",
-      "evidence": [
-        "September 2026 - Consultation Paper on Competitiveness Review of Listing Framework (Phase 2)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-21",
-      "title": "The People’s Bank of China will issue Renminbi Bills through Central Moneymarkets Unit of Hong Kong Monetary Authority",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260921-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "observed_current_release",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "announcement",
-      "impact_status": "no_clear_impact",
-      "summary": "PBOC issues Renminbi Bills via HKMA's Central Moneymarkets Unit",
-      "evidence": [
-        "The People’s Bank of China (the PBOC) will issue Renminbi Bills through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (the HKMA).",
-        "Please find attached the tender notice and the tender information memorandum of the Renminbi Bills to be issued by the PBOC.",
-        "Hong Kong Monetary Authority 21 September 2026"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-18",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260918-4/",
-      "title": "Statistics of Stored Value Facilities (SVF) Schemes Issued by SVF Licensees",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Statistics of Stored Value Facilities (SVF) Schemes Issued by SVF Licensees",
-      "evidence": [
-        "Statistics of Stored Value Facilities (SVF) Schemes Issued by SVF Licensees"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-18",
-      "title": "Statistics of Payment Cards Issued in Hong Kong for Second Quarter 2026",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260918-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "observed_current_release",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "statistical_release",
-      "impact_status": "no_clear_impact",
-      "summary": "HKMA releases Q2 2026 payment card statistics with credit/debit card transaction data",
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA) published today statistics of payment cards issued in Hong Kong for the second quarter of 2026.",
-        "The payment card statistics (see Annex ) include quarterly data on credit and debit cards issued in Hong Kong under the credit and/or debit card schemes of the eight payment card scheme operators ( Note 1 ).",
-        "According to the quarterly statistics, the total number of credit cards in circulation ( Note 2 ) was 31.03 million by the end of Q2/2026."
       ],
       "human_review_required": true
     }
