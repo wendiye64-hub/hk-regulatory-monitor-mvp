@@ -1,132 +1,109 @@
 {
-  "generated_at": "2026-10-10T12:31:16.128Z",
+  "generated_at": "2026-10-10T21:43:05.016Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 40299,
-  "sources_checked": 7,
+  "duration_ms": 4511,
+  "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
-      "status": "rejected",
-      "duration_ms": 40253,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2086,
+      "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
-      "status": "rejected",
-      "duration_ms": 37543,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 3651,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
-      "status": "rejected",
-      "duration_ms": 31641,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 3072,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
-      "status": "rejected",
-      "duration_ms": 40254,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2746,
+      "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
-      "status": "rejected",
-      "duration_ms": 29604,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "status": "fulfilled",
+      "duration_ms": 2001,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
-      "status": "rejected",
-      "duration_ms": 29279,
-      "count": 0,
-      "error": "https://www.hkex.com.hk/eng/prod/dataprod/2026notices.htm returned HTTP 504"
+      "status": "fulfilled",
+      "duration_ms": 3412,
+      "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
-      "status": "rejected",
-      "duration_ms": 5513,
-      "count": 0,
-      "error": "https://www.hkex.com.hk/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note?sc_lang=en returned HTTP 500"
+      "status": "fulfilled",
+      "duration_ms": 4464,
+      "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 2672,
+      "duration_ms": 3342,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3296,
+      "duration_ms": 2700,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3294,
+      "duration_ms": 2698,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3294,
+      "duration_ms": 2698,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3294,
+      "duration_ms": 2698,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3294,
+      "duration_ms": 2698,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3294,
+      "duration_ms": 2698,
       "count": 5
     }
   ],
   "items": [
-    {
-      "publication_date": "2026-10-09",
-      "title": "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261009-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
-      "evidence": [
-        "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme"
-      ],
-      "human_review_required": true
-    },
     {
       "publication_date": "2026-10-09",
       "title": "Margin Rates pdf",
@@ -240,36 +217,18 @@
       "human_review_required": true
     },
     {
-      "publication_date": "2026-10-08",
-      "title": "Interest rate of fourth interest payment for Silver Bond Series due 2027",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261008-3/",
+      "publication_date": "2026-10-09",
+      "title": "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261009-3/",
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
       "regulatory_domain": "market_infrastructure",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "summary": "Official release detected: Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
       "evidence": [
-        "Interest rate of fourth interest payment for Silver Bond Series due 2027"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-08",
-      "title": "Complaints Against Debt Collection Agents Employed by Authorized Institutions",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261008-1-EN",
-      "reference": "20261008-1-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "summary": "Official HKMA circular detected: Complaints Against Debt Collection Agents Employed by Authorized Institutions",
-      "evidence": [
-        "Complaints Against Debt Collection Agents Employed by Authorized Institutions"
+        "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme"
       ],
       "human_review_required": true
     },
@@ -398,6 +357,40 @@
       "summary": "Official HKEX participant circular detected: ZXZN Qi-House Holdings Limited (Stock Code : 8395) - Change in Board Lot Size pdf",
       "evidence": [
         "ZXZN Qi-House Holdings Limited (Stock Code : 8395) - Change in Board Lot Size pdf"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-08",
+      "title": "Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261008-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "evidence": [
+        "Interest rate of fourth interest payment for Silver Bond Series due 2027"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-08",
+      "title": "Complaints Against Debt Collection Agents Employed by Authorized Institutions",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261008-1-EN",
+      "reference": "20261008-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "licensing_benchmark",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "summary": "Official HKMA circular detected: Complaints Against Debt Collection Agents Employed by Authorized Institutions",
+      "evidence": [
+        "Complaints Against Debt Collection Agents Employed by Authorized Institutions"
       ],
       "human_review_required": true
     },
@@ -595,38 +588,6 @@
     },
     {
       "publication_date": "2026-10-06",
-      "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "evidence": [
-        "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Exchange Fund Bills Tender Results",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange Fund Bills Tender Results",
-      "evidence": [
-        "Exchange Fund Bills Tender Results"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
       "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
       "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
       "source_id": "DEDUP-00033",
@@ -654,6 +615,38 @@
       "summary": "Official release detected: Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
       "evidence": [
         "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-06",
+      "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
+      "evidence": [
+        "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-10-06",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Exchange Fund Bills Tender Results",
+      "evidence": [
+        "Exchange Fund Bills Tender Results"
       ],
       "human_review_required": true
     },
@@ -1027,6 +1020,22 @@
     },
     {
       "publication_date": "2026-09-30",
+      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
+      "source_id": "HKEX-MARKET-COMMS",
+      "source_label": "HKEX Market Communications",
+      "detection": "new_official_publication",
+      "regulatory_domain": "listing_rules",
+      "change_type": "market_communication",
+      "impact_status": "review_required",
+      "summary": "Official HKEX market communication detected: Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
+      "evidence": [
+        "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-30",
       "title": "Monetary Statistics for August 2026",
       "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-9/",
       "source_id": "DEDUP-00031",
@@ -1070,22 +1079,6 @@
       "summary": "Official release detected: International Reserves and Foreign Currency Liquidity",
       "evidence": [
         "International Reserves and Foreign Currency Liquidity"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "evidence": [
-        "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)"
       ],
       "human_review_required": true
     },
@@ -1862,6 +1855,22 @@
     },
     {
       "publication_date": "2026-09-23",
+      "title": "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260923news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "summary": "Official release detected: Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
+      "evidence": [
+        "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)"
+      ],
+      "human_review_required": true
+    },
+    {
+      "publication_date": "2026-09-23",
       "title": "Review of the Enhanced Competency Framework for Banking Practitioners Enclosure: Review of the Enhanced Competency Framework for Banking Practitioners",
       "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20260922-2-EN",
       "reference": "20260922-2-EN",
@@ -1893,22 +1902,6 @@
       "summary": "Official HKMA circular detected: Review of the Enhanced Competency Framework for Banking Practitioners",
       "evidence": [
         "Review of the Enhanced Competency Framework for Banking Practitioners"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-23",
-      "title": "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/260923news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)",
-      "evidence": [
-        "Exchange’s Disciplinary Action against Seven Directors of China 21st Century Education Group Limited (Stock Code: 1598)"
       ],
       "human_review_required": true
     },
