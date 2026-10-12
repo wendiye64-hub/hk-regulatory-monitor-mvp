@@ -20,8 +20,12 @@ import {
   History,
 } from 'lucide-vue-next';
 import type { MatrixSessionState } from '@/types';
+import { isResearchGatewayMode, getResearchAccess } from '@/services/researchApi';
+const researchUnlocked = ref(!isResearchGatewayMode() || !!getResearchAccess());
+const accessTimer = setInterval(() => { researchUnlocked.value = !isResearchGatewayMode() || !!getResearchAccess(); }, 1000);
+onUnmounted(() => clearInterval(accessTimer));
 
-export type MainNavView = 'news-feed' | 'regulator' | 'tasks';
+export type MainNavView = 'news-feed' | 'regulator' | 'tasks' | 'copilot';
 
 const props = withDefaults(
   defineProps<{
@@ -101,7 +105,7 @@ const handleSessionMouseLeave = () => {
 const handleSessionClick = (sessionId: string) => {
   handleSessionMouseLeave();
   emit('selectMatrixSession', sessionId);
-  handleNavClick('tasks');
+  handleNavClick('copilot');
 };
 
 const tooltipStyle = computed(() => {
@@ -168,6 +172,7 @@ const isWithin7Days = (dateStr?: string) => {
 };
 
 const navItems = [
+  { id: 'copilot' as MainNavView, label: 'Regulatory Copilot', icon: Bot, badge: undefined },
   {
     id: 'news-feed' as MainNavView,
     label: 'News Feed',
@@ -196,7 +201,7 @@ const handleNavClick = (viewId: MainNavView) => {
 const handleNewChat = () => {
   emit('newChat');
   emit('newMatrixWorkspace');
-  handleNavClick('tasks');
+  handleNavClick('copilot');
 };
 
 const groupedSessions = computed(() => {
@@ -333,29 +338,31 @@ const totalMatches = computed(
       <div class="my-3 mx-1 border-t border-neutral-100/90 shrink-0" />
 
       <!-- Layer 2: + New Chat Button (Hidden) -->
-      <div v-if="false" class="shrink-0 mb-2">
+      <div v-if="activeView === 'copilot'" class="shrink-0 mb-2">
         <button
           v-if="effectiveExpanded"
           id="btn-sidebar-new-chat"
           @click="handleNewChat"
+          :disabled="!researchUnlocked"
           class="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-all shadow-xs cursor-pointer select-none"
         >
           <Plus class="w-3.5 h-3.5" />
-          <span>+ New Chat</span>
+          <span>{{ researchUnlocked ? '+ New Chat' : '需要访问口令' }}</span>
         </button>
         <button
           v-else
           id="btn-sidebar-new-chat-collapsed"
           @click="handleNewChat"
+          :disabled="!researchUnlocked"
           class="w-full h-10 flex items-center justify-center rounded-xl bg-blue-600 hover:bg-blue-700 text-white transition-all shadow-xs cursor-pointer"
-          title="+ New Chat"
+          :title="researchUnlocked ? '+ New Chat' : '需要访问口令'"
         >
           <Plus class="w-5 h-5" />
         </button>
       </div>
 
       <!-- Layer 3: Search bar & Chat History List (Hidden) -->
-      <div v-if="false" class="flex-1 flex flex-col min-h-0">
+      <div v-if="activeView === 'copilot' && effectiveExpanded" class="flex-1 flex flex-col min-h-0">
         <!-- Search Input -->
         <div class="relative mb-2 shrink-0">
           <Search class="w-3.5 h-3.5 text-neutral-400 absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />

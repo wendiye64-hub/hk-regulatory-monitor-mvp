@@ -4,6 +4,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Only enrich existing short/title-only summaries'
+        type: boolean
+        default: false
+      backfill_limit:
+        description: 'Maximum notices per manual backfill (1–20)'
+        type: number
+        default: 10
   schedule:
     - cron: '17 */6 * * *'
 
@@ -35,6 +44,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           SYNC_DIST: 'false'
+          BACKFILL: ${{ inputs.backfill || 'false' }}
+          BACKFILL_LIMIT: ${{ inputs.backfill_limit || '10' }}
+          TRIAGE_CONCURRENCY: '4'
+          MAX_ENRICH_ITEMS: '12'
         run: node scripts/monitor.mjs
       - name: Save newly detected releases
         run: |
@@ -45,7 +58,12 @@ jobs:
           git pull --rebase origin main
           git push
       - name: Build Vue frontend
+        env:
+          VITE_RESEARCH_GATEWAY_URL: ${{ vars.VITE_RESEARCH_GATEWAY_URL }}
+          VITE_RESEARCH_ACCESS_MODE: 'gateway'
         run: npm run build
+      - name: Test source extraction, evidence validation and summaries
+        run: npm test
       - uses: actions/configure-pages@v5
         with:
           enablement: true

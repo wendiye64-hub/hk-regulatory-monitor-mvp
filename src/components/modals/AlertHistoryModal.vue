@@ -235,7 +235,7 @@ const filteredHistory = computed(() => {
                 Action: {{ alert.actionDate || '2026-09-14 01:15:30 UTC' }}
               </span>
               <span>•</span>
-              <span>Officer: {{ alert.assignedTo || 'Ivan Choy' }}</span>
+              <span>Officer: {{ alert.assignedTo || 'Demo Lead' }}</span>
             </div>
           </div>
 

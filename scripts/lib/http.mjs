@@ -1,5 +1,5 @@
 const headers = {
-  accept: 'text/html,application/xhtml+xml,application/json',
+  accept: 'text/html,application/xhtml+xml,application/pdf,application/json',
   'user-agent': 'RegWatch-HK/2.0 (official-public-source monitor)'
 };
 
@@ -29,6 +29,19 @@ export async function fetchText(url, options) {
 
 export async function fetchJson(url, options) {
   return (await request(url, options)).json();
+}
+
+export async function fetchDocument(url, options = {}) {
+  const response = await request(url, { timeoutMs: 10000, attempts: 1, ...options });
+  const maximum = 12 * 1024 * 1024;
+  if (Number(response.headers.get('content-length')) > maximum) throw new Error('Document exceeds 12 MB extraction limit');
+  const chunks = []; let size = 0;
+  for await (const chunk of response.body) {
+    size += chunk.length;
+    if (size > maximum) throw new Error('Document exceeds 12 MB extraction limit');
+    chunks.push(chunk);
+  }
+  return { bytes: Buffer.concat(chunks), contentType: response.headers.get('content-type') || '', url: response.url };
 }
 
 export async function mapLimit(items, limit, mapper) {

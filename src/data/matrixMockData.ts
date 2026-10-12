@@ -80,7 +80,7 @@ export const initialMatrixSession1: MatrixSessionState = {
   activeJurisdictionCode: 'HK',
   createdAt: '2026-09-17 14:30:00 UTC',
   updatedAt: '2026-09-17 18:22:00 UTC',
-  creator: 'Ivan Choy (Lead Compliance Officer)',
+  creator: 'Demo Lead (Lead Compliance Officer)',
   isSaved: true,
   isLoading: false,
   questions: [
@@ -546,7 +546,7 @@ export const initialMatrixSession2: MatrixSessionState = {
   activeJurisdictionCode: 'HK',
   createdAt: new Date().toISOString().slice(0, 10) + ' 09:15:00 UTC',
   updatedAt: new Date().toISOString().slice(0, 10) + ' 11:40:00 UTC',
-  creator: 'Ivan Choy (Lead Compliance Officer)',
+  creator: 'Demo Lead (Lead Compliance Officer)',
   isSaved: false,
   isLoading: false,
   questions: [
@@ -864,7 +864,7 @@ Regarding query: "*${qItem.questionText}*":
     activeJurisdictionCode: chosenJurisdictions[0].code,
     createdAt: new Date().toISOString().replace('T', ' ').slice(0, 19) + ' UTC',
     updatedAt: new Date().toISOString().replace('T', ' ').slice(0, 19) + ' UTC',
-    creator: 'Ivan Choy (Lead Compliance Officer)',
+    creator: 'Demo Lead (Lead Compliance Officer)',
     isSaved: false,
     questions: generatedQuestions,
     jurisdictions: chosenJurisdictions,

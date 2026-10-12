@@ -1,11 +1,11 @@
 {
   "currentUser": {
-    "id": "usr-ivan-choy",
-    "name": "Ivan Choy",
-    "email": "ivan.choy@wizpresso.com",
+    "id": "usr-demo-lead",
+    "name": "Demo Lead",
+    "email": "demo.lead@example.com",
     "role": "Monitor & Compliance Lead",
     "organization": "Wizpresso Demo",
-    "avatarInitials": "IC"
+    "avatarInitials": "DL"
   },
   "coverageBanner": {
     "hasGaps": false,
@@ -134,7 +134,7 @@
       "aiRelevanceScore": 96,
       "materiality": "Direct / Highly Relevant",
       "diligenceStatus": "Monitored",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.hkma.gov.hk/eng/key-functions/banking-stability/supervisory-policy-manual/",
       "executiveSummary": "Mandates all authorized institutions in Hong Kong to maintain robust operational resilience frameworks against operational disruptions, covering technology, outsourcing, and business continuity.",
       "operationalImpact": "Requires review of IT system architecture, business impact assessments (BIA), and continuous supplier risk monitoring.",
@@ -165,7 +165,7 @@
       "aiRelevanceScore": 92,
       "materiality": "Direct / Highly Relevant",
       "diligenceStatus": "Monitored",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.sfc.hk/en/Regulatory-functions/Intermediaries/Circulars",
       "executiveSummary": "Guidelines for licensed corporations engaging in VA trading, advisory, or tokenized securities distribution, requiring comprehensive client suitability checks and cold wallet custody.",
       "operationalImpact": "Requires updating onboarding questionnaires and verifying independent custodianship.",
@@ -196,7 +196,7 @@
       "aiRelevanceScore": 88,
       "materiality": "Relevant",
       "diligenceStatus": "Monitored",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.cr.gov.hk/en/publications/guidelines.htm",
       "executiveSummary": "Clarifies inspection rules and disclosure timelines for companies incorporated in Hong Kong to maintain accessible and accurate beneficial ownership records.",
       "operationalImpact": "Requires periodic verification of ultimate beneficial owners (UBO) holding more than 25% voting rights.",
@@ -227,7 +227,7 @@
       "aiRelevanceScore": 89,
       "materiality": "Direct / Highly Relevant",
       "diligenceStatus": "Monitored",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.mas.gov.sg/regulation/notices",
       "executiveSummary": "Imposes mandatory standards for financial institutions regarding multi-factor authentication, perimeter defense, and cloud service risk assessments.",
       "operationalImpact": "Critical for cross-border institutions with Singapore subsidiary branches.",
@@ -258,7 +258,7 @@
       "aiRelevanceScore": 84,
       "materiality": "Relevant",
       "diligenceStatus": "Not Imported",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.hkex.com.hk/News/Market-Consultations/2026",
       "executiveSummary": "Adopts mandatory disclosures aligned with IFRS S2 Climate-related Disclosures for all listed entities on HKEX Main Board.",
       "operationalImpact": "Requires accounting integration for emissions tracking.",
@@ -289,7 +289,7 @@
       "aiRelevanceScore": 82,
       "materiality": "Relevant",
       "diligenceStatus": "Not Imported",
-      "owner": "Ivan Choy",
+      "owner": "Demo Lead",
       "officialUrl": "https://www.fca.org.uk/publications/policy-statements/ps22-9-new-consumer-duty",
       "executiveSummary": "Sets higher and clearer standards of consumer protection across financial services, requiring firms to deliver good outcomes for retail customers.",
       "operationalImpact": "Requires ongoing fair value assessment of product fees and service quality.",
@@ -369,8 +369,8 @@
       "status": "Verified & Reachable",
       "lastChecked": "2026-03-28 09:00 UTC",
       "isFollowed": true,
-      "createdBy": "Ivan Choy",
-      "approver": "Ivan Choy",
+      "createdBy": "Demo Lead",
+      "approver": "Demo Lead",
       "createdDate": "2026-01-15"
     },
     {
@@ -385,8 +385,8 @@
       "status": "Verified & Reachable",
       "lastChecked": "2026-03-28 09:00 UTC",
       "isFollowed": true,
-      "createdBy": "Ivan Choy",
-      "approver": "Ivan Choy",
+      "createdBy": "Demo Lead",
+      "approver": "Demo Lead",
       "createdDate": "2026-01-15"
     }
   ],

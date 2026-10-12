@@ -27,12 +27,12 @@ const props = withDefaults(
   }>(),
   {
     currentUser: () => ({
-      id: 'usr-ivan-choy',
-      name: 'Ivan Choy',
-      email: 'ivan.choy@wizpresso.com',
+      id: 'usr-demo-lead',
+      name: 'Demo Lead',
+      email: 'demo.lead@example.com',
       role: 'Monitor & Compliance Lead',
       organization: 'Wizpresso Demo',
-      avatarInitials: 'I',
+      avatarInitials: 'DL',
     }),
     overdueCount: 0,
     pendingAlertsCount: 0,
@@ -44,7 +44,7 @@ const props = withDefaults(
 );
 
 const emit = defineEmits<{
-  (e: 'changeView', view: 'news-feed' | 'regulator' | 'tasks'): void;
+  (e: 'changeView', view: 'news-feed' | 'regulator' | 'tasks' | 'copilot'): void;
   (e: 'openScopeConfig'): void;
   (e: 'openOnboarding'): void;
   (e: 'retryApi'): void;
@@ -52,6 +52,7 @@ const emit = defineEmits<{
 }>();
 
 const viewTitle = computed(() => {
+  if (props.activeView === 'copilot') return 'Regulatory Copilot';
   if (props.activeView === 'regulator') return 'Regulator';
   if (props.activeView === 'tasks') return 'Tasks';
   return 'News Feed';
@@ -102,7 +103,7 @@ const handleAvatarClick = () => {
     <!-- Right: Actions, Language, Help, User Avatar with Notification Badge -->
     <div class="flex items-center gap-2 sm:gap-3">
       <!-- Live API Diagnostic Button -->
-      <BackendStatusModal
+      <BackendStatusModal v-if="activeView !== 'copilot'"
         :isOnline="isBackendOnline"
         :totalAlerts="totalAlerts"
         :totalRegulators="totalRegulators"

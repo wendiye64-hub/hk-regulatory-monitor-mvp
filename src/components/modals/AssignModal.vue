@@ -14,10 +14,10 @@ const emit = defineEmits<{
 }>();
 
 const colleagues = [
-  { name: 'Ivan Choy', role: 'Monitor Lead', email: 'ivan.choy@wizpresso.com' },
-  { name: 'Sarah Lin', role: 'Compliance Officer', email: 'sarah.lin@wizpresso.com' },
-  { name: 'David Wong', role: 'Risk Analyst', email: 'david.wong@wizpresso.com' },
-  { name: 'Rachel Chen', role: 'Legal Counsel', email: 'rachel.chen@wizpresso.com' },
+  { name: 'Demo Lead', role: 'Monitor Lead', email: 'demo.lead@example.com' },
+  { name: 'Demo Compliance Officer', role: 'Compliance Officer', email: 'demo.compliance@example.com' },
+  { name: 'Demo Risk Analyst', role: 'Risk Analyst', email: 'demo.risk@example.com' },
+  { name: 'Demo Legal Counsel', role: 'Legal Counsel', email: 'demo.legal@example.com' },
 ];
 
 const selectedColleague = ref(colleagues[0].name);

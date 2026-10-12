@@ -114,11 +114,36 @@
       "regulatory_domain": "other_regulatory",
       "change_type": "participant_circular",
       "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Margin Rates pdf",
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 13 October 2026 (including the…",
       "evidence": [
-        "Margin Rates pdf"
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised.",
+        "• HSBC Holdings Plc.",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
       ],
-      "human_review_required": true
+      "human_review_required": true,
+      "source_text_chars": 976,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_259_2026.pdf",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised.",
+        "• HSBC Holdings Plc.",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "13 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• HSBC Holdings Plc.\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/259/2026 日期 Date: 09/10/2026",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-09",
@@ -130,11 +155,28 @@
       "regulatory_domain": "other_regulatory",
       "change_type": "participant_circular",
       "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf",
+      "summary": "HKEX发布《Stock Admission - Pando Solana ETF…》。正文：will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing…",
       "evidence": [
-        "Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf"
+        "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026.",
+        "Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.",
+        "Shares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF ."
       ],
-      "human_review_required": true
+      "human_review_required": true,
+      "source_text_chars": 4823,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_358_2026.pdf",
+      "key_points": [
+        "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026.",
+        "Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.",
+        "Shares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF .",
+        "HKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS.",
+        "Same as other CCASS Eligible Securities, the Exchange Trades of the Shares will be cleared inside CCASS and settled on T+2 under Continuous Net Settlement (\"CNS\") system unless they are isolated from the CNS system by both trading counterparties or by HKSCC and settled on a trade-for-trade (\"TFT\") basis."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "source_excerpt": "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026. The trade lot size of Pando Solana ETF is 100 Shares.\n\nAll Shares are issued in uncertificated form. Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.\n\nShares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF . The register of the Pando Solana ETF is the evidence of ownership of Shares.\n\nHKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS. Save as otherwise provided in the HKSCC Rules, HKSCC has no proprietary interests in the Shares to the extent that they are credited to the Stock Accounts of CCASS Participants.",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-09",
@@ -226,11 +268,30 @@
       "regulatory_domain": "market_infrastructure",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme",
+      "summary": "HKMA发布《Tentative Issuance Schedule for…》；对象：Primary Dealers。正文：published today (9 October) a tentative issuance schedule for institutional…",
       "evidence": [
-        "Tentative Issuance Schedule for HKSAR Institutional Government Bonds and Appointment of Primary Dealers under Infrastructure Bond Programme and Government Sustainable Bond Programme"
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), published today (9 October) a tentative issuance schedule for institutional Government Bonds (GBs) to be offered under the Infrastructure Bond Programme (IBP) and Government Sustainable Bond Programme (GSBP) for the six-month period from October 2026 to March 2027 (Annex 1).",
+        "Primary Dealers are also expected to provide two-way bid-and-offer quotations in the secondary market to facilitate GB trading.",
+        "The information contained in the tentative issuance schedule, such as the tenors, tender dates, issuance sizes, issue dates and methods of issuance are tentative."
       ],
-      "human_review_required": true
+      "human_review_required": true,
+      "source_text_chars": 1795,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261009-3/",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), published today (9 October) a tentative issuance schedule for institutional Government Bonds (GBs) to be offered under the Infrastructure Bond Programme (IBP) and Government Sustainable Bond Programme (GSBP) for the six-month period from October 2026 to March 2027 (Annex 1).",
+        "Primary Dealers are also expected to provide two-way bid-and-offer quotations in the secondary market to facilitate GB trading.",
+        "The information contained in the tentative issuance schedule, such as the tenors, tender dates, issuance sizes, issue dates and methods of issuance are tentative.",
+        "The GBs are denominated in Hong Kong dollars (HKD) and renminbi (RMB) and will be offered by way of competitive tendering.",
+        "The tentative issuance schedule contains information on, among others, the tentative tenors, tender dates, issuance sizes, issue dates and methods of issuance of individual GB issues."
+      ],
+      "key_dates": [],
+      "affected_parties": [
+        "Primary Dealers"
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), published today (9 October) a tentative issuance schedule for institutional Government Bonds (GBs) to be offered under the Infrastructure Bond Programme (IBP) and Government Sustainable Bond Programme (GSBP) for the six-month period from October 2026 to March 2027 (Annex 1). The GBs are denominated in Hong Kong dollars (HKD) and renminbi (RMB) and will be offered by way of competitive tendering. The tentative issuance schedule contains information on, among others, the tentative tenors, tender dates, issuance sizes, issue dates and methods of issuance of individual GB issues. Further details are set out in the Information Memorandum published on the Hong Kong Government Bonds website, https://www.hkgb.gov.hk.\n\nThe HKMA also re-appoints 13 financial institutions as Primary Dealers under the institutional part of the IBP and GSBP to assist in the implementation of the GB tenders (Annex 2). Primary Dealers are also expected to provide two-way bid-and-offer quotations in the secondary market to facilitate GB trading. The latest appointment of Primary Dealers covers the two-year period from October 2026 to September 2028.\n\nThe information contained in the tentative issuance schedule, such as the tenors, tender dates, issuance sizes, issue dates and methods of issuance are tentative.\n\nA revised issuance schedule may be issued where appropriate.",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-08",
@@ -370,11 +431,27 @@
       "regulatory_domain": "market_infrastructure",
       "change_type": "official_release",
       "impact_status": "review_required",
-      "summary": "Official release detected: Interest rate of fourth interest payment for Silver Bond Series due 2027",
+      "summary": "HKMA发布《Interest rate of fourth interest…》。正文：announced today (8 October) the relevant per annum interest rate for the fourth interest payment of…",
       "evidence": [
-        "Interest rate of fourth interest payment for Silver Bond Series due 2027"
+        "The Hong Kong Monetary Authority, as representative of the Hong Kong Special Administrative Region Government, announced today (8 October) the relevant per annum interest rate for the fourth interest payment of Silver Bond Series due 2027 (Issue Number: 03GB2710R) (the Bonds) issued under the Infrastructure Bond Programme.",
+        "According to the Issue Circular dated 30 September 2024 for the Bonds, the fourth interest payment of the Bonds is scheduled to be made on 23 October 2026, and the relevant interest rate is scheduled to be determined and announced on 8 October 2026 as the higher of the prevailing Floating Rate and Fixed Rate.",
+        "On 8 October 2026, the Floating Rate and Fixed Rate are as follows:"
       ],
-      "human_review_required": true
+      "human_review_required": true,
+      "source_text_chars": 1224,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261008-3/",
+      "key_points": [
+        "The Hong Kong Monetary Authority, as representative of the Hong Kong Special Administrative Region Government, announced today (8 October) the relevant per annum interest rate for the fourth interest payment of Silver Bond Series due 2027 (Issue Number: 03GB2710R) (the Bonds) issued under the Infrastructure Bond Programme.",
+        "According to the Issue Circular dated 30 September 2024 for the Bonds, the fourth interest payment of the Bonds is scheduled to be made on 23 October 2026, and the relevant interest rate is scheduled to be determined and announced on 8 October 2026 as the higher of the prevailing Floating Rate and Fixed Rate.",
+        "On 8 October 2026, the Floating Rate and Fixed Rate are as follows:",
+        "Based on the Floating Rate and Fixed Rate set out above, the relevant interest rate for the fourth interest payment is determined and announced as 4.00% per annum."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "source_excerpt": "The Hong Kong Monetary Authority, as representative of the Hong Kong Special Administrative Region Government, announced today (8 October) the relevant per annum interest rate for the fourth interest payment of Silver Bond Series due 2027 (Issue Number: 03GB2710R) (the Bonds) issued under the Infrastructure Bond Programme.\n\nAccording to the Issue Circular dated 30 September 2024 for the Bonds, the fourth interest payment of the Bonds is scheduled to be made on 23 October 2026, and the relevant interest rate is scheduled to be determined and announced on 8 October 2026 as the higher of the prevailing Floating Rate and Fixed Rate.\n\nOn 8 October 2026, the Floating Rate and Fixed Rate are as follows:\n\nBased on the Floating Rate and Fixed Rate set out above, the relevant interest rate for the fourth interest payment is determined and announced as 4.00% per annum.\n\nFloating Rate: +1.80%1\n\nFixed Rate: +4.00%\n\n***************************\n\nMonth\n\nYear-on-year rates of change in the 2019/20-based\n\nComposite Consumer Price Index (%)\n\nMarch 2026\n\n+1.70\n\nApril 2026\n\nMay 2026\n\n+2.00\n\nJune 2026\n\nJuly 2026\n\nAugust 2026\n\nArithmetic Average",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-08",
@@ -2025,5 +2102,10 @@
       ],
       "human_review_required": true
     }
-  ]
+  ],
+  "backfill": {
+    "attempted": 1,
+    "updated": 1,
+    "errors": []
+  }
 }

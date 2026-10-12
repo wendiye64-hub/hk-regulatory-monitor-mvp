@@ -842,7 +842,7 @@ const handleCreateTaskForSelection = () => {
               </div>
 
               <!-- Summary -->
-              <p class="text-xs text-neutral-600 line-clamp-3 leading-relaxed">
+              <p class="text-xs text-neutral-600 line-clamp-5 leading-relaxed">
                 {{ alert.aiRelevanceSummary }}
               </p>
             </div>

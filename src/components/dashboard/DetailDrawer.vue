@@ -381,11 +381,11 @@ onUnmounted(() => {
                 <div class="flex items-center gap-2">
                   <Sparkles class="w-4 h-4 text-blue-600" />
                   <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900">
-                    AI Impact Analysis
+                    {{ regulation.summaryMethod ? 'Official Source Summary' : 'AI Impact Analysis' }}
                   </h3>
                 </div>
                 <span class="text-xs font-semibold text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full">
-                  Automated Synthesis
+                  {{ regulation.summaryMethod === 'extractive' ? '原文抽取' : regulation.summaryMethod === 'title_only' ? '正文不可用' : 'Automated Synthesis' }}
                 </span>
               </div>
 
@@ -394,6 +394,31 @@ onUnmounted(() => {
                 <p class="text-xs text-neutral-700 leading-relaxed">
                   {{ regulation.executiveSummary }}
                 </p>
+                <span v-if="regulation.humanReviewRequired" class="inline-flex mt-2 text-xs font-medium px-2 py-0.5 rounded-md border border-amber-200 bg-amber-50 text-amber-700">待人工复核 · 总结不构成合规结论</span>
+                <p v-if="regulation.backfillError" class="mt-2 text-xs text-amber-700">本次补全失败，保留旧数据：{{ regulation.backfillError }}</p>
+              </div>
+
+              <div v-if="regulation.keyPoints !== undefined">
+                <h4 class="text-xs font-bold text-neutral-900 mb-1">Key Points · 原文要点</h4>
+                <ul v-if="regulation.keyPoints.length" class="list-disc pl-4 space-y-2 text-xs text-neutral-700 leading-relaxed">
+                  <li v-for="(point, index) in regulation.keyPoints" :key="index">{{ point }}</li>
+                </ul>
+                <p v-else class="text-xs text-neutral-500">未能从正文抽取要点。</p>
+              </div>
+              <div v-if="regulation.keyDates !== undefined">
+                <h4 class="text-xs font-bold text-neutral-900 mb-1">Key Dates · 关键日期</h4>
+                <div v-for="(date, index) in regulation.keyDates" :key="index" class="mb-2 text-xs text-neutral-700 leading-relaxed">
+                  <span class="font-semibold">{{ { effective: '生效', deadline: '截止', consultation: '咨询期' }[date.kind] }}：{{ date.date }}</span>
+                  <p class="mt-1 text-neutral-500">{{ date.evidence }}</p>
+                </div>
+                <p v-if="!regulation.keyDates.length" class="text-xs text-neutral-500">未抽取到明确的生效日、截止日或咨询期；请核对官方原文。</p>
+              </div>
+              <div v-if="regulation.affectedParties !== undefined">
+                <h4 class="text-xs font-bold text-neutral-900 mb-1">Affected Parties · 原文明示对象</h4>
+                <div class="flex flex-wrap gap-1.5">
+                  <span v-for="party in regulation.affectedParties" :key="party" class="text-xs font-medium bg-white text-neutral-800 border border-neutral-200 px-2.5 py-0.5 rounded-lg">{{ party }}</span>
+                  <p v-if="!regulation.affectedParties.length" class="text-xs text-neutral-500">未抽取到明确的适用对象。</p>
+                </div>
               </div>
 
               <div>
@@ -403,7 +428,7 @@ onUnmounted(() => {
                 </p>
               </div>
 
-              <div>
+              <div v-if="regulation.affectedBusinessUnits.length">
                 <h4 class="text-xs font-bold text-neutral-900 mb-1.5 flex items-center gap-1">
                   <Building2 class="w-3.5 h-3.5 text-neutral-500" />
                   Affected Units
@@ -574,7 +599,10 @@ onUnmounted(() => {
                 <div class="text-[11px] font-semibold text-neutral-500 flex items-center gap-1">
                   <FileText class="w-3 h-3 text-neutral-400" />
                   <span>Official Text Excerpt:</span>
+                  <span v-if="regulation.textExtraction" class="text-xs font-medium px-2 py-0.5 rounded-md border border-neutral-200 bg-white text-neutral-600">{{ regulation.textExtraction === 'success' ? '正文已抽取' : regulation.textExtraction === 'failed' ? '正文抽取失败' : '待抽取正文' }} · {{ regulation.sourceTextChars || 0 }} 字符</span>
                 </div>
+                <p v-if="regulation.textExtractionError" class="text-xs text-amber-700">{{ regulation.textExtractionError }}</p>
+                <a v-if="regulation.sourceTextUrl && regulation.sourceTextUrl !== regulation.officialUrl" :href="regulation.sourceTextUrl" target="_blank" rel="noopener noreferrer" class="text-xs text-blue-600 hover:text-blue-800">查看官方正文文件</a>
                 <div class="p-3.5 bg-neutral-50 text-neutral-800 rounded-xl text-xs font-mono leading-relaxed max-h-52 overflow-y-auto whitespace-pre-wrap border border-neutral-200 border-l-4 border-l-blue-600">
                   {{ regulation.authenticExcerpt }}
                 </div>
@@ -683,4 +711,3 @@ onUnmounted(() => {
   transform: translateX(0);
 }
 </style>
-

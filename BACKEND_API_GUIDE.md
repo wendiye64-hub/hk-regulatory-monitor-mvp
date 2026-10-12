@@ -72,7 +72,7 @@ VITE_API_TIMEOUT_MS=5000
         "aiRelevanceScore": 98,
         "materiality": "Critical",
         "diligenceStatus": "Not Imported",
-        "owner": "Sarah Jenkins",
+        "owner": "Demo Compliance Officer",
         "officialUrl": "https://www.hkma.gov.hk",
         "executiveSummary": "Mandates 24-hour initial notification for operational disruptions.",
         "operationalImpact": "Requires multi-cloud failover drills and incident reporting SLAs.",
@@ -96,7 +96,7 @@ VITE_API_TIMEOUT_MS=5000
   ```json
   {
     "status": "In Progress",
-    "performedBy": "Ivan Choy",
+    "performedBy": "Demo Lead",
     "details": "Initiated compliance impact review across Trading Desks"
   }
   ```
@@ -109,7 +109,7 @@ VITE_API_TIMEOUT_MS=5000
     "field": "materiality",
     "newTier": "High",
     "justification": "Institutional trading desks operate within secondary threshold.",
-    "user": "Sarah Jenkins"
+    "user": "Demo Compliance Officer"
   }
   ```
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue';
+import { ref, computed, watch, onMounted, defineAsyncComponent } from 'vue';
 import { initialMockData } from '@/data/mockData';
 import { INITIAL_MATRIX_SESSIONS } from '@/data/matrixMockData';
 import { api, getBackendStatus, setCustomBaseUrl } from '@/services/api';
@@ -26,6 +26,8 @@ import RegulatorView from '@/components/views/RegulatorView.vue';
 import TasksView from '@/components/views/TasksView.vue';
 import CreateTaskModal from '@/components/modals/CreateTaskModal.vue';
 import RegulatorDetailDrawer from '@/components/modals/RegulatorDetailDrawer.vue';
+import { isResearchApiConfigured } from '@/services/researchApi';
+const RegulatoryCopilot = defineAsyncComponent(() => import('@/components/copilot/RegulatoryCopilot.vue'));
 import DetailDrawer from '@/components/dashboard/DetailDrawer.vue';
 import ScopeConfigDrawer from '@/components/scope/ScopeConfigDrawer.vue';
 import HistoricalBackfillDrawer from '@/components/scope/HistoricalBackfillDrawer.vue';
@@ -47,7 +49,7 @@ const directoryStore = useDirectoryStore();
 const monitorStore = useMonitorStore();
 const taskStore = useTaskStore();
 
-type MainNavView = 'news-feed' | 'regulator' | 'tasks';
+type MainNavView = 'news-feed' | 'regulator' | 'tasks' | 'copilot';
 
 // --- Navigation State ---
 const activeView = ref<MainNavView>('news-feed');
@@ -158,7 +160,7 @@ const handleSelectRegulationOrAlert = (item: any) => {
         operationalImpact: 'Supervisory notice requiring governance review.',
         affectedBusinessUnits: ['Compliance', 'Legal', 'Risk'],
         authenticExcerpt: item.aiRelevanceSummary,
-        owner: 'Ivan Choy',
+        owner: 'Demo Lead',
         auditTimeline: [],
       };
     }
@@ -249,7 +251,7 @@ const isImportCollisionModalOpen = ref(false);
 const incomingDocsToImport = ref<RegulationItem[]>([]);
 
 // --- Regulatory Copilot Matrix Sessions State ---
-const matrixSessions = ref<MatrixSessionState[]>(INITIAL_MATRIX_SESSIONS);
+const matrixSessions = ref<MatrixSessionState[]>(isResearchApiConfigured() ? [] : INITIAL_MATRIX_SESSIONS);
 const activeMatrixSessionId = ref<string>(INITIAL_MATRIX_SESSIONS[0].sessionId);
 const isSetupMatrixModalOpen = ref(false);
 
@@ -391,7 +393,7 @@ const handleAcknowledgeAlert = (alertId: string) => {
   const nowTimestamp = nowUtc();
   priorityAlerts.value = priorityAlerts.value.map((a) =>
     a.id === alertId
-      ? { ...a, status: 'acknowledged', actionDate: nowTimestamp, assignedTo: 'Ivan Choy' }
+      ? { ...a, status: 'acknowledged', actionDate: nowTimestamp, assignedTo: 'Demo Lead' }
       : a
   );
 
@@ -399,7 +401,7 @@ const handleAcknowledgeAlert = (alertId: string) => {
     id: `audit-ack-${Date.now()}`,
     timestamp: nowTimestamp,
     action: 'Acknowledged via Priority Alert Feed (Added to Regulations in Scope)',
-    performedBy: 'Ivan Choy (Lead)',
+    performedBy: 'Demo Lead (Lead)',
     details:
       'Supervisory alert acknowledged. Regulation accepted into active monitoring scope for compliance review.',
   };
@@ -438,7 +440,7 @@ const handleAcknowledgeAlert = (alertId: string) => {
         'Requires supervisory review and gap alignment with current internal policies.',
       affectedBusinessUnits: ['Compliance', 'Risk Management', 'Legal'],
       authenticExcerpt: targetAlert.aiRelevanceSummary,
-      owner: 'Ivan Choy',
+      owner: 'Demo Lead',
       auditTimeline: [ackAuditEntry],
     };
     regulations.value = [newReg, ...regulations.value];
@@ -471,7 +473,7 @@ const handleDismissAlert = (alertId: string) => {
           actionDate: nowTimestamp,
           actionDetails:
             'Dismissed by compliance lead as irrelevant; archived to audit trail.',
-          assignedTo: 'Ivan Choy',
+          assignedTo: 'Demo Lead',
         }
       : a
   );
@@ -513,7 +515,7 @@ const handleRestoreAlert = (alertId: string) => {
               id: `audit-restore-${Date.now()}`,
               timestamp: nowTimestamp,
               action: 'Restored to Priority Alert Feed',
-              performedBy: 'Ivan Choy (Lead)',
+              performedBy: 'Demo Lead (Lead)',
               details:
                 'Re-opened from processed history back into Priority Alert Feed for re-evaluation.',
             },
@@ -587,7 +589,7 @@ const handleConfirmImportWithCollision = (config: {
             id: `audit-dir-${Date.now()}-${doc.id}`,
             timestamp: nowTimestamp,
             action: actionText,
-            performedBy: 'Ivan Choy (Lead)',
+            performedBy: 'Demo Lead (Lead)',
             details: detailsText,
           },
           ...(doc.auditTimeline || []),
@@ -614,7 +616,7 @@ const handleConfirmImportWithCollision = (config: {
         id: `audit-${Date.now()}-${item.id}`,
         timestamp: nowTimestamp,
         action: actionText,
-        performedBy: 'Ivan Choy (Lead)',
+        performedBy: 'Demo Lead (Lead)',
         details: detailsText,
       };
 
@@ -641,7 +643,7 @@ const handleConfirmImportWithCollision = (config: {
 
   priorityAlerts.value = priorityAlerts.value.map((alert) =>
     config.documentIds.includes(alert.regulationId)
-      ? { ...alert, status: 'imported', actionDate: nowTimestamp, assignedTo: 'Ivan Choy' }
+      ? { ...alert, status: 'imported', actionDate: nowTimestamp, assignedTo: 'Demo Lead' }
       : alert
   );
 
@@ -677,7 +679,7 @@ const handleConfirmOverride = (
   rationale: string
 ) => {
   const timestamp = nowUtc();
-  const updatedUser = 'Ivan Choy (Lead)';
+  const updatedUser = 'Demo Lead (Lead)';
 
   regulations.value = regulations.value.map((item) => {
     if (item.id === regulationId) {
@@ -1153,12 +1155,12 @@ const handleCloseScopeDrawer = () => {
 
 const handleSelectMatrixSession = (sessionId: string) => {
   activeMatrixSessionId.value = sessionId;
-  activeView.value = 'tasks';
+  activeView.value = 'copilot';
 };
 
 const handleNewMatrixWorkspace = () => {
-  activeView.value = 'tasks';
-  handleOpenGeneralCreateTask();
+  activeView.value = 'copilot';
+  isSetupMatrixModalOpen.value = true;
 };
 
 const handleToggleSaveSession = (sessionId: string) => {
@@ -1271,6 +1273,14 @@ const mainContentStyle = computed(() => ({
           @toggleFollowRegulatorByAcronym="handleToggleFollowRegulatorByAcronym"
           @showToast="(title, msg, type) => addToast(title, msg, type)"
         />
+        <KeepAlive>
+          <RegulatoryCopilot
+            v-if="activeView === 'copilot'"
+            v-model:matrixSessions="matrixSessions"
+            v-model:activeMatrixSessionId="activeMatrixSessionId"
+            v-model:isSetupMatrixModalOpen="isSetupMatrixModalOpen"
+          />
+        </KeepAlive>
       </main>
     </div>
 

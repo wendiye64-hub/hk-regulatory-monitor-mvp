@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch, nextTick } from 'vue';
+import { ref, computed, watch, nextTick, onDeactivated, onMounted, onUnmounted } from 'vue';
 import {
   ChevronLeft,
   ChevronRight,
@@ -23,6 +23,20 @@ import type {
   MatrixFollowUpItem,
 } from '@/types';
 
+import ResearchEvidenceDrawer from './ResearchEvidenceDrawer.vue';
+import ResearchEvidencePanel from './ResearchEvidencePanel.vue';
+import { safeOfficialUrl, cellSummary } from '@/services/researchApi';
+
+const elapsedNow = ref(Date.now());
+let elapsedTimer: ReturnType<typeof setInterval>;
+onMounted(() => { elapsedTimer = setInterval(() => { elapsedNow.value = Date.now(); }, 1000); });
+onUnmounted(() => clearInterval(elapsedTimer));
+const elapsedLabel = (start?: string, finish?: string) => {
+  if (!start) return '';
+  const seconds = Math.max(0, Math.floor(((finish ? Date.parse(finish) : elapsedNow.value) - Date.parse(start)) / 1000));
+  return `${Math.floor(seconds / 60)} 分 ${seconds % 60} 秒`;
+};
+
 interface FollowUpCard extends MatrixFollowUpItem {
   scope?: 'macro' | 'country';
 }
@@ -35,7 +49,12 @@ const emit = defineEmits<{
   (e: 'updateSession', session: MatrixSessionState): void;
   (e: 'openNewMatrixModal'): void;
   (e: 'exportCsv'): void;
+  (e: 'retryResearch', key: string): void;
 }>();
+
+const evidenceOpen = ref(false);
+onDeactivated(() => { evidenceOpen.value = false; });
+const isLive = computed(() => props.session.mode === 'live');
 
 // Navigation Coordinates
 const activeQIndex = ref(0);
@@ -74,6 +93,7 @@ const rightPaneRef = ref<HTMLElement | null>(null);
 watch(
   () => props.session.sessionId,
   () => {
+    evidenceOpen.value = false;
     activeQIndex.value = 0;
     activeJurCode.value = props.session.jurisdictions[0]?.code || 'HK';
   }
@@ -152,7 +172,7 @@ const handleCopyHash = (id: string, hash: string) => {
 
 // Follow-Up Inquiry Handler
 const handleSendFollowUp = async () => {
-  if (!followUpPrompt.value.trim() || isProcessingFollowUp.value) return;
+  if (isLive.value || !followUpPrompt.value.trim() || isProcessingFollowUp.value) return;
 
   const promptText = followUpPrompt.value.trim();
   const isBroadcast = applyToAllJurisdictions.value;
@@ -523,12 +543,12 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                 </span>
               </div>
               <span class="text-xs bg-blue-50 text-blue-700 font-medium px-2 py-0.5 rounded-full border border-blue-200">
-                Macro
+                {{ isLive ? '确定性汇总 · 待复核' : 'Macro' }}
               </span>
             </div>
 
-            <div class="text-xs text-neutral-700 leading-relaxed mt-2">
-              {{ currentQuestion?.crossCountrySummary }}
+            <div class="text-xs text-neutral-700 leading-relaxed mt-2 whitespace-pre-wrap" role="status">
+              {{ currentQuestion?.crossCountrySummary || (isLive ? '等待全部辖区完成。' : '暂无跨辖区总结。') }}
             </div>
           </div>
 
@@ -667,7 +687,7 @@ const parseMarkdownWithCitations = (markdownText: string) => {
               </div>
 
               <!-- Compliance status legend -->
-              <div class="flex items-center gap-3 text-xs text-neutral-500 font-medium">
+              <div v-if="!isLive" class="flex items-center gap-3 text-xs text-neutral-500 font-medium">
                 <span class="flex items-center gap-1">
                   <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block" /> Permitted
                 </span>
@@ -698,7 +718,9 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                 <!-- Semantic Status Dot -->
                 <span
                   :class="`w-2 h-2 rounded-full shrink-0 ${
-                    (session.matrixCells[`${currentQuestion?.questionId}_${jur.code}`]?.complianceStatus || jur.complianceStatus) === 'compliant'
+                    isLive && session.matrixCells[`${currentQuestion?.questionId}_${jur.code}`]?.complianceStatus !== 'conditional'
+                      ? 'bg-neutral-400 ring-2 ring-neutral-200'
+                      : (session.matrixCells[`${currentQuestion?.questionId}_${jur.code}`]?.complianceStatus || jur.complianceStatus) === 'compliant'
                       ? 'bg-emerald-500 ring-2 ring-emerald-200'
                       : (session.matrixCells[`${currentQuestion?.questionId}_${jur.code}`]?.complianceStatus || jur.complianceStatus) === 'conditional'
                       ? 'bg-amber-500 ring-2 ring-amber-200'
@@ -736,7 +758,9 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                 >
                   <span
                     :class="`w-2 h-2 rounded-full ${
-                      activeCell.complianceStatus === 'compliant'
+                      isLive && activeCell.complianceStatus !== 'conditional'
+                        ? 'bg-neutral-400'
+                        : activeCell.complianceStatus === 'compliant'
                         ? 'bg-emerald-500'
                         : activeCell.complianceStatus === 'conditional'
                         ? 'bg-amber-500'
@@ -747,6 +771,14 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                 </div>
               </div>
 
+              <div v-if="isLive && activeCell" class="flex items-center justify-between gap-2 mb-3 flex-wrap">
+                <span v-if="activeCell.researchStartedAt" class="text-xs text-neutral-500">{{ activeCell.researchFinishedAt ? '总用时' : '已等待' }} {{ elapsedLabel(activeCell.researchStartedAt, activeCell.researchFinishedAt) }}</span><button type="button" @click="evidenceOpen = true" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-blue-600 hover:bg-blue-50 border border-blue-200 transition-colors cursor-pointer">打开完整证据</button>
+                <button v-if="activeCell.researchState === 'error'" type="button" @click="emit('retryResearch', activeCellKey)" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-neutral-700 border border-neutral-300 hover:bg-neutral-100 cursor-pointer">重试研究</button>
+              </div>
+              <div v-if="isLive" id="cell-research-summary" class="mb-3 p-3 bg-neutral-50 rounded-lg border border-neutral-200/80 space-y-1.5">
+                <h4 class="text-xs font-semibold text-neutral-800 flex items-center gap-1.5"><Sparkles class="w-3.5 h-3.5 text-blue-600" />总结 · {{ activeCell?.statusBadgeLabel || '研究中' }}</h4>
+                <p class="text-xs text-neutral-700 leading-relaxed whitespace-pre-wrap">{{ activeCell?.researchSummary || cellSummary(activeCell) }}</p>
+              </div>
               <!-- Answer with interactive citations -->
               <div v-if="activeCell" class="space-y-3">
                 <div class="text-xs sm:text-sm text-neutral-800 leading-relaxed space-y-3 prose-sm">
@@ -761,7 +793,8 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                         type="button"
                         @click="() => {
                           const targetCitation = activeCell?.verifiedCitations[0];
-                          if (targetCitation) handleCitationClick(targetCitation.citationId);
+                          if (isLive) evidenceOpen = true;
+                          else if (targetCitation) handleCitationClick(targetCitation.citationId);
                         }"
                         class="inline-flex items-center mx-1 px-1.5 py-0.5 rounded bg-blue-50 hover:bg-blue-100 text-blue-800 font-mono text-xs font-semibold transition-colors cursor-pointer border border-blue-200"
                         title="Highlight citation"
@@ -779,7 +812,7 @@ const parseMarkdownWithCitations = (markdownText: string) => {
                   class="mt-3 p-3 bg-neutral-50 rounded-lg border border-neutral-200/80 space-y-1.5"
                 >
                   <span class="text-xs font-semibold text-neutral-800 flex items-center gap-1.5">
-                    <CheckCircle2 class="w-3.5 h-3.5 text-emerald-600" />
+                    <CheckCircle2 class="w-3.5 h-3.5 text-blue-600" />
                     Key Takeaways
                   </span>
                   <ul class="space-y-1 text-xs text-neutral-700 pl-4 list-disc">
@@ -950,11 +983,13 @@ const parseMarkdownWithCitations = (markdownText: string) => {
             <span>
               Scope: <strong class="text-neutral-800">{{ currentJurisdiction.name }}</strong> × Question {{ activeQIndex + 1 }}
             </span>
-            <span class="text-emerald-700 font-medium flex items-center gap-1">
+            <span v-if="!isLive" class="text-emerald-700 font-medium flex items-center gap-1">
               <Check class="w-3 h-3" /> Verified
             </span>
           </div>
 
+          <ResearchEvidencePanel v-if="isLive && activeCell" :cell="activeCell" />
+          <template v-else>
           <div
             v-if="!activeCell || activeCell.verifiedCitations.length === 0"
             class="p-8 text-center rounded-xl border border-dashed border-neutral-300 bg-white text-neutral-400 text-xs"
@@ -990,7 +1025,7 @@ const parseMarkdownWithCitations = (markdownText: string) => {
               </div>
 
               <a
-                :href="citation.sourceUrl"
+                :href="safeOfficialUrl(citation.sourceUrl)"
                 target="_blank"
                 rel="noreferrer"
                 class="p-1 rounded-lg text-neutral-400 hover:text-blue-600 hover:bg-neutral-100 transition-colors shrink-0"
@@ -1037,13 +1072,17 @@ const parseMarkdownWithCitations = (markdownText: string) => {
               </div>
             </div>
           </div>
+          </template>
         </div>
       </div>
     </div>
 
+    <ResearchEvidenceDrawer :is-open="evidenceOpen" :cell="activeCell" :question="currentQuestion?.questionText" :jurisdiction="currentJurisdiction?.name" @close="evidenceOpen = false" />
+
     <!-- 4. Bottom Follow-up Input Bar -->
     <div
       id="follow-up-input-bar"
+      v-if="!isLive"
       class="bg-white border-t border-neutral-200 px-4 sm:px-6 py-3 shrink-0 shadow-sm z-20"
     >
       <div class="max-w-5xl mx-auto space-y-2">

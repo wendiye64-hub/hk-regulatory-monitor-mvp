@@ -58,10 +58,20 @@ export interface RawBackendMonitorFeedItem {
   impact_status: string; // "potential_impact" | "review_required" | "no_clear_impact"
   summary: string;
   evidence: string[];
+  source_excerpt?: string;
+  source_text_chars?: number;
+  source_text_url?: string;
+  text_extraction?: 'success' | 'failed' | 'not_attempted';
+  text_extraction_error?: string;
+  summary_method?: string;
+  key_points?: string[];
+  key_dates?: { date: string; kind: 'effective' | 'deadline' | 'consultation'; evidence: string }[];
+  affected_parties?: string[];
   human_review_required?: boolean;
 }
 
 export interface RawBackendMonitorFeedResponse {
+  backfill?: { attempted: number; updated: number; errors: { official_url: string; error: string }[] };
   generated_at?: string;
   monitor_request?: string;
   sources_checked?: number;
@@ -240,7 +250,7 @@ export function adaptBackendCatalogToRegulators(
       latestPublication: `${srcList.length} monitored official endpoint(s) mapped`,
       health,
       openAlertsCount: srcList.filter((s) => s.alert_eligible).length,
-      owner: 'Ivan Choy (Lead)',
+      owner: 'Demo Lead (Lead)',
       officialEndpoint: primary.url,
       endpointLatencyMs: hasActive ? 220 : 410,
       subScopes,
@@ -271,6 +281,7 @@ export function adaptBackendMonitorFeed(
 
   const alerts: PriorityAlert[] = [];
   const regulations: RegulationItem[] = [];
+  const backfillErrors = new Map((Array.isArray(feed) ? [] : feed.backfill?.errors || []).map(error => [error.official_url, error.error]));
 
   items.forEach((item, index) => {
     const regId = `reg-hk-${item.source_id.toLowerCase()}-${index + 1}`;
@@ -296,9 +307,12 @@ export function adaptBackendMonitorFeed(
     const materiality = mapImpactStatusToMateriality(item.impact_status, item.title);
     const docType = mapChangeTypeToDocType(item.change_type);
     const category = normalizeSectorToGroup(item.regulatory_domain);
-    const authenticExcerpt = Array.isArray(item.evidence) && item.evidence.length > 0
+    const authenticExcerpt = item.text_extraction === 'failed' || item.text_extraction === 'not_attempted'
+      ? '仅能获取标题，未能抽取正文'
+      : item.source_excerpt || (Array.isArray(item.evidence) && item.evidence.length > 0
       ? item.evidence.join('\n\n')
-      : item.summary;
+      : '旧数据未保存原文摘录，请查看官方链接。');
+    const effectiveDate = item.key_dates?.find(date => date.kind === 'effective')?.date || '未提供';
 
     const isPendingAlert = item.human_review_required !== false && item.impact_status !== 'no_clear_impact';
 
@@ -314,20 +328,27 @@ export function adaptBackendMonitorFeed(
       category,
       themes: [item.regulatory_domain, item.change_type],
       publishDate: item.publication_date,
-      effectiveDate: item.publication_date,
+      effectiveDate,
       aiRelevanceScore:
         materiality === 'Direct / Highly Relevant' ? 95 : materiality === 'Relevant' ? 85 : 70,
       materiality,
       diligenceStatus: isPendingAlert ? 'Not Imported' : 'Monitored',
-      owner: 'Ivan Choy (Lead)',
+      owner: 'Demo Lead (Lead)',
       officialUrl: item.official_url,
-      executiveSummary: item.summary,
-      operationalImpact:
-        item.impact_status === 'potential_impact'
-          ? 'Requires comprehensive impact assessment on existing compliance controls and transaction disclosures.'
-          : 'Supervisory informational release; routine monitoring and team notification.',
-      affectedBusinessUnits: ['Compliance', 'Legal', 'Risk Management'],
+      executiveSummary: item.summary || '仅能获取标题，未能抽取正文',
+      operationalImpact: '待人工评估；公告总结不构成合规结论。',
+      affectedBusinessUnits: [],
       authenticExcerpt,
+      keyPoints: item.key_points,
+      keyDates: item.key_dates,
+      affectedParties: item.affected_parties,
+      textExtraction: item.text_extraction,
+      textExtractionError: item.text_extraction_error,
+      sourceTextChars: item.source_text_chars,
+      sourceTextUrl: item.source_text_url,
+      summaryMethod: item.summary_method,
+      humanReviewRequired: item.human_review_required !== false,
+      backfillError: backfillErrors.get(item.official_url),
       auditTimeline: [
         {
           id: `audit-${Date.now()}-${index}`,
@@ -352,9 +373,9 @@ export function adaptBackendMonitorFeed(
         category,
         themes: [item.regulatory_domain, item.change_type],
         materiality,
-        aiRelevanceSummary: item.summary,
+        aiRelevanceSummary: item.summary || '仅能获取标题，未能抽取正文',
         publishDate: item.publication_date,
-        effectiveDate: item.publication_date,
+        effectiveDate,
         slaDeadline: '48h from detection',
         isOverdueSLA: false,
         status: 'pending',

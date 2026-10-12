@@ -90,7 +90,7 @@ const handleItemMouseEnter = (e: MouseEvent, sess: MatrixSessionState) => {
       title: sess.sessionTitle,
       tags: sess.jurisdictions.map((j) => `${j.code} (${j.regulatorAcronym})`),
       updatedAt: sess.updatedAt,
-      creator: sess.creator || 'Ivan Choy (Lead Compliance Officer)',
+      creator: sess.creator || 'Demo Lead (Lead Compliance Officer)',
       x: tooltipX,
       y: tooltipY,
     };

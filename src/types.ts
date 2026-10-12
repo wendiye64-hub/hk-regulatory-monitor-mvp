@@ -1,3 +1,4 @@
+import type { ResearchEvidence, ResearchState } from './services/researchApi';
 export type RelevanceLevel =
   | 'Direct / Highly Relevant'
   | 'Relevant'
@@ -179,6 +180,16 @@ export interface RegulationItem {
   operationalImpact: string;
   affectedBusinessUnits: string[];
   authenticExcerpt: string;
+  keyPoints?: string[];
+  keyDates?: { date: string; kind: 'effective' | 'deadline' | 'consultation'; evidence: string }[];
+  affectedParties?: string[];
+  textExtraction?: 'success' | 'failed' | 'not_attempted';
+  textExtractionError?: string;
+  sourceTextChars?: number;
+  sourceTextUrl?: string;
+  summaryMethod?: string;
+  humanReviewRequired?: boolean;
+  backfillError?: string;
   auditTimeline: AuditEntry[];
   overrides?: OverrideRecord[];
   whyRelevantExplanation?: string;
@@ -408,7 +419,9 @@ export interface MatrixCitationItem {
   excerpt: string;
   highlightedTerms?: string[];
   sha256: string;
-  relevanceScore: number;
+  relevanceScore?: number;
+  evidenceType?: 'direct' | 'indirect';
+  retrievedAt?: string;
   relevanceTag?: string; // e.g. 'Mandatory Statutory Condition'
 }
 
@@ -425,6 +438,14 @@ export interface MatrixFollowUpItem {
 }
 
 export interface MatrixCellData {
+  researchState?: ResearchState;
+  researchPhase?: 'submitting' | 'queued' | 'running' | 'cancelling' | 'completed' | 'failed' | 'cancelled';
+  researchStartedAt?: string;
+  researchFinishedAt?: string;
+  researchSummary?: string;
+  researchJobId?: string;
+  researchError?: string;
+  researchEvidence?: ResearchEvidence;
   answerMarkdown: string;
   complianceStatus: MatrixComplianceStatus;
   statusBadgeLabel: string;
@@ -434,6 +455,8 @@ export interface MatrixCellData {
 }
 
 export interface MatrixSessionState {
+  mode?: 'live' | 'demo';
+  researchScope?: string;
   sessionId: string;
   sessionTitle: string;
   activeQuestionIndex: number; // Dimension 1 controller (0 ~ N-1)
@@ -514,5 +537,3 @@ export interface SourceQualityTelemetry {
 }
 
 export type { ComplianceTask, TaskQuestion, RetrievedUrlItem, CitationItem } from './stores/taskStore';
-
-
