@@ -1,109 +1,131 @@
 {
-  "generated_at": "2026-10-11T21:57:21.101Z",
+  "generated_at": "2026-10-12T02:21:23.530Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5146,
+  "duration_ms": 11228,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3890,
+      "duration_ms": 3736,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3792,
+      "duration_ms": 2178,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3888,
+      "duration_ms": 4072,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4933,
+      "duration_ms": 3471,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5097,
+      "duration_ms": 3723,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3153,
+      "duration_ms": 2541,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2874,
+      "duration_ms": 3593,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1455,
+      "duration_ms": 3385,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3024,
+      "duration_ms": 3151,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3022,
+      "duration_ms": 3148,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3022,
+      "duration_ms": 3148,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3022,
+      "duration_ms": 3148,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3022,
+      "duration_ms": 3148,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3022,
+      "duration_ms": 3148,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-12",
+      "title": "RE-COMMENCEMENT OF TRADING pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_022_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only",
+      "source_text_chars": 0,
+      "text_extraction": "not_attempted",
+      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+    },
     {
       "publication_date": "2026-10-09",
       "title": "Margin Rates pdf",
@@ -2083,29 +2105,6 @@
         "Tender date : 22 September 2026 Paper on offer : EF Bills Issue number : Y2695 Issue date : 23 September 2026 Maturity date : 22 September 2027"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-22",
-      "title": "HKICL alerts public of fraudulent websites",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260922-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "observed_current_release",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "fraud_alert",
-      "impact_status": "no_clear_impact",
-      "summary": "HKICL warned the public about fraudulent websites impersonating its services; this is an operational fraud alert, not a rule change.",
-      "evidence": [
-        "Hong Kong Interbank Clearing Limited (HKICL) has recently noted two fraudulent websites purported to be from HKICL: Type 1: fpshkpay.life",
-        "HKICL advises that these fraudulent websites have no affiliation with HKICL, or any business of HKICL.",
-        "The genuine official website addresses of HKICL are https://www.hkicl.com.hk and https://fps.hkicl.com.hk"
-      ],
-      "human_review_required": true
     }
-  ],
-  "backfill": {
-    "attempted": 1,
-    "updated": 1,
-    "errors": []
-  }
+  ]
 }
