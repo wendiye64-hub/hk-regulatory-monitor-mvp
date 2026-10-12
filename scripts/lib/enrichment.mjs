@@ -3,6 +3,26 @@ import { aiTriage, deterministicTriage } from './triage.mjs';
 import { mapLimit } from './http.mjs';
 
 export const boundedNumber = (value, fallback, max) => Math.max(1, Math.min(max, Number.parseInt(value, 10) || fallback));
+
+export function planMonitorEnrichment(collected, previousItems, { limit = 12, maxItems = 120 } = {}) {
+  const previousByUrl = new Map(previousItems.map(item => [item.official_url, item]));
+  const merged = new Map(previousByUrl);
+  for (const item of collected) {
+    if (previousByUrl.has(item.official_url)) continue;
+    const { evidence_text, ...publicItem } = item;
+    merged.set(item.official_url, { ...publicItem, detection: 'new_official_publication', ...deterministicTriage(item, ''),
+      source_text_chars: 0, text_extraction: 'not_attempted',
+      text_extraction_error: '本轮正文抓取数量已达上限；后续轮次或手动补全重试。' });
+  }
+  // Allocate downloads only after choosing the notices that will be published.
+  // Pending notices remain eligible even after disappearing from a source listing.
+  const items = [...merged.values()].sort((a, b) => (Date.parse(b.publication_date) || 0) - (Date.parse(a.publication_date) || 0))
+    .slice(0, boundedNumber(maxItems, 120, 120));
+  const selectedUrls = new Set(items.filter(item => item.text_extraction === 'not_attempted')
+    .slice(0, boundedNumber(limit, 12, 20)).map(item => item.official_url));
+  return { items, selectedUrls };
+}
+
 export function needsBackfill(item) {
   return item.summary_method === 'title_only' || (item.summary || '').length < 80
     || /^Official .*(?:detected:|release detected:)/i.test(item.summary || '');

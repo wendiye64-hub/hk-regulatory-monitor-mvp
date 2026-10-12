@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import ts from 'typescript';
 import { extractHtml, extractOfficialText, usableText, bodyText } from '../scripts/lib/source-text.mjs';
 import { deterministicTriage, extractKeyDates, validateAiReview, selectExcerpt } from '../scripts/lib/triage.mjs';
-import { enrichItem, backfillItems } from '../scripts/lib/enrichment.mjs';
+import { enrichItem, backfillItems, planMonitorEnrichment } from '../scripts/lib/enrichment.mjs';
 const item = { title: 'New settlement arrangements', source_label: 'HKEX Circulars', source_id: 'HKEX-PARTICIPANT-CIRC', official_url: 'https://www.hkex.com.hk/test.pdf', evidence_text: 'New settlement arrangements' };
 const body = 'To: Exchange Participants\n\nThe new settlement arrangements apply to Exchange Participants and will become effective on 13 October 2026.\n\nParticipants must submit their response on or before 20 October 2026 using the form published with this circular.\n\nThe consultation period closes on 21 October 2026. Participants should read the detailed procedures in the attached official circular before submitting a response.\n\nThis paragraph provides additional information about the arrangements described in the circular and the official contact details for further enquiries.';
 const canonical = bodyText(body);
@@ -87,6 +87,47 @@ test('backfill touches only short/template summaries, respects cap and preserves
   assert.equal(calls, 2); assert.equal(result.report.updated, 1);
   assert.equal(result.items[0], complete); assert.equal(result.items[2], failed); assert.equal(result.items[3], extra);
   assert.match(result.report.errors[0].error, /timeout/);
+});
+
+test('automatic extraction prioritizes new dates across sources and spends no budget on notices outside the published window', () => {
+  const previous = Array.from({ length: 120 }, (_, i) => ({ ...item, publication_date: '2026-10-09',
+    official_url: `https://www.hkex.com.hk/retained-${i}`, text_extraction: 'success', source_excerpt: canonical }));
+  const olderSource = Array.from({ length: 30 }, (_, i) => ({ ...item, publication_date: '2026-01-01',
+    official_url: `https://www.hkex.com.hk/old-${i}` }));
+  const today = { ...item, publication_date: '2026-10-12', title: 'RE-COMMENCEMENT OF TRADING pdf' };
+  const plan = planMonitorEnrichment([...olderSource, today], previous);
+  assert.equal(plan.items.length, 120);
+  assert.deepEqual([...plan.selectedUrls], [today.official_url]);
+  assert.equal(plan.items[0].official_url, today.official_url);
+  assert.equal(plan.items[1], previous[0]);
+  assert.ok(plan.items.every(row => !row.official_url.includes('/old-')));
+});
+
+test('automatic pending queue drains across runs even after notices disappear from source listings', () => {
+  const pending = Array.from({ length: 13 }, (_, i) => ({ ...item, publication_date: '2026-10-11',
+    official_url: `https://www.hkex.com.hk/pending-${i}`, text_extraction: 'not_attempted' }));
+  const complete = { ...item, publication_date: '2026-10-12', text_extraction: 'success', source_excerpt: canonical };
+  const failed = { ...item, official_url: 'https://www.hkex.com.hk/failed', text_extraction: 'failed' };
+  const legacy = { ...item, official_url: 'https://www.hkex.com.hk/legacy', summary: 'Existing legacy summary' };
+  const first = planMonitorEnrichment([complete], [...pending, complete, failed, legacy]);
+  assert.equal(first.selectedUrls.size, 12);
+  const nextItems = first.items.map(row => first.selectedUrls.has(row.official_url) ? { ...row, text_extraction: 'success' } : row);
+  const second = planMonitorEnrichment([complete], nextItems);
+  assert.deepEqual([...second.selectedUrls], [pending[12].official_url]);
+  assert.equal(second.items.find(row => row.official_url === complete.official_url), complete);
+  assert.equal(second.items.find(row => row.official_url === failed.official_url), failed);
+  assert.equal(second.items.find(row => row.official_url === legacy.official_url), legacy);
+});
+
+test('automatic extraction respects both configured and hard caps and puts undated notices after dated notices', () => {
+  const notices = Array.from({ length: 130 }, (_, i) => ({ ...item, publication_date: '2026-10-12',
+    official_url: `https://www.hkex.com.hk/notice-${i}` }));
+  const undated = { ...item, publication_date: 'invalid' };
+  assert.equal(planMonitorEnrichment([undated, ...notices], [], { limit: 999, maxItems: 999 }).selectedUrls.size, 20);
+  const small = planMonitorEnrichment([undated, ...notices], [], { limit: 2, maxItems: 3 });
+  assert.equal(small.items.length, 3);
+  assert.deepEqual([...small.selectedUrls], notices.slice(0, 2).map(row => row.official_url));
+  assert.deepEqual(planMonitorEnrichment([undated, notices[0]], []).items.map(row => row.official_url), [notices[0].official_url, undated.official_url]);
 });
 
 test('adapter maps new structured fields, labels failures and accepts legacy records without invented evidence or effective dates', async () => {

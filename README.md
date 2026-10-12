@@ -181,7 +181,7 @@ $env:SYNC_DIST = 'false'
 node scripts/monitor.mjs
 ```
 
-可选 `BACKFILL_URLS` 为逗号分隔的现有官方 URL，用于只重试指定短条目。普通定时运行每次最多抓取 12 个新公告正文（`MAX_ENRICH_ITEMS`，硬上限 20），并发默认 4、最大 4（`TRIAGE_CONCURRENCY`）。超过预算的公告会在后续轮次重试，旧失败条目可手动补全。HTML/PDF 下载超时 10 秒、大小上限 12 MB；PDF 解析上限 15 秒、200 页；AI 每次上限 20 秒。人工判断不了扫描 PDF 时需另做 OCR，本次未加入。
+可选 `BACKFILL_URLS` 为逗号分隔的现有官方 URL，用于只重试指定短条目。普通定时运行每次最多抓取 12 个新公告或排队公告正文（`MAX_ENRICH_ITEMS`，硬上限 20），并发默认 4、最大 4（`TRIAGE_CONCURRENCY`）。先按发布日期选出将发布的最新 120 条，再按新到旧分配正文抽取额度，避免较旧、不会在页面展示的公告占满额度。`not_attempted` 条目会在后续定时运行自动处理，即使已从来源列表消失，只要仍在这 120 条中也会保留在队列。根节点 `enrichment` 和 Actions 日志记录本轮尝试、成功、失败和仍在排队的数量。旧失败条目可手动补全。HTML/PDF 下载超时 10 秒、大小上限 12 MB；PDF 解析上限 15 秒、200 页；AI 每次上限 20 秒。人工判断不了扫描 PDF 时需另做 OCR，本次未加入。
 
 三条真实公告复核（1 PDF、2 HTML）：
 

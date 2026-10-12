@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-12T02:21:23.530Z",
+  "generated_at": "2026-10-12T02:54:40.455Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 11228,
+  "duration_ms": 7017,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3736,
+      "duration_ms": 2885,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2178,
+      "duration_ms": 5449,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4072,
+      "duration_ms": 2904,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3471,
+      "duration_ms": 4153,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3723,
+      "duration_ms": 3960,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2541,
+      "duration_ms": 3234,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3593,
+      "duration_ms": 5207,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3385,
+      "duration_ms": 4119,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3151,
+      "duration_ms": 5969,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3148,
+      "duration_ms": 5968,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3148,
+      "duration_ms": 5968,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3148,
+      "duration_ms": 5968,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3148,
+      "duration_ms": 5968,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3148,
+      "duration_ms": 5968,
       "count": 5
     }
   ],
@@ -115,16 +115,21 @@
       "change_type": "participant_circular",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKEX发布《RE-COMMENCEMENT OF TRADING》。正文：Exchange Participants are requested to note that the Exchange has been notified by the following Exchange…",
+      "key_points": [
+        "Exchange Participants are requested to note that the Exchange has been notified by the following Exchange Participant of its re-commencement of trading on the Exchange."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "Exchange Participants are requested to note that the Exchange has been notified by the following Exchange Participant of its re-commencement of trading on the Exchange."
+      ],
+      "source_excerpt": "Exchange Participants are requested to note that the Exchange has been notified by the following Exchange Participant of its re-commencement of trading on the Exchange.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: RE-COMMENCEMENT OF TRADING 事項 ： 恢復營業 Enquiry: Participant General Enquiry Hotline 1 (Tel: 2840 3626 E-mail: trd@hkex.com.hk) 查詢 ： 參與者一般查詢熱線 1 ( 電話： 2840 3626 電子郵箱： trd@hkex.com.hk)\n\n請各交易所參與者注意，交易所接獲下述交易所參與者在交易所恢復營業的通知。\n\n交易所參與者名稱 恢復營業日期\n\n贏證券有限公司 2026 年 10 月 12 日\n\nExchange Participant Name Date of Re-commencement of Trading\n\nWin Securities Limited 12 October 2026\n\n營運科 客戶服務主管 林麗豹 謹啟 Jeffrey Lam Head of Client Services Operations Division\n\n________________________ 1 所有參與者一般查詢熱線之通話 可能 會被錄音。請 按此 參閲香港交易所的私隱政策聲明。 All calls to and from the Participant General Enquiry Hotline may be recorded. HKEX Privacy Policy Statement is available here .\n\n編號 Ref. No.: PA/022/2026 日期 Date: 12/10/2026",
+      "summary_method": "extractive",
+      "source_text_chars": 1035,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_PA_022_2026.pdf"
     },
     {
       "publication_date": "2026-10-09",
@@ -2106,5 +2111,12 @@
       ],
       "human_review_required": true
     }
-  ]
+  ],
+  "enrichment": {
+    "limit": 12,
+    "attempted": 1,
+    "succeeded": 1,
+    "failed": 0,
+    "pending": 0
+  }
 }
