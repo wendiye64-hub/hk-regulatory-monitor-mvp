@@ -1,109 +1,269 @@
 {
-  "generated_at": "2026-10-13T00:38:50.111Z",
+  "generated_at": "2026-10-13T14:10:37.159Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4009,
+  "duration_ms": 8021,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1857,
+      "duration_ms": 3800,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3362,
+      "duration_ms": 2163,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2896,
+      "duration_ms": 2063,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3411,
+      "duration_ms": 4119,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3987,
-      "count": 10
+      "duration_ms": 1742,
+      "count": 7
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1374,
+      "duration_ms": 1472,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3698,
+      "duration_ms": 4338,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3272,
+      "duration_ms": 3882,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2491,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2337,
+      "duration_ms": 2489,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2337,
+      "duration_ms": 2489,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2337,
+      "duration_ms": 2489,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2337,
+      "duration_ms": 2489,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2337,
+      "duration_ms": 2489,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-13",
+      "title": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261013news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Display of Adjusted Previous Closing Price of Yunnan Jinxun Resources Co., Ltd. (stock code 3636) on OTP-C for its Interim Dividend of HK$0.346472 per H share and Capitalisation Issue of 15 new H shares for every 10 existing H shares on Ex-All Date, 15 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026167_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3668,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026167_e.pdf",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - all” on 15 October 2026, the Ex-All Date.",
+      "key_points": [
+        "Pursuant to the timetable issued by Yunnan Jinxun Resources Co., Ltd. (“ Yunnan Jinxun ”) for the interim dividend and capitalisation issue of H shares (the “Dividend and Capitalisation Issue”), Yunnan Jinxun ’s H shares (stock code 3636 ) will be marked “ex - all” on 15 October 2026, the Ex-All Date.",
+        "HK$0.346472 X = Number of new H shares a shareholder is expected to receive when he/she holds Y existing H shares on the record date, i.e. 15 new H shares Y = Number of existing H shares a shareholder has to hold on the record date for entitling him/herself to X new H Shares, i.e. 10 H shares",
+        "For illustration purpose, depending on Yunnan Jinxun’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for dividend and bonus issue generally to calculate and display the Adjusted Previous Closing Price on Yunnan Jinxun’s OTP - C stock page on 15 October 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Yunnan Jinxun ’s regulatory announcements and circulars in full including the terms and conditions of the Dividend and Capitalisation Issue in dealing with Yunnan Jinxun ’s H shares.",
+        "If they are in doubt, they should consult their professional adviser(s) ."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the timetable issued by Yunnan Jinxun Resources Co., Ltd. (“ Yunnan Jinxun ”) for the interim dividend and capitalisation issue of H shares (the “Dividend and Capitalisation Issue”), Yunnan Jinxun ’s H shares (stock code 3636 ) will be marked “ex - all” on 15 October 2026, the Ex-All Date.",
+        "HK$0.346472 X = Number of new H shares a shareholder is expected to receive when he/she holds Y existing H shares on the record date, i.e. 15 new H shares Y = Number of existing H shares a shareholder has to hold on the record date for entitling him/herself to X new H Shares, i.e. 10 H shares",
+        "For illustration purpose, depending on Yunnan Jinxun’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for dividend and bonus issue generally to calculate and display the Adjusted Previous Closing Price on Yunnan Jinxun’s OTP - C stock page on 15 October 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the timetable issued by Yunnan Jinxun Resources Co., Ltd. (“ Yunnan Jinxun ”) for the interim dividend and capitalisation issue of H shares (the “Dividend and Capitalisation Issue”), Yunnan Jinxun ’s H shares (stock code 3636 ) will be marked “ex - all” on 15 October 2026, the Ex-All Date. Shareholders, investors and market participants should read the Yunnan Jinxun ’s regulatory announcements and circulars in full including the terms and conditions of the Dividend and Capitalisation Issue in dealing with Yunnan Jinxun ’s H shares. If they are in doubt, they should consult their professional adviser(s) . As an OTP-C standard practice for ex-dividend and ex- bonus issue (“Ex - All”) and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Yunnan Jinxun ’s OTP -C stock page on 15 October 2026 , the Ex-All Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Yunnan Jinxun ’s closing price on 14 October 2026 (i.e. last cum-all trading day) and by using the following standard adjustment formula for dividend and bonus issue generally .\n\nwhere: D = Interim Dividend per H share, i.e.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\n…/2\n\n編號 Ref.\n\n(GS/cc)",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Display of Adjusted Previous Closing Price of Billion Industrial Holdings Limited (stock code 2299) on OTP-C for its 2-into-1 Share Consolidation on 14 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026166_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3200,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026166_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 14 October 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by Billion Industrial Holdings Limited (“ Billion Industrial ”), the share consolidation of 2 existing shares of HK$0.01 each in Billion Industrial into 1 consolidated share of HK$0.02 each will become effective on 14 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Billion Industrial’s closing price on 13 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Billion Industrial’s OTP - C temporary stock page on 14 October 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Billion Industrial ’s circulars and regulatory announcements in full including the terms and conditions of Billion Industrial ’s share consolidation in dealing with Billion Industrial ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "14 October 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by Billion Industrial Holdings Limited (“ Billion Industrial ”), the share consolidation of 2 existing shares of HK$0.01 each in Billion Industrial into 1 consolidated share of HK$0.02 each will become effective on 14 October 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by Billion Industrial Holdings Limited (“ Billion Industrial ”), the share consolidation of 2 existing shares of HK$0.01 each in Billion Industrial into 1 consolidated share of HK$0.02 each will become effective on 14 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Billion Industrial’s closing price on 13 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Billion Industrial’s OTP - C temporary stock page on 14 October 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by Billion Industrial Holdings Limited (“ Billion Industrial ”), the share consolidation of 2 existing shares of HK$0.01 each in Billion Industrial into 1 consolidated share of HK$0.02 each will become effective on 14 October 2026. Shareholders, investors and market participants should read the Billion Industrial ’s circulars and regulatory announcements in full including the terms and conditions of Billion Industrial ’s share consolidation in dealing with Billion Industrial ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Billion Industrial ’s OTP -C temporary stock page (stock code 2943) on 14 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on Billion Industrial ’s closing price on 13 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\n…/2\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Display of Adjusted Previous Closing Price of Star Group Asia Limited (stock code 1560) on OTP-C for its 10-into-1 Share Consolidation on 14 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026165_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3107,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026165_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 14 October 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by Star Group Asia Limited (“ Star Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Star Group into 1 consolidated share of HK$0.10 each will become effective on 14 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Star Group’s closing price on 13 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Star Group’s OTP - C temporary stock page on 14 October 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Star Group ’s circulars and regulatory announcements in full including the terms and conditions of Star Group ’s share consolidation in dealing with Star Group ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "14 October 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by Star Group Asia Limited (“ Star Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Star Group into 1 consolidated share of HK$0.10 each will become effective on 14 October 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by Star Group Asia Limited (“ Star Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Star Group into 1 consolidated share of HK$0.10 each will become effective on 14 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Star Group’s closing price on 13 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Star Group’s OTP - C temporary stock page on 14 October 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by Star Group Asia Limited (“ Star Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Star Group into 1 consolidated share of HK$0.10 each will become effective on 14 October 2026. Shareholders, investors and market participants should read the Star Group ’s circulars and regulatory announcements in full including the terms and conditions of Star Group ’s share consolidation in dealing with Star Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Star Group ’s OTP -C temporary stock page (stock code 2942) on 14 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on Star Group ’s closing price on 13 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\nFOR REFERENCE ONLY\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261013-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1773,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261013-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Exchange Fund Bills Tender Results》。正文：*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
+      "key_points": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
+      ],
+      "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTender date\n\n:\n\n13 October 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2641\n\nIssue date\n\n14 October 2026\n\nMaturity date\n\n13 January 2027\n\nAmount applied\n\nHK$205,533 MN\n\nAmount allotted\n\nHK$71,151 MN\n\nAverage yield accepted\n\n2.82 PCT\n\nHighest yield accepted\n\n2.85 PCT\n\nPro rata ratio*\n\nAbout 56 PCT\n\nAverage tender yield\n\n2.92 PCT\n\n****************************\n\nH2670\n\n14 April 2027\n\nHK$64,930 MN\n\nHK$19,000 MN\n\n3.15 PCT\n\n3.17 PCT\n\nAbout 78 PCT\n\n3.24 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\nTenders to be held in the week beginning – 19 October 2026:\n\n20 October 2026\n\nQ2642\n\n21 October 2026\n\n20 January 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$67,147 MN\n\nH2671\n\n21 April 2027\n\n182 Days\n\nHK$12,000 MN\n\nY2696\n\n20 October 2027\n\n364 Days\n\nHK$5,000 MN\n\nEnd/Tuesday, 13 October, 2026",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-12",
       "title": "RE-COMMENCEMENT OF TRADING pdf",
@@ -2313,93 +2473,13 @@
         "Trading Arrangements of ChinaAMC Franklin HK-US Equity Cash Flow Focus ETF and ChinaAMC Franklin FTSE Innovative Drugs ETF pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Admission of the Units of ChinaAMC Choice Fund to CCASS as a Multi-counter Eligible Security ChinaAMC FTSE Hong Kong Growth ETF - HKD counter (stock code: 3459) (domain stock code) - USD counter (stock code: 9459) - RMB counter (stock code: 83459) ChinaAMC HK-US HALO ETF - HKD counter (stock code: 3479) (domain stock code) - USD counter (stock code: 9479) - RMB counter (stock code: 83479) ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) - HKD counter (stock code: 3590) (domain stock code) - USD counter (stock code: 41590) - RMB counter (stock code: 83590) ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) - HKD counter (stock code: 3592) (domain stock code) - USD counter (stock code: 41592) - RMB counter (stock code: 83592) (collectively, the “ChinaAMC Choice Fund”) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_338_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Admission of the Units of ChinaAMC Choice Fund to CCASS as a Multi-counter Eligible Security ChinaAMC FTSE Hong Kong Growth ETF - HKD counter (stock code: 3459) (domain stock code) - USD counter (stock code: 9459) - RMB counter (stock code: 83459) ChinaAMC HK-US HALO ETF - HKD counter (stock code: 3479) (domain stock code) - USD counter (stock code: 9479) - RMB counter (stock code: 83479) ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) - HKD counter (stock code: 3590) (domain stock code) - USD counter (stock code: 41590) - RMB counter (stock code: 83590) ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) - HKD counter (stock code: 3592) (domain stock code) - USD counter (stock code: 41592) - RMB counter (stock code: 83592) (collectively, the “ChinaAMC Choice Fund”) pdf",
-      "evidence": [
-        "Admission of the Units of ChinaAMC Choice Fund to CCASS as a Multi-counter Eligible Security ChinaAMC FTSE Hong Kong Growth ETF - HKD counter (stock code: 3459) (domain stock code) - USD counter (stock code: 9459) - RMB counter (stock code: 83459) ChinaAMC HK-US HALO ETF - HKD counter (stock code: 3479) (domain stock code) - USD counter (stock code: 9479) - RMB counter (stock code: 83479) ChinaAMC FTSE Hong Kong High Dividend ETF (Distribution Listed Class) - HKD counter (stock code: 3590) (domain stock code) - USD counter (stock code: 41590) - RMB counter (stock code: 83590) ChinaAMC FTSE Hong Kong High Dividend ETF (Accumulation Listed Class) - HKD counter (stock code: 3592) (domain stock code) - USD counter (stock code: 41592) - RMB counter (stock code: 83592) (collectively, the “ChinaAMC Choice Fund”) pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_337_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf",
-      "evidence": [
-        "Admission of the Units of ICBC UBS HK-Global Artificial Intelligence ETF to CCASS as a Multi-counter Eligible Security - HKD counter (Stock Code: 3587) (domain stock code) - USD counter (Stock Code: 41587) - RMB counter (Stock Code: 83587) pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-25",
-      "title": "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260925news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026",
-      "evidence": [
-        "HKEX Derivatives Clearing Houses to Accept China Government Bonds, Policy Bank Bonds and MOF Bonds as Non-Cash Collateral from November 2026"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-25",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-5/",
-      "title": "Interest rate of second interest payment for Silver Bond Series due 2028",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Interest rate of second interest payment for Silver Bond Series due 2028",
-      "evidence": [
-        "Interest rate of second interest payment for Silver Bond Series due 2028"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-25",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260925-4/",
-      "title": "Interest rate of sixth interest payment for series of retail green bonds due 2026",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Interest rate of sixth interest payment for series of retail green bonds due 2026",
-      "evidence": [
-        "Interest rate of sixth interest payment for series of retail green bonds due 2026"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
-    "failed": 0,
+    "attempted": 5,
+    "succeeded": 4,
+    "failed": 1,
     "pending": 0
   }
 }
