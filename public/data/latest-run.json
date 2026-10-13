@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-13T14:10:37.159Z",
+  "generated_at": "2026-10-13T22:44:18.598Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8021,
+  "duration_ms": 5508,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3800,
+      "duration_ms": 2132,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2163,
+      "duration_ms": 4212,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2063,
+      "duration_ms": 3083,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4119,
+      "duration_ms": 2291,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1742,
-      "count": 7
+      "duration_ms": 4042,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1472,
+      "duration_ms": 2490,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4338,
+      "duration_ms": 4777,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3882,
+      "duration_ms": 1273,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2491,
+      "duration_ms": 2716,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 2714,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 2714,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 2714,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 2714,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 2714,
       "count": 5
     }
   ],
@@ -262,6 +262,170 @@
         "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
       ],
       "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTender date\n\n:\n\n13 October 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2641\n\nIssue date\n\n14 October 2026\n\nMaturity date\n\n13 January 2027\n\nAmount applied\n\nHK$205,533 MN\n\nAmount allotted\n\nHK$71,151 MN\n\nAverage yield accepted\n\n2.82 PCT\n\nHighest yield accepted\n\n2.85 PCT\n\nPro rata ratio*\n\nAbout 56 PCT\n\nAverage tender yield\n\n2.92 PCT\n\n****************************\n\nH2670\n\n14 April 2027\n\nHK$64,930 MN\n\nHK$19,000 MN\n\n3.15 PCT\n\n3.17 PCT\n\nAbout 78 PCT\n\n3.24 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\nTenders to be held in the week beginning – 19 October 2026:\n\n20 October 2026\n\nQ2642\n\n21 October 2026\n\n20 January 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$67,147 MN\n\nH2671\n\n21 April 2027\n\n182 Days\n\nHK$12,000 MN\n\nY2696\n\n20 October 2027\n\n364 Days\n\nHK$5,000 MN\n\nEnd/Tuesday, 13 October, 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Delisting of DONGXING SECURITIES (SSE Security Code: 601198) from SSE pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_164_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1654,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_164_2026.pdf",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Delisting of DONGXING SECURITIES…》。正文：will be delisted from SSE effective from 19 October 2026.",
+      "key_points": [
+        "Please note that DONGXING SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated DONGXING SECURITIES shares will be delisted from SSE effective from 19 October 2026.",
+        "The aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website.",
+        "This circular has been issued in the English language with a separate Chinese language translation.",
+        "As 19 October 2026 is a non- Northbound trading day, DONGXING SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 ."
+      ],
+      "key_dates": [
+        {
+          "date": "19 October 2026",
+          "kind": "effective",
+          "evidence": "Please note that DONGXING SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated DONGXING SECURITIES shares will be delisted from SSE effective from 19 October 2026."
+        },
+        {
+          "date": "20 October 2026",
+          "kind": "effective",
+          "evidence": "As 19 October 2026 is a non- Northbound trading day, DONGXING SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 ."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please note that DONGXING SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated DONGXING SECURITIES shares will be delisted from SSE effective from 19 October 2026.",
+        "The aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website."
+      ],
+      "source_excerpt": "Please note that DONGXING SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated DONGXING SECURITIES shares will be delisted from SSE effective from 19 October 2026. As 19 October 2026 is a non- Northbound trading day, DONGXING SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 .\n\nThe aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.\n\nWhen providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website.\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Delisting of DONGXING SECURITIES (SSE Security Code: 601198) from SSE Enquiry: Participant General Enquiry Hotline 1 (Tel : 2840 3626 E-mail : trd@hkex.com.hk )\n\nChan Wai Hung Senior Vice President Trading Department Operations Division\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Delisting of CINDA SECURITIES (SSE Security Code: 601059) from SSE pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_163_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1641,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_163_2026.pdf",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Delisting of CINDA SECURITIES (SSE…》。正文：will be delisted from SSE effective from 19 October 2026.",
+      "key_points": [
+        "Please note that CINDA SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated CINDA SECURITIES shares will be delisted from SSE effective from 19 October 2026.",
+        "The aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website.",
+        "This circular has been issued in the English language with a separate Chinese language translation.",
+        "As 19 October 2026 is a non-Northbound trading day, CINDA SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 ."
+      ],
+      "key_dates": [
+        {
+          "date": "19 October 2026",
+          "kind": "effective",
+          "evidence": "Please note that CINDA SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated CINDA SECURITIES shares will be delisted from SSE effective from 19 October 2026."
+        },
+        {
+          "date": "20 October 2026",
+          "kind": "effective",
+          "evidence": "As 19 October 2026 is a non-Northbound trading day, CINDA SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 ."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please note that CINDA SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated CINDA SECURITIES shares will be delisted from SSE effective from 19 October 2026.",
+        "The aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website."
+      ],
+      "source_excerpt": "Please note that CINDA SECURITIES has issued an announcement (Chinese only) on the Shanghai Stock Exchange (“SSE”) website in which it is stated CINDA SECURITIES shares will be delisted from SSE effective from 19 October 2026. As 19 October 2026 is a non-Northbound trading day, CINDA SECURITIES will be removed from the list of China Connect Securities effective from 20 October 2026 .\n\nThe aforementioned change is also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.\n\nWhen providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SSE website.\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Delisting of CINDA SECURITIES (SSE Security Code: 601059) from SSE Enquiry: Participant General Enquiry Hotline 1 (Tel : 2840 3626 E-mail : trd@hkex.com.hk )\n\nChan Wai Hung Senior Vice President Trading Department Operations Division\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_264_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 812,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_264_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Hong Kong Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "15 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Hong Kong Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Hong Kong Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/264/2026 日期 Date: 13/10/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-13",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_263_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 976,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_263_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 15 October 2026 (including the…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised.",
+        "• XiaoMi Corporation",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "15 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised.",
+        "• XiaoMi Corporation",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 15 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• XiaoMi Corporation\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/263/2026 日期 Date: 13/10/2026",
       "summary_method": "extractive"
     },
     {
@@ -2415,71 +2579,13 @@
         "Scam alert related to banks"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Compliance Bulletin (Issue No. 19) - (1) Standard Penalties under HKEX Rules; (2) Participants’ Obligation to Make Timely Submissions to HKEX; (3) Client Protection Measures; and (4) Updated Guidelines on Client Margin Requirements pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/MSM_011_2026-(EN).pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Compliance Bulletin (Issue No. 19) - (1) Standard Penalties under HKEX Rules; (2) Participants’ Obligation to Make Timely Submissions to HKEX; (3) Client Protection Measures; and (4) Updated Guidelines on Client Margin Requirements pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_340_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Admission of the Units of Ping An AI Select ETF and Ping An Healthcare 50 Select ETF to CCASS as a Multi-counter Eligible Security - Ping An AI Select ETF - HKD trading counter The Domain Stock Code (Stock Code: 3510) - Ping An AI Select ETF - USD trading counter (Stock Code: 41510) - Ping An Healthcare 50 Select ETF - HKD trading counter The Domain Stock Code (Stock Code: 3500) - Ping An Healthcare 50 Select ETF - USD trading counter (Stock Code: 41500) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_339_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Admission of the Units of Ping An AI Select ETF and Ping An Healthcare 50 Select ETF to CCASS as a Multi-counter Eligible Security - Ping An AI Select ETF - HKD trading counter The Domain Stock Code (Stock Code: 3510) - Ping An AI Select ETF - USD trading counter (Stock Code: 41510) - Ping An Healthcare 50 Select ETF - HKD trading counter The Domain Stock Code (Stock Code: 3500) - Ping An Healthcare 50 Select ETF - USD trading counter (Stock Code: 41500) pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "Trading Arrangements of ChinaAMC Franklin HK-US Equity Cash Flow Focus ETF and ChinaAMC Franklin FTSE Innovative Drugs ETF pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_152_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Trading Arrangements of ChinaAMC Franklin HK-US Equity Cash Flow Focus ETF and ChinaAMC Franklin FTSE Innovative Drugs ETF pdf",
-      "evidence": [
-        "Trading Arrangements of ChinaAMC Franklin HK-US Equity Cash Flow Focus ETF and ChinaAMC Franklin FTSE Innovative Drugs ETF pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 5,
+    "attempted": 4,
     "succeeded": 4,
-    "failed": 1,
+    "failed": 0,
     "pending": 0
   }
 }
