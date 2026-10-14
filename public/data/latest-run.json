@@ -1,109 +1,203 @@
 {
-  "generated_at": "2026-10-13T22:44:18.598Z",
+  "generated_at": "2026-10-14T04:52:11.383Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5508,
+  "duration_ms": 7648,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2132,
+      "duration_ms": 3286,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4212,
+      "duration_ms": 3358,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3083,
+      "duration_ms": 3920,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2291,
+      "duration_ms": 2232,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4042,
+      "duration_ms": 3139,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2490,
+      "duration_ms": 2459,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4777,
+      "duration_ms": 4114,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1273,
+      "duration_ms": 3039,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2716,
+      "duration_ms": 2674,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2714,
+      "duration_ms": 2671,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2714,
+      "duration_ms": 2671,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2714,
+      "duration_ms": 2671,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2714,
+      "duration_ms": 2671,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2714,
+      "duration_ms": 2671,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-14",
+      "title": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
+      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261014news?sc_lang=en",
+      "source_id": "HKEX-CORP-NEWS",
+      "source_label": "HKEX Corporate News Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "corporate_news",
+      "impact_status": "no_clear_impact",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Display of Adjusted Previous Closing Price of China United Venture Investment Limited (stock code 8159) on OTP-C for its 20-into-1 Share Consolidation on 15 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026168_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3187,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026168_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 15 October 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on China United’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China United’s OTP - C temporary stock page on 15 October 2026 as follows: -",
+        "Shareholders, investors and market participants should read the China United ’s circulars and regulatory announcements in full including the terms and conditions of China United ’s share consolidation in dealing with China United ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "15 October 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on China United’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China United’s OTP - C temporary stock page on 15 October 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026. Shareholders, investors and market participants should read the China United ’s circulars and regulatory announcements in full including the terms and conditions of China United ’s share consolidation in dealing with China United ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of China United ’s OTP -C temporary stock page (stock code 8552) on 15 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on China United ’s closing price on 14 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nCynthia Chiu (Tel: 2840 3076) or Mr.\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Hong Kong Academy of Finance’s 2027 intake of the Financial Leaders Programme is open for application",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1749,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Hong Kong Academy of Finance’s…》。正文：will open for application tomorrow (15 October).",
+      "key_points": [
+        "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October).",
+        "Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre.",
+        "Tailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis.",
+        "Since its launch in 2022, with the support of the financial regulators in Hong Kong1 and the participating institutions, the programme has cultivated a vibrant community of more than 100 future financial leaders for Hong Kong.",
+        "Applications of the 2027 intake will be accepted on or before 4 December."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October).",
+        "Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre.",
+        "Tailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis."
+      ],
+      "source_excerpt": "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October). Since its launch in 2022, with the support of the financial regulators in Hong Kong1 and the participating institutions, the programme has cultivated a vibrant community of more than 100 future financial leaders for Hong Kong.\n\nMr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre. I strongly encourage senior financial executives to seize this opportunity to join or nominate promising candidates.”\n\nTailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis. Applications of the 2027 intake will be accepted on or before 4 December. Further information about the FLP, including feedback from past participants and the application form, is available on the AoF website.\n\n14 October 2026\n\n1 The Hong Kong Monetary Authority, the Insurance Authority, the Mandatory Provident Fund Schemes Authority and the Securities and Futures Commission.",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-13",
       "title": "Exchange's Disciplinary Action against RMH Holdings Limited (Stock Code: 8437) and Six Former Directors",
@@ -2531,61 +2625,13 @@
         "HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-5/",
-      "title": "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire",
-      "evidence": [
-        "Banking industry further extends loan repayment grace period for affected individuals of Tai Po Fire"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-4/",
-      "title": "HKICL alerts public of fraudulent website",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: HKICL alerts public of fraudulent website",
-      "evidence": [
-        "HKICL alerts public of fraudulent website"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260928-3/",
-      "title": "Scam alert related to banks",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
-      "evidence": [
-        "Scam alert related to banks"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 4,
-    "succeeded": 4,
-    "failed": 0,
+    "attempted": 3,
+    "succeeded": 2,
+    "failed": 1,
     "pending": 0
   }
 }
