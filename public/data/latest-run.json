@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-14T11:50:58.466Z",
+  "generated_at": "2026-10-14T17:09:46.189Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 10114,
+  "duration_ms": 4304,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3761,
+      "duration_ms": 3795,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3405,
+      "duration_ms": 2095,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3357,
+      "duration_ms": 2904,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 5718,
+      "duration_ms": 3180,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2310,
-      "count": 0
+      "duration_ms": 3836,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2585,
+      "duration_ms": 3428,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 5423,
+      "duration_ms": 1817,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1652,
+      "duration_ms": 3319,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3088,
+      "duration_ms": 3089,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3085,
+      "duration_ms": 3087,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3085,
+      "duration_ms": 3087,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3085,
+      "duration_ms": 3087,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3085,
+      "duration_ms": 3087,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3085,
+      "duration_ms": 3087,
       "count": 5
     }
   ],
@@ -350,6 +350,43 @@
         "The relevant innovative technologies and mechanism have been successfully applied and proven to be stable and effective via the Shenzhen-Hong Kong Cross-boundary Data Validation Platform2."
       ],
       "source_excerpt": "The Chongqing and Hong Kong authorities announced today (14 October) the launch of the Chongqing-Hong Kong Cross-boundary Data Validation Platform (CQ-HK DVP).\n\nAs set out in “The Chief Executive’s 2026 Policy Address”, this new cross-boundary data validation mechanism jointly established with Chongqing is one of the measures for encouraging the orderly flow of financial elements between the Chinese Mainland and Hong Kong. The Hong Kong Monetary Authority (HKMA) facilitated the establishment of the CQ-HK DVP1 together with authorities including the People’s Bank of China Chongqing Municipal Branch, the Office of the Financial Commission of the Chongqing Municipal Committee, the Office of the Cyberspace Affairs Commission of the Chongqing Municipal Committee, and the Hong Kong and Macao Affairs Office of the Chongqing Municipal People’s Government.\n\nLeveraging blockchain technology and data coding (i.e. hash values), the CQ-HK DVP enables the verification of data presented by customers without involving the cross-boundary transfer or storage of the original documents. The relevant innovative technologies and mechanism have been successfully applied and proven to be stable and effective via the Shenzhen-Hong Kong Cross-boundary Data Validation Platform2.\n\nThe CQ-HK DVP will mainly support cross-boundary financial use cases at the outset.\n\nThe CQ-HK DVP will further foster secure and efficient cross-boundary data flow between Chongqing and Hong Kong.\n\n14 October 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_265_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1084,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_265_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 16 October 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 16 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable):",
+        "Margin offset of the following pair(s) will be suspended: • MSCI Hong Kong Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index",
+        "Delta/spread ratio and spread credit rate of the following product pair(s) shall be revised and can be found here . • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index • MSCI Emerging Markets (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "16 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 16 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable):"
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 16 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable):",
+        "Margin offset of the following pair(s) will be suspended: • MSCI Hong Kong Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index",
+        "Delta/spread ratio and spread credit rate of the following product pair(s) shall be revised and can be found here . • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index • MSCI Emerging Markets (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 16 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable):\n\n1. Margin offset of the following pair(s) will be suspended: • MSCI Hong Kong Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index\n\n2. Delta/spread ratio and spread credit rate of the following product pair(s) shall be revised and can be found here . • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index • MSCI Emerging Markets (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/265/2026 日期 Date: 14/10/2026",
       "summary_method": "extractive"
     },
     {
@@ -2691,27 +2728,13 @@
         "HKICL alerts public of fraudulent website"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_342_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
-      "evidence": [],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 5,
-    "succeeded": 4,
-    "failed": 1,
+    "attempted": 1,
+    "succeeded": 1,
+    "failed": 0,
     "pending": 0
   }
 }
