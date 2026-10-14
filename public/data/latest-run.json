@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-14T04:52:11.383Z",
+  "generated_at": "2026-10-14T11:50:58.466Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7648,
+  "duration_ms": 10114,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3286,
+      "duration_ms": 3761,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3358,
+      "duration_ms": 3405,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3920,
+      "duration_ms": 3357,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2232,
+      "duration_ms": 5718,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3139,
-      "count": 10
+      "duration_ms": 2310,
+      "count": 0
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2459,
+      "duration_ms": 2585,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4114,
+      "duration_ms": 5423,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3039,
+      "duration_ms": 1652,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2674,
+      "duration_ms": 3088,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2671,
+      "duration_ms": 3085,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2671,
+      "duration_ms": 3085,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2671,
+      "duration_ms": 3085,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2671,
+      "duration_ms": 3085,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2671,
+      "duration_ms": 3085,
       "count": 5
     }
   ],
@@ -196,6 +196,160 @@
         "Tailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis."
       ],
       "source_excerpt": "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October). Since its launch in 2022, with the support of the financial regulators in Hong Kong1 and the participating institutions, the programme has cultivated a vibrant community of more than 100 future financial leaders for Hong Kong.\n\nMr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre. I strongly encourage senior financial executives to seize this opportunity to join or nominate promising candidates.”\n\nTailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis. Applications of the 2027 intake will be accepted on or before 4 December. Further information about the FLP, including feedback from past participants and the application form, is available on the AoF website.\n\n14 October 2026\n\n1 The Hong Kong Monetary Authority, the Insurance Authority, the Mandatory Provident Fund Schemes Authority and the Securities and Futures Commission.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Announcement - In relation to the matter of China Zenith Chemical Group Limited (In Compulsory Liquidation) (Incorporated in the Cayman Islands and continued in Bermuda with limited liability) (Stock Code: 362) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610142news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Tender of 10-year HKD HKSAR Institutional Government Bonds through re-opening to be held on Wednesday, 21 October 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-7/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 3685,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-7/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Tender of 10-year HKD HKSAR…》。正文：announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
+        "An additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer.",
+        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme.",
+        "Tender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX).",
+        "24 January and 24 July in each year, commencing on the Issue Date up to and including the Maturity Date, subject to adjustment in accordance with the terms of the Institutional Issuances Information Memorandum of the Infrastructure Bond Programme and Government Sustainable Bond Programme (Information Memorandum) published on the Hong Kong Government Bonds website."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
+        "An additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer.",
+        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.\n\nAn additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer. The Bonds will mature on 24 July 2035 and will carry interest at the rate of 3.17% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 14 October 2026 are 94.28 with an annualised yield of 3.986%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of HK$50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number\n\nStock Code\n\nAmount on Offer",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Tender of 3-year HKD HKSAR Institutional Government Bonds through re-opening to be held on Wednesday, 21 October 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-6/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 3687,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-6/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Tender of 3-year HKD HKSAR…》。正文：announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
+        "An additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer.",
+        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme.",
+        "Tender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX).",
+        "5 June and 5 December in each year, commencing on the Issue Date up to and including the Maturity Date, subject to adjustment in accordance with the terms of the Institutional Issuances Information Memorandum of the Infrastructure Bond Programme and Government Sustainable Bond Programme (Information Memorandum) published on the Hong Kong Government Bonds website."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
+        "An additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer.",
+        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.\n\nAn additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer. The Bonds will mature on 5 December 2029 and will carry interest at the rate of 3.23% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 14 October 2026 are 98.74 with an annualised yield of 3.690%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of HK$50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number\n\nStock Code\n\nAmount on Offer",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "Analytical Accounts of the Exchange Fund",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2390,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-5/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Analytical Accounts of the…》。正文：The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in…",
+      "key_points": [
+        "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.",
+        "The analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).",
+        "The release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:",
+        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
+        "Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.",
+        "The analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).",
+        "The release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:"
+      ],
+      "source_excerpt": "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.\n\nThe analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).\n\nThe release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:\n\nAt present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month. Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS. The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency. For the month of October 2026, the scheduled dates for issuing the press releases are as follows:\n\nThe Hong Kong Monetary Authority (HKMA) released today (14 October) the key analytical accounts of the Exchange Fund at the end of September 2026.\n\nForeign assets, representing the external assets of the Exchange Fund, decreased during the month by HK$76.7 billion to HK$3,576.0 billion.\n\nClaims on the private sector in Hong Kong amounted to HK$473.0 billion.\n\nForeign liabilities amounted to HK$135.3 billion.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-14",
+      "title": "HKMA welcomes launch of Chongqing-Hong Kong Cross-boundary Data Validation Platform",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2884,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-4/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《HKMA welcomes launch of…》。正文：announced today (14 October) the launch of the Chongqing-Hong Kong Cross-boundary Data Validation Platform…",
+      "key_points": [
+        "The Chongqing and Hong Kong authorities announced today (14 October) the launch of the Chongqing-Hong Kong Cross-boundary Data Validation Platform (CQ-HK DVP).",
+        "As set out in “The Chief Executive’s 2026 Policy Address”, this new cross-boundary data validation mechanism jointly established with Chongqing is one of the measures for encouraging the orderly flow of financial elements between the Chinese Mainland and Hong Kong.",
+        "The relevant innovative technologies and mechanism have been successfully applied and proven to be stable and effective via the Shenzhen-Hong Kong Cross-boundary Data Validation Platform2.",
+        "The CQ-HK DVP will mainly support cross-boundary financial use cases at the outset.",
+        "Mr Eddie Yue, Chief Executive of the HKMA, said, “Under the ‘Fintech 2030’ strategy, the HKMA is committed to creating next-generation data infrastructure."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Chongqing and Hong Kong authorities announced today (14 October) the launch of the Chongqing-Hong Kong Cross-boundary Data Validation Platform (CQ-HK DVP).",
+        "As set out in “The Chief Executive’s 2026 Policy Address”, this new cross-boundary data validation mechanism jointly established with Chongqing is one of the measures for encouraging the orderly flow of financial elements between the Chinese Mainland and Hong Kong.",
+        "The relevant innovative technologies and mechanism have been successfully applied and proven to be stable and effective via the Shenzhen-Hong Kong Cross-boundary Data Validation Platform2."
+      ],
+      "source_excerpt": "The Chongqing and Hong Kong authorities announced today (14 October) the launch of the Chongqing-Hong Kong Cross-boundary Data Validation Platform (CQ-HK DVP).\n\nAs set out in “The Chief Executive’s 2026 Policy Address”, this new cross-boundary data validation mechanism jointly established with Chongqing is one of the measures for encouraging the orderly flow of financial elements between the Chinese Mainland and Hong Kong. The Hong Kong Monetary Authority (HKMA) facilitated the establishment of the CQ-HK DVP1 together with authorities including the People’s Bank of China Chongqing Municipal Branch, the Office of the Financial Commission of the Chongqing Municipal Committee, the Office of the Cyberspace Affairs Commission of the Chongqing Municipal Committee, and the Hong Kong and Macao Affairs Office of the Chongqing Municipal People’s Government.\n\nLeveraging blockchain technology and data coding (i.e. hash values), the CQ-HK DVP enables the verification of data presented by customers without involving the cross-boundary transfer or storage of the original documents. The relevant innovative technologies and mechanism have been successfully applied and proven to be stable and effective via the Shenzhen-Hong Kong Cross-boundary Data Validation Platform2.\n\nThe CQ-HK DVP will mainly support cross-boundary financial use cases at the outset.\n\nThe CQ-HK DVP will further foster secure and efficient cross-boundary data flow between Chongqing and Hong Kong.\n\n14 October 2026",
       "summary_method": "extractive"
     },
     {
@@ -2551,86 +2705,12 @@
       "summary": "Official HKEX participant circular detected: CSOP Samsung Electronics Daily Max (-2x) Inverse Product (Stock Code: 7347) - Unit Consolidation and Change in Board Lot Size pdf",
       "evidence": [],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_341_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Capital Finance Holdings Limited (Stock Code: 8239) - Proposal of Share Subdivision pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026153_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Moon Inc. (stock code 1723) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026152_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 10-into-1 Share Consolidation on 30 September 2026 pdf",
-      "evidence": [],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "HKEX Launches “A Place to Connect” Exhibition Celebrating 40 Years of Hong Kong’s Modern Stock Exchange",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/2609282news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: HKEX Launches “A Place to Connect” Exhibition Celebrating 40 Years of Hong Kong’s Modern Stock Exchange",
-      "evidence": [
-        "HKEX Launches “A Place to Connect” Exhibition Celebrating 40 Years of Hong Kong’s Modern Stock Exchange"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-28",
-      "title": "HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/260928news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "summary": "Official HKEX corporate news detected: HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices",
-      "evidence": [
-        "HKEX Welcomes Four New ETFs Tracking HKEX Cross-Market Indices"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 3,
-    "succeeded": 2,
+    "attempted": 5,
+    "succeeded": 4,
     "failed": 1,
     "pending": 0
   }
