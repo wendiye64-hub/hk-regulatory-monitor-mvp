@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-15T11:27:29.764Z",
+  "generated_at": "2026-10-15T17:00:06.130Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7617,
+  "duration_ms": 8248,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4332,
+      "duration_ms": 1932,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4379,
+      "duration_ms": 2230,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 1896,
+      "duration_ms": 3140,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3352,
+      "duration_ms": 3686,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3879,
+      "duration_ms": 3178,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2473,
+      "duration_ms": 3600,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4891,
+      "duration_ms": 3978,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1782,
+      "duration_ms": 4013,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3121,
+      "duration_ms": 2817,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3120,
+      "duration_ms": 2814,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3120,
+      "duration_ms": 2814,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3120,
+      "duration_ms": 2814,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3120,
+      "duration_ms": 2814,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3120,
+      "duration_ms": 2814,
       "count": 5
     }
   ],
@@ -453,6 +453,167 @@
         "Issued the latest Supervisory Guidance for Responsible Adoption of Artificial Intelligence, drawing on insights from the second cohort of the Generative A.I. (GenA.I.) Sandbox1;"
       ],
       "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (15 October) the “ART” Framework to support the responsible adoption of artificial intelligence (A.I.) in the banking sector, fostering an A.I.-enabled banking ecosystem with Accountability, Resilience, and Trust.\n\nA.I. systems are becoming more autonomous, with greater access to data, tools and workflows. With the aim of supporting banks in seizing the opportunities presented by A.I. while maintaining robust governance and operational resilience, key initiatives under the “ART” Framework include:\n\nIssued the latest Supervisory Guidance for Responsible Adoption of Artificial Intelligence, drawing on insights from the second cohort of the Generative A.I. (GenA.I.) Sandbox1;\n\nFurther testing of agentic A.I. applications through the GenA.I. Sandbox++2 and an upcoming discussion paper on a proposed supervisory framework for agentic A.I. governance, exploring intent-anchored accountability, a registry of material A.I. agents, and effective intervention mechanisms.\n\nMr Arthur Yuen, Deputy Chief Executive of the HKMA, said, “The progression from generative to agentic A.I. represents an important new stage of innovation for the banking sector.\n\nUnder Fintech 20303, the HKMA is introducing the ‘ART’ Framework, which stands for Accountability, Resiliency and Trust, with the aim of providing a clear foundation for banks to develop and deploy A.I. responsibly.\n\nThe HKMA is also co-hosting the two-day “Finance + A.I.\n\n15 October 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "United Nations Sanctions (South Sudan) Regulation 2019 (Amendment) Regulation 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/065_26_HKSCCUNSanctions_South_Sudan_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 727,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/065_26_HKSCCUNSanctions_South_Sudan_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations Sanctions (South…》。正文：published in the Gazette on 9 October 2026.",
+      "key_points": [
+        "Participants of HKSCC are requested to note that the United Nations Sanctions (South Sudan) Regulation 2019 (Amendment) Regulation 2026 was published in the Gazette on 9 October 2026.",
+        "Please refer to the regulation which is available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Participants of HKSCC are requested to note that the United Nations Sanctions (South Sudan) Regulation 2019 (Amendment) Regulation 2026 was published in the Gazette on 9 October 2026.",
+        "Please refer to the regulation which is available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers."
+      ],
+      "source_excerpt": "Participants of HKSCC are requested to note that the United Nations Sanctions (South Sudan) Regulation 2019 (Amendment) Regulation 2026 was published in the Gazette on 9 October 2026.\n\nPlease refer to the regulation which is available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/065/2026 日期 Date: 15/10/2026\n\nSubject: United Nations Sanctions (South Sudan) Regulation 2019 (Amendment) Regulation 2026\n\nEnquiry: Ms Irene Law 2840 3397\n\nChow Koon Ying Director",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "Responsible Adoption of Artificial Intelligence Annex C: Concept Note on Governance of Agentic Artificial Intelligence",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-1-EN",
+      "reference": "20261015-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1314,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-1-EN",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex C: Concept Note on Governance of Agentic Artificial Intelligence",
+      "key_points": [
+        "Annex C: Concept Note on Governance of Agentic Artificial Intelligence",
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Annex C: Concept Note on Governance of Agentic Artificial Intelligence",
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I."
+      ],
+      "source_excerpt": "Annex C: Concept Note on Governance of Agentic Artificial Intelligence\n\nAnnex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex B - Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-1-EN.pdf (107.6 KB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\nGranular Data Reporting 3.0\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "Responsible Adoption of Artificial Intelligence Annex B: Practical Insights from the Second Cohort of the GenA.I. Sandbox",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-3-EN",
+      "reference": "20261015-3-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1310,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-3-EN",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex B: Practical Insights from the Second Cohort of the GenA.I.",
+      "key_points": [
+        "Annex B: Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Annex B: Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "source_excerpt": "Annex B: Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-3-EN.pdf (17.1 MB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\nGranular Data Reporting 3.0\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "Responsible Adoption of Artificial Intelligence",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-4-EN",
+      "reference": "20261015-4-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1294,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-4-EN",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+      "key_points": [
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "source_excerpt": "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex B - Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-4-EN.pdf (195.7 KB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\nGranular Data Reporting 3.0\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-15",
+      "title": "Responsible Adoption of Artificial Intelligence Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-2-EN",
+      "reference": "20261015-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1362,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-2-EN",
+      "regulatory_domain": "prudential",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+      "key_points": [
+        "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
+        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
+        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
+      ],
+      "source_excerpt": "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex B - Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-2-EN.pdf (159.7 KB)\n\nTopic:\n\nFintech - Others\n\nTechnology Risk Management - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n01 Nov 2019\n\nHigh-level Principles on Artificial Intelligence\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
       "summary_method": "extractive"
     },
     {
@@ -2864,93 +3025,12 @@
         "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "New Index Options Strike Series pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_231_26_ec.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: New Index Options Strike Series pdf",
-      "evidence": [
-        "New Index Options Strike Series pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "HKICL alerts public of fraudulent website",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-10/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: HKICL alerts public of fraudulent website",
-      "evidence": [
-        "HKICL alerts public of fraudulent website"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Scam alert related to banks",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-5/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Scam alert related to banks",
-      "evidence": [
-        "Scam alert related to banks"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Instant Message and Website Alert – Fraudulent website related to Mastercard",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260930-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Instant Message and Website Alert – Fraudulent website related to Mastercard",
-      "evidence": [
-        "Instant Message and Website Alert – Fraudulent website related to Mastercard"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-29",
-      "title": "Addition of Headline Category in Issuer Information feed Service (IIS)",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-09-29%20Addition%20of%20Headline%20Category%20in%20IIS.pdf",
-      "reference": "MDD/26/583",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market data notice detected: Addition of Headline Category in Issuer Information feed Service (IIS)",
-      "evidence": [
-        "Addition of Headline Category in Issuer Information feed Service (IIS)"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 10,
-    "succeeded": 10,
+    "attempted": 5,
+    "succeeded": 5,
     "failed": 0,
     "pending": 0
   }
