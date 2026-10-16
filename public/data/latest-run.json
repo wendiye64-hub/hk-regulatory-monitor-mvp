@@ -1,109 +1,191 @@
 {
-  "generated_at": "2026-10-15T21:22:11.605Z",
+  "generated_at": "2026-10-16T04:31:00.388Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4008,
+  "duration_ms": 4241,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2954,
+      "duration_ms": 2267,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2218,
+      "duration_ms": 3522,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3152,
+      "duration_ms": 2259,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3178,
+      "duration_ms": 3697,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3993,
+      "duration_ms": 2352,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1491,
+      "duration_ms": 2706,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2475,
+      "duration_ms": 1428,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3090,
+      "duration_ms": 2310,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2242,
+      "duration_ms": 2486,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2240,
+      "duration_ms": 2484,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2240,
+      "duration_ms": 2484,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2240,
+      "duration_ms": 2484,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2240,
+      "duration_ms": 2484,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2240,
+      "duration_ms": 2484,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-16",
+      "title": "Launch of Acceptance of China Government Bonds as Non-Cash Collateral in HKCC pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_069_Eng_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 6042,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_069_Eng_2026.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Launch of Acceptance of China…》；对象：CGB collateral set out in。正文：Reference is made to the circular dated 25 September 2026 (Ref:…",
+      "key_points": [
+        "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/066/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements.",
+        "A summary of the key risk and operational arrangements is set out below.",
+        "The following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in HKCC:",
+        "• Bonds issued by the Ministry of Finance (MOF) of the People’s Republic of China (PRC) and offered primarily in the international market (MOF Bonds); and",
+        "HKEX Privacy Notice is available here . 2 The FAQ has been jointly developed by HKEX and the Central Moneymarkets Unit (CMU) to support the use of CGBs as collateral by Clearing Participants and their clients."
+      ],
+      "key_dates": [
+        {
+          "date": "2 November 2026",
+          "kind": "effective",
+          "evidence": "The acceptance of CGBs as eligible non- cash collateral will be implemented with effect from 2 November 2026 ."
+        }
+      ],
+      "affected_parties": [
+        "CGB collateral set out in this circular, the value of non-cash collateral will also be subject to an FX haircut"
+      ],
+      "evidence": [
+        "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/066/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements.",
+        "A summary of the key risk and operational arrangements is set out below.",
+        "The following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in HKCC:"
+      ],
+      "source_excerpt": "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/066/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements. The HKFE Clearing Corporation Limited (HKCC) is pleased to announce that the Securities and Futures Commission has approved the relevant rule amendments. The acceptance of CGBs as eligible non- cash collateral will be implemented with effect from 2 November 2026 .\n\nA summary of the key risk and operational arrangements is set out below. Detailed requirements and operational procedures are provided in the Frequently Asked Questions (FAQ) 2 available on the HKEX website .\n\nThe following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in HKCC:\n\n• Bonds issued by the Ministry of Finance (MOF) of the People’s Republic of China (PRC) and offered primarily in the international market (MOF Bonds); and\n\n1 Calls to and from the DCASS Hotline may be recorded. HKEX Privacy Notice is available here . 2 The FAQ has been jointly developed by HKEX and the Central Moneymarkets Unit (CMU) to support the use of CGBs as collateral by Clearing Participants and their clients. It provides guidance on the onboarding requirements, account-opening arrangements, collateral movement procedures and other operational requirements relating to the use of CGB collateral.\n\n通告 CIRCULAR\n\n(1) Eligible CGBs\n\n編號 Ref. No.: PT/SCS/069/2026 日期 Date: 16/10/2026\n\n3\n\n4\n\nAppendix 1",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-16",
+      "title": "Launch of Acceptance of China Government Bonds as Non-Cash Collateral in SEOCH pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_070_Eng_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 6057,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_070_Eng_2026.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Launch of Acceptance of China…》；对象：CGB collateral set out in。正文：Reference is made to the circular dated 25 September 2026 (Ref:…",
+      "key_points": [
+        "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/067/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements.",
+        "A summary of the key risk and operational arrangements is set out below.",
+        "The following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in SEOCH :",
+        "• Bonds issued by the Ministry of Finance (MOF) of the People’s Republic of China (PRC) and offered primarily in the international market (MOF Bonds); and",
+        "HKEX Privacy Notice is available here . 2 The FAQ has been jointly developed by HKEX and the Central Moneymarkets Unit (CMU) to support the use of CGBs as collateral by Clearing Participants and their clients."
+      ],
+      "key_dates": [
+        {
+          "date": "2 November 2026",
+          "kind": "effective",
+          "evidence": "The acceptance of CGBs as eligible non-cash collateral will be implemented with effect from 2 November 2026 ."
+        }
+      ],
+      "affected_parties": [
+        "CGB collateral set out in this circular, the value of non-cash collateral will also be subject to an FX haircut"
+      ],
+      "evidence": [
+        "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/067/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements.",
+        "A summary of the key risk and operational arrangements is set out below.",
+        "The following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in SEOCH :"
+      ],
+      "source_excerpt": "Reference is made to the circular dated 25 September 2026 (Ref: PT/SCS/067/2026 ) regarding the acceptance of China Government Bonds (CGBs) as eligible collateral for margin requirements. The SEHK Options Clearing House Limited (SEOCH) is pleased to announce that the Securities and Futures Commission has approved the relevant rule amendments. The acceptance of CGBs as eligible non-cash collateral will be implemented with effect from 2 November 2026 .\n\nA summary of the key risk and operational arrangements is set out below. Detailed requirements and operational procedures are provided in the Frequently Asked Questions (FAQ) 2 available on the HKEX website .\n\nThe following CGBs will be accepted as eligible non-cash collateral for the purpose of satisfying margin requirements in SEOCH :\n\n• Bonds issued by the Ministry of Finance (MOF) of the People’s Republic of China (PRC) and offered primarily in the international market (MOF Bonds); and\n\n1 Calls to and from the DCASS Hotline may be recorded. HKEX Privacy Notice is available here . 2 The FAQ has been jointly developed by HKEX and the Central Moneymarkets Unit (CMU) to support the use of CGBs as collateral by Clearing Participants and their clients. It provides guidance on the onboarding requirements, account-opening arrangements, collateral movement procedures and other operational requirements relating to the use of CGB collateral.\n\n通告 CIRCULAR\n\n(1) Eligible CGBs\n\n編號 Ref. No.: PT/SCS/070/2026 日期 Date: 16/10/2026\n\nAppendix 1",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-15",
       "title": "China Tianrui Automotive Interiors Co., Ltd (Stock Code: 6162) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
@@ -2993,44 +3075,12 @@
         "Ad Hoc Review on Guarantee Fund pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026155_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf",
-      "evidence": [
-        "Display of Adjusted Previous Closing Price of China Brilliant Global Limited (stock code 8026) on OTP-C for its 10-into-1 Share Consolidation on 2 October 2026 pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026154_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf",
-      "evidence": [
-        "Display of Adjusted Previous Closing Price of King International Investment Limited (stock code 928) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 2 October 2026 pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 2,
+    "succeeded": 2,
     "failed": 0,
     "pending": 0
   }
