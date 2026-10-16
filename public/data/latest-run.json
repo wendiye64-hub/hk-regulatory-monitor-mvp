@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-16T11:23:06.269Z",
+  "generated_at": "2026-10-16T16:38:47.846Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 14496,
+  "duration_ms": 5528,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3704,
+      "duration_ms": 3036,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3607,
+      "duration_ms": 4537,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3354,
+      "duration_ms": 2146,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 10615,
+      "duration_ms": 3508,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4183,
+      "duration_ms": 4104,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3564,
+      "duration_ms": 1493,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 6423,
+      "duration_ms": 4863,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3706,
+      "duration_ms": 1214,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2618,
+      "duration_ms": 2725,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2615,
+      "duration_ms": 2722,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2615,
+      "duration_ms": 2722,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2615,
+      "duration_ms": 2722,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2615,
+      "duration_ms": 2722,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2615,
+      "duration_ms": 2722,
       "count": 5
     }
   ],
@@ -565,6 +565,45 @@
         "Should you have any queries, please contact us at (852) 2211 6558 or send your questions to IVSupport@hkex.com.hk ."
       ],
       "source_excerpt": "Please be informed of the following changes on headline categories of issuer announcement and documents, with effect from 16 November 2026 (Monday) .\n\nEnclosed is the updated IIS Transmission Specification (version 4.9) with the changes aforementioned. The changes are highlighted with “|” on the left margin in the document for your easy reference. Clients are requested to make appropriate system changes where necessary.\n\nShould you have any queries, please contact us at (852) 2211 6558 or send your questions to IVSupport@hkex.com.hk .\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n16 October 2026 By Email Our Ref: MDD/26/636\n\nTo: Direct Connection Issuer News Market Data Vendors (collectively “Clients”)\n\nCopy: Indirect Connection Issuer News Market Data Vendors\n\nUpdates on Headline Categories in Issuer Information feed Service (“IIS”)\n\n1. Addition of six new Tier 2 Headline Categories\n\nHeadline Category Name in English Name in Chinese Tier 1 Tier 2\n\n10000 19900 Material Change to USM Transition Plan 無紙證券市場過渡計劃重大變更\n\n10000 19910 USM Transition Plan 無紙證券市場過渡計劃\n\n10000 19920 SFC Exemption to List in Certificated Form 證監會就以有紙形式上市的豁免\n\n10000 19930 Imminent USM Participation 快將成為無紙證券市場參與證券\n\n10000 19940 Warrants/ Rights to Become Participating Securities 權證 / 權利成為參與證券\n\n10000 19950 Notification of USM Specified Date 無紙證券市場指明日期通知\n\n2.\n\n更換股份過戶 登記處 / 登記 代理",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-16",
+      "title": "Implementation of Uncertificated Securities Market (USM) - Registration for Additional Practice Session pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_010_2026v4.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2901,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_010_2026v4.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Implementation of Uncertificated…》。正文：Reference is made to the circular dated 14 September 2026 (Reference: PT/NIS/CCASS/298/2026 ) regarding…",
+      "key_points": [
+        "Reference is made to the circular dated 14 September 2026 (Reference: PT/NIS/CCASS/298/2026 ) regarding the registration for practice session and briefing sessions, and completion of USM implementation readiness questionnaire.",
+        "Taking into account feedback received from CPs, Hong Kong Securities Clearing Company Limited (HKSCC) is pleased to arrange an additional practice session on 24 & 25 October 2026 (Saturday & Sunday) , as follows:",
+        "Given the market-wide nature of the implementation, HKSCC considers that providing an additional opportunity for CPs to familiarize themselves with the new processes and arrangements will further strengthen overall market preparedness and support a smooth and orderly transition to the new operating environment.",
+        "CPs are strongly encouraged to participate in the additional practice session to familiarize themselves with the relevant operational procedures and ensure readiness to support post-launch operations.",
+        "To facilitate preparing for the additional practice session, CPs are required to read through the “ Information Package for USM Practice Session ” and “ USM Practice Session Briefing ”, which is now available via HKEX USM dedicated webpage."
+      ],
+      "key_dates": [
+        {
+          "date": "22 October 2026",
+          "kind": "deadline",
+          "evidence": "CPs wishing to participate should register for the additional practice session via Registration Link on or before 22 October 2026 (Thursday) ."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Reference is made to the circular dated 14 September 2026 (Reference: PT/NIS/CCASS/298/2026 ) regarding the registration for practice session and briefing sessions, and completion of USM implementation readiness questionnaire.",
+        "Taking into account feedback received from CPs, Hong Kong Securities Clearing Company Limited (HKSCC) is pleased to arrange an additional practice session on 24 & 25 October 2026 (Saturday & Sunday) , as follows:",
+        "Given the market-wide nature of the implementation, HKSCC considers that providing an additional opportunity for CPs to familiarize themselves with the new processes and arrangements will further strengthen overall market preparedness and support a smooth and orderly transition to the new operating environment."
+      ],
+      "source_excerpt": "Reference is made to the circular dated 14 September 2026 (Reference: PT/NIS/CCASS/298/2026 ) regarding the registration for practice session and briefing sessions, and completion of USM implementation readiness questionnaire.\n\nTaking into account feedback received from CPs, Hong Kong Securities Clearing Company Limited (HKSCC) is pleased to arrange an additional practice session on 24 & 25 October 2026 (Saturday & Sunday) , as follows:\n\nThe additional practice session reflects HKSCC's continued commitment to supporting market participants through the transition to USM. Given the market-wide nature of the implementation, HKSCC considers that providing an additional opportunity for CPs to familiarize themselves with the new processes and arrangements will further strengthen overall market preparedness and support a smooth and orderly transition to the new operating environment.\n\nCPs are strongly encouraged to participate in the additional practice session to familiarize themselves with the relevant operational procedures and ensure readiness to support post-launch operations. CPs wishing to participate should register for the additional practice session via Registration Link on or before 22 October 2026 (Thursday) .\n\nTo facilitate preparing for the additional practice session, CPs are required to read through the “ Information Package for USM Practice Session ” and “ USM Practice Session Briefing ”, which is now available via HKEX USM dedicated webpage.\n\n通告 CIRCULAR\n\n編號 Ref.",
       "summary_method": "extractive"
     },
     {
@@ -3280,29 +3319,13 @@
         "Inter-commodity Spread pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-09-30",
-      "title": "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/260930news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "regulatory_domain": "listing_rules",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "summary": "Official HKEX market communication detected: Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)",
-      "evidence": [
-        "Report on Initial Public Offering Applications, Delisting and Suspensions (September 2026)"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 10,
-    "succeeded": 9,
-    "failed": 1,
+    "attempted": 1,
+    "succeeded": 1,
+    "failed": 0,
     "pending": 0
   }
 }
