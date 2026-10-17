@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-17T04:24:27.196Z",
+  "generated_at": "2026-10-17T10:42:50.762Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4360,
+  "duration_ms": 5787,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4328,
+      "duration_ms": 2893,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2201,
+      "duration_ms": 2157,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3314,
+      "duration_ms": 3903,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2669,
+      "duration_ms": 5248,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3513,
-      "count": 10
+      "duration_ms": 4651,
+      "count": 4
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 4343,
+      "duration_ms": 3440,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3404,
+      "duration_ms": 2879,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1340,
+      "duration_ms": 3774,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2395,
+      "duration_ms": 2508,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2393,
+      "duration_ms": 2505,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2393,
+      "duration_ms": 2505,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2393,
+      "duration_ms": 2505,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2393,
+      "duration_ms": 2505,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2393,
+      "duration_ms": 2505,
       "count": 5
     }
   ],
@@ -604,6 +604,39 @@
         "Given the market-wide nature of the implementation, HKSCC considers that providing an additional opportunity for CPs to familiarize themselves with the new processes and arrangements will further strengthen overall market preparedness and support a smooth and orderly transition to the new operating environment."
       ],
       "source_excerpt": "Reference is made to the circular dated 14 September 2026 (Reference: PT/NIS/CCASS/298/2026 ) regarding the registration for practice session and briefing sessions, and completion of USM implementation readiness questionnaire.\n\nTaking into account feedback received from CPs, Hong Kong Securities Clearing Company Limited (HKSCC) is pleased to arrange an additional practice session on 24 & 25 October 2026 (Saturday & Sunday) , as follows:\n\nThe additional practice session reflects HKSCC's continued commitment to supporting market participants through the transition to USM. Given the market-wide nature of the implementation, HKSCC considers that providing an additional opportunity for CPs to familiarize themselves with the new processes and arrangements will further strengthen overall market preparedness and support a smooth and orderly transition to the new operating environment.\n\nCPs are strongly encouraged to participate in the additional practice session to familiarize themselves with the relevant operational procedures and ensure readiness to support post-launch operations. CPs wishing to participate should register for the additional practice session via Registration Link on or before 22 October 2026 (Thursday) .\n\nTo facilitate preparing for the additional practice session, CPs are required to read through the “ Information Package for USM Practice Session ” and “ USM Practice Session Briefing ”, which is now available via HKEX USM dedicated webpage.\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-16",
+      "title": "Implementation of T+1 Settlement Cycle for Hong Kong Cash Market pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT16526E.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2246,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT16526E.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Implementation of T+1 Settlement…》。正文：published today. Subject to market readiness and regulatory approval, T+1 will be implemented in the…",
+      "key_points": [
+        "Reference is made to the Consultation Conclusions on Accelerated Settlement ( “ T+1 ” ) for the Hong Kong Cash Market and circular by Hong Kong Securities Clearing Company Limited (“ HKSCC ”) (Ref: PT/SCS/CCASS/035/2026 ) published today.",
+        "All Exchange Participants (“ EPs ”) of The Stock Exchange of Hong Kong Limited (“ the Exchange ” or “ SEHK ”) are requested to note and observe to the upcoming trading-related arrangements including but not limited to trade amendments and stamp duty reporting timeline.",
+        "For more information, EPs can refer to the T+1 Web Corner , which will be the central repository for T+1 related reference materials, including announcements, information paper, consultation conclusions and technical information.",
+        "Should you have any questions regarding the above information, please contact the hotline at 2840 3626 or email to trd@hkex.com.hk .",
+        "This circular has been issued in the English language with a separate Chinese language translation."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Reference is made to the Consultation Conclusions on Accelerated Settlement ( “ T+1 ” ) for the Hong Kong Cash Market and circular by Hong Kong Securities Clearing Company Limited (“ HKSCC ”) (Ref: PT/SCS/CCASS/035/2026 ) published today.",
+        "All Exchange Participants (“ EPs ”) of The Stock Exchange of Hong Kong Limited (“ the Exchange ” or “ SEHK ”) are requested to note and observe to the upcoming trading-related arrangements including but not limited to trade amendments and stamp duty reporting timeline.",
+        "For more information, EPs can refer to the T+1 Web Corner , which will be the central repository for T+1 related reference materials, including announcements, information paper, consultation conclusions and technical information."
+      ],
+      "source_excerpt": "Reference is made to the Consultation Conclusions on Accelerated Settlement ( “ T+1 ” ) for the Hong Kong Cash Market and circular by Hong Kong Securities Clearing Company Limited (“ HKSCC ”) (Ref: PT/SCS/CCASS/035/2026 ) published today. Subject to market readiness and regulatory approval, T+1 will be implemented in the second half of 2028.\n\nAll Exchange Participants (“ EPs ”) of The Stock Exchange of Hong Kong Limited (“ the Exchange ” or “ SEHK ”) are requested to note and observe to the upcoming trading-related arrangements including but not limited to trade amendments and stamp duty reporting timeline. To facilitate a smooth transition, EPs should assess whether any changes are required and ensure readiness ahead of the T+1 implementation.\n\nFor more information, EPs can refer to the T+1 Web Corner , which will be the central repository for T+1 related reference materials, including announcements, information paper, consultation conclusions and technical information. The T+1 Web Corner will be updated from time to time. Participant webinars on the T+1 operating model will also be arranged. Webinar dates, registration arrangements and further details will be announced in due course.\n\nShould you have any questions regarding the above information, please contact the hotline at 2840 3626 or email to trd@hkex.com.hk .\n\nThis circular has been issued in the English language with a separate Chinese language translation.\n\n通告 CIRCULAR\n\nJack Ko\n\n編號 Ref.",
       "summary_method": "extractive"
     },
     {
@@ -3303,28 +3336,12 @@
         "Monthly Review on Guarantee Fund pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-01",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_246_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
-      "evidence": [
-        "Inter-commodity Spread pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
