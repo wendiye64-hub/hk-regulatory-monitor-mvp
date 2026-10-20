@@ -1,109 +1,162 @@
 {
-  "generated_at": "2026-10-19T22:20:51.005Z",
+  "generated_at": "2026-10-20T04:49:44.086Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4552,
+  "duration_ms": 8073,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4461,
+      "duration_ms": 3188,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3385,
+      "duration_ms": 2227,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4332,
+      "duration_ms": 1947,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4533,
+      "duration_ms": 3420,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3819,
-      "count": 0
+      "duration_ms": 1954,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3625,
+      "duration_ms": 3474,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2775,
+      "duration_ms": 4444,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3435,
+      "duration_ms": 1585,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2573,
+      "duration_ms": 2015,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2571,
+      "duration_ms": 2013,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2571,
+      "duration_ms": 2013,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2571,
+      "duration_ms": 2013,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2571,
+      "duration_ms": 2013,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2571,
+      "duration_ms": 2013,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-20",
+      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
+      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
+      "source_id": "HKEX-CORP-NEWS",
+      "source_label": "HKEX Corporate News Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "prudential",
+      "change_type": "corporate_news",
+      "impact_status": "no_clear_impact",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-20",
+      "title": "Ministry of Finance issues Renminbi Sovereign Bonds through Central Moneymarkets Unit of Hong Kong Monetary Authority",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261020-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 548,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261020-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Ministry of Finance issues…》。正文：will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority…",
+      "key_points": [
+        "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA).",
+        "Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance.",
+        "Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA).",
+        "Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance.",
+        "Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA."
+      ],
+      "source_excerpt": "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA). Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance. Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA.\n\nAnnexes:\n\n1. Tender notice\n\n2. Tender information memorandum\n\n3. Tender-related information\n\n20 October 2026",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-19",
       "title": "Margin Rates pdf",
@@ -3329,45 +3382,13 @@
         "HKCC Participant Additional Deposit pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-02",
-      "title": "Notification of Routine Recalculation of Rates and FX Guarantee Fund pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Oct_2026_247.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Notification of Routine Recalculation of Rates and FX Guarantee Fund pdf",
-      "evidence": [
-        "Notification of Routine Recalculation of Rates and FX Guarantee Fund pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-02",
-      "title": "Display of Adjusted Previous Closing Price of SG Group Holdings Limited (stock code 1657) on OTP-C for its 1-into-10 Share Subdivision on 5 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026156_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of SG Group Holdings Limited (stock code 1657) on OTP-C for its 1-into-10 Share Subdivision on 5 October 2026 pdf",
-      "evidence": [
-        "Display of Adjusted Previous Closing Price of SG Group Holdings Limited (stock code 1657) on OTP-C for its 1-into-10 Share Subdivision on 5 October 2026 pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
-    "failed": 0,
+    "attempted": 2,
+    "succeeded": 1,
+    "failed": 1,
     "pending": 0
   }
 }
