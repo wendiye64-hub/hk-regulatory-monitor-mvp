@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-20T11:35:06.247Z",
+  "generated_at": "2026-10-20T17:02:14.378Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7961,
+  "duration_ms": 4170,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3419,
+      "duration_ms": 2371,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3629,
+      "duration_ms": 3028,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3413,
+      "duration_ms": 3612,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3876,
+      "duration_ms": 3095,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5673,
+      "duration_ms": 3686,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2557,
+      "duration_ms": 3440,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2655,
+      "duration_ms": 3028,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 979,
+      "duration_ms": 2472,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 1937,
+      "duration_ms": 3231,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 3229,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 3229,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 3229,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 3229,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 3229,
       "count": 5
     }
   ],
@@ -204,6 +204,40 @@
         "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
       ],
       "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTender date\n\n:\n\n20 October 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2642\n\nIssue date\n\n21 October 2026\n\nMaturity date\n\n20 January 2027\n\nAmount applied\n\nHK$165,996 MN\n\nAmount allotted\n\nHK$67,147 MN\n\nAverage yield accepted\n\n2.82 PCT\n\nHighest yield accepted\n\n2.85 PCT\n\nPro rata ratio*\n\nAbout 47 PCT\n\nAverage tender yield\n\n2.94 PCT\n\n****************************\n\nH2671\n\n21 April 2027\n\nHK$45,710 MN\n\nHK$12,000 MN\n\n3.13 PCT\n\n3.15 PCT\n\nAbout 74 PCT\n\n3.20 PCT\n\nY2696\n\n20 October 2027\n\nHK$21,825 MN\n\nHK$5,000 MN\n\n3.34 PCT\n\n3.39 PCT\n\nAbout 90 PCT\n\n3.49 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\nTenders to be held in the week beginning – 26 October 2026:\n\n27 October 2026\n\nQ2643\n\n28 October 2026\n\n27 January 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$65,782 MN\n\nH2672\n\n28 April 2027\n\n182 Days\n\nHK$15,000 MN\n\nEnd/Tuesday, 20 October, 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-20",
+      "title": "Updates on Standardization of Date Format in DCASS Risk Management Reports (including Risk Parameter Files) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_269_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1372,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_269_2026.pdf",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Updates on Standardization of Date…》；对象：Clearing Participants。正文：will be implemented on Monday, 11 January 2027 .",
+      "key_points": [
+        "The SEHK Options Clearing House Limited is pleased to announce that the standardization will be implemented on Monday, 11 January 2027 .",
+        "Clearing Participants should make all necessary arrangements for the above-mentioned change if required, in particular the margin calculation of your clients, and inform your Non-Clearing Participants where necessary.",
+        "Should you have any enquiries regarding the above, please contact us at 2211-6901.",
+        "For those stock options series with monthly expiries only, their expiry date format will be changed from the implementation date onwards."
+      ],
+      "key_dates": [],
+      "affected_parties": [
+        "Clearing Participants"
+      ],
+      "evidence": [
+        "The SEHK Options Clearing House Limited is pleased to announce that the standardization will be implemented on Monday, 11 January 2027 .",
+        "Clearing Participants should make all necessary arrangements for the above-mentioned change if required, in particular the margin calculation of your clients, and inform your Non-Clearing Participants where necessary.",
+        "Should you have any enquiries regarding the above, please contact us at 2211-6901."
+      ],
+      "source_excerpt": "The SEHK Options Clearing House Limited is pleased to announce that the standardization will be implemented on Monday, 11 January 2027 . For those stock options series with monthly expiries only, their expiry date format will be changed from the implementation date onwards. The underlying of those stock options series could be found in the List of Stock Option Classes Available for Trading .\n\nClearing Participants should make all necessary arrangements for the above-mentioned change if required, in particular the margin calculation of your clients, and inform your Non-Clearing Participants where necessary.\n\nShould you have any enquiries regarding the above, please contact us at 2211-6901.\n\n香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE SEHK OPTIONS CLEARING HOUSE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Updates on Standardization of Date Format in DCASS Risk Management Reports (including Risk Parameter Files) Enquiry: 2211-6901\n\nReference is made to the circular dated 18 May 2026 (Ref. No: ORM/CRC/136/2026 ) in relation to the standardization of expiry date format for all stock options in DCASS risk management reports (including Risk Parameter Files).\n\nTerence Low Managing Director Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/269/2026 日期 Date: 20/10/2026",
       "summary_method": "extractive"
     },
     {
@@ -3383,29 +3417,13 @@
         "Inter-commodity Spread pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-02",
-      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/063_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
-      "evidence": [
-        "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 2,
+    "attempted": 1,
     "succeeded": 1,
-    "failed": 1,
+    "failed": 0,
     "pending": 0
   }
 }
