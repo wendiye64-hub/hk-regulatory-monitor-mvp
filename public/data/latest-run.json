@@ -1,109 +1,207 @@
 {
-  "generated_at": "2026-10-20T21:36:49.686Z",
+  "generated_at": "2026-10-21T04:44:56.826Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4562,
+  "duration_ms": 5380,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2018,
+      "duration_ms": 3217,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4545,
+      "duration_ms": 4230,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4395,
+      "duration_ms": 4236,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 1886,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4385,
+      "duration_ms": 3979,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1563,
+      "duration_ms": 1657,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2944,
+      "duration_ms": 1942,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3607,
+      "duration_ms": 4634,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 1974,
+      "duration_ms": 3308,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 1972,
+      "duration_ms": 3306,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 1972,
+      "duration_ms": 3306,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 1972,
+      "duration_ms": 3306,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 1972,
+      "duration_ms": 3306,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 1972,
+      "duration_ms": 3306,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-21",
+      "title": "Yunnan Jinxun Resources Co., Ltd. (Stock Code : 3636) - Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_368_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 4615,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_368_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Yunnan Jinxun Resources Co., Ltd.…》。正文：will be changed from 200 shares to 500 shares with effect from 28 October 2026.",
+      "key_points": [
+        "Pursuant to the announcement of Yunnan Jinxun Resources Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 200 shares to 500 shares with effect from 28 October 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 28 October 2026 and 26 November 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "With effect from 28 October 2026 until 26 November 2026, CCASS Depository will accept deposits of the existing share certificates under temporary stock code: 2955 and the new share certificates under stock code: 3636 in accordance with the schedule as listed in Appendix II."
+      ],
+      "key_dates": [
+        {
+          "date": "28 October 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the announcement of Yunnan Jinxun Resources Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 200 shares to 500 shares with effect from 28 October 2026."
+        },
+        {
+          "date": "20 November 2026",
+          "kind": "effective",
+          "evidence": "With effect from 20 November 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3636."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the announcement of Yunnan Jinxun Resources Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 200 shares to 500 shares with effect from 28 October 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 28 October 2026 and 26 November 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the announcement of Yunnan Jinxun Resources Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 200 shares to 500 shares with effect from 28 October 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 28 October 2026 and 26 November 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 20 November 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3636.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n4",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-21",
+      "title": "Grown Up Group Investment Holdings Limited (Stock Code: 1842) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_367_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7851,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_367_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Grown Up Group Investment Holdings…》。正文：will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+      "key_points": [
+        "Pursuant to the share consolidation proposal of Grown Up Group Investment Holdings Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 12 November 2026 and 10 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 30 October 2026 until 10 December 2026, Existing Share certificates (grey in colour) will be accepted for deposit under stock code: 2952 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "11 December 2026",
+          "kind": "effective",
+          "evidence": "Effective from 11 December 2026, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 1842 (New)."
+        },
+        {
+          "date": "11 November 2026",
+          "kind": "effective",
+          "evidence": "Effective from 11 November 2026, the CCASS Depository will accept deposit of Consolidated Share certificates (yellow in colour) under stock code: 1842 (New)."
+        },
+        {
+          "date": "30 October 2026",
+          "kind": "effective",
+          "evidence": "With effect from 30 October 2026 until 12 November 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2952."
+        },
+        {
+          "date": "13 November 2026",
+          "kind": "effective",
+          "evidence": "With effect from 13 November 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 1842."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation proposal of Grown Up Group Investment Holdings Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 12 November 2026 and 10 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the share consolidation proposal of Grown Up Group Investment Holdings Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 4,000 Existing Shares to 5,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 30 October 2026 until 10 December 2026, Existing Share certificates (grey in colour) will be accepted for deposit under stock code: 2952 (Temp).\n\n2.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n3.\n\n1 1 0 2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-20",
       "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
@@ -3385,44 +3483,12 @@
         "Display of Adjusted Previous Closing Price of China Sandi Holdings Limited (stock code 910) on OTP-C for its 200-into-1 Share Consolidation on 6 October 2026 pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-02",
-      "title": "Implementation of the 9-Times Rule Enhancements in the Hong Kong Securities Market - Practice Session, Post Release Test and Launch Arrangements pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT15926E.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Implementation of the 9-Times Rule Enhancements in the Hong Kong Securities Market - Practice Session, Post Release Test and Launch Arrangements pdf",
-      "evidence": [
-        "Implementation of the 9-Times Rule Enhancements in the Hong Kong Securities Market - Practice Session, Post Release Test and Launch Arrangements pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-02",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_251_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
-      "evidence": [
-        "Inter-commodity Spread pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 2,
+    "succeeded": 2,
     "failed": 0,
     "pending": 0
   }
