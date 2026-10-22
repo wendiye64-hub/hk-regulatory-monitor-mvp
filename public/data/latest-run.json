@@ -1,109 +1,148 @@
 {
-  "generated_at": "2026-10-21T21:42:03.387Z",
+  "generated_at": "2026-10-22T04:43:14.297Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4249,
+  "duration_ms": 4852,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3339,
+      "duration_ms": 2830,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4226,
+      "duration_ms": 3177,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3678,
+      "duration_ms": 1778,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3284,
+      "duration_ms": 3038,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3891,
+      "duration_ms": 3770,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3369,
+      "duration_ms": 2670,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1792,
+      "duration_ms": 3179,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1817,
+      "duration_ms": 1094,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2932,
+      "duration_ms": 2369,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2366,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2366,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2366,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2366,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2366,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-22",
+      "title": "Display of Adjusted Previous Closing Price of China Tianrui Automotive Interiors Co., LTD (stock code 6162) on OTP-C for its 40-into-1 Share Consolidation on 23 October 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026171_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3278,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026171_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 23 October 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by China Tianrui Automotive Interiors Co., LTD (“ Tianrui Automotive ”), the share consolidation of 40 existing shares of HK$0.01 each in Tianrui Automotive into 1 consolidated share of HK$0.4 each will become effective on 23 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Tianrui Automotive’s closing price on 22 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Tianrui Automotive’s OTP - C temporary stock page on 23 October 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Tianrui Automotive ’s circulars and regulatory announcements in full including the terms and conditions of Tianrui Automotive ’s share consolidation in dealing with Tianrui Automotive ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "23 October 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by China Tianrui Automotive Interiors Co., LTD (“ Tianrui Automotive ”), the share consolidation of 40 existing shares of HK$0.01 each in Tianrui Automotive into 1 consolidated share of HK$0.4 each will become effective on 23 October 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by China Tianrui Automotive Interiors Co., LTD (“ Tianrui Automotive ”), the share consolidation of 40 existing shares of HK$0.01 each in Tianrui Automotive into 1 consolidated share of HK$0.4 each will become effective on 23 October 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Tianrui Automotive’s closing price on 22 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Tianrui Automotive’s OTP - C temporary stock page on 23 October 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by China Tianrui Automotive Interiors Co., LTD (“ Tianrui Automotive ”), the share consolidation of 40 existing shares of HK$0.01 each in Tianrui Automotive into 1 consolidated share of HK$0.4 each will become effective on 23 October 2026. Shareholders, investors and market participants should read the Tianrui Automotive ’s circulars and regulatory announcements in full including the terms and conditions of Tianrui Automotive ’s share consolidation in dealing with Tianrui Automotive ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Tianrui Automotive ’s OTP -C temporary stock page (stock code 2948) on 23 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on Tianrui Automotive ’s closing price on 22 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\n…/2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-21",
       "title": "Yunnan Jinxun Resources Co., Ltd. (Stock Code : 3636) - Change in Board Lot Size pdf",
@@ -3620,28 +3659,12 @@
         "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-05",
-      "title": "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261005-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "licensing_benchmark",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company",
-      "evidence": [
-        "Granting of restricted banking licence to BAKAI BANK Open Joint Stock Company"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
