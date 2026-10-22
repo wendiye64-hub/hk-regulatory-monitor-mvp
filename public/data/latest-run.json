@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-22T04:43:14.297Z",
+  "generated_at": "2026-10-22T11:51:24.343Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4852,
+  "duration_ms": 10640,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2830,
+      "duration_ms": 2031,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3177,
+      "duration_ms": 3821,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 1778,
+      "duration_ms": 4492,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3038,
+      "duration_ms": 4419,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3770,
+      "duration_ms": 3437,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2670,
+      "duration_ms": 3613,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3179,
+      "duration_ms": 4402,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1094,
+      "duration_ms": 3379,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2369,
+      "duration_ms": 3100,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2366,
+      "duration_ms": 3098,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2366,
+      "duration_ms": 3098,
       "count": 3
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2366,
+      "duration_ms": 3098,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2366,
+      "duration_ms": 3098,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2366,
+      "duration_ms": 3098,
       "count": 5
     }
   ],
@@ -142,6 +142,317 @@
       ],
       "source_excerpt": "Pursuant to the share consolidation timetable issued by China Tianrui Automotive Interiors Co., LTD (“ Tianrui Automotive ”), the share consolidation of 40 existing shares of HK$0.01 each in Tianrui Automotive into 1 consolidated share of HK$0.4 each will become effective on 23 October 2026. Shareholders, investors and market participants should read the Tianrui Automotive ’s circulars and regulatory announcements in full including the terms and conditions of Tianrui Automotive ’s share consolidation in dealing with Tianrui Automotive ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Tianrui Automotive ’s OTP -C temporary stock page (stock code 2948) on 23 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on Tianrui Automotive ’s closing price on 22 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\n…/2",
       "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Announcement - In relation to the matter of Differ Group Auto Limited (In Liquidation) (incorporated in the Cayman Islands with limited liability) (Stock Code: 6878) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610223news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Announcement - In relation to the matter of AM Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1849) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610222news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Announcement - In relation to the matter of Sino Oil and Gas Holdings Limited (In Liquidation) (Incorporated in Bermuda with limited liability) (Stock Code: 702) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261022news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_271_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 959,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_271_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 26 October 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 26 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised.",
+        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Thailand Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "26 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 26 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 26 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised.",
+        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Thailand Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 26 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised. The details can be found here .\n\n• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI EM Asia Net Total Return (USD) Index • MSCI Emerging Markets Net Total Return (USD) Index vs MSCI Thailand Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/271/2026 日期 Date: 22/10/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Trading Arrangements of CUAM Solactive China & Global Semiconductor ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_171_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2758,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_171_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading Arrangements of CUAM…》；对象：Exchange Participants。正文：Exchange Participants are requested to note that CUAM Solactive China & Global…",
+      "key_points": [
+        "Exchange Participants are requested to note that CUAM Solactive China & Global Semiconductor ETF (Stock Code: 3536) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) .",
+        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
+        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.",
+        "Exchange Participants should advise their clients to carefully consider whether trading in the ETF(s) is/are appropriate for them in light of their understanding of the product nature and characteristics, their own investment objectives, skills and experience, financial resources, risk tolerance and other relevant circumstances prior to making any decision.",
+        "Further information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage ."
+      ],
+      "key_dates": [
+        {
+          "date": "23 October 2026",
+          "kind": "effective",
+          "evidence": "Exchange Participants are requested to note that CUAM Solactive China & Global Semiconductor ETF (Stock Code: 3536) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) ."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Exchange Participants are requested to note that CUAM Solactive China & Global Semiconductor ETF (Stock Code: 3536) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) .",
+        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
+        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time."
+      ],
+      "source_excerpt": "Exchange Participants are requested to note that CUAM Solactive China & Global Semiconductor ETF (Stock Code: 3536) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) . Investors should always refer to the details about the Fund provided by the Fund Manager, e.g. Net Asset Value per Unit, before trading the abovementioned ETF(s). Detail of its trading arrangements ( Attachment 1 ) are attached for reference.\n\nSecurities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day. The Securities Market Maker(s) is/are listed in Attachment 1 for reference. The Securities Market Maker(s) is/are subject to the market making obligations set out in Attachment 2 of this circular and Securities Market Maker Regulations of the Rules of the Exchange.\n\nPlease refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.\n\nTrading in the ETF(s) may not be suitable for all members of the public.\n\nFurther information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage .\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "End-To-End Test and Optional Practice Session for Enhancements to Timestamp Dissemination for Northbound Trading under Stock Connect pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT17226E.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2747,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT17226E.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《End-To-End Test and Optional…》。正文：Reference is made to the Exchange Circular (Ref: CT/126/26 ) regarding the Enhancements to Timestamp…",
+      "key_points": [
+        "Reference is made to the Exchange Circular (Ref: CT/126/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) .",
+        "The E2E testing environment will be upgraded with the Timestamp Enhancements.",
+        "An optional PS will be arranged on 7 November 2026 (Saturday) to facilitate CCEPs’ readiness verification prior to the launch of Timestamp Enhancements.",
+        "CCEPs are advised to take note of the following arrangements for NB Trading during the PS:",
+        "Testing environment will be available during 9:15am – 11:30am on 7 November 2026 (Saturday) ; 2."
+      ],
+      "key_dates": [
+        {
+          "date": "5 November 2026",
+          "kind": "deadline",
+          "evidence": "Interested CCEPs are required to complete the registration form ( Attachment 1 ) and return it to the Exchange on or before 5 November 2026 (Thursday) ."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Reference is made to the Exchange Circular (Ref: CT/126/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) .",
+        "The E2E testing environment will be upgraded with the Timestamp Enhancements.",
+        "An optional PS will be arranged on 7 November 2026 (Saturday) to facilitate CCEPs’ readiness verification prior to the launch of Timestamp Enhancements."
+      ],
+      "source_excerpt": "Reference is made to the Exchange Circular (Ref: CT/126/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) . China Connect Exchange Participants (“CCEPs”) are requested to note the following testing arrangements for the implementation of Timestamp Enhancements. CCEPs are strongly encouraged to participate in the testing to verify their system readiness.\n\nThe E2E testing environment will be upgraded with the Timestamp Enhancements. An optional E2E Test will be arranged from 27 October 2026 (Tuesday) to 6 November 2026 (Friday) to facilitate system verification.\n\nAn optional PS will be arranged on 7 November 2026 (Saturday) to facilitate CCEPs’ readiness verification prior to the launch of Timestamp Enhancements. Interested CCEPs are required to complete the registration form ( Attachment 1 ) and return it to the Exchange on or before 5 November 2026 (Thursday) . Detailed activity rundown of the PS will be sent separately to the registered CCEPs.\n\nCCEPs are advised to take note of the following arrangements for NB Trading during the PS:\n\n1. Testing environment will be available during 9:15am – 11:30am on 7 November 2026 (Saturday) ; 2. The stock database as at market open on 9 November 2026 will be used; and 3. HKEX Orion Market Data Platform – China Connect (Securities) (“OMD - CC”) will operate and disseminate market data during the PS.\n\n通告 CIRCULAR\n\nI. End-to-End ( “ E2E ” ) Test\n\nII.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Trading Arrangements of Value Partners Printed Circuit Board Active ETF pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_170_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2758,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_170_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading Arrangements of Value…》；对象：Exchange Participants。正文：Exchange Participants are requested to note that Value Partners Printed Circuit…",
+      "key_points": [
+        "Exchange Participants are requested to note that Value Partners Printed Circuit Board Active ETF (Stock Code: 2813) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) .",
+        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
+        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.",
+        "Exchange Participants should advise their clients to carefully consider whether trading in the ETF(s) is/are appropriate for them in light of their understanding of the product nature and characteristics, their own investment objectives, skills and experience, financial resources, risk tolerance and other relevant circumstances prior to making any decision.",
+        "Further information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage ."
+      ],
+      "key_dates": [
+        {
+          "date": "23 October 2026",
+          "kind": "effective",
+          "evidence": "Exchange Participants are requested to note that Value Partners Printed Circuit Board Active ETF (Stock Code: 2813) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) ."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Exchange Participants are requested to note that Value Partners Printed Circuit Board Active ETF (Stock Code: 2813) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) .",
+        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
+        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time."
+      ],
+      "source_excerpt": "Exchange Participants are requested to note that Value Partners Printed Circuit Board Active ETF (Stock Code: 2813) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 23 October 2026 (Friday) . Investors should always refer to the details about the Fund provided by the Fund Manager, e.g. Net Asset Value per Unit, before trading the abovementioned ETF(s). Detail of its trading arrangements ( Attachment 1 ) are attached for reference.\n\nSecurities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day. The Securities Market Maker(s) is/are listed in Attachment 1 for reference. The Securities Market Maker(s) is/are subject to the market making obligations set out in Attachment 2 of this circular and Securities Market Maker Regulations of the Rules of the Exchange.\n\nPlease refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.\n\nTrading in the ETF(s) may not be suitable for all members of the public.\n\nFurther information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage .\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/071_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1246,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/071_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 16 October 2026: - the updated list of terrorists and terrorist associates specified under…",
+      "key_points": [
+        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB).",
+        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB’s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)."
+      ],
+      "source_excerpt": "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB’s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/071/2026 日期 Date: 22/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Irene Law 2840 3397\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Results of 2-year RMB HKSAR Institutional Government Bonds tender through re-opening",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261022-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1675,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261022-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Results of 2-year RMB HKSAR…》。正文：announced that a tender of 2-year RMB institutional Government Bonds through the re-opening of existing…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 2-year RMB institutional Government Bonds through the re-opening of existing Government Bond (issue number 03GB2807001) under the Infrastructure Bond Programme was held today (22 October).",
+        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 9.93.",
+        "* Calculated as the amount of bonds applied for over the amount of bonds issued.",
+        "For reference, the semi-annualised yields corresponding to the average price accepted, lowest price accepted, and average tender price are 1.396%, 1.410%, and 1.473% respectively.",
+        "The average price accepted is 100.33, implying an annualised yield of 1.401%."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 2-year RMB institutional Government Bonds through the re-opening of existing Government Bond (issue number 03GB2807001) under the Infrastructure Bond Programme was held today (22 October).",
+        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 9.93.",
+        "* Calculated as the amount of bonds applied for over the amount of bonds issued."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 2-year RMB institutional Government Bonds through the re-opening of existing Government Bond (issue number 03GB2807001) under the Infrastructure Bond Programme was held today (22 October).\n\nA total of RMB0.75 billion 2-year Government Bonds were offered today. A total of RMB7.450 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 9.93. The average price accepted is 100.33, implying an annualised yield of 1.401%.\n\n* Calculated as the amount of bonds applied for over the amount of bonds issued.\n\n1 The yields stated above are annualised yields. For reference, the semi-annualised yields corresponding to the average price accepted, lowest price accepted, and average tender price are 1.396%, 1.410%, and 1.473% respectively.\n\n22 October 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 2-year RMB HKSAR Institutional Government Bonds:-\n\nTender Date : 22 October 2026\n\nIssue Number : 03GB2807001 (Re-open)\n\nStock Code : 85039 (HKGB1.59 2807-R)\n\nIssue and Settlement Date : 26 October 2026\n\nTenor : 2 years\n\nMaturity Date : 28 July 2028\n\nCoupon Rate : 1.59%\n\nAmount Applied : RMB7.450 billion\n\nAmount Allotted : RMB0.75 billion\n\nBid-to-Cover Ratio* : 9.93\n\nAverage Price Accepted (Yield) : 100.33 (1.401%1)\n\nPro-rata Ratio : About 45%",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "Anti-bribery & corruption controls for account opening",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-1-EN",
+      "reference": "20261022-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
     },
     {
       "publication_date": "2026-10-21",
@@ -3499,173 +3810,13 @@
         "Inter-commodity Spread pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Implementation of Uncertificated Securities Market (USM) - Joint Briefing Session on New Stamp Duty Arrangements under USM and Related CCASS Operational Processes pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_351_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Implementation of Uncertificated Securities Market (USM) - Joint Briefing Session on New Stamp Duty Arrangements under USM and Related CCASS Operational Processes pdf",
-      "evidence": [
-        "Implementation of Uncertificated Securities Market (USM) - Joint Briefing Session on New Stamp Duty Arrangements under USM and Related CCASS Operational Processes pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Display of Adjusted Previous Closing Price of Green Power Group Limited (stock code 1870) on OTP-C for its 1-for-4 Rights Issue on Ex-Rights Date, 9 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026162_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Green Power Group Limited (stock code 1870) on OTP-C for its 1-for-4 Rights Issue on Ex-Rights Date, 9 October 2026 pdf",
-      "evidence": [
-        "Display of Adjusted Previous Closing Price of Green Power Group Limited (stock code 1870) on OTP-C for its 1-for-4 Rights Issue on Ex-Rights Date, 9 October 2026 pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261006news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)",
-      "evidence": [
-        "Exchange's Disciplinary Action against Six Directors of Huisen Shares Group Limited (Stock Code: 2127)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610062news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)",
-      "evidence": [
-        "Exchange’s Disciplinary Action against the Former Chief Financial Officer and Company Secretary of CHK Oil Limited (Stock Code: 632)"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation",
-      "evidence": [
-        "Hong Kong Monetary Authority and Bank Negara Malaysia Strengthen Bilateral Cooperation"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Exchange Fund Bills Tender Results",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261006-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "summary": "Official release detected: Exchange Fund Bills Tender Results",
-      "evidence": [
-        "Exchange Fund Bills Tender Results"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_345_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "evidence": [
-        "Discontinuation of the Eligibility of CCASS Stocks pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Renminbi (RMB) Haircut pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/ce_HKSCC_CM2_034_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Renminbi (RMB) Haircut pdf",
-      "evidence": [
-        "Renminbi (RMB) Haircut pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_256_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
-      "evidence": [
-        "Inter-commodity Spread pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-06",
-      "title": "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026161_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "prudential",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf",
-      "evidence": [
-        "Display of Adjusted Previous Closing Price of Capital Finance Holdings Limited (stock code 8239) on OTP-C for its 1-into-8 Share Subdivision on 7 October 2026 pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 1,
-    "succeeded": 1,
-    "failed": 0,
+    "attempted": 10,
+    "succeeded": 6,
+    "failed": 4,
     "pending": 0
   }
 }
