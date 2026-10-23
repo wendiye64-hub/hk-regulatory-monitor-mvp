@@ -1,109 +1,202 @@
 {
-  "generated_at": "2026-10-22T21:34:46.941Z",
+  "generated_at": "2026-10-23T04:47:55.215Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4985,
+  "duration_ms": 7252,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4328,
+      "duration_ms": 4094,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3398,
+      "duration_ms": 2445,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4964,
+      "duration_ms": 3896,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3215,
+      "duration_ms": 2168,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2899,
-      "count": 3
+      "duration_ms": 2859,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 4388,
+      "duration_ms": 3376,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4309,
+      "duration_ms": 3459,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 4090,
+      "duration_ms": 4242,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2608,
+      "duration_ms": 2936,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2606,
+      "duration_ms": 2933,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2606,
-      "count": 3
+      "duration_ms": 2933,
+      "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2606,
+      "duration_ms": 2933,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2606,
+      "duration_ms": 2933,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2606,
+      "duration_ms": 2933,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-23",
+      "title": "Result of the tenders of RMB Sovereign Bonds held on 23 October 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261023-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2739,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261023-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Result of the tenders of RMB…》。正文：*********************************************************************",
+      "key_points": [
+        "*********************************************************************"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*********************************************************************"
+      ],
+      "source_excerpt": "*********************************************************************\n\nTender Result\n\nTender Date\n\n:\n\n23 October 2026\n\nBonds available for Tender\n\n2-year RMB Bonds\n\nIssuer\n\nThe Ministry of Finance of the People’s Republic of China\n\nIssue Number\n\nBCMKFB26002 (Further Issuance)\n\nIssue and Settlement Date\n\n27 October 2026\n\nMaturity Date\n\n13 February 2028 (or the closest coupon payment date)\n\nCoupon Rate\n\n1.38 %\n\nApplication Amount\n\nRMB 13,684 million\n\nIssue Amount\n\nRMB 4,000 million\n\nAverage Accepted Price\n\n100.23\n\nLowest Accepted Price\n\n100.18\n\nHighest Accepted Price\n\n100.31\n\nAllocation Ratio (At Lowest Accepted Price)\n\nApproximately 48.08 %\n\n3-year RMB Bonds\n\nBCMKFB26003 (Further Issuance)\n\n13 February 2029 (or the closest coupon payment date)\n\n1.40 %\n\nRMB 15,020 million\n\nRMB 5,000 million\n\n100.34\n\n100.27\n\n100.57\n\nApproximately 21.79 %\n\n5-year RMB Bonds\n\nBCMKFB26004 (Further Issuance)\n\n13 February 2031 (or the closest coupon payment date)\n\n1.57 %\n\nRMB 12,754 million\n\n100.91\n\n100.79\n\n101.55\n\nApproximately 19.41 %\n\n10-year RMB Bonds\n\nBCMKFB26005 (Further Issuance)\n\n13 February 2036 (or the closest coupon payment date)\n\n1.87 %\n\nRMB 11,640 million\n\nRMB 2,500 million\n\n101.85\n\n101.72\n\n103.21\n\nApproximately 23.84 %",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-23",
+      "title": "Gazettal of revised SPM module CA-B-2 “Systemically Important Banks”",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-2-EN",
+      "reference": "20261022-2-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 968,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-2-EN",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Gazettal of revised SPM module…》。正文：Letter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized…",
+      "key_points": [
+        "Letter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)",
+        "Letter to HKAB: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Letter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)",
+        "Letter to HKAB: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)"
+      ],
+      "source_excerpt": "Letter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)\n\nLetter to HKAB: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)\n\nCIR\n\nCurrent\n\nGazettal of revised SPM module CA-B-2 “Systemically Important Banks”\n\nIssue Date:\n\n23 Oct 2026\n\n20261022-2-EN.pdf (325.6 KB)\n\nTopic:\n\nCapital Adequacy - SIBs\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nSPM-SGL\n\nCA-B-2 Systemically Important Banks\n\nYou may also be interested in\n\n+\n\nArchive\n\n23 Apr 2021\n\nCPR\n\n22 Oct 2014",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-23",
+      "title": "Systemically Important Banks",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-3-EN",
+      "reference": "CA-B-2",
+      "document_type": "SPM-SGL - SPM Statutory Guideline",
+      "source_id": "HKMA-SPM",
+      "source_label": "HKMA Supervisory Policy Manual",
+      "detection": "new_official_publication",
+      "source_text_chars": 1412,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261022-3-EN",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "supervisory_policy",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "HKMA发布《Systemically Important Banks》。正文：Gazettal of revised SPM module CA-B-2 “Systemically Important Banks”",
+      "key_points": [
+        "Gazettal of revised SPM module CA-B-2 “Systemically Important Banks”",
+        "Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)",
+        "Enclosure 1: Return template Information for SIB assessment(draft)",
+        "Letter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)",
+        "Letter to HKAB: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Gazettal of revised SPM module CA-B-2 “Systemically Important Banks”",
+        "Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)",
+        "Enclosure 1: Return template Information for SIB assessment(draft)"
+      ],
+      "source_excerpt": "Gazettal of revised SPM module CA-B-2 “Systemically Important Banks”\n\nConsultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)\n\nEnclosure 1: Return template Information for SIB assessment(draft)\n\nLetter to DTCA: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)\n\nLetter to HKAB: Consultation on Return of Information for Assessment of Systemically Important Authorized Institutions (SIBs)\n\nSPM-SGL\n\nCurrent\n\nCA-B-2 Systemically Important Banks\n\nIssue Date:\n\n23 Oct 2026\n\nCA-B-2.PDF (318.5 KB)\n\nTopic:\n\nCapital Adequacy - SIBs\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nCIR\n\nArchive\n\n23 Apr 2021\n\nCA-B-2 Systemically Important Banks V2\n\n18 Feb 2015\n\nCA-B-2 Systemically Important Banks V1\n\nYou may also be interested in\n\n+\n\nCPR\n\n22 Oct 2014",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-22",
       "title": "Display of Adjusted Previous Closing Price of China Tianrui Automotive Interiors Co., LTD (stock code 6162) on OTP-C for its 40-into-1 Share Consolidation on 23 October 2026 pdf",
@@ -453,6 +546,38 @@
       "evidence": [],
       "source_excerpt": "",
       "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-22",
+      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/069_26_HKFEUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1243,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/069_26_HKFEUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 16 October 2026: - the updated list of terrorists and terrorist associates specified under…",
+      "key_points": [
+        "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB).",
+        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB’s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)."
+      ],
+      "source_excerpt": "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 16 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB’s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/069/2026 日期 Date: 22/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Irene Law 2840 3397\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-21",
@@ -3746,76 +3871,12 @@
         "Genscript Biotech Corporation (Stock Code : 1548) - Change in Board Lot Size pdf"
       ],
       "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Billion Industrial Holdings Limited (Stock Code: 2299) - Proposal of Share Consolidation pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_348_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Billion Industrial Holdings Limited (Stock Code: 2299) - Proposal of Share Consolidation pdf",
-      "evidence": [
-        "Billion Industrial Holdings Limited (Stock Code: 2299) - Proposal of Share Consolidation pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "FINI Services Suspension on 10-11 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_346_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: FINI Services Suspension on 10-11 October 2026 pdf",
-      "evidence": [
-        "FINI Services Suspension on 10-11 October 2026 pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Star Group Asia Limited (Stock Code: 1560) - Proposal of Share Consolidation pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_347_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Star Group Asia Limited (Stock Code: 1560) - Proposal of Share Consolidation pdf",
-      "evidence": [
-        "Star Group Asia Limited (Stock Code: 1560) - Proposal of Share Consolidation pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-07",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_257_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
-      "evidence": [
-        "Inter-commodity Spread pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 4,
+    "succeeded": 4,
     "failed": 0,
     "pending": 0
   }
