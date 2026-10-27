@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-27T12:10:15.319Z",
+  "generated_at": "2026-10-27T18:00:37.862Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7817,
+  "duration_ms": 5609,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4217,
+      "duration_ms": 5082,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 5084,
+      "duration_ms": 2753,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2185,
+      "duration_ms": 3739,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4059,
+      "duration_ms": 3157,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5543,
+      "duration_ms": 4560,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 4295,
+      "duration_ms": 4075,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2903,
+      "duration_ms": 3035,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1056,
+      "duration_ms": 3833,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2491,
+      "duration_ms": 3186,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 3184,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 3184,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 3184,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 3184,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2489,
+      "duration_ms": 3184,
       "count": 5
     }
   ],
@@ -543,6 +543,39 @@
         "Issued corporate debts totalling HK$24.8 billion (1H 2025: HK$23.3 billion), and continued to be one of the most active issuers in the domestic Hong Kong dollar (HKD) corporate bond market"
       ],
       "source_excerpt": "The Hong Kong Mortgage Corporation Limited (HKMC) today (26 October) announced the highlights of its interim results for 2026.\n\nThe HKMC and its subsidiaries continued to fulfil their core missions and social objectives, contributing to the steady growth of Hong Kong’s economy amid an increasingly complex and evolving environment. The missions of the HKMC are to promote: the stability of the banking sector, wider home ownership, the development of the local debt market, and the development of the retirement planning market.\n\nIssued corporate debts totalling HK$24.8 billion (1H 2025: HK$23.3 billion), and continued to be one of the most active issuers in the domestic Hong Kong dollar (HKD) corporate bond market\n\nOutstanding balance of debt securities issued was HK$141.5 billion as of 30 June 2026 (31 December 2025: HK$155.2 billion)\n\nIn line with its mandate to promote the development of the retirement planning market in Hong Kong, the HKMC is dedicated to advancing its annuity and reverse mortgage businesses, which face increasing sensitivity and volatility of mark-to-market accounting effects.\n\nAccordingly, the annualised return on equity was 7.2% (1H 2025: 6.2%) and the cost-to-income ratio was 11.7% (1H 2025: 14.2%).\n\nBusiness Highlights\n\nAsset Purchase\n\nAcquired HK$2.9 billion of loan assets (1H 2025: HK$2.7 billion)\n\nPurchased HK$115 million of loans (1H 2025: HK$46 million) under the Dedicated 100% Loan Guarantee Schemes (DLGS)\n\nDebt Issuance\n\nAnnuity Business",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-26",
+      "title": "Download and Upgrade of Google Chrome Browser for DCASS Online pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_073_Eng_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2208,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_073_Eng_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Download and Upgrade of Google…》。正文：Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97…",
+      "key_points": [
+        "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .",
+        "To align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :",
+        "Circular will be issued to notify CPs when they can start to install this 9 Nov Version;",
+        "Prior to installing the 9 Nov Version, CPs are strongly recommended to backup the Google Chrome installer of the Current Version .",
+        "CPs may not be able to login DCASS if the Google Chrome version of their DCASS Online are not complied with HKEX’s requirement as prescribed from time to time ."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .",
+        "To align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :",
+        "Circular will be issued to notify CPs when they can start to install this 9 Nov Version;"
+      ],
+      "source_excerpt": "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .\n\nTo align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :\n\n1. Circular will be issued to notify CPs when they can start to install this 9 Nov Version;\n\n2. Prior to installing the 9 Nov Version, CPs are strongly recommended to backup the Google Chrome installer of the Current Version . By keeping a backup of the previously-verified installer, CPs can ensure that a reliable and stable Google Chrome version is available at all times. This can help to minimize any disruption to CPs’ clearing activities ; and\n\n3. CPs may not be able to login DCASS if the Google Chrome version of their DCASS Online are not complied with HKEX’s requirement as prescribed from time to time .\n\n香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE SEHK OPTIONS CLEARING HOUSE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Download and Upgrade of Google Chrome Browser for DCASS Online\n\nEnquiry: DCASS Hotline: 2979 7222 1 / Email: clearingpsd@hkex.com.hk\n\nhttps://chromeenterprise.google/download/?modal-id=download-chrome#windows-download\n\nCPs should pay attention to the followings:\n\nHKEX Privacy Notice is available here .\n\n編號 Ref.",
       "summary_method": "extractive"
     },
     {
@@ -4217,45 +4250,12 @@
       ],
       "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels of the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• HSBC Holdings Plc.\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/259/2026 日期 Date: 09/10/2026",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-09",
-      "title": "Stock Admission - Pando Solana ETF (Stock Code: 2831) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_358_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "HKEX发布《Stock Admission - Pando Solana ETF…》。正文：will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing…",
-      "evidence": [
-        "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026.",
-        "Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.",
-        "Shares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF ."
-      ],
-      "human_review_required": true,
-      "source_text_chars": 4823,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_358_2026.pdf",
-      "key_points": [
-        "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026.",
-        "Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.",
-        "Shares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF .",
-        "HKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS.",
-        "Same as other CCASS Eligible Securities, the Exchange Trades of the Shares will be cleared inside CCASS and settled on T+2 under Continuous Net Settlement (\"CNS\") system unless they are isolated from the CNS system by both trading counterparties or by HKSCC and settled on a trade-for-trade (\"TFT\") basis."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "source_excerpt": "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026. The trade lot size of Pando Solana ETF is 100 Shares.\n\nAll Shares are issued in uncertificated form. Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.\n\nShares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF . The register of the Pando Solana ETF is the evidence of ownership of Shares.\n\nHKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS. Save as otherwise provided in the HKSCC Rules, HKSCC has no proprietary interests in the Shares to the extent that they are credited to the Stock Accounts of CCASS Participants.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 3,
-    "succeeded": 3,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
