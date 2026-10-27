@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-27T05:02:49.337Z",
+  "generated_at": "2026-10-27T12:10:15.319Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 3737,
+  "duration_ms": 7817,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2796,
+      "duration_ms": 4217,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2283,
+      "duration_ms": 5084,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2218,
+      "duration_ms": 2185,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2565,
+      "duration_ms": 4059,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2824,
+      "duration_ms": 5543,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1361,
+      "duration_ms": 4295,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2929,
+      "duration_ms": 2903,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3188,
+      "duration_ms": 1056,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2895,
+      "duration_ms": 2491,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2489,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2489,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2489,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2489,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2489,
       "count": 5
     }
   ],
@@ -141,6 +141,107 @@
         "For illustration purpose, depending on Grown Up Group’s closing price on 27 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Grown Up Group’s OTP - C temporary stock page on 28 October 2026 as follows: -"
       ],
       "source_excerpt": "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026. Shareholders, investors and market participants should read the Grown Up Group ’s circulars and regulatory announcements in full including the terms and conditions of Grown Up Group ’s share consolidation in dealing with Grown Up Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Grown Up Group ’s OTP -C temporary stock page (stock code 2952) on 28 October 2026. Calculation of the Adjusted Previous Closing Price will be based on Grown Up Group ’s closing price on 27 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nWilson Chan (Tel: 2211 6934)\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-27",
+      "title": "Update on the Scrip Fee Concession and Stock Withdrawal Fee Concession Scheme under the Uncertificated Securities Market (“USM”) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_011_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2513,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_011_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Update on the Scrip Fee Concession…》。正文：will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the…",
+      "key_points": [
+        "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.",
+        "(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch.",
+        "(B) The withdrawal fee concession scheme will be updated as follows:",
+        "• Scenario 1 – The concession for the withdrawal of jumbo certificates previously deposited by the same Participant for and on behalf of the same underlying client will be repealed.",
+        "• Scenario 2 – The concession for withdrawals made to enable clients to exercise their rights as shareholders will remain unchanged; and"
+      ],
+      "key_dates": [
+        {
+          "date": "30 October 2026",
+          "kind": "deadline",
+          "evidence": "Accordingly, any scrip fee concession request must be submitted to CCASS by 30 October 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.",
+        "(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch.",
+        "(B) The withdrawal fee concession scheme will be updated as follows:"
+      ],
+      "source_excerpt": "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.\n\n(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch. Accordingly, any scrip fee concession request must be submitted to CCASS by 30 October 2026.\n\n(B) The withdrawal fee concession scheme will be updated as follows:\n\n• Scenario 1 – The concession for the withdrawal of jumbo certificates previously deposited by the same Participant for and on behalf of the same underlying client will be repealed. Applications will no longer be granted after 29 October 2026;\n\n• Scenario 2 – The concession for withdrawals made to enable clients to exercise their rights as shareholders will remain unchanged; and\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Update on the Scrip Fee Concession and Stock Withdrawal Fee Concession Scheme under the Uncertificated Securities Market (“USM”)\n\nEnquiry: CCASS Hotline at 2979 7111 / Email: clearingps@hkex.com.hk\n\nReference is made to HKSCC Circular Ref.\n\nNo.\n\nUpdated Concession Arrangements:\n\n編號 Ref. No.: PT/DPS/CCASS/011/2026 日期 Date: 27/10/2026\n\n如 本 通 告 中 文 本 的 字 義 或 詞",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-27",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_275_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1004,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_275_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "29 October 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/275/2026 日期 Date: 27/10/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-27",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261027-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1535,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261027-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Exchange Fund Bills Tender Results》。正文：*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
+      "key_points": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level."
+      ],
+      "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTender date\n\n:\n\n27 October 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2643\n\nIssue date\n\n28 October 2026\n\nMaturity date\n\n27 January 2027\n\nAmount applied\n\nHK$161,713 MN\n\nAmount allotted\n\nHK$65,782 MN\n\nAverage yield accepted\n\n2.83 PCT\n\nHighest yield accepted\n\n2.85 PCT\n\nPro rata ratio*\n\nAbout 91 PCT\n\nAverage tender yield\n\n2.98 PCT\n\n****************************\n\nH2672\n\n28 April 2027\n\nHK$74,775 MN\n\nHK$15,000 MN\n\n3.08 PCT\n\n3.09 PCT\n\nAbout 100 PCT\n\n3.13 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\nTenders to be held in the week beginning – 2 November 2026:\n\n3 November 2026\n\nQ2644\n\n4 November 2026\n\n3 February 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$66,286 MN\n\nH2673\n\n5 May 2027\n\n182 Days\n\nHK$17,000 MN\n\nEnd/Tuesday, 27 October, 2026",
       "summary_method": "extractive"
     },
     {
@@ -4149,60 +4250,12 @@
       "affected_parties": [],
       "source_excerpt": "Subject: Stock Admission - Pando Solana ETF (Stock Code: 2831) Enquiry: Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk _____________________________________________________________________ Shares of the Pando Solana ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 13 Oct 2026. The trade lot size of Pando Solana ETF is 100 Shares.\n\nAll Shares are issued in uncertificated form. Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.\n\nShares held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Pando Solana ETF . The register of the Pando Solana ETF is the evidence of ownership of Shares.\n\nHKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS. Save as otherwise provided in the HKSCC Rules, HKSCC has no proprietary interests in the Shares to the extent that they are credited to the Stock Accounts of CCASS Participants.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-09",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_357_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "evidence": [
-        "Discontinuation of the Eligibility of CCASS Stocks pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-09",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_260_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Inter-commodity Spread pdf",
-      "evidence": [
-        "Inter-commodity Spread pdf"
-      ],
-      "human_review_required": true
-    },
-    {
-      "publication_date": "2026-10-09",
-      "title": "Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_356_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "summary": "Official HKEX participant circular detected: Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf",
-      "evidence": [
-        "Shentong Robot Education Group Company Limited (Stock Code: 8206) - Proposal of Share Consolidation pdf"
-      ],
-      "human_review_required": true
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 1,
-    "succeeded": 1,
+    "attempted": 3,
+    "succeeded": 3,
     "failed": 0,
     "pending": 0
   }
