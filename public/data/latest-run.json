@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-28T05:40:48.372Z",
+  "generated_at": "2026-10-28T12:52:58.733Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 9323,
+  "duration_ms": 4689,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4720,
+      "duration_ms": 2330,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 5650,
+      "duration_ms": 3732,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4217,
+      "duration_ms": 4126,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3417,
+      "duration_ms": 3350,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5118,
+      "duration_ms": 4021,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1692,
+      "duration_ms": 1491,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3594,
+      "duration_ms": 1936,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3695,
+      "duration_ms": 3186,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3056,
+      "duration_ms": 2518,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3053,
+      "duration_ms": 2516,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3053,
+      "duration_ms": 2516,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3053,
+      "duration_ms": 2516,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3053,
+      "duration_ms": 2516,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3053,
+      "duration_ms": 2516,
       "count": 5
     }
   ],
@@ -157,6 +157,39 @@
         "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
       ],
       "source_excerpt": "Pursuant to the rights issue timetable issued by Grand Ocean Advanced Resources Company Limited (“ Grand Ocean ”), Grand Ocean ’s shares (stock code 65 ) will be marked “ex - rights” on 29 October 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Grand Ocean ’s announcements, circular and prospectus documents in full including the terms and conditions of the rights issue of Grand Ocean in dealing with Grand Ocean ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Grand Ocean ’ s OTP-C stock page on 29 October 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Grand Ocean ’s closing price on 28 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.28 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 7 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-28",
+      "title": "Stock Admission - New Listing of Securities pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_376_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1726,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_376_2026.pdf",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
+      "key_points": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
+        "case such trades will be settled on a trade-for-trade (TFT) basis.",
+        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
+      ],
+      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nProvisional Allotment Letters relating to Nil-paid Rights\n\nAsia-Pac Financial Investment Company Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n8555 10,000 29/10/2026 30/10/2026\n\nAll CCASS services are subject to the General Rules of HKSCC and HKSCC Operational\n\nProcedures.\n\n編號 Ref. No.: PT/NIS/CCASS/376/2026\n\n日期 Date: 28/10/2026\n\nElaine Choy Vice President Post Trade Operations Division\n\nNotes:\n\n1.\n\n2.",
       "summary_method": "extractive"
     },
     {
@@ -4197,46 +4230,13 @@
       ],
       "source_excerpt": "With reference to our client notice issued on 21 August 2026 (Our Ref: MDD/26/416 ), following the successful completion of Practice Session on 19 September 2026, please be informed that the HKEX Indices will be disseminated via OMD Index datafeed starting from 2 November 2026 (Monday) .\n\nThe HKEX Indices will be disseminated in the new real-time and refresh multicast channels (Channels 40 and 540). The implementation schedule for the aforementioned indices is set out as follows:\n\nClients, who would like to participate in the PRT and test the connectivity to the new multicast channels, can refer to the enclosed PRT Rundown and connect to OMD Index datafeed.\n\nSubmission of test participation form for PRT is not required.\n\n2 November 2026 (Monday) Production Dissemination The new HKEX Indices will be available in the production.\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n12 October 2026 By Email Our Ref: MDD/26/579\n\nTo: Direct Connection Securities and Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”) ; and Independent Software Vendors (ISVs)\n\nCopy: Indirect Connection Securities and Derivatives Market Data Vendors and End Users\n\n1) Launch of Dissemination of HKEX Indices in HKEX Orion Market Data Platform (OMD) Index Datafeed; and 2) Arrangement of Multicast Channels after Discontinuation of S&P Indices",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Practice Guide on Data Excellence Enclosure: Practice Guide on Data Excellence",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261012-2-EN",
-      "reference": "20261012-2-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 898,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261012-2-EN",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "human_review_required": true,
-      "summary": "HKMA发布《Practice Guide on Data Excellence…》。正文：Granular Data Reporting 3.0 Provisional Implementation Parameters",
-      "key_points": [
-        "Granular Data Reporting 3.0 Provisional Implementation Parameters",
-        "Strategic Review of Business Models amid Digital Transformation",
-        "Annex: Granular Data Reporting 3.0 Provisional Implementation Parameters"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Granular Data Reporting 3.0 Provisional Implementation Parameters",
-        "Strategic Review of Business Models amid Digital Transformation",
-        "Annex: Granular Data Reporting 3.0 Provisional Implementation Parameters"
-      ],
-      "source_excerpt": "Granular Data Reporting 3.0 Provisional Implementation Parameters\n\nStrategic Review of Business Models amid Digital Transformation\n\nAnnex: Granular Data Reporting 3.0 Provisional Implementation Parameters\n\nCIR\n\nCurrent\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence\n\nIssue Date:\n\n12 Oct 2026\n\n20261012-2-EN.pdf (2.3 MB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\n09 Mar 2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 2,
+    "attempted": 1,
     "succeeded": 1,
-    "failed": 1,
+    "failed": 0,
     "pending": 0
   }
 }
