@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-29T05:46:54.290Z",
+  "generated_at": "2026-10-29T12:59:24.162Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4194,
+  "duration_ms": 7598,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4084,
+      "duration_ms": 1875,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2138,
+      "duration_ms": 3209,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3073,
+      "duration_ms": 3030,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2796,
+      "duration_ms": 3202,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2928,
+      "duration_ms": 3915,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3317,
+      "duration_ms": 1589,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2762,
+      "duration_ms": 3765,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 2325,
+      "duration_ms": 3508,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2709,
+      "duration_ms": 2550,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2707,
+      "duration_ms": 2548,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2707,
+      "duration_ms": 2548,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2707,
+      "duration_ms": 2548,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2707,
+      "duration_ms": 2548,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2707,
+      "duration_ms": 2548,
       "count": 5
     }
   ],
@@ -135,6 +135,200 @@
         "Hong Kong’s monetary and financial markets have continued to operate in an orderly manner."
       ],
       "source_excerpt": "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.\n\nThe policy decision is in line with market expectations. The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated. This reflects that the Committee is watchful over the outlook on inflation, though it may need more time to observe how the data evolves.\n\nHong Kong’s monetary and financial markets have continued to operate in an orderly manner. As the noticeable HKD-USD interest rate differential persists, carry trade activities may cause the Hong Kong dollar to gradually ease. That said, the outlook for the Hong Kong dollar and interbank rates can vary due to various factors, such as the market’s risk appetite for carry trades, and the supply-demand conditions for Hong Kong dollars which are in turn influenced by capital market activities and other seasonal factors.\n\nUS interest rate adjustments are subject to considerable uncertainty, and will depend on developments in inflation, labour market, and other economic data, and may influence the interest rate environment in Hong Kong.\n\nThe public should carefully manage interest rate risks when making decisions about property purchase, investment or borrowing.\n\nHong Kong Monetary Authority\n\n29 October 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Announcement - In relation to the matter of Xiwang Property Holdings Company Limited (Incorporated in Bermuda with limited liability) (Stock Code: 2088) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610294news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Announcement - In relation to the matter of Glorious Property Holdings Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 00845) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610293news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Announcement - In relation to the matter of Superactive Group Company Limited (incorporated in Bermuda with limited liability) (Stock Code: 176) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610292news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Announcement - In relation to the matter of China Huarong Energy Company Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1101) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610291news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/075_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1249,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/075_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 27 October 2026: - the updated list of terrorists and terrorist associates specified under…",
+      "key_points": [
+        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).",
+        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB)."
+      ],
+      "source_excerpt": "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/075/2026 日期 Date: 29/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_277_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 950,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_277_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that with effect from the commencement of trading on 2 November 2026 (including the…",
+      "key_points": [
+        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "2 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here ."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "source_excerpt": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No. : ORM/CRC/277/2026 日期 Date : 29/10/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_276_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 835,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_276_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "2 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/276/2026 日期 Date: 29/10/2026",
       "summary_method": "extractive"
     },
     {
@@ -3985,257 +4179,13 @@
       ],
       "source_excerpt": "With reference to our client notices issued on 18 May 2026 (Our Ref: MDD/26/223 ) and 14 August 2026 ( MDD/26/461 ), following the successful completion of Market Rehearsals on 19 September 2026 and 10 October 2026, the enhancement on the Index Datafeed in MMDH will be launched on 2 November 2026 (Monday) .\n\nTo confirm the participation in the PRT, please complete the Online Test Participation Form on or before 21 October 2026 (Wednesday) . The test rundown of PRT will be provided to the participating clients by 26 October 2026 (Monday).\n\nFollowing the completion of all verification checks, confirmation of the successful completion of the PRT will be emailed to all Clients’ registered primary contacts, technical contacts and PRT participation contacts before 15:00 on 31 October 2026 (Saturday) . In the event of an unexpected incident during the PRT that may impact the launch, Clients will be notified by email and, where necessary, requested to execute the system fallback procedures.\n\nAfter the launch, there will be a two-week stabilization period (from 2 November 2026 to 13 November 2026). In the event of a critical incident disrupting normal market operations, MMDH may be rolled back to the version before the PRT (i.e. the system version as of 30 October 2026, before the rollout). Clients’ registered primary, technical and emergency contacts will be informed by email on the rollback arrangement.\n\n12 October 2026 By Email Our Ref: MDD/26/578",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "HKEX Launches S&P 500 & HKEX Tech 100 Index in Partnership with S&P Dow Jones Indices",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/2610122news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_360_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1517,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_360_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Discontinuation of the Eligibility…》。正文：will cease to be Participants are therefore requested to note the following CCASS arrangements.…",
-      "key_points": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 2",
-        "For more details, please refer to the announcement of the company on HKEXnews website.",
-        "Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 2"
-      ],
-      "source_excerpt": "With effect from the below-mentioned effective dates, the following securities will cease to be\n\nKong Limited. Participants are therefore requested to note the following CCASS arrangements.\n\nEffective Date for Discontinuing Eligibility in CCASS Note 2\n\n1. For more details, please refer to the announcement of the company on HKEXnews website.\n\n2. Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Discontinuation of the Eligibility of CCASS Stocks Enquiry: Hotline at 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nEligible Securities in CCASS following the withdrawal of listing on The Stock Exchange of Hong\n\nStock Name Stock Code Last Dealing Date\n\nLast Settlement Date for Settlement Instructions Expiry Date\n\nI. Ordinary Shares Note 1\n\nContinental Aerospace Technologies Holding Limited 232 22/09/2026 12/10/2026 N/A 13/10/2026\n\nII. Provisional Allotment Letters relating to Nil-paid Rights\n\nUniversal Health International Group Holding Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2944 14/10/2026 20/10/2026 N/A 21/10/2026\n\n編號 Ref. No.: PT/NIS/CCASS/360/2026\n\n日期 Date: 12/10/2026\n\nNotes:",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Stock Admission - New Listing of Securities pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_359_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2104,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_359_2026.pdf",
-      "regulatory_domain": "listing_rules",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
-      "key_points": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
-        "case such trades will be settled on a trade-for-trade (TFT) basis.",
-        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
-      ],
-      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nI. Ordinary Shares\n\nShenzhen Transsion Holdings Co., Ltd. 2636 100 14/10/2026 15/10/2026\n\nII. Provisional Allotment Letters relating to Nil-paid Rights\n\n1. PINE Technology Holdings Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2911 10,000 13/10/2026 14/10/2026\n\n編號 Ref. No.: PT/NIS/CCASS/359/2026\n\n日期 Date: 12/10/2026\n\n2. King International Investment Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2941 5,000 14/10/2026 15/10/2026\n\nProcedures.\n\nNotes:",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Risk Management Arrangements in respect of the day following Chung Yeung Festival pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_261_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3598,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_261_2026.pdf",
-      "regulatory_domain": "prudential",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Risk Management Arrangements in…》。正文：will be closed for business on 19 October 2026, except MSCI Futures and Options, Currency Futures and…",
-      "key_points": [
-        "All markets operated by the Hong Kong Futures Exchange will be closed for business on 19 October 2026, except MSCI Futures and Options, Currency Futures and Options and 5-Year China Government Bond Futures 1 .",
-        "1 Holiday Trading Participants are eligible to trade Holiday Trading Products (i.e.",
-        "The margin levels of MTW and MXJ Futures Contracts will be restored to the normal levels after the close of business on 19 October 2026 .",
-        "Participants should ensure that their staff are fully informed of the temporary increase in margin levels and that the necessary arrangements have been made with their designated bank.",
-        "In circumstances where key staff are on leave during this period, Participants should ensure that appropriate backup staff are designated and fully familiar with the relevant operational and monitoring procedures to effectively monitor their exposures and fulfil payment obligations to the Clearing House on time."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "All markets operated by the Hong Kong Futures Exchange will be closed for business on 19 October 2026, except MSCI Futures and Options, Currency Futures and Options and 5-Year China Government Bond Futures 1 .",
-        "1 Holiday Trading Participants are eligible to trade Holiday Trading Products (i.e.",
-        "The margin levels of MTW and MXJ Futures Contracts will be restored to the normal levels after the close of business on 19 October 2026 ."
-      ],
-      "source_excerpt": "All markets operated by the Hong Kong Futures Exchange will be closed for business on 19 October 2026, except MSCI Futures and Options, Currency Futures and Options and 5-Year China Government Bond Futures 1 . To ensure adequate safeguards are in place against potential market risks arising during this period, when some major markets remain open, the Clearing House has decided to temporarily increase the margin levels 2 of MSCI Taiwan (USD) Index (“MTW”) and MSCI AC Asia ex Japan Net Total Return Index ( “MXJ”) Futures Contracts after the close of business of the T Session on 15 October 2026. The temporarily increased margin levels for MTW and MXJ are set out below: Client Margin Client Maintenance / Clearing House Margin (USD) (USD)\n\n1 Holiday Trading Participants are eligible to trade Holiday Trading Products (i.e.\n\nMSCI Futures and Options, Currency Futures and Options, and 5-Year China Government Bond Futures) during Holiday Trading Day(s). 2 The spread margin rate will remain unchanged during this period. 3 For the purpose of the Capital-Based Position Limit (CBPL) assessment and the necessary additional margin calculation, the normal margin rates instead of the temporarily increased holiday margin rates will be applied.\n\nThe margin levels of MTW and MXJ Futures Contracts will be restored to the normal levels after the close of business on 19 October 2026 .\n\nAny failure to meet the prescribed settlement timelines will constitute an event of default under HKCC Rule 509.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Trading Arrangements of Pando Solana ETF pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_162_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2697,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_162_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Trading Arrangements of Pando…》；对象：Exchange Participants。正文：Exchange Participants are requested to note that Pando Solana ETF (Stock Code:…",
-      "key_points": [
-        "Exchange Participants are requested to note that Pando Solana ETF (Stock Code: 2831) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 13 October 2026 (Tuesday) .",
-        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
-        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.",
-        "Exchange Participants should advise their clients to carefully consider whether trading in the ETF(s) is/are appropriate for them in light of their understanding of the product nature and characteristics, their own investment objectives, skills and experience, financial resources, risk tolerance and other relevant circumstances prior to making any decision.",
-        "Further information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage ."
-      ],
-      "key_dates": [
-        {
-          "date": "13 October 2026",
-          "kind": "effective",
-          "evidence": "Exchange Participants are requested to note that Pando Solana ETF (Stock Code: 2831) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 13 October 2026 (Tuesday) ."
-        }
-      ],
-      "affected_parties": [
-        "Exchange Participants"
-      ],
-      "evidence": [
-        "Exchange Participants are requested to note that Pando Solana ETF (Stock Code: 2831) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 13 October 2026 (Tuesday) .",
-        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day.",
-        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time."
-      ],
-      "source_excerpt": "Exchange Participants are requested to note that Pando Solana ETF (Stock Code: 2831) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 13 October 2026 (Tuesday) . Investors should always refer to the details about the Fund provided by the Fund Manager, e.g. Net Asset Value per Unit, before trading the abovementioned ETF(s). Detail of its trading arrangements ( Attachment 1 ) are attached for reference.\n\nSecurities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned ETF(s) effective the same day. The Securities Market Maker(s) is/are listed in Attachment 1 for reference. The Securities Market Maker(s) is/are subject to the market making obligations set out in Attachment 2 of this circular and Securities Market Maker Regulations of the Rules of the Exchange.\n\nPlease refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.\n\nTrading in the ETF(s) may not be suitable for all members of the public.\n\nFurther information such as the prospectus and other documents issued by the manager is available on the HKEXnews website and on the ETP webpage .\n\n通告 CIRCULAR\n\n編號 Ref.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_262_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 889,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_262_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 14 October 2026 (including the mandatory…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 14 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI China (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index"
-      ],
-      "key_dates": [
-        {
-          "date": "14 October 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 14 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 14 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI China (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index"
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 14 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI China (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI Hong Kong Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/262/2026 日期 Date: 12/10/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Arrangement in HKEX Orion Market Data Platform - Derivatives Market (OMD-D) for Introduction of Twelve New Stock Option Classes with both Monthly and Weekly Expiries",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Arrangement%20in%20OMD-D%20for%20Introduction%20of%2012%20New%20Monthly%20and%20Weekly%20Stock%20Options%20Classes.pdf",
-      "reference": "MDD/26/597",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "source_text_chars": 3711,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Arrangement%20in%20OMD-D%20for%20Introduction%20of%2012%20New%20Monthly%20and%20Weekly%20Stock%20Options%20Classes.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Arrangement in HKEX Orion Market…》；对象：Derivatives Market Data。正文：announced the introduction of twelve new stock option classes and the…",
-      "key_points": [
-        "The Stock Exchange of Hong Kong Limited announced the introduction of twelve new stock option classes and the trading of twelve new stock option classes will commence on 9 November 2026 (Monday) (“Commencement Date”) .",
-        "All of the new monthly and weekly stock option classes will be created under the market codes “1 43 ” and “1 45 ” respectively and their market data will be disseminated in OMD-D Partition 3 .",
-        "Please find the Trading Symbols and Commodity Codes of twelve new stock option classes in the table below, as well as the enclosed Exchange Circular (Ref: EQD/17/26 ) for trading information.",
-        "Trading information for the new monthly and weekly stock option contracts will be transmitted via OMD-D upon the product launch on the Commencement Date.",
-        "Pre-launch Arrangement The final strike information for the new monthly and weekly stock option contracts can be obtained from the designated HKEX Web Corner one business day before the Commencement Date."
-      ],
-      "key_dates": [
-        {
-          "date": "9 November 2026",
-          "kind": "effective",
-          "evidence": "The Stock Exchange of Hong Kong Limited announced the introduction of twelve new stock option classes and the trading of twelve new stock option classes will commence on 9 November 2026 (Monday) (“Commencement Date”) ."
-        },
-        {
-          "date": "30 October 2026",
-          "kind": "deadline",
-          "evidence": "Vendor Access Codes Confirmation For publicity purpose, Information Vendors (IVs), who plan to provide and display the information of the new monthly and weekly stock option contracts in their service(s) after the product launch, please complete and return the attached Vendor Access Code Confirmation Form on or before 30 October 2026 (Friday) and keep us updated if there is any change."
-        }
-      ],
-      "affected_parties": [
-        "Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”)"
-      ],
-      "evidence": [
-        "The Stock Exchange of Hong Kong Limited announced the introduction of twelve new stock option classes and the trading of twelve new stock option classes will commence on 9 November 2026 (Monday) (“Commencement Date”) .",
-        "All of the new monthly and weekly stock option classes will be created under the market codes “1 43 ” and “1 45 ” respectively and their market data will be disseminated in OMD-D Partition 3 .",
-        "Please find the Trading Symbols and Commodity Codes of twelve new stock option classes in the table below, as well as the enclosed Exchange Circular (Ref: EQD/17/26 ) for trading information."
-      ],
-      "source_excerpt": "The Stock Exchange of Hong Kong Limited announced the introduction of twelve new stock option classes and the trading of twelve new stock option classes will commence on 9 November 2026 (Monday) (“Commencement Date”) .\n\nAll of the new monthly and weekly stock option classes will be created under the market codes “1 43 ” and “1 45 ” respectively and their market data will be disseminated in OMD-D Partition 3 .\n\nPlease find the Trading Symbols and Commodity Codes of twelve new stock option classes in the table below, as well as the enclosed Exchange Circular (Ref: EQD/17/26 ) for trading information.\n\nTrading information for the new monthly and weekly stock option contracts will be transmitted via OMD-D upon the product launch on the Commencement Date.\n\nii. Pre-launch Arrangement The final strike information for the new monthly and weekly stock option contracts can be obtained from the designated HKEX Web Corner one business day before the Commencement Date.\n\niii. Vendor Access Codes Confirmation For publicity purpose, Information Vendors (IVs), who plan to provide and display the information of the new monthly and weekly stock option contracts in their service(s) after the product launch, please complete and return the attached Vendor Access Code Confirmation Form on or before 30 October 2026 (Friday) and keep us updated if there is any change. The access codes collected may be published on the HKEX website and/or any promotional materials.\n\ni. Market Data Transmission",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 1,
-    "succeeded": 1,
-    "failed": 0,
+    "attempted": 7,
+    "succeeded": 3,
+    "failed": 4,
     "pending": 0
   }
 }
