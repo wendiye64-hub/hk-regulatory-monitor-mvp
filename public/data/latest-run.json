@@ -1,109 +1,142 @@
 {
-  "generated_at": "2026-10-28T22:34:31.140Z",
+  "generated_at": "2026-10-29T05:46:54.290Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 11703,
+  "duration_ms": 4194,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 7221,
+      "duration_ms": 4084,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 9349,
+      "duration_ms": 2138,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 6765,
+      "duration_ms": 3073,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 6884,
-      "count": 0
+      "duration_ms": 2796,
+      "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 11681,
+      "duration_ms": 2928,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1407,
+      "duration_ms": 3317,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4737,
+      "duration_ms": 2762,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3074,
+      "duration_ms": 2325,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3125,
+      "duration_ms": 2709,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 2707,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 2707,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 2707,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 2707,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3123,
+      "duration_ms": 2707,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-29",
+      "title": "HKMA’s Response to US Fed’s Interest Rate Decision",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261029-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1591,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261029-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《HKMA’s Response to US Fed’s…》。正文：announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate…",
+      "key_points": [
+        "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.",
+        "The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated.",
+        "Hong Kong’s monetary and financial markets have continued to operate in an orderly manner.",
+        "US interest rate adjustments are subject to considerable uncertainty, and will depend on developments in inflation, labour market, and other economic data, and may influence the interest rate environment in Hong Kong.",
+        "This reflects that the Committee is watchful over the outlook on inflation, though it may need more time to observe how the data evolves."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.",
+        "The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated.",
+        "Hong Kong’s monetary and financial markets have continued to operate in an orderly manner."
+      ],
+      "source_excerpt": "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.\n\nThe policy decision is in line with market expectations. The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated. This reflects that the Committee is watchful over the outlook on inflation, though it may need more time to observe how the data evolves.\n\nHong Kong’s monetary and financial markets have continued to operate in an orderly manner. As the noticeable HKD-USD interest rate differential persists, carry trade activities may cause the Hong Kong dollar to gradually ease. That said, the outlook for the Hong Kong dollar and interbank rates can vary due to various factors, such as the market’s risk appetite for carry trades, and the supply-demand conditions for Hong Kong dollars which are in turn influenced by capital market activities and other seasonal factors.\n\nUS interest rate adjustments are subject to considerable uncertainty, and will depend on developments in inflation, labour market, and other economic data, and may influence the interest rate environment in Hong Kong.\n\nThe public should carefully manage interest rate risks when making decisions about property purchase, investment or borrowing.\n\nHong Kong Monetary Authority\n\n29 October 2026",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-28",
       "title": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
@@ -4196,46 +4229,12 @@
       ],
       "source_excerpt": "The Stock Exchange of Hong Kong Limited announced the introduction of twelve new stock option classes and the trading of twelve new stock option classes will commence on 9 November 2026 (Monday) (“Commencement Date”) .\n\nAll of the new monthly and weekly stock option classes will be created under the market codes “1 43 ” and “1 45 ” respectively and their market data will be disseminated in OMD-D Partition 3 .\n\nPlease find the Trading Symbols and Commodity Codes of twelve new stock option classes in the table below, as well as the enclosed Exchange Circular (Ref: EQD/17/26 ) for trading information.\n\nTrading information for the new monthly and weekly stock option contracts will be transmitted via OMD-D upon the product launch on the Commencement Date.\n\nii. Pre-launch Arrangement The final strike information for the new monthly and weekly stock option contracts can be obtained from the designated HKEX Web Corner one business day before the Commencement Date.\n\niii. Vendor Access Codes Confirmation For publicity purpose, Information Vendors (IVs), who plan to provide and display the information of the new monthly and weekly stock option contracts in their service(s) after the product launch, please complete and return the attached Vendor Access Code Confirmation Form on or before 30 October 2026 (Friday) and keep us updated if there is any change. The access codes collected may be published on the HKEX website and/or any promotional materials.\n\ni. Market Data Transmission",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "1) Launch of Dissemination of HKEX Indices in HKEX Orion Market Data Platform (OMD) Index Datafeed; and 2) Arrangement of Multicast Channels after Discontinuation of S&P Indices",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Launch%20of%20Arrangement%20in%20OMD%20Index%20Datafeed%20for%20HKEX%20Indices%20and%20SP%20Indices.pdf",
-      "reference": "MDD/26/579",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "source_text_chars": 3214,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Launch%20of%20Arrangement%20in%20OMD%20Index%20Datafeed%20for%20HKEX%20Indices%20and%20SP%20Indices.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《1) Launch of Dissemination of HKEX…》。正文：will be disseminated via OMD Index datafeed starting from 2 November 2026 (Monday) .",
-      "key_points": [
-        "With reference to our client notice issued on 21 August 2026 (Our Ref: MDD/26/416 ), following the successful completion of Practice Session on 19 September 2026, please be informed that the HKEX Indices will be disseminated via OMD Index datafeed starting from 2 November 2026 (Monday) .",
-        "The HKEX Indices will be disseminated in the new real-time and refresh multicast channels (Channels 40 and 540).",
-        "Clients, who would like to participate in the PRT and test the connectivity to the new multicast channels, can refer to the enclosed PRT Rundown and connect to OMD Index datafeed.",
-        "Submission of test participation form for PRT is not required.",
-        "2 November 2026 (Monday) Production Dissemination The new HKEX Indices will be available in the production."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "With reference to our client notice issued on 21 August 2026 (Our Ref: MDD/26/416 ), following the successful completion of Practice Session on 19 September 2026, please be informed that the HKEX Indices will be disseminated via OMD Index datafeed starting from 2 November 2026 (Monday) .",
-        "The HKEX Indices will be disseminated in the new real-time and refresh multicast channels (Channels 40 and 540).",
-        "Clients, who would like to participate in the PRT and test the connectivity to the new multicast channels, can refer to the enclosed PRT Rundown and connect to OMD Index datafeed."
-      ],
-      "source_excerpt": "With reference to our client notice issued on 21 August 2026 (Our Ref: MDD/26/416 ), following the successful completion of Practice Session on 19 September 2026, please be informed that the HKEX Indices will be disseminated via OMD Index datafeed starting from 2 November 2026 (Monday) .\n\nThe HKEX Indices will be disseminated in the new real-time and refresh multicast channels (Channels 40 and 540). The implementation schedule for the aforementioned indices is set out as follows:\n\nClients, who would like to participate in the PRT and test the connectivity to the new multicast channels, can refer to the enclosed PRT Rundown and connect to OMD Index datafeed.\n\nSubmission of test participation form for PRT is not required.\n\n2 November 2026 (Monday) Production Dissemination The new HKEX Indices will be available in the production.\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n12 October 2026 By Email Our Ref: MDD/26/579\n\nTo: Direct Connection Securities and Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”) ; and Independent Software Vendors (ISVs)\n\nCopy: Indirect Connection Securities and Derivatives Market Data Vendors and End Users\n\n1) Launch of Dissemination of HKEX Indices in HKEX Orion Market Data Platform (OMD) Index Datafeed; and 2) Arrangement of Multicast Channels after Discontinuation of S&P Indices",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
