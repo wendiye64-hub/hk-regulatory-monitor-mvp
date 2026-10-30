@@ -1,109 +1,148 @@
 {
-  "generated_at": "2026-10-29T22:44:25.828Z",
+  "generated_at": "2026-10-30T05:47:06.075Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4204,
+  "duration_ms": 5317,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2754,
+      "duration_ms": 4061,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3980,
+      "duration_ms": 3505,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2797,
+      "duration_ms": 4137,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4185,
+      "duration_ms": 4696,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2741,
+      "duration_ms": 3896,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3284,
+      "duration_ms": 2386,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2443,
+      "duration_ms": 2742,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1935,
+      "duration_ms": 4770,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2324,
+      "duration_ms": 2336,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2321,
+      "duration_ms": 2333,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2321,
+      "duration_ms": 2333,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2321,
+      "duration_ms": 2333,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2321,
+      "duration_ms": 2333,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2321,
+      "duration_ms": 2333,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-10-30",
+      "title": "Display of Adjusted Previous Closing Price of Bright Future Technology Holdings Limited (stock code 1351) on OTP-C for its 5-into-1 Share Consolidation on 2 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026176_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3135,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026176_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 2 November 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by Bright Future Technology Holdings Limited (“ Bright Future ”), the share consolidation of 5 existing shares of HK$0.1 each in Bright Future into 1 consolidated share of HK$0.5 each will become effective on 2 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Bright Future’s closing price on 30 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Bright Future’s OTP - C temporary stock page on 2 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Bright Future ’s circulars and regulatory announcements in full including the terms and conditions of Bright Future ’s share consolidation in dealing with Bright Future ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "2 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by Bright Future Technology Holdings Limited (“ Bright Future ”), the share consolidation of 5 existing shares of HK$0.1 each in Bright Future into 1 consolidated share of HK$0.5 each will become effective on 2 November 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by Bright Future Technology Holdings Limited (“ Bright Future ”), the share consolidation of 5 existing shares of HK$0.1 each in Bright Future into 1 consolidated share of HK$0.5 each will become effective on 2 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Bright Future’s closing price on 30 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Bright Future’s OTP - C temporary stock page on 2 November 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by Bright Future Technology Holdings Limited (“ Bright Future ”), the share consolidation of 5 existing shares of HK$0.1 each in Bright Future into 1 consolidated share of HK$0.5 each will become effective on 2 November 2026. Shareholders, investors and market participants should read the Bright Future ’s circulars and regulatory announcements in full including the terms and conditions of Bright Future ’s share consolidation in dealing with Bright Future ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Bright Future ’s OTP -C temporary stock page (stock code 2956) on 2 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on Bright Future ’s closing price on 30 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nCynthia Chiu (Tel: 2840 3076) or Mr.\n\n…/2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-29",
       "title": "HKMA’s Response to US Fed’s Interest Rate Decision",
@@ -329,6 +368,39 @@
         "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index"
       ],
       "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/276/2026 日期 Date: 29/10/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "Display of Adjusted Previous Closing Price of Coolpad Group Limited (stock code 2369) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026175_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3587,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026175_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
+        "HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on Coolpad Group’s closing price on 30 October 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Coolpad Group’s OTP - C stock page on 2 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Coolpad Group ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Coolpad Group in dealing with Coolpad Group ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
+        "HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Coolpad Group ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Coolpad Group in dealing with Coolpad Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Coolpad Group ’ s OTP-C stock page on 2 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Coolpad Group ’s closing price on 30 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nAdjustment Formula:",
       "summary_method": "extractive"
     },
     {
@@ -4104,87 +4176,12 @@
       ],
       "source_excerpt": "Pursuant to the share consolidation timetable issued by Shentong Robot Education Group Company Limited (“ Shentong Robot ”), the share consolidation of 50 existing shares of HK$0.01 each in Shentong Robot into 1 consolidated share of HK$0.50 each will become effective on 13 October 2026. Shareholders, investors and market participants should read the Shentong Robot ’s circulars and regulatory announcements in full including the terms and conditions of Shentong Robot ’s share consolidation in dealing with Shentong Robot ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Shentong Robot ’s OTP -C temporary stock page (stock code 8556) on 13 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on Shentong Robot ’s closing price on 12 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nWilson Chan (Tel: 2211 6934)",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Display of Adjusted Previous Closing Price of Alpha Professional Holdings Limited (stock code 948) on OTP-C for its 1-for-1 Rights Issue on Ex-Rights Date, 13 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026163_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3639,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026163_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 13 October 2026, the Ex-Rights Date.",
-      "key_points": [
-        "Pursuant to the rights issue timetable issued by Alpha Professional Holdings Limited (“ Alpha Professional ”), Alpha Professional ’s shares (stock code 948 ) will be marked “ex - rights” on 13 October 2026, the Ex-Rights Date.",
-        "HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
-        "For illustration purpose, depending on Alpha Professional’s closing price on 12 October 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Alpha Professional’s OTP - C stock page on 13 October 2026 as follows: -",
-        "Shareholders, investors and market participants should read the Alpha Professional ’s announcements , circulars and prospectus documents in full including the terms and conditions of the rights issue of Alpha Professional in dealing with Alpha Professional ’s shares."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the rights issue timetable issued by Alpha Professional Holdings Limited (“ Alpha Professional ”), Alpha Professional ’s shares (stock code 948 ) will be marked “ex - rights” on 13 October 2026, the Ex-Rights Date.",
-        "HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
-      ],
-      "source_excerpt": "Pursuant to the rights issue timetable issued by Alpha Professional Holdings Limited (“ Alpha Professional ”), Alpha Professional ’s shares (stock code 948 ) will be marked “ex - rights” on 13 October 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Alpha Professional ’s announcements , circulars and prospectus documents in full including the terms and conditions of the rights issue of Alpha Professional in dealing with Alpha Professional ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Alpha Professional ’ s OTP-C stock page on 13 October 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Alpha Professional ’s closing price on 12 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-12",
-      "title": "Launch of Enhancement on the Index Datafeed in Mainland Market Data Hub (MMDH)",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Launch%20of%20Enhancement%20on%20the%20Index%20Datafeed%20in%20Mainland%20Market%20Data%20Hub%20(MMDH).pdf",
-      "reference": "MDD/26/578",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "source_text_chars": 2805,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-10-12%20Launch%20of%20Enhancement%20on%20the%20Index%20Datafeed%20in%20Mainland%20Market%20Data%20Hub%20(MMDH).pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Launch of Enhancement on the Index…》；对象：Direct Connection Data。正文：will be launched on 2 November 2026 (Monday) .",
-      "key_points": [
-        "With reference to our client notices issued on 18 May 2026 (Our Ref: MDD/26/223 ) and 14 August 2026 ( MDD/26/461 ), following the successful completion of Market Rehearsals on 19 September 2026 and 10 October 2026, the enhancement on the Index Datafeed in MMDH will be launched on 2 November 2026 (Monday) .",
-        "To confirm the participation in the PRT, please complete the Online Test Participation Form on or before 21 October 2026 (Wednesday) .",
-        "Following the completion of all verification checks, confirmation of the successful completion of the PRT will be emailed to all Clients’ registered primary contacts, technical contacts and PRT participation contacts before 15:00 on 31 October 2026 (Saturday) .",
-        "After the launch, there will be a two-week stabilization period (from 2 November 2026 to 13 November 2026).",
-        "As a reminder, Clients must have their fallback procedure in place if needed, and ascertain their capability of handling the aforementioned failover and fallback situation that could arise during the stabilization period."
-      ],
-      "key_dates": [
-        {
-          "date": "21 October 2026",
-          "kind": "deadline",
-          "evidence": "To confirm the participation in the PRT, please complete the Online Test Participation Form on or before 21 October 2026 (Wednesday) ."
-        }
-      ],
-      "affected_parties": [
-        "Direct Connection Data Vendors of Orion Market Data – Securities Market via Mainland Market Data Hub (Collectively “Clients”)"
-      ],
-      "evidence": [
-        "With reference to our client notices issued on 18 May 2026 (Our Ref: MDD/26/223 ) and 14 August 2026 ( MDD/26/461 ), following the successful completion of Market Rehearsals on 19 September 2026 and 10 October 2026, the enhancement on the Index Datafeed in MMDH will be launched on 2 November 2026 (Monday) .",
-        "To confirm the participation in the PRT, please complete the Online Test Participation Form on or before 21 October 2026 (Wednesday) .",
-        "Following the completion of all verification checks, confirmation of the successful completion of the PRT will be emailed to all Clients’ registered primary contacts, technical contacts and PRT participation contacts before 15:00 on 31 October 2026 (Saturday) ."
-      ],
-      "source_excerpt": "With reference to our client notices issued on 18 May 2026 (Our Ref: MDD/26/223 ) and 14 August 2026 ( MDD/26/461 ), following the successful completion of Market Rehearsals on 19 September 2026 and 10 October 2026, the enhancement on the Index Datafeed in MMDH will be launched on 2 November 2026 (Monday) .\n\nTo confirm the participation in the PRT, please complete the Online Test Participation Form on or before 21 October 2026 (Wednesday) . The test rundown of PRT will be provided to the participating clients by 26 October 2026 (Monday).\n\nFollowing the completion of all verification checks, confirmation of the successful completion of the PRT will be emailed to all Clients’ registered primary contacts, technical contacts and PRT participation contacts before 15:00 on 31 October 2026 (Saturday) . In the event of an unexpected incident during the PRT that may impact the launch, Clients will be notified by email and, where necessary, requested to execute the system fallback procedures.\n\nAfter the launch, there will be a two-week stabilization period (from 2 November 2026 to 13 November 2026). In the event of a critical incident disrupting normal market operations, MMDH may be rolled back to the version before the PRT (i.e. the system version as of 30 October 2026, before the rollout). Clients’ registered primary, technical and emergency contacts will be informed by email on the rollback arrangement.\n\n12 October 2026 By Email Our Ref: MDD/26/578",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 2,
+    "succeeded": 2,
     "failed": 0,
     "pending": 0
   }
