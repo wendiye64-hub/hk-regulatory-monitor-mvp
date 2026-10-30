@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-30T12:54:01.527Z",
+  "generated_at": "2026-10-30T22:18:34.005Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 9125,
+  "duration_ms": 7702,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1771,
+      "duration_ms": 3246,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4059,
+      "duration_ms": 2275,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 4498,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4162,
+      "duration_ms": 4593,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2951,
+      "duration_ms": 3119,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1488,
+      "duration_ms": 2604,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1758,
+      "duration_ms": 3746,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1844,
+      "duration_ms": 1931,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2425,
+      "duration_ms": 3116,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2422,
+      "duration_ms": 3113,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2422,
+      "duration_ms": 3113,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2422,
+      "duration_ms": 3113,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2422,
+      "duration_ms": 3113,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2422,
+      "duration_ms": 3113,
       "count": 5
     }
   ],
@@ -608,20 +608,31 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 1940,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261030-6/",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《Residential mortgage loans in…》。正文：announced today (30 October) the results of its survey on residential mortgage loans (RMLs) in negative…",
+      "key_points": [
+        "The Hong Kong Monetary Authority announced today (30 October) the results of its survey on residential mortgage loans (RMLs) in negative equity at end-September 2026.",
+        "These cases were mainly related to bank staff housing loans or RMLs under mortgage insurance programme, which generally have a higher loan-to-value ratio.",
+        "It is important to note that the figures derived from this survey relate only to RMLs provided by authorized institutions on the basis of first mortgages and which the reporting institution knows to be in negative equity (i.e. the outstanding loan amount with the reporting institution exceeds the current market value of the mortgaged property).",
+        "The survey results have been extrapolated to estimate the position of the banking sector as a whole.",
+        "Not included in these figures are RMLs associated with co-financing schemes which would be in negative equity if the second mortgages were taken into account."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The Hong Kong Monetary Authority announced today (30 October) the results of its survey on residential mortgage loans (RMLs) in negative equity at end-September 2026.",
+        "These cases were mainly related to bank staff housing loans or RMLs under mortgage insurance programme, which generally have a higher loan-to-value ratio.",
+        "It is important to note that the figures derived from this survey relate only to RMLs provided by authorized institutions on the basis of first mortgages and which the reporting institution knows to be in negative equity (i.e. the outstanding loan amount with the reporting institution exceeds the current market value of the mortgaged property)."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority announced today (30 October) the results of its survey on residential mortgage loans (RMLs) in negative equity at end-September 2026.\n\nThe estimated number of RMLs in negative equity was 3,819 cases at end-September 2026, as compared to 4,356 cases at end-June 2026. These cases were mainly related to bank staff housing loans or RMLs under mortgage insurance programme, which generally have a higher loan-to-value ratio.\n\nIt is important to note that the figures derived from this survey relate only to RMLs provided by authorized institutions on the basis of first mortgages and which the reporting institution knows to be in negative equity (i.e. the outstanding loan amount with the reporting institution exceeds the current market value of the mortgaged property). Not included in these figures are RMLs associated with co-financing schemes which would be in negative equity if the second mortgages were taken into account. The extent to which such RMLs are in negative equity is not known because authorized institutions do not maintain records on the outstanding balances of the second mortgages.\n\nThe mortgage portfolios of the surveyed authorized institutions represent about 99% of the industry total. The survey results have been extrapolated to estimate the position of the banking sector as a whole.\n\nThe aggregate value of RMLs in negative equity decreased to HK$17.3 billion at end-September 2026 compared with HK$19.6 billion at end-June 2026.\n\nAnnex",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-30",
@@ -630,20 +641,25 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 1196,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261030-5/",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《Residential Mortgage Survey…》。正文：announced the results of the residential mortgage survey for September 2026.",
+      "key_points": [
+        "The Hong Kong Monetary Authority announced the results of the residential mortgage survey for September 2026."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The Hong Kong Monetary Authority announced the results of the residential mortgage survey for September 2026."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority announced the results of the residential mortgage survey for September 2026.\n\nThe number of mortgage applications in September decreased month-on-month by 10.5% to 7,560.\n\nMortgage loans approved in September decreased by 1.1% compared with August to HK$31.8 billion. Among these, mortgage loans financing primary market transactions decreased by 6.8% to HK$8.5 billion and those financing secondary market transactions decreased by 5.7% to HK$14.4 billion. Mortgage loans for refinancing increased by 14.6% to HK$8.9 billion.\n\nMortgage loans drawn down during September decreased by 22.8% compared with August to HK$25.3 billion.\n\nThe ratio of new mortgage loans priced with reference to HIBOR decreased from 57% in August to 52.7% in September. The ratio of new mortgage loans priced with reference to best lending rates decreased from 1.9% in August to 1.3% in September.\n\nThe outstanding value of mortgage loans increased month-on-month by 0.2% to HK$1,980.3 billion at end-September.\n\nThe mortgage delinquency ratio stood at a low level of 0.11% and the rescheduled loan ratio was unchanged at nearly 0%.\n\nAnnex\n\n30 October 2026",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-30",
@@ -652,20 +668,31 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 1981,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261030-4/",
       "regulatory_domain": "prudential",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《International Reserves and Foreign…》。正文：published monthly in the Template on International Reserves and Foreign Currency Liquidity in…",
+      "key_points": [
+        "These data are published monthly in the Template on International Reserves and Foreign Currency Liquidity in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS).",
+        "The release calendar of the Template on International Reserves and Foreign Currency Liquidity for 2027 is announced below:",
+        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
+        "Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS.",
+        "The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "These data are published monthly in the Template on International Reserves and Foreign Currency Liquidity in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS).",
+        "The release calendar of the Template on International Reserves and Foreign Currency Liquidity for 2027 is announced below:",
+        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) released today (30 October) the analytical data on the Hong Kong Special Administrative Region’s foreign currency reserves and foreign currency liquidity as at the end of September 2026 (Annex). These data are published monthly in the Template on International Reserves and Foreign Currency Liquidity in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS).\n\nThe release calendar of the Template on International Reserves and Foreign Currency Liquidity for 2027 is announced below:\n\nAt present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month. Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS. The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency. For the month of October 2026, the scheduled dates for issuing the press releases are as follows:\n\nRelease calendar\n\nReference Month\n\nRelease Date\n\nJanuary 2027\n\n26 February 2027\n\n31 March 2027\n\n30 April 2027\n\n31 May 2027\n\n30 June 2027\n\n30 July 2027\n\n31 August 2027\n\n30 September 2027\n\n29 October 2027\n\n30 November 2027\n\n31 December 2027\n\n31 January 2028\n\n30 October 2026\n\n****************************************************************\n\n7 October\n\n(Issued) SDDS International Reserves\n\n14 October",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-30",
@@ -674,20 +701,77 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 2450,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261030-3/",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《Exchange Fund Abridged Balance…》。正文：announced today (30 October) that the total assets of the Exchange Fund amounted to HK$4,308.4 billion as…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (30 October) that the total assets of the Exchange Fund amounted to HK$4,308.4 billion as at 30 September 2026, HK$27.0 billion lower than that at the end of August 2026.",
+        "The growth was mainly due to the increase in the outstanding amount of Certificates of Indebtedness and the amortisation of discount on Exchange Fund Bills and Notes issued.",
+        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
+        "Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS).",
+        "The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (30 October) that the total assets of the Exchange Fund amounted to HK$4,308.4 billion as at 30 September 2026, HK$27.0 billion lower than that at the end of August 2026.",
+        "The growth was mainly due to the increase in the outstanding amount of Certificates of Indebtedness and the amortisation of discount on Exchange Fund Bills and Notes issued.",
+        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (30 October) that the total assets of the Exchange Fund amounted to HK$4,308.4 billion as at 30 September 2026, HK$27.0 billion lower than that at the end of August 2026. Foreign currency assets decreased by HK$19.4 billion and Hong Kong dollar assets decreased by HK$7.6 billion.\n\nThe Currency Board Account shows that the Monetary Base at the end of September 2026 was HK$2,090.2 billion, grew by HK$10.0 billion, or 0.5% from the end of August 2026. The growth was mainly due to the increase in the outstanding amount of Certificates of Indebtedness and the amortisation of discount on Exchange Fund Bills and Notes issued.\n\nAt present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month. Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS). The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency. For the month of October 2026, the scheduled dates for issuing the press releases are as follows:\n\nThe decline in foreign currency assets was mainly due to mark-to-market revaluation of investments. The decline in Hong Kong dollar assets was mainly due to mark-to-market revaluation of Hong Kong equities.\n\nAnnex 1: Abridged Balance Sheet of the Exchange Fund",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-30",
+      "title": "1) Regular DCASS / CCMS / Report Access Platform (RAP) Data Centre Failover Rehearsal on 21 November 2026 2) Suspension of RAP services pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_075_Eng_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 51503,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_075_Eng_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《1) Regular DCASS / CCMS / Report…》；对象：Hong Kong Exchanges and。正文：will conduct a regular DCASS / CCMS / RAP Data Centre Failover Rehearsal…",
+      "key_points": [
+        "Hong Kong Exchanges and Clearing Limited (“HKEX”) will conduct a regular DCASS / CCMS / RAP Data Centre Failover Rehearsal (“the Rehearsal”) on Saturday, 21 November 2026.",
+        "The objective of the Rehearsal is to enable Clearing Participants (“CPs”) and related parties to familiarize themselves with the contingency procedures for failover of DCASS / CCMS / RAP data centre.",
+        "CPs are cordially invited to participate in the Rehearsal via their DCASS Online, DCASS OAPI programs (where applicable), CCMS Terminals and RAP.",
+        "HKEX Privacy Notice is available here . 2 The processing of personal data included in the registration is in accordance with HKEX Privacy Notice .",
+        "CPs can refer to the attached Information Package for the Rehearsal details."
+      ],
+      "key_dates": [
+        {
+          "date": "13 November 2026",
+          "kind": "deadline",
+          "evidence": "CPs who wish to participate in the Rehearsal should register through the online survey 2 on or before 13 November 2026 ."
+        },
+        {
+          "date": "21 November 2026",
+          "kind": "deadline",
+          "evidence": "Form submission deadline: 5:00 p.m. 21 November 2026"
+        }
+      ],
+      "affected_parties": [
+        "Hong Kong Exchanges and Clearing Limited Email: clearingpsd@hkex.com.hk DCASS Hotline: 2979-7222"
+      ],
+      "evidence": [
+        "Hong Kong Exchanges and Clearing Limited (“HKEX”) will conduct a regular DCASS / CCMS / RAP Data Centre Failover Rehearsal (“the Rehearsal”) on Saturday, 21 November 2026.",
+        "The objective of the Rehearsal is to enable Clearing Participants (“CPs”) and related parties to familiarize themselves with the contingency procedures for failover of DCASS / CCMS / RAP data centre.",
+        "CPs are cordially invited to participate in the Rehearsal via their DCASS Online, DCASS OAPI programs (where applicable), CCMS Terminals and RAP."
+      ],
+      "source_excerpt": "Hong Kong Exchanges and Clearing Limited (“HKEX”) will conduct a regular DCASS / CCMS / RAP Data Centre Failover Rehearsal (“the Rehearsal”) on Saturday, 21 November 2026.\n\nThe objective of the Rehearsal is to enable Clearing Participants (“CPs”) and related parties to familiarize themselves with the contingency procedures for failover of DCASS / CCMS / RAP data centre. The Rehearsal will also cover the data centre failover of other HKEX systems including OTP- C, OTP-CSC, HKATS, CCASS, OCASS, OASIS and HKEX Orion Market Data Platform.\n\nCPs are cordially invited to participate in the Rehearsal via their DCASS Online, DCASS OAPI programs (where applicable), CCMS Terminals and RAP. CPs who wish to participate in the Rehearsal should register through the online survey 2 on or before 13 November 2026 . Separate registration is required for HKATS Data Centre Failover Rehearsal which will be held on the same day .\n\n1 All calls to and from the Enquiry Hotline may be recorded. HKEX Privacy Notice is available here . 2 The processing of personal data included in the registration is in accordance with HKEX Privacy Notice .\n\nCPs can refer to the attached Information Package for the Rehearsal details. CPs are advised to read carefully the information package and follow instructions for the Rehearsal.\n\nForm submission deadline: 5:00 p.m. 21 November 2026\n\n通告 CIRCULAR\n\nClassification – Internal\n\n編號 Ref. No.: PT/CLR/SEOCH/075/2026 日期 Date: 30/10/2026\n\n2) Suspension of RAP service s\n\n1.\n\n2.",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-29",
@@ -947,6 +1031,38 @@
         "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
       ],
       "source_excerpt": "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Coolpad Group ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Coolpad Group in dealing with Coolpad Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Coolpad Group ’ s OTP-C stock page on 2 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Coolpad Group ’s closing price on 30 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nAdjustment Formula:",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-29",
+      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/074_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1208,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/074_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 27 October 2026: - the updated list of terrorists and terrorist associates specified under…",
+      "key_points": [
+        "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).",
+        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:",
+        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
+        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB)."
+      ],
+      "source_excerpt": "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/074/2026 日期 Date: 29/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
       "summary_method": "extractive"
     },
     {
@@ -4080,79 +4196,13 @@
       ],
       "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.\n\nAn additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer. The Bonds will mature on 24 July 2035 and will carry interest at the rate of 3.17% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 14 October 2026 are 94.28 with an annualised yield of 3.986%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of HK$50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number\n\nStock Code\n\nAmount on Offer",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Tender of 3-year HKD HKSAR Institutional Government Bonds through re-opening to be held on Wednesday, 21 October 2026",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-6/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 3687,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-6/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Tender of 3-year HKD HKSAR…》。正文：announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
-        "An additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme.",
-        "Tender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX).",
-        "5 June and 5 December in each year, commencing on the Issue Date up to and including the Maturity Date, subject to adjustment in accordance with the terms of the Institutional Issuances Information Memorandum of the Infrastructure Bond Programme and Government Sustainable Bond Programme (Information Memorandum) published on the Hong Kong Government Bonds website."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
-        "An additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 3-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.\n\nAn additional amount of HK$0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912001) will be on offer. The Bonds will mature on 5 December 2029 and will carry interest at the rate of 3.23% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 14 October 2026 are 98.74 with an annualised yield of 3.690%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of HK$50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number\n\nStock Code\n\nAmount on Offer",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Analytical Accounts of the Exchange Fund",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-5/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 2390,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-5/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Analytical Accounts of the…》。正文：The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in…",
-      "key_points": [
-        "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.",
-        "The analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).",
-        "The release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:",
-        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
-        "Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.",
-        "The analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).",
-        "The release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:"
-      ],
-      "source_excerpt": "The Monetary Base, comprising Certificates of Indebtedness, Government‑issued currency notes and coins in circulation, the balance of the banking system and Exchange Fund Bills and Notes issued, amounted to HK$2,090.2 billion.\n\nThe analytical accounts of the Exchange Fund are released in accordance with the International Monetary Fund’s Special Data Dissemination Standard (SDDS) and are referred to as the Analytical Accounts of the Central Bank under SDDS (Annex).\n\nThe release calendar of the Analytical Accounts of the Exchange Fund for 2027 is announced below:\n\nAt present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month. Three of these releases are issued to disseminate monetary data in accordance with the International Monetary Fund’s SDDS. The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency. For the month of October 2026, the scheduled dates for issuing the press releases are as follows:\n\nThe Hong Kong Monetary Authority (HKMA) released today (14 October) the key analytical accounts of the Exchange Fund at the end of September 2026.\n\nForeign assets, representing the external assets of the Exchange Fund, decreased during the month by HK$76.7 billion to HK$3,576.0 billion.\n\nClaims on the private sector in Hong Kong amounted to HK$473.0 billion.\n\nForeign liabilities amounted to HK$135.3 billion.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 12,
-    "succeeded": 11,
-    "failed": 1,
-    "pending": 4
+    "attempted": 6,
+    "succeeded": 6,
+    "failed": 0,
+    "pending": 0
   }
 }
