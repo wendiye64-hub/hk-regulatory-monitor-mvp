@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-30T22:18:34.005Z",
+  "generated_at": "2026-10-31T05:38:56.124Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7702,
+  "duration_ms": 5233,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3246,
+      "duration_ms": 2044,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2275,
+      "duration_ms": 3277,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4498,
+      "duration_ms": 4063,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4593,
+      "duration_ms": 4765,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3119,
+      "duration_ms": 3181,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2604,
+      "duration_ms": 3666,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3746,
+      "duration_ms": 3226,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1931,
+      "duration_ms": 3450,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3116,
+      "duration_ms": 2828,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3113,
+      "duration_ms": 2826,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3113,
+      "duration_ms": 2826,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3113,
+      "duration_ms": 2826,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3113,
+      "duration_ms": 2826,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3113,
+      "duration_ms": 2826,
       "count": 5
     }
   ],
@@ -771,6 +771,45 @@
         "CPs are cordially invited to participate in the Rehearsal via their DCASS Online, DCASS OAPI programs (where applicable), CCMS Terminals and RAP."
       ],
       "source_excerpt": "Hong Kong Exchanges and Clearing Limited (“HKEX”) will conduct a regular DCASS / CCMS / RAP Data Centre Failover Rehearsal (“the Rehearsal”) on Saturday, 21 November 2026.\n\nThe objective of the Rehearsal is to enable Clearing Participants (“CPs”) and related parties to familiarize themselves with the contingency procedures for failover of DCASS / CCMS / RAP data centre. The Rehearsal will also cover the data centre failover of other HKEX systems including OTP- C, OTP-CSC, HKATS, CCASS, OCASS, OASIS and HKEX Orion Market Data Platform.\n\nCPs are cordially invited to participate in the Rehearsal via their DCASS Online, DCASS OAPI programs (where applicable), CCMS Terminals and RAP. CPs who wish to participate in the Rehearsal should register through the online survey 2 on or before 13 November 2026 . Separate registration is required for HKATS Data Centre Failover Rehearsal which will be held on the same day .\n\n1 All calls to and from the Enquiry Hotline may be recorded. HKEX Privacy Notice is available here . 2 The processing of personal data included in the registration is in accordance with HKEX Privacy Notice .\n\nCPs can refer to the attached Information Package for the Rehearsal details. CPs are advised to read carefully the information package and follow instructions for the Rehearsal.\n\nForm submission deadline: 5:00 p.m. 21 November 2026\n\n通告 CIRCULAR\n\nClassification – Internal\n\n編號 Ref. No.: PT/CLR/SEOCH/075/2026 日期 Date: 30/10/2026\n\n2) Suspension of RAP service s\n\n1.\n\n2.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-30",
+      "title": "Regular HKATS Data Centre Failover Rehearsal on 21 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_233_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2338,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_233_26_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Regular HKATS Data Centre Failover…》。正文：Hong Kong Exchanges and Clearing Limited is a recognized exchange controller under the Securities and…",
+      "key_points": [
+        "Hong Kong Exchanges and Clearing Limited is a recognized exchange controller under the Securities and Futures Ordinance which is the controller of The Stock Exchange of Hong Kong Limited, Hong Kong Futures Exchange Limited, Hong Kong Securities Clearing Company Limited, The SEHK Options Clearing House Limited, HKFE Clearing Corporation Limited and OTC Clearing Hong Kong Limited.",
+        "Exchange Participants (“EPs”) are advised that a regular HKATS Data Centre Failover Rehearsal (the “Rehearsal”) will be conducted on Saturday, 21 November 2026.",
+        "The objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data centre and restart various HKEX systems at the secondary data centre.",
+        "EPs are reminded to complete online registration form on or before 13 November 2026 in order to register and participate in the Rehearsal.",
+        "Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/HKEX-Privacy-Notices/General-Privacy- Notice?sc_lang=en"
+      ],
+      "key_dates": [
+        {
+          "date": "13 November 2026",
+          "kind": "deadline",
+          "evidence": "EPs are reminded to complete online registration form on or before 13 November 2026 in order to register and participate in the Rehearsal."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Hong Kong Exchanges and Clearing Limited is a recognized exchange controller under the Securities and Futures Ordinance which is the controller of The Stock Exchange of Hong Kong Limited, Hong Kong Futures Exchange Limited, Hong Kong Securities Clearing Company Limited, The SEHK Options Clearing House Limited, HKFE Clearing Corporation Limited and OTC Clearing Hong Kong Limited.",
+        "Exchange Participants (“EPs”) are advised that a regular HKATS Data Centre Failover Rehearsal (the “Rehearsal”) will be conducted on Saturday, 21 November 2026.",
+        "The objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data centre and restart various HKEX systems at the secondary data centre."
+      ],
+      "source_excerpt": "香港交易及結算所有限公司是《證券及期貨條例》所述的認可控制人，亦為香港聯合交易所有限公司、香港期貨交易所有限公司、 香 港 中 央 結 算 有 限 公 司 、 香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 、 香 港 期 貨 結 算 有 限 公 司 及 香 港 場 外 結 算 有 限 公 司 的 控 制 人 。 Hong Kong Exchanges and Clearing Limited is a recognized exchange controller under the Securities and Futures Ordinance which is the controller of The Stock Exchange of Hong Kong Limited, Hong Kong Futures Exchange Limited, Hong Kong Securities Clearing Company Limited, The SEHK Options Clearing House Limited, HKFE Clearing Corporation Limited and OTC Clearing Hong Kong Limited.\n\nExchange Participants (“EPs”) are advised that a regular HKATS Data Centre Failover Rehearsal (the “Rehearsal”) will be conducted on Saturday, 21 November 2026.\n\nThe objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data centre and restart various HKEX systems at the secondary data centre. All EPs are cordially invited to participate in the Rehearsal.\n\nEPs are reminded to complete online registration form on or before 13 November 2026 in order to register and participate in the Rehearsal. Clearing Participants of the respective EPs are also reminded to complete the online registration form with HKCC / SEOCH for relevant support in the Rehearsal. EPs are advised to read the information package ( Attachment ) carefully and follow the relevant instructions throughout the Rehearsal.\n\n編號 Ref.",
       "summary_method": "extractive"
     },
     {
@@ -4163,45 +4202,12 @@
       "evidence": [],
       "source_excerpt": "",
       "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Tender of 10-year HKD HKSAR Institutional Government Bonds through re-opening to be held on Wednesday, 21 October 2026",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-7/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 3685,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-7/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Tender of 10-year HKD HKSAR…》。正文：announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
-        "An additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme.",
-        "Tender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX).",
-        "24 January and 24 July in each year, commencing on the Issue Date up to and including the Maturity Date, subject to adjustment in accordance with the terms of the Institutional Issuances Information Memorandum of the Infrastructure Bond Programme and Government Sustainable Bond Programme (Information Memorandum) published on the Hong Kong Government Bonds website."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.",
-        "An additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (14 October) that a tender of 10-year HKD institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3507001 under the Infrastructure Bond Programme will be held on Wednesday, 21 October 2026, for settlement on Thursday, 22 October 2026.\n\nAn additional amount of HK$1.25 billion of the outstanding 10-year Bonds (issue no. 10GB3507001) will be on offer. The Bonds will mature on 24 July 2035 and will carry interest at the rate of 3.17% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 14 October 2026 are 94.28 with an annualised yield of 3.986%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of HK$50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number\n\nStock Code\n\nAmount on Offer",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 6,
-    "succeeded": 6,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
