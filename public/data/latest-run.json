@@ -1,109 +1,285 @@
 {
-  "generated_at": "2026-11-01T22:00:37.061Z",
+  "generated_at": "2026-11-02T05:59:50.922Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4754,
+  "duration_ms": 7009,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1971,
+      "duration_ms": 4056,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2745,
+      "duration_ms": 2817,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2447,
+      "duration_ms": 2297,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4735,
+      "duration_ms": 4246,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3954,
+      "duration_ms": 1953,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2412,
+      "duration_ms": 1552,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2402,
+      "duration_ms": 3008,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3502,
+      "duration_ms": 3721,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2681,
+      "duration_ms": 2419,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2679,
+      "duration_ms": 2416,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2679,
+      "duration_ms": 2416,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2679,
+      "duration_ms": 2416,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2679,
+      "duration_ms": 2416,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2679,
+      "duration_ms": 2416,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-02",
+      "title": "SEOCH Reserve Fund Variable Contributions pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_282_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2298,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_282_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《SEOCH Reserve Fund Variable…》。正文：Please be advised that The SEHK Options Clearing House Limited (SEOCH) has re-calculated the Reserve Fund…",
+      "key_points": [
+        "Please be advised that The SEHK Options Clearing House Limited (SEOCH) has re-calculated the Reserve Fund Requirement pursuant to SEOCH Rule 407 and Clearing House Procedures.",
+        "Participants can obtain the details regarding their respective VC requirement from the SEOCH Reserve Fund Contribution Notice report (RP008) distributed through the DCASS Terminal on 2 November 2026.",
+        "Please be advised that the Reserve Fund (RF) size is equal to HK$3,600 million after the above mentioned recalculation.",
+        "1 RF Additional Margin for each of the CPs will be proportionate to their share of the Net Projected Loss of the CP Group.",
+        "Should you have any enquiries regarding the above, please contact us at 2211 6901."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that The SEHK Options Clearing House Limited (SEOCH) has re-calculated the Reserve Fund Requirement pursuant to SEOCH Rule 407 and Clearing House Procedures.",
+        "Participants can obtain the details regarding their respective VC requirement from the SEOCH Reserve Fund Contribution Notice report (RP008) distributed through the DCASS Terminal on 2 November 2026.",
+        "Please be advised that the Reserve Fund (RF) size is equal to HK$3,600 million after the above mentioned recalculation."
+      ],
+      "source_excerpt": "Please be advised that The SEHK Options Clearing House Limited (SEOCH) has re-calculated the Reserve Fund Requirement pursuant to SEOCH Rule 407 and Clearing House Procedures. The new market total Variable Contribution (“VC”) of HK$2,924 million after the recalculation will be shared by all the SEOCH Participants based on their daily average total margin requirement and net premium paid during the period from 6 August 2026 to 30 October 2026 in accordance with Chapter 11 of the Operational Clearing Procedures for Options Trading Exchange Participants of SEOCH.\n\nParticipants can obtain the details regarding their respective VC requirement from the SEOCH Reserve Fund Contribution Notice report (RP008) distributed through the DCASS Terminal on 2 November 2026. The required/surplus amounts will be collected/released by directly debiting /crediting SEOCH Participants’ accounts with Designated Banks or Settlement Banks by 4:00 p.m. on 3 November 2026.\n\nPlease be advised that the Reserve Fund (RF) size is equal to HK$3,600 million after the above mentioned recalculation.\n\nAs the RF Threshold of HK$3,600 million is reached, RF additional margin in the amount of net projected loss of the Clearing Participant and its affiliates (CP Group) in excess of 50% of the RF will be collected from the concerned CP Group 1 .\n\nEach CP in the concerned CP Group will be notified by email for the amount of additional margin required around 2:00 a.m..\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-02",
+      "title": "Monthly Review on Guarantee Fund pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_281_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2081,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CCRC_281_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Monthly Review on Guarantee Fund》。正文：HKSCC has performed a review of the size of the Guarantee Fund and the contributions required from each…",
+      "key_points": [
+        "HKSCC has performed a review of the size of the Guarantee Fund and the contributions required from each Clearing Participant.",
+        "Clearing Participants can download the Statement of Default Fund Contributions (CCMDF02) to obtain details of their individual contribution requirements via Report Access Platform on 2 November 2026.",
+        "Please be advised that the required size of the Guarantee Fund is equal to HK$7,300 million after the review.",
+        "Should you have any enquiries regarding the above, please contact our hotline at 2979 7111.",
+        "The required size of the Guarantee Fund excluding the Dynamic Contribution Credit for all Clearing Participants after the re-calculation is HK$7,093 million."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "HKSCC has performed a review of the size of the Guarantee Fund and the contributions required from each Clearing Participant.",
+        "Clearing Participants can download the Statement of Default Fund Contributions (CCMDF02) to obtain details of their individual contribution requirements via Report Access Platform on 2 November 2026.",
+        "Please be advised that the required size of the Guarantee Fund is equal to HK$7,300 million after the review."
+      ],
+      "source_excerpt": "HKSCC has performed a review of the size of the Guarantee Fund and the contributions required from each Clearing Participant. The required size of the Guarantee Fund excluding the Dynamic Contribution Credit for all Clearing Participants after the re-calculation is HK$7,093 million. The amounts of Basic Contribution and Dynamic Contribution required from a Clearing Participant are re- calculated based on its share of the average Expected Uncollateralised Loss (EUL) of all Clearing Participants, for the period from 6 August 2026 to 30 October 2026 pursuant to Section 18.2.1 of the HKSCC Operational Procedures.\n\nClearing Participants can download the Statement of Default Fund Contributions (CCMDF02) to obtain details of their individual contribution requirements via Report Access Platform on 2 November 2026. The corresponding collection and refund of contributions will be conducted on 3 November 2026 through Direct Debit Instructions and Direct Credit Instructions respectively. General Clearing Participants may also download the Default Fund Requirement Report (RMADF01) via Report Access Platform to obtain the projected contribution requirements of their underlying Non-Clearing Participants.\n\nPlease be advised that the required size of the Guarantee Fund is equal to HK$7,300 million after the review.\n\nShould you have any enquiries regarding the above, please contact our hotline at 2979 7111.\n\n通告 CIRCULAR\n\nSubject: Monthly Review on Guarantee Fund\n\nEnquiry: Hotline 2979 7111",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-02",
+      "title": "Golden Power Group Holdings Limited (Stock Code : 3919) - Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_379_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 4632,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_379_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Golden Power Group Holdings…》。正文：will be changed from 4,000 shares to 2,000 shares with effect from 9 November 2026.",
+      "key_points": [
+        "Pursuant to the announcement of Golden Power Group Holdings Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 2,000 shares with effect from 9 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 9 November 2026 and 8 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "With effect from 9 November 2026 until 8 December 2026, CCASS Depository will accept deposits of the existing share certificates under temporary stock code: 2998 and the new share certificates under stock code: 3919 in accordance with the schedule as listed in Appendix II."
+      ],
+      "key_dates": [
+        {
+          "date": "9 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the announcement of Golden Power Group Holdings Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 2,000 shares with effect from 9 November 2026."
+        },
+        {
+          "date": "2 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 2 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3919."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the announcement of Golden Power Group Holdings Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 2,000 shares with effect from 9 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 9 November 2026 and 8 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the announcement of Golden Power Group Holdings Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 2,000 shares with effect from 9 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 9 November 2026 and 8 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 2 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3919.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-02",
+      "title": "Notification of Routine Recalculation of Rates and FX Guarantee Fund pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Nov_2026_280.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2445,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Nov_2026_280.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Notification of Routine…》。正文：Please be advised that pursuant to Rule 1503 of the OTC Clear Rates and FX Derivatives Clearing Rules (“Clearing…",
+      "key_points": [
+        "Please be advised that pursuant to Rule 1503 of the OTC Clear Rates and FX Derivatives Clearing Rules (“Clearing Rule s ”) , OTC Clearing Hong Kong Limited has completed its routine Rates and FX Guarantee Fund recalculation on the Rates and FX Contribution Determination Date i.e. 2 November 2026.",
+        "Each Clearing Member can obtain the additional Collateral required to meet its new CM Funded Contribution Amount through the report distributed via OASIS on 2 November 2026 (file name: WEB GF Recalculation Result.csv).",
+        "The stress testing is conducted using a wide range of historical and theoretical scenarios that take into account relevant peak historic price movements, shifts in market factors such as yield curves, multiple defaults over various time horizons and other extreme but plausible market conditions.",
+        "The GF Calculation Period is from 1 October 2026 to 30 October 2026 (both dates inclusive) in accordance with Chapter 6 of the OTC Clearing Hong Kong Limited Clearing Procedures (Clearing Procedures).",
+        "The Rates and FX Guarantee Fund has been resized to HKD12,570 million."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that pursuant to Rule 1503 of the OTC Clear Rates and FX Derivatives Clearing Rules (“Clearing Rule s ”) , OTC Clearing Hong Kong Limited has completed its routine Rates and FX Guarantee Fund recalculation on the Rates and FX Contribution Determination Date i.e. 2 November 2026.",
+        "Each Clearing Member can obtain the additional Collateral required to meet its new CM Funded Contribution Amount through the report distributed via OASIS on 2 November 2026 (file name: WEB GF Recalculation Result.csv).",
+        "The stress testing is conducted using a wide range of historical and theoretical scenarios that take into account relevant peak historic price movements, shifts in market factors such as yield curves, multiple defaults over various time horizons and other extreme but plausible market conditions."
+      ],
+      "source_excerpt": "Please be advised that pursuant to Rule 1503 of the OTC Clear Rates and FX Derivatives Clearing Rules (“Clearing Rule s ”) , OTC Clearing Hong Kong Limited has completed its routine Rates and FX Guarantee Fund recalculation on the Rates and FX Contribution Determination Date i.e. 2 November 2026. The GF Calculation Period is from 1 October 2026 to 30 October 2026 (both dates inclusive) in accordance with Chapter 6 of the OTC Clearing Hong Kong Limited Clearing Procedures (Clearing Procedures). The Rates and FX Guarantee Fund has been resized to HKD12,570 million.\n\nEach Clearing Member can obtain the additional Collateral required to meet its new CM Funded Contribution Amount through the report distributed via OASIS on 2 November 2026 (file name: WEB GF Recalculation Result.csv). Clearing Members are advised to deliver the additional collateral, if any, by 4:00 p.m. Hong Kong Time on 3 November 2026. Any unfulfilled amount will be demanded via GF call at 4:00 p.m. Hong Kong Time on 3 November 2026, and the concerned Clearing Member(s) shall meet it within one hour (i.e. 5:00 p.m. Hong Kong Time on 3 November 2026).\n\nOTC Clear conducts stress testing to ensure the adequacy of the Rates and FX Guarantee Fund.\n\nOTC Clear also conducts reverse stress testing quarterly to ensure that the adopted stress scenarios are appropriate, and to incorporate new or revised scenarios if necessary.\n\n通告 CIRCULAR\n\nNotification of Routine Recalculation of Rates and FX Guarantee Fund\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-02",
+      "title": "Hong Kong FinTech Week 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 4128,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Hong Kong FinTech Week 2026》。正文：The 11th edition of this flagship fintech event has brought together participants worldwide to exchange…",
+      "key_points": [
+        "The 11th edition of this flagship fintech event has brought together participants worldwide to exchange insights, showcase innovation, and foster strategic business partnerships.",
+        "Following the announcement of “Fintech 2030” last year, the HKMA has built significant momentum in advancing the four strategic pillars under the “DART” framework (“Data and Payment”, “Artificial Intelligence (A.I.)”, “Resilience” and “Tokenisation”).",
+        "Application and governance of Agentic Finance – As Agentic A.I. technologies continue to mature, they have the potential to reshape how financial services are delivered and used.",
+        "The Toolkit will continue to evolve through industry application, validation and feedback as PQC standards and implementation practices mature.",
+        "Accelerating 24/7 settlement of tokenised transactions under Project Ensemble – The HKMA has advanced EnsembleTX to a new stage, enabling 24/7 real-value transactions."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The 11th edition of this flagship fintech event has brought together participants worldwide to exchange insights, showcase innovation, and foster strategic business partnerships.",
+        "Following the announcement of “Fintech 2030” last year, the HKMA has built significant momentum in advancing the four strategic pillars under the “DART” framework (“Data and Payment”, “Artificial Intelligence (A.I.)”, “Resilience” and “Tokenisation”).",
+        "Application and governance of Agentic Finance – As Agentic A.I. technologies continue to mature, they have the potential to reshape how financial services are delivered and used."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) today (2 November) co-organised the Hong Kong FinTech Week 2026 with Invest Hong Kong. The 11th edition of this flagship fintech event has brought together participants worldwide to exchange insights, showcase innovation, and foster strategic business partnerships.\n\nFollowing the announcement of “Fintech 2030” last year, the HKMA has built significant momentum in advancing the four strategic pillars under the “DART” framework (“Data and Payment”, “Artificial Intelligence (A.I.)”, “Resilience” and “Tokenisation”). During FinTech Week, the HKMA announced new initiatives across the following four categories, aiming to further strengthen Hong Kong’s fintech capabilities and deliver direct benefits to corporations and individuals:\n\nApplication and governance of Agentic Finance – As Agentic A.I. technologies continue to mature, they have the potential to reshape how financial services are delivered and used.\n\nTo ensure responsible development of these services, the HKMA launched Project SAGE (Securing Agentic Finance with Governance and Enablement).\n\nThe Project will seek to enable the industry to explore and advance agentic finance applications, while ensuring a commensurate governance framework.\n\nTo support the work of Project SAGE, the HKMA has established a cross-sectoral Agentic Finance Expert Group.\n\nThe HKMA will soon expand the trials to include regulated stablecoins.\n\n2 November 2026",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-10-30",
       "title": "Display of Adjusted Previous Closing Price of Bright Future Technology Holdings Limited (stock code 1351) on OTP-C for its 5-into-1 Share Consolidation on 2 November 2026 pdf",
@@ -810,6 +986,51 @@
         "The objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data centre and restart various HKEX systems at the secondary data centre."
       ],
       "source_excerpt": "香港交易及結算所有限公司是《證券及期貨條例》所述的認可控制人，亦為香港聯合交易所有限公司、香港期貨交易所有限公司、 香 港 中 央 結 算 有 限 公 司 、 香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 、 香 港 期 貨 結 算 有 限 公 司 及 香 港 場 外 結 算 有 限 公 司 的 控 制 人 。 Hong Kong Exchanges and Clearing Limited is a recognized exchange controller under the Securities and Futures Ordinance which is the controller of The Stock Exchange of Hong Kong Limited, Hong Kong Futures Exchange Limited, Hong Kong Securities Clearing Company Limited, The SEHK Options Clearing House Limited, HKFE Clearing Corporation Limited and OTC Clearing Hong Kong Limited.\n\nExchange Participants (“EPs”) are advised that a regular HKATS Data Centre Failover Rehearsal (the “Rehearsal”) will be conducted on Saturday, 21 November 2026.\n\nThe objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data centre and restart various HKEX systems at the secondary data centre. All EPs are cordially invited to participate in the Rehearsal.\n\nEPs are reminded to complete online registration form on or before 13 November 2026 in order to register and participate in the Rehearsal. Clearing Participants of the respective EPs are also reminded to complete the online registration form with HKCC / SEOCH for relevant support in the Rehearsal. EPs are advised to read the information package ( Attachment ) carefully and follow the relevant instructions throughout the Rehearsal.\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-10-30",
+      "title": "Regular System Recovery Rehearsal for Hosting Services on 21 Nov 2026",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note/HDS261008/Subscriber-Notice-Regular-System-Recovery-Rehearsal-for-Hosting-Subscribers_2026_HDS261008_e.pdf",
+      "reference": "HDS/26/1008",
+      "source_id": "HKEX-HOSTING-NOTICES",
+      "source_label": "HKEX Hosting Subscriber Notices",
+      "detection": "new_official_publication",
+      "source_text_chars": 3090,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Connectivity/Hosting-Services/Subscriber-Notices-and-Guidance-Note/HDS261008/Subscriber-Notice-Regular-System-Recovery-Rehearsal-for-Hosting-Subscribers_2026_HDS261008_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_notice",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Regular System Recovery Rehearsal…》。正文：will be conducted on Saturday, 21 Nov 2026.",
+      "key_points": [
+        "The regular system recovery rehearsal (the “Rehearsal”) for Hosting Subscribers will be conducted on Saturday, 21 Nov 2026.",
+        "During the Rehearsal, connectivity to various HKEX systems via HKEX Service Network (“HSN”) will be temporarily suspended in order to simulate the HKEX Primary Data Centre failover to Secondary Data Centre.",
+        "All HKEX Hosting Subscribers, particularly those subscribed with HSN, are encouraged to participate in the Rehearsal to verify the HSN can successfully be connected to HKEX Secondary Data Centre and continue its trading, clearing, and settlement systems and/or the market data dissemination system of the HKEX group.",
+        "The objective of the Rehearsal is to also enable HKEX Hosting Subscribers and related parties to familiarize themselves with contingency procedures and related operational matters for their business continuity and disaster recovery arrangements under emergency situations.",
+        "Please complete the online “ Participation Form for Regular System Recovery Rehearsal for Hosing Services Subscribers ” on or before 6:00 p.m. on 19 Nov 2026."
+      ],
+      "key_dates": [
+        {
+          "date": "19 Nov 2026",
+          "kind": "deadline",
+          "evidence": "Please complete the online “ Participation Form for Regular System Recovery Rehearsal for Hosing Services Subscribers ” on or before 6:00 p.m. on 19 Nov 2026."
+        },
+        {
+          "date": "24 Nov 2026",
+          "kind": "deadline",
+          "evidence": "After completion of the Rehearsal and drill, please complete the “ Evaluation Form for Regular System Recovery Rehearsal for Hosting Services Subscribers ” on or before 6:00 p.m. 24 Nov 2026 in addition to all other required reply submission as stated in respective HKEX circulars."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "The regular system recovery rehearsal (the “Rehearsal”) for Hosting Subscribers will be conducted on Saturday, 21 Nov 2026.",
+        "During the Rehearsal, connectivity to various HKEX systems via HKEX Service Network (“HSN”) will be temporarily suspended in order to simulate the HKEX Primary Data Centre failover to Secondary Data Centre.",
+        "All HKEX Hosting Subscribers, particularly those subscribed with HSN, are encouraged to participate in the Rehearsal to verify the HSN can successfully be connected to HKEX Secondary Data Centre and continue its trading, clearing, and settlement systems and/or the market data dissemination system of the HKEX group."
+      ],
+      "source_excerpt": "The regular system recovery rehearsal (the “Rehearsal”) for Hosting Subscribers will be conducted on Saturday, 21 Nov 2026. Reference is made to the following HKEX circulars:\n\nDuring the Rehearsal, connectivity to various HKEX systems via HKEX Service Network (“HSN”) will be temporarily suspended in order to simulate the HKEX Primary Data Centre failover to Secondary Data Centre.\n\nAll HKEX Hosting Subscribers, particularly those subscribed with HSN, are encouraged to participate in the Rehearsal to verify the HSN can successfully be connected to HKEX Secondary Data Centre and continue its trading, clearing, and settlement systems and/or the market data dissemination system of the HKEX group. In addition, Subscribers are also encouraged to switch to disaster recovery setup with SDNet/2 outside HKEX Hosting Services Data Centre (if available) after failover to HKEX Secondary Data Centre and ensure its alternative means to connect to HKEX can function as intended, more information can be found in drill related Hosting circular / document.\n\nThe objective of the Rehearsal is to also enable HKEX Hosting Subscribers and related parties to familiarize themselves with contingency procedures and related operational matters for their business continuity and disaster recovery arrangements under emergency situations.\n\nPlease complete the online “ Participation Form for Regular System Recovery Rehearsal for Hosing Services Subscribers ” on or before 6:00 p.m. on 19 Nov 2026.\n\n編號 Ref.\n\nNo.",
       "summary_method": "extractive"
     },
     {
@@ -4020,194 +4241,12 @@
       ],
       "source_excerpt": "Annex B: Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-3-EN.pdf (17.1 MB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\nGranular Data Reporting 3.0\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-15",
-      "title": "Responsible Adoption of Artificial Intelligence",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-4-EN",
-      "reference": "20261015-4-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1294,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-4-EN",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "human_review_required": true,
-      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-      "key_points": [
-        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
-        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
-        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
-      ],
-      "source_excerpt": "Annex A - Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex B - Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-4-EN.pdf (195.7 KB)\n\nTopic:\n\nFintech - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n02 Apr 2026\n\nGranular Data Reporting 3.0\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-15",
-      "title": "Responsible Adoption of Artificial Intelligence Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-2-EN",
-      "reference": "20261015-2-EN",
-      "document_type": "CIR - Circular",
-      "source_id": "HKMA-CIRCULARS",
-      "source_label": "HKMA Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1362,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261015-2-EN",
-      "regulatory_domain": "prudential",
-      "change_type": "regulatory_circular",
-      "impact_status": "potential_impact",
-      "human_review_required": true,
-      "summary": "HKMA发布《Responsible Adoption of Artificial…》。正文：Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-      "key_points": [
-        "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
-        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence",
-        "Annex B - Practical Insights from the Second Cohort of the GenA.I.",
-        "Annex C - Concept Note on Governance of Agentic Artificial Intelligence"
-      ],
-      "source_excerpt": "Annex A : Supervisory Guidance for Responsible Adoption of Artificial Intelligence\n\nAnnex B - Practical Insights from the Second Cohort of the GenA.I. Sandbox\n\nAnnex C - Concept Note on Governance of Agentic Artificial Intelligence\n\nCIR\n\nCurrent\n\nIssue Date:\n\n15 Oct 2026\n\n20261015-2-EN.pdf (159.7 KB)\n\nTopic:\n\nFintech - Others\n\nTechnology Risk Management - Others\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\n01 Nov 2019\n\nHigh-level Principles on Artificial Intelligence\n\n12 Oct 2026\n\nPractice Guide on Data Excellence\n\nEnclosure: Practice Guide on Data Excellence",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "HKEX’s Core Climate Completes First Cross-boundary Pilots in Green Electricity Certificates and Carbon Allowances",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261014news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Display of Adjusted Previous Closing Price of China United Venture Investment Limited (stock code 8159) on OTP-C for its 20-into-1 Share Consolidation on 15 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026168_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3187,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026168_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 15 October 2026.",
-      "key_points": [
-        "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026.",
-        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
-        "For illustration purpose, depending on China United’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China United’s OTP - C temporary stock page on 15 October 2026 as follows: -",
-        "Shareholders, investors and market participants should read the China United ’s circulars and regulatory announcements in full including the terms and conditions of China United ’s share consolidation in dealing with China United ’s shares.",
-        "If they are in doubt, they should consult their professional adviser(s)."
-      ],
-      "key_dates": [
-        {
-          "date": "15 October 2026",
-          "kind": "effective",
-          "evidence": "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026.",
-        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
-        "For illustration purpose, depending on China United’s closing price on 14 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China United’s OTP - C temporary stock page on 15 October 2026 as follows: -"
-      ],
-      "source_excerpt": "Pursuant to the share consolidation timetable issued by China United Venture Investment Limited (“ China United ”), the share consolidation of 20 existing shares of HK$0.01 each in China United into 1 consolidated share of HK$0.20 each will become effective on 15 October 2026. Shareholders, investors and market participants should read the China United ’s circulars and regulatory announcements in full including the terms and conditions of China United ’s share consolidation in dealing with China United ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of China United ’s OTP -C temporary stock page (stock code 8552) on 15 October 2026 . Calculation of the Adjusted Previous Closing Price will be based on China United ’s closing price on 14 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nCynthia Chiu (Tel: 2840 3076) or Mr.\n\n…/2",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Hong Kong Academy of Finance’s 2027 intake of the Financial Leaders Programme is open for application",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1749,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261014-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Hong Kong Academy of Finance’s…》。正文：will open for application tomorrow (15 October).",
-      "key_points": [
-        "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October).",
-        "Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre.",
-        "Tailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis.",
-        "Since its launch in 2022, with the support of the financial regulators in Hong Kong1 and the participating institutions, the programme has cultivated a vibrant community of more than 100 future financial leaders for Hong Kong.",
-        "Applications of the 2027 intake will be accepted on or before 4 December."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October).",
-        "Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre.",
-        "Tailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis."
-      ],
-      "source_excerpt": "The Hong Kong Academy of Finance (AoF) announces that the 2027 intake of the Financial Leaders Programme (FLP) will open for application tomorrow (15 October). Since its launch in 2022, with the support of the financial regulators in Hong Kong1 and the participating institutions, the programme has cultivated a vibrant community of more than 100 future financial leaders for Hong Kong.\n\nMr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority and Chairman of the AoF, said, “In today’s dynamic environment, our future financial leaders must possess the long-term vision, innovative mindset and robust expertise to uphold Hong Kong’s status as a premier international financial centre. I strongly encourage senior financial executives to seize this opportunity to join or nominate promising candidates.”\n\nTailored for high-potential senior financial executives from diverse backgrounds who are approximately one to two levels below the CEO position, this programme will be offered on a part-time basis. Applications of the 2027 intake will be accepted on or before 4 December. Further information about the FLP, including feedback from past participants and the application form, is available on the AoF website.\n\n14 October 2026\n\n1 The Hong Kong Monetary Authority, the Insurance Authority, the Mandatory Provident Fund Schemes Authority and the Securities and Futures Commission.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-14",
-      "title": "Announcement - In relation to the matter of China Zenith Chemical Group Limited (In Compulsory Liquidation) (Incorporated in the Cayman Islands and continued in Bermuda with limited liability) (Stock Code: 362) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610142news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 6,
+    "succeeded": 6,
     "failed": 0,
     "pending": 0
   }
