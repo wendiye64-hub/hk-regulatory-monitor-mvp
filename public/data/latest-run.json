@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-03T14:12:03.163Z",
+  "generated_at": "2026-11-03T23:22:42.247Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 12310,
+  "duration_ms": 9287,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4453,
+      "duration_ms": 3801,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 5364,
+      "duration_ms": 3503,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2256,
+      "duration_ms": 3986,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2908,
+      "duration_ms": 3070,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4061,
+      "duration_ms": 3056,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3705,
+      "duration_ms": 2068,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4078,
+      "duration_ms": 5480,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1217,
+      "duration_ms": 2895,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3168,
+      "duration_ms": 3120,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3165,
+      "duration_ms": 3117,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3165,
+      "duration_ms": 3117,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3165,
+      "duration_ms": 3117,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3165,
+      "duration_ms": 3117,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3165,
+      "duration_ms": 3117,
       "count": 5
     }
   ],
@@ -1246,6 +1246,9 @@
       "source_id": "HKEX-MARKET-COMMS",
       "source_label": "HKEX Market Communications",
       "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
       "regulatory_domain": "other_regulatory",
       "change_type": "market_communication",
       "impact_status": "review_required",
@@ -1256,10 +1259,7 @@
       "affected_parties": [],
       "evidence": [],
       "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "summary_method": "title_only"
     },
     {
       "publication_date": "2026-10-30",
@@ -4170,9 +4170,9 @@
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 12,
-    "succeeded": 9,
-    "failed": 3,
-    "pending": 1
+    "attempted": 1,
+    "succeeded": 0,
+    "failed": 1,
+    "pending": 0
   }
 }
