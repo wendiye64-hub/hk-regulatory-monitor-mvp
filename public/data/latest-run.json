@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-02T15:48:57.658Z",
+  "generated_at": "2026-11-03T00:57:13.772Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 9329,
+  "duration_ms": 8099,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4340,
+      "duration_ms": 3017,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2568,
+      "duration_ms": 4238,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3864,
+      "duration_ms": 3839,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4224,
+      "duration_ms": 3418,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4582,
+      "duration_ms": 3049,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2913,
+      "duration_ms": 3482,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3555,
+      "duration_ms": 2876,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 5903,
+      "duration_ms": 3341,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2349,
+      "duration_ms": 2690,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2347,
+      "duration_ms": 2688,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2347,
+      "duration_ms": 2688,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2347,
+      "duration_ms": 2688,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2347,
+      "duration_ms": 2688,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2347,
+      "duration_ms": 2688,
       "count": 5
     }
   ],
@@ -694,20 +694,31 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 3953,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-6/",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《HKMA and HKUST launch PQC Toolkit…》。正文：Co-developed by the HKMA and HKUST, the Toolkit aims to support banks in translating awareness into…",
+      "key_points": [
+        "Co-developed by the HKMA and HKUST, the Toolkit aims to support banks in translating awareness into concrete actions, driving the sector towards full quantum readiness, that is, a QPI score of 10 by 2030.",
+        "Drawing on the multidisciplinary expertise across cybersecurity, cryptography, finance, economics, corporate governance, and technology applications, HKUST is contributing to one of the critical challenges emerging from advances in quantum computing.",
+        "Mr Arthur Yuen, Deputy Chief Executive of the HKMA, said, “The Quantum Preparedness Index has established a clear starting point for the sector.",
+        "Frederik Anseel, Dean of the School of Business and Management at HKUST (HKUST Business School), said, “Preparing for the quantum era is a leadership challenge.",
+        "Through this co-development approach, the Toolkit will be updated over time to reflect evolving technological developments, international standards and industry implementation experience."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "Co-developed by the HKMA and HKUST, the Toolkit aims to support banks in translating awareness into concrete actions, driving the sector towards full quantum readiness, that is, a QPI score of 10 by 2030.",
+        "Drawing on the multidisciplinary expertise across cybersecurity, cryptography, finance, economics, corporate governance, and technology applications, HKUST is contributing to one of the critical challenges emerging from advances in quantum computing.",
+        "Mr Arthur Yuen, Deputy Chief Executive of the HKMA, said, “The Quantum Preparedness Index has established a clear starting point for the sector."
+      ],
+      "source_excerpt": "In response to the potential cybersecurity risks associated with future advances in quantum computing, the HKMA launched the Quantum Preparedness Index (QPI)1 in July 2026 to assess the banking sector’s preparedness for the quantum-safe cryptography. The initial QPI score of 2.3 out of 10 indicated that, while the sector had begun addressing quantum-related developments, its overall readiness for the transition to PQC remains at an early stage. Co-developed by the HKMA and HKUST, the Toolkit aims to support banks in translating awareness into concrete actions, driving the sector towards full quantum readiness, that is, a QPI score of 10 by 2030.\n\nThe collaboration reflects HKUST’s role in advancing understanding of emerging technologies and their implications for business and society. Drawing on the multidisciplinary expertise across cybersecurity, cryptography, finance, economics, corporate governance, and technology applications, HKUST is contributing to one of the critical challenges emerging from advances in quantum computing.\n\nMr Arthur Yuen, Deputy Chief Executive of the HKMA, said, “The Quantum Preparedness Index has established a clear starting point for the sector.\n\nThe next step is to help banks translate that understanding into clear responsibilities, informed priorities and practical plans.\n\nThrough our collaboration with HKUST and the industry, the Toolkit provides a common foundation that banks can adapt to their own circumstances.\n\nProf.",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-11-02",
@@ -716,20 +727,31 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 3509,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/",
       "regulatory_domain": "market_infrastructure",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《HKMA advances Project Ensemble…》。正文：announced that EnsembleTX, the pilot phase of Project Ensemble, has entered a new chapter to support the…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA) today (2 November) announced that EnsembleTX, the pilot phase of Project Ensemble, has entered a new chapter to support the interbank settlement of tokenised deposit transactions in tokenised Central Bank Money (CeBM) on a 24/7 basis.",
+        "With the launch of the new capability, Project Ensemble will further facilitate the scaling of transactions and the exploration of more impactful tokenisation use cases which will deliver tangible benefits and support the development of a sustainable tokenisation market.",
+        "Looking ahead, the HKMA will continue to work closely with the Securities and Futures Commission (SFC) to facilitate a supportive and coordinated environment for the development of tokenised financial ecosystem and related market infrastructure.",
+        "Mr Eddie Yue, Chief Executive of the HKMA, said, “In just two years, Project Ensemble has transitioned from experimentation and piloting to a new phase focused on promoting the commercialisation of tokenisation applications in Hong Kong.",
+        "Tokenised deposits can now power around-the-clock transactions, including corporate treasury management and secondary trading of tokenised funds on licensed platforms, galvanising market liquidity and supporting investors’ risk management."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) today (2 November) announced that EnsembleTX, the pilot phase of Project Ensemble, has entered a new chapter to support the interbank settlement of tokenised deposit transactions in tokenised Central Bank Money (CeBM) on a 24/7 basis.",
+        "With the launch of the new capability, Project Ensemble will further facilitate the scaling of transactions and the exploration of more impactful tokenisation use cases which will deliver tangible benefits and support the development of a sustainable tokenisation market.",
+        "Looking ahead, the HKMA will continue to work closely with the Securities and Futures Commission (SFC) to facilitate a supportive and coordinated environment for the development of tokenised financial ecosystem and related market infrastructure."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) today (2 November) announced that EnsembleTX, the pilot phase of Project Ensemble, has entered a new chapter to support the interbank settlement of tokenised deposit transactions in tokenised Central Bank Money (CeBM) on a 24/7 basis. The number of participating banks (Annex A) and industry pioneers (Annex B) of EnsembleTX has increased to 12 and 20 respectively, marking broader industry participation.\n\nLaunched in November 2025, EnsembleTX initially leveraged the HKD Real Time Gross Settlement (RTGS) system for interbank settlement of tokenised deposit transactions, enabling real-value transactions involving tokenised deposits and digital assets under a controlled pilot environment, including industry pioneers1leveraging tokenised deposits provided by participating banks2 for corporate treasury management and tokenised money market fund transactions. With the launch of the new capability, Project Ensemble will further facilitate the scaling of transactions and the exploration of more impactful tokenisation use cases which will deliver tangible benefits and support the development of a sustainable tokenisation market.\n\nLooking ahead, the HKMA will continue to work closely with the Securities and Futures Commission (SFC) to facilitate a supportive and coordinated environment for the development of tokenised financial ecosystem and related market infrastructure.",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-11-02",
@@ -738,20 +760,31 @@
       "source_id": "DEDUP-00031",
       "source_label": "HKMA Press Releases",
       "detection": "new_official_publication",
+      "source_text_chars": 3086,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-4/",
       "regulatory_domain": "other_regulatory",
       "change_type": "official_release",
       "impact_status": "review_required",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《HKMA launches Project SAGE and…》。正文：announced today (2 November) the launch of Project SAGE to support the responsible development and…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (2 November) the launch of Project SAGE to support the responsible development and adoption of agentic finance in Hong Kong.",
+        "As Agentic A.I. technologies continue to mature, the financial industry is moving beyond internal adoption to explore how A.I. agents may make financial services more efficient and secure.",
+        "Against this backdrop, the HKMA launched Project SAGE, which stands for “Securing Agentic Finance with Governance and Enablement”, to enable practical applications of agentic finance, while ensuring governance framework is in place.",
+        "To bring together relevant expertise and perspectives, the HKMA has established the Agentic Finance Expert Group to support the work of Project SAGE.",
+        "Mr Eddie Yue, Chief Executive of the HKMA, said, “Agentic finance has the potential to transform how financial services are delivered and utilised."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (2 November) the launch of Project SAGE to support the responsible development and adoption of agentic finance in Hong Kong.",
+        "As Agentic A.I. technologies continue to mature, the financial industry is moving beyond internal adoption to explore how A.I. agents may make financial services more efficient and secure.",
+        "Against this backdrop, the HKMA launched Project SAGE, which stands for “Securing Agentic Finance with Governance and Enablement”, to enable practical applications of agentic finance, while ensuring governance framework is in place."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (2 November) the launch of Project SAGE to support the responsible development and adoption of agentic finance in Hong Kong.\n\nAs Agentic A.I. technologies continue to mature, the financial industry is moving beyond internal adoption to explore how A.I. agents may make financial services more efficient and secure. This emerging paradigm, widely known as agentic finance, has the potential to transform customer engagement with financial services. Meanwhile, the associated risks and challenges need to be properly addressed to support its responsible development and adoption.\n\nAgainst this backdrop, the HKMA launched Project SAGE, which stands for “Securing Agentic Finance with Governance and Enablement”, to enable practical applications of agentic finance, while ensuring governance framework is in place. Project SAGE will focus on four key areas:\n\nTo bring together relevant expertise and perspectives, the HKMA has established the Agentic Finance Expert Group to support the work of Project SAGE. The group comprises relevant stakeholders including financial institutions, technology service providers, professional service firms and academia (see Annex for the list of members).\n\nMr Eddie Yue, Chief Executive of the HKMA, said, “Agentic finance has the potential to transform how financial services are delivered and utilised.\n\nPotential areas of exploration include:\n\nAnnex: Members of the Agentic Finance Expert Group",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-11-02",
@@ -762,20 +795,27 @@
       "source_id": "HKMA-CIRCULARS",
       "source_label": "HKMA Circulars",
       "detection": "new_official_publication",
+      "source_text_chars": 940,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261102-3-EN",
       "regulatory_domain": "other_regulatory",
       "change_type": "regulatory_circular",
       "impact_status": "potential_impact",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《Post-Quantum Cryptography (PQC)…》。正文：New Roadmap to Promote Fintech Adoption in Financial Services Sector",
+      "key_points": [
+        "New Roadmap to Promote Fintech Adoption in Financial Services Sector",
+        "Anti-Money Laundering and Counter-Financing of Terrorism (AML/CFT) Surveillance Capability Enhancement Project"
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "New Roadmap to Promote Fintech Adoption in Financial Services Sector",
+        "Anti-Money Laundering and Counter-Financing of Terrorism (AML/CFT) Surveillance Capability Enhancement Project"
+      ],
+      "source_excerpt": "New Roadmap to Promote Fintech Adoption in Financial Services Sector\n\nAnti-Money Laundering and Counter-Financing of Terrorism (AML/CFT) Surveillance Capability Enhancement Project\n\nCIR\n\nCurrent\n\nPost-Quantum Cryptography (PQC) Toolkit\n\nIssue Date:\n\n02 Nov 2026\n\n20261102-3-EN.pdf (952.3 KB)\n\nTopic:\n\nFintech - Suptech\n\nGroup:\n\nAll Authorized Institutions\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\n27 Jul 2026\n\nResults of Quantum Preparedness Index Survey\n\nYou may also be interested in\n\n+\n\n25 Aug 2023\n\nAnnex: Fintech Adoption Roadmap Report\n\n29 Sep 2020",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-10-30",
@@ -4182,9 +4222,9 @@
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 12,
-    "succeeded": 10,
-    "failed": 2,
-    "pending": 4
+    "attempted": 4,
+    "succeeded": 4,
+    "failed": 0,
+    "pending": 0
   }
 }
