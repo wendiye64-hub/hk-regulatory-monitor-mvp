@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-04T06:19:54.557Z",
+  "generated_at": "2026-11-04T19:44:33.409Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8845,
+  "duration_ms": 9102,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4067,
+      "duration_ms": 3295,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 6304,
+      "duration_ms": 4517,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 7128,
+      "duration_ms": 3999,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 5628,
+      "duration_ms": 2495,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5174,
+      "duration_ms": 4509,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3705,
+      "duration_ms": 3665,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4523,
+      "duration_ms": 4598,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 2799,
+      "duration_ms": 3749,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2653,
+      "duration_ms": 2991,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2651,
+      "duration_ms": 2989,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2651,
+      "duration_ms": 2989,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2651,
+      "duration_ms": 2989,
       "count": 1
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2651,
+      "duration_ms": 2989,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2651,
+      "duration_ms": 2989,
       "count": 5
     }
   ],
@@ -190,6 +190,245 @@
         "However, for stock positions that remain unsettled between 11 November 2026 and 10 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
       ],
       "source_excerpt": "Pursuant to the announcement of Grand Ocean Advanced Resources Company Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 5,000 shares with effect from 11 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 11 November 2026 and 10 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 4 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 65.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Announcement - In relation to the matter of Century Sunshine Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 509) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611043news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Announcement - In relation to the matter of Grand Baoxin Auto Group Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1293) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611042news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Announcement - In relation to the matter of Glory Sun Land Group Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 299) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611041news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Admission of the Units of Harvest ETF Series II to CCASS as a Multi-counter Eligible Security Harvest STAR Chip ETF -HKD counter (stock code: 3559) (domain stock code) -USD counter (stock code: 41559) (collectively, the “Harvest ETF Series II”) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_386_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 5356,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_386_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Admission of the Units of Harvest…》。正文：will be admitted into CCASS as a Multi-counter Eligible Security (as defined in the General Rules of…",
+      "key_points": [
+        "HKD and USD traded units (collectively, the “Units”) of the Harvest ETF Series II will be admitted into CCASS as a Multi-counter Eligible Security (as defined in the General Rules of HKSCC) with effect from the commencement date of listing and dealing of the Units on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 6 November 2026.",
+        "HKSCC Participants are advised to note the following arrangements in CCASS:",
+        "Accordingly, no physical deposit or withdrawal services will be provided for the Units and any General Rules of HKSCC relating to physical deposit and withdrawal of securities will not be applicable.",
+        "Units held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Harvest ETF Series II (“Register”).",
+        "HKSCC Nominees Limited shall have the legal title of all the Units held in CCASS."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "HKD and USD traded units (collectively, the “Units”) of the Harvest ETF Series II will be admitted into CCASS as a Multi-counter Eligible Security (as defined in the General Rules of HKSCC) with effect from the commencement date of listing and dealing of the Units on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 6 November 2026.",
+        "HKSCC Participants are advised to note the following arrangements in CCASS:",
+        "Accordingly, no physical deposit or withdrawal services will be provided for the Units and any General Rules of HKSCC relating to physical deposit and withdrawal of securities will not be applicable."
+      ],
+      "source_excerpt": "HKD and USD traded units (collectively, the “Units”) of the Harvest ETF Series II will be admitted into CCASS as a Multi-counter Eligible Security (as defined in the General Rules of HKSCC) with effect from the commencement date of listing and dealing of the Units on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 6 November 2026. The stock code of the HKD trading counter (Stock Code: 3559) will be used as the domain stock code for recording the activities and holdings in relation to such Multi-counter Eligible Security in CCASS with details as below:\n\nHKSCC Participants are advised to note the following arrangements in CCASS:\n\nAll Units are issued in uncertificated form. Accordingly, no physical deposit or withdrawal services will be provided for the Units and any General Rules of HKSCC relating to physical deposit and withdrawal of securities will not be applicable.\n\nUnits held in CCASS will be registered in the name of HKSCC Nominees Limited on the register of the Harvest ETF Series II (“Register”). The Register is the evidence of ownership of Units.\n\nHKSCC Nominees Limited shall have the legal title of all the Units held in CCASS. Save as otherwise provided in the General Rules of HKSCC, HKSCC has no proprietary interests in the Units to the extent that they are credited to the stock accounts of CCASS Participants.\n\n通告 CIRCULAR\n\nSubject: Admission of the Units of Harvest ETF Series II to CCASS as a Multi-counter Eligible Security\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Stock Admission - New Listing of Securities pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_385_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2100,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_385_2026.pdf",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
+      "key_points": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
+        "case such trades will be settled on a trade-for-trade (TFT) basis.",
+        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
+      ],
+      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nI. Ordinary Shares\n\nRelyEZ Energy Storage Technology Co., Ltd. 9621 500 06/11/2026 09/11/2026\n\n編號 Ref. No.: PT/NIS/CCASS/385/2026\n\n日期 Date: 04/11/2026\n\nII. Provisional Allotment Letters relating to Nil-paid Rights\n\n1. Green Power Group Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2949 10,000 05/11/2026 06/11/2026\n\n2. Golden Power Group Holdings Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2996 2,000 06/11/2026 09/11/2026\n\nProcedures.\n\nNotes:",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Renminbi (RMB) Haircut pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CM2_038_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2467,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_CM2_038_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Renminbi (RMB) Haircut》；对象：Clearing Participants。正文：determined to adjust the haircut rates of RMB as 1.0% with settlement currency prescribed…",
+      "key_points": [
+        "Please be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to adjust the haircut rates of RMB as 1.0% with settlement currency prescribed in HKD and USD respectively after the close of business on 6 November 2026 .",
+        "Please be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to maintain the haircut rate of USD as 0.7% with settlement currency prescribed in HKD after the close of business on 6 November 2026 .",
+        "Renminbi haircut rate applied to acceptance of HKD or USD as collateral for the early release of China Connect Securities that are Securities-on-hold",
+        "HKSCC has also determined to adjust the haircut rates of acceptance of HKD or USD as collateral for the early release of China Connect Securities that are Securities-on-hold.",
+        "Should you have any enquiries in relation to the above, please contact our hotline at 2979-7111 / 2979-7123."
+      ],
+      "key_dates": [
+        {
+          "date": "6 November 2026",
+          "kind": "effective",
+          "evidence": "The new RMB haircut rates applied to HKD and USD will be 2.0% effective from 6 November 2026 ."
+        }
+      ],
+      "affected_parties": [
+        "Clearing Participants"
+      ],
+      "evidence": [
+        "Please be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to adjust the haircut rates of RMB as 1.0% with settlement currency prescribed in HKD and USD respectively after the close of business on 6 November 2026 .",
+        "Please be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to maintain the haircut rate of USD as 0.7% with settlement currency prescribed in HKD after the close of business on 6 November 2026 .",
+        "Renminbi haircut rate applied to acceptance of HKD or USD as collateral for the early release of China Connect Securities that are Securities-on-hold"
+      ],
+      "source_excerpt": "Please be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to adjust the haircut rates of RMB as 1.0% with settlement currency prescribed in HKD and USD respectively after the close of business on 6 November 2026 . The new haircut rates shall be applied when a Clearing Participant selects HKD or USD to settle Marks, Margin and Collateral requirements with settlement currency in RMB or vice versa. Clearing Participants should make necessary funding arrangements in relation to the adjustment on the haircut rate of RMB.\n\nPlease be advised that pursuant to CCASS Operational Procedures Sections 10.10.1 and 10.10A.1, HKSCC has determined to maintain the haircut rate of USD as 0.7% with settlement currency prescribed in HKD after the close of business on 6 November 2026 . The haircut rate shall be applied when a Clearing Participant selects HKD to settle Marks, Margin and Collateral requirements with settlement currency in USD or vice versa. Clearing Participants should make necessary funding arrangements to cover any shortfall to their Marks, Margin and Collateral requirements in relation to the adjustment on the haircut rate of USD.\n\n3. Renminbi haircut rate applied to acceptance of HKD or USD as collateral for the early release of China Connect Securities that are Securities-on-hold\n\nThe new RMB haircut rates applied to HKD and USD will be 2.0% effective from 6 November 2026 .\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Display of Adjusted Previous Closing Price of Flowing Cloud Technology Ltd (stock code 6610) on OTP-C for its 4-for-1 Rights Issue on Ex-Rights Date, 6 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026178_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3582,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026178_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 6 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by Flowing Cloud Technology Ltd (“ Flowing Cloud ”), Flowing Cloud ’s shares (stock code 6610 ) will be marked “ex - rights” on 6 November 2026, the Ex-Rights Date.",
+        "HK$0.60 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 4 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on Flowing Cloud’s closing price on 5 November 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Flowing Cloud’s OTP - C stock page on 6 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Flowing Cloud ’s announcements , circular and prospectus documents in full including the terms and conditions of the rights issue of Flowing Cloud in dealing with Flowing Cloud ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by Flowing Cloud Technology Ltd (“ Flowing Cloud ”), Flowing Cloud ’s shares (stock code 6610 ) will be marked “ex - rights” on 6 November 2026, the Ex-Rights Date.",
+        "HK$0.60 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 4 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by Flowing Cloud Technology Ltd (“ Flowing Cloud ”), Flowing Cloud ’s shares (stock code 6610 ) will be marked “ex - rights” on 6 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Flowing Cloud ’s announcements , circular and prospectus documents in full including the terms and conditions of the rights issue of Flowing Cloud in dealing with Flowing Cloud ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Flowing Cloud ’ s OTP-C stock page on 6 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Flowing Cloud ’s closing price on 5 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.60 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 4 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-04",
+      "title": "Global Financial Leaders’ Investment Summit concludes with “Conversations with Global Investors” investment forum",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261104-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2799,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261104-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Global Financial Leaders’…》。正文：The “Conversations with Global Investors” forum held in Hong Kong today (4 November) brought the three-day…",
+      "key_points": [
+        "The “Conversations with Global Investors” forum held in Hong Kong today (4 November) brought the three-day Global Financial Leaders’ Investment Summit 2026 to a successful conclusion following a lively exchange of views on key issues shaping the future of global financial markets.",
+        "Mr Eddie Yue, Chief Executive of the HKMA and Chairman of the AoF, said, “This fifth edition of the Summit has evolved into a leading platform for global financial dialogues amid complex economic challenges and shifting investment landscapes.",
+        "Amid a shifting terrain, we are committed to maintaining market quality and resilience, upholding robust governance, and unlocking new opportunities for investors worldwide.",
+        "With “Rethinking the Playbook” as the overarching theme of the Summit, more than 20 leading global investors shared their insights during today’s discussions on a broad spectrum of pivotal issues.",
+        "Together, we will transform challenges into the next chapter of shared prosperity.”"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The “Conversations with Global Investors” forum held in Hong Kong today (4 November) brought the three-day Global Financial Leaders’ Investment Summit 2026 to a successful conclusion following a lively exchange of views on key issues shaping the future of global financial markets.",
+        "Mr Eddie Yue, Chief Executive of the HKMA and Chairman of the AoF, said, “This fifth edition of the Summit has evolved into a leading platform for global financial dialogues amid complex economic challenges and shifting investment landscapes.",
+        "Amid a shifting terrain, we are committed to maintaining market quality and resilience, upholding robust governance, and unlocking new opportunities for investors worldwide."
+      ],
+      "source_excerpt": "The “Conversations with Global Investors” forum held in Hong Kong today (4 November) brought the three-day Global Financial Leaders’ Investment Summit 2026 to a successful conclusion following a lively exchange of views on key issues shaping the future of global financial markets.\n\nMr Eddie Yue, Chief Executive of the HKMA and Chairman of the AoF, said, “This fifth edition of the Summit has evolved into a leading platform for global financial dialogues amid complex economic challenges and shifting investment landscapes. By bringing together the world’s financial leaders, the event underscores Hong Kong’s role as a premier international financial centre.”\n\nDr Kelvin Wong, Chairman of the SFC, said, “Hong Kong stands unmatched as Asia’s resilient financial gateway—innovative, connected and globally trusted. Amid a shifting terrain, we are committed to maintaining market quality and resilience, upholding robust governance, and unlocking new opportunities for investors worldwide. Together, we will transform challenges into the next chapter of shared prosperity.”\n\nThe three-day Summit welcomed over 300 participants, including more than 100 group chairmen and chief executive officers from the world’s top financial institutions, representing banks, securities firms, asset owners, asset managers, private equity and venture capital firms, hedge funds and insurers.\n\nHong Kong Monetary Authority\n\nSecurities and Futures Commission\n\nHong Kong Academy of Finance\n\n4 November 2026",
       "summary_method": "extractive"
     },
     {
@@ -3954,264 +4193,13 @@
       ],
       "source_excerpt": "Shares of the Value Partners ETF (“ Shares ”) will be admitted into CCASS as an Eligible Security with effect from the commencement date of listing and dealing of the Shares on The Stock Exchange of Hong Kong Limited (“Exchange”), which is expected to be on 23 Oct 2026. The trade lot size of Value Partners ETF is 100 Shares.\n\nAll Shares are issued in uncertificated form. Accordingly, no physical deposit or withdrawal services will be provided for the Shares and any HKSCC Rules relating to physical deposit and withdrawal of securities will not be applicable.\n\nShares held in CCASS will be registered in the name of HKSCC Nominees Limited on\n\nthe Register of Value Partners ETF. The Register of Value Partners ETF is the evidence of ownership of Shares.\n\nHKSCC Nominees Limited shall have the legal title of all the Shares held in CCASS. Save as otherwise provided in the HKSCC Rules, HKSCC has no proprietary interests in the Shares to the extent that they are credited to the Stock Accounts of Participants.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nHKSCC Participants are advised to note the following: -\n\nI. Custodian Services in relation to the Shares\n\nII. Legal Title of the Shares\n\nSubject: Stock Admission – Value Partners Fund Series OFC\n\nValue Partners Printed Circuit Board Active ETF (Stock Code: 2813) (“ Value Partners ETF ”)\n\n編號 Ref.\n\nIII.\n\nIV.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Stock Admission - China Connect Securities under Shenzhen-Hong Kong Stock Connect pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_366_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2625,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_366_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Stock Admission - China Connect…》。正文：will be eligible for trading under Shenzhen- Hong Kong Stock Connect as announced by the Exchange on 16…",
-      "key_points": [
-        "The following China Connect Securities, which will be eligible for trading under Shenzhen- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading.",
-        "- China Connect Securities under Shenzhen-Hong Kong Stock Connect",
-        "(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day before T Day.",
-        "(2) China Connect Securities are represented by 6-digit stock codes on the Shenzhen Stock Exchange (“S ZSE Stock Code”).",
-        "(3) The English stock short names will follow the official English stock short names published by Shenzhen Stock Exchange ( http://www.szse.cn/English/siteMarketData/siteMarketDatas/stocks/index.html ) for China Connect Securities as far as possible in CCASS."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The following China Connect Securities, which will be eligible for trading under Shenzhen- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading.",
-        "- China Connect Securities under Shenzhen-Hong Kong Stock Connect",
-        "(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day before T Day."
-      ],
-      "source_excerpt": "The following China Connect Securities, which will be eligible for trading under Shenzhen- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading. Trades in such China Connect Securities will be cleared and settled in Renminbi under the Continuous Net Settlement System of CCASS in accordance with the General Rules of HKSCC and the HKSCC Operational Procedures. No deposit and withdrawal services will be provided by HKSCC in respect of China Connect Securities.\n\n- China Connect Securities under Shenzhen-Hong Kong Stock Connect\n\n(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day before T Day. Should there be any changes in the information provided in this circular, a separate circular will be published by HKSCC.\n\n(2) China Connect Securities are represented by 6-digit stock codes on the Shenzhen Stock Exchange (“S ZSE Stock Code”). The same 6 -digit SZSE Stock Codes will be used for trading under Shenzhen -Hong Kong Stock Connect. As CCASS currently adopts a 5-digit stock code system, each SZSE Stock Code will be mapped to a unique 5-digit stock code for use in CCASS (“CCASS Stock Code”) .\n\nEnglish stock short names in CCASS will carry a suffix “+A” and will be for use in CCASS only.\n\n通告 CIRCULAR\n\nClassification – Internal\n\nCompany Name\n\nEnglish Stock Short Name for use in CCASS",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Stock Admission - China Connect Securities under Shanghai-Hong Kong Stock Connect pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_365_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2585,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_365_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Stock Admission - China Connect…》。正文：will be eligible for trading under Shanghai- Hong Kong Stock Connect as announced by the Exchange on 16…",
-      "key_points": [
-        "The following China Connect Securities, which will be eligible for trading under Shanghai- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading.",
-        "- China Connect Securities under Shanghai-Hong Kong Stock Connect",
-        "(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day bef ore T Day.",
-        "Trades in such China Connect Securities will be cleared and settled in Renminbi under the Continuous Net Settlement System of CCASS in accordance with the General Rules of HKSCC and the HKSCC Operational Procedures.",
-        "No deposit and withdrawal services will be provided by HKSCC in respect of China Connect Securities."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The following China Connect Securities, which will be eligible for trading under Shanghai- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading.",
-        "- China Connect Securities under Shanghai-Hong Kong Stock Connect",
-        "(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day bef ore T Day."
-      ],
-      "source_excerpt": "The following China Connect Securities, which will be eligible for trading under Shanghai- Hong Kong Stock Connect as announced by the Exchange on 16 Oct 2026, will be admitted to CCASS as Eligible Securities with effect from their respective commencement date of trading. Trades in such China Connect Securities will be cleared and settled in Renminbi under the Continuous Net Settlement System of CCASS in accordance with the General Rules of HKSCC and the HKSCC Operational Procedures. No deposit and withdrawal services will be provided by HKSCC in respect of China Connect Securities.\n\n- China Connect Securities under Shanghai-Hong Kong Stock Connect\n\n(1) The list of China Connect Securities for trading on the next trading day (“T Day”) is normally confirmed one business day bef ore T Day.\n\nShould there be any changes in the information provided in this circular, a separate circular will be published by HKSCC. (2) China Connect Securities are represented by 6- digit stock codes on the Shanghai Stock Exchange (“SSE Stock Code”).\n\nThe same 6 - digit SSE Stock Codes will be used for trading under Shanghai-Hong Kong Stock Connect.\n\nHowever, due to the difference in system design, the two sets of names may differ in some cases.\n\nEnglish stock short names for China Connect Securities in CCASS will carry a suffix “ - A”.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n1.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Optional Post Release Test for Verification of Northbound Trading Technical Upgrade pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT16926E.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2319,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT16926E.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Optional Post Release Test for…》。正文：will be launched on 2 November 2026 (Monday) .",
-      "key_points": [
-        "China Connect Exchange Participants (“CCEPs”) are requested to note that a technical upgrade for Northbound (“NB”) Trading will be launched on 2 November 2026 (Monday) .",
-        "Interested CCEPs are required to complete and submit the registration form ( Attachment 1 ) via ECP by 28 October 2026 (Wednesday) .",
-        "CCEPs are advised to take note of the following arrangements for NB Trading with Shenzhen Stock Exchange during the PRT:",
-        "Testing environment will be available during 9:15am – 11:30am on 31 October 2026 (Saturday) ; 2.",
-        "This circular has been issued in the English language with a separate Chinese language translation."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "China Connect Exchange Participants (“CCEPs”) are requested to note that a technical upgrade for Northbound (“NB”) Trading will be launched on 2 November 2026 (Monday) .",
-        "Interested CCEPs are required to complete and submit the registration form ( Attachment 1 ) via ECP by 28 October 2026 (Wednesday) .",
-        "CCEPs are advised to take note of the following arrangements for NB Trading with Shenzhen Stock Exchange during the PRT:"
-      ],
-      "source_excerpt": "China Connect Exchange Participants (“CCEPs”) are requested to note that a technical upgrade for Northbound (“NB”) Trading will be launched on 2 November 2026 (Monday) . An optional Post Release Test ( “ PRT ” ) will be arranged on 31 October 2026 (Saturday) for CCEPs to verify their connectivity with HKEX systems. While no system or interface changes are required from CCEPs, CCEPs are strongly encouraged to participate in the PRT to ensure smooth operation.\n\nInterested CCEPs are required to complete and submit the registration form ( Attachment 1 ) via ECP by 28 October 2026 (Wednesday) . Detailed activity rundown of the PRT will be separately sent to the registered CCEPs.\n\nCCEPs are advised to take note of the following arrangements for NB Trading with Shenzhen Stock Exchange during the PRT:\n\n1. Testing environment will be available during 9:15am – 11:30am on 31 October 2026 (Saturday) ; 2. The stock database as at market open on 2 November 2026 will be used; 3. Valid BCANs must be used during the PRT. Orders tagged with invalid or unregistered BCANs will be rejected during the PRT; 4. NB orders for Shanghai Connect will not be accepted as Shanghai Stock Exchange will not participate; and 5. HKEX Orion Market Data Platform – China Connect (Securities) (“OMD - CC”) will operate and disseminate market data during the PRT.\n\nThis circular has been issued in the English language with a separate Chinese language translation.\n\n通告 CIRCULAR\n\n編號 Ref. No.: CT/169/26",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_270_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 925,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_270_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 23 October 2026 (including the mandatory…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 23 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Emerging Markets Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index"
-      ],
-      "key_dates": [
-        {
-          "date": "23 October 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 23 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 23 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Emerging Markets Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index"
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 23 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Emerging Markets Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/270/2026 日期 Date: 21/10/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Results of 10-year HKD HKSAR Institutional Government Bonds tender through re-opening",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261021-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1468,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261021-4/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Results of 10-year HKD HKSAR…》。正文：announced that a tender of 10-year HKD institutional Government Bonds through the re-opening of existing…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 10-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 10GB3507001) under the Infrastructure Bond Programme was held today (21 October).",
-        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 3.22.",
-        "* Calculated as the amount of bonds applied for over the amount of bonds issued.",
-        "The average price accepted is 93.06, implying an annualised yield of 4.164%."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 10-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 10GB3507001) under the Infrastructure Bond Programme was held today (21 October).",
-        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 3.22.",
-        "* Calculated as the amount of bonds applied for over the amount of bonds issued."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 10-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 10GB3507001) under the Infrastructure Bond Programme was held today (21 October).\n\nA total of HK$1.25 billion 10-year Government Bonds were offered today. A total of HK$4.030 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 3.22. The average price accepted is 93.06, implying an annualised yield of 4.164%.\n\n* Calculated as the amount of bonds applied for over the amount of bonds issued.\n\n21 October 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 10-year HKD HKSAR Institutional Government Bonds:-\n\nTender Date\n\nIssue Number\n\n10GB3507001 (Re-open)\n\nStock Code\n\n4294 (HKGB 3.17 3507)\n\nIssue and Settlement Date\n\n22 October 2026\n\nTenor\n\n10 years\n\nMaturity Date\n\n24 July 2035\n\nCoupon Rate\n\n3.17%\n\nAmount Applied\n\nAmount Allotted\n\nBid-to-Cover Ratio*\n\nAverage Price Accepted (Yield)\n\n93.06 (4.164%)\n\nLowest Price Accepted (Yield)\n\n92.74 (4.211%)\n\nPro-rata Ratio\n\nAbout 37%\n\nAverage Tender Price (Yield)\n\n92.48 (4.249%)",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-21",
-      "title": "Results of 3-year HKD HKSAR Institutional Government Bonds tender through re-opening",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261021-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1467,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261021-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Results of 3-year HKD HKSAR…》。正文：announced that a tender of 3-year HKD institutional Government Bonds through the re-opening of existing…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 3-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 05GB2912001) under the Infrastructure Bond Programme was held today (21 October).",
-        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 4.72.",
-        "* Calculated as the amount of bonds applied for over the amount of bonds issued.",
-        "The average price accepted is 98.38, implying an annualised yield of 3.821%."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 3-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 05GB2912001) under the Infrastructure Bond Programme was held today (21 October).",
-        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 4.72.",
-        "* Calculated as the amount of bonds applied for over the amount of bonds issued."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 3-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 05GB2912001) under the Infrastructure Bond Programme was held today (21 October).\n\nA total of HK$0.75 billion 3-year Government Bonds were offered today. A total of HK$3.537 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 4.72. The average price accepted is 98.38, implying an annualised yield of 3.821%.\n\n* Calculated as the amount of bonds applied for over the amount of bonds issued.\n\n21 October 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 3-year HKD HKSAR Institutional Government Bonds:-\n\nTender Date\n\nIssue Number\n\n05GB2912001 (Re-open)\n\nStock Code\n\n4284 (HKGB 3.23 2912)\n\nIssue and Settlement Date\n\n22 October 2026\n\nTenor\n\n3 years\n\nMaturity Date\n\n5 December 2029\n\nCoupon Rate\n\n3.23%\n\nAmount Applied\n\nAmount Allotted\n\nBid-to-Cover Ratio*\n\nAverage Price Accepted (Yield)\n\n98.38 (3.821%)\n\nLowest Price Accepted (Yield)\n\n98.24 (3.870%)\n\nPro-rata Ratio\n\nAbout 23%\n\nAverage Tender Price (Yield)\n\n98.08 (3.928%)",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-20",
-      "title": "HKEX Launches Green Equity Designation Programme to Strengthen Capital Support for Green Economy",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261020news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "prudential",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-20",
-      "title": "Ministry of Finance issues Renminbi Sovereign Bonds through Central Moneymarkets Unit of Hong Kong Monetary Authority",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261020-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 548,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261020-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Ministry of Finance issues…》。正文：will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority…",
-      "key_points": [
-        "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA).",
-        "Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance.",
-        "Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA).",
-        "Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance.",
-        "Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA."
-      ],
-      "source_excerpt": "The Ministry of Finance will issue Renminbi Sovereign Bonds through the Central Moneymarkets Unit of the Hong Kong Monetary Authority (HKMA). Please find attached the tender notice and the tender information memorandum of the Renminbi Sovereign Bonds to be issued by the Ministry of Finance. Please also find attached the tender-related information provided by the Issuing and Lodging Agent through the HKMA.\n\nAnnexes:\n\n1. Tender notice\n\n2. Tender information memorandum\n\n3. Tender-related information\n\n20 October 2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 2,
-    "succeeded": 2,
-    "failed": 0,
+    "attempted": 8,
+    "succeeded": 5,
+    "failed": 3,
     "pending": 0
   }
 }
