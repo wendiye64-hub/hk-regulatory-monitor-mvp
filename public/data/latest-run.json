@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-06T19:23:39.341Z",
+  "generated_at": "2026-11-07T05:57:05.327Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 10124,
+  "duration_ms": 16231,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4200,
+      "duration_ms": 9178,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4930,
+      "duration_ms": 7953,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2784,
+      "duration_ms": 7149,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 5027,
-      "count": 10
+      "duration_ms": 8833,
+      "count": 0
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2743,
+      "duration_ms": 13707,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1971,
+      "duration_ms": 4588,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3931,
+      "duration_ms": 2728,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1459,
+      "duration_ms": 4293,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2435,
+      "duration_ms": 2824,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2433,
+      "duration_ms": 2821,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2433,
+      "duration_ms": 2821,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2433,
+      "duration_ms": 2821,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2433,
+      "duration_ms": 2821,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2433,
+      "duration_ms": 2821,
       "count": 5
     }
   ],
@@ -911,20 +911,25 @@
       "source_id": "HKMA-CONSULTATIONS",
       "source_label": "HKMA Consultation Papers",
       "detection": "new_official_publication",
+      "source_text_chars": 1197,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261021-3-EN",
       "regulatory_domain": "other_regulatory",
       "change_type": "consultation_paper",
       "impact_status": "potential_impact",
       "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
+      "summary": "HKMA发布《Consultation on revised FIRO Code…》。正文：The HKMA issued a letter on 6 November 2026 to consult the banking industry on the proposed revisions…",
+      "key_points": [
+        "The HKMA issued a letter on 6 November 2026 to consult the banking industry on the proposed revisions to the FIRO Code of Practice chapter CI-1 \"Core Information for Resolution Planning."
+      ],
       "key_dates": [],
       "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only",
-      "source_text_chars": 0,
-      "text_extraction": "not_attempted",
-      "text_extraction_error": "本轮正文抓取数量已达上限；后续轮次或手动补全重试。"
+      "evidence": [
+        "The HKMA issued a letter on 6 November 2026 to consult the banking industry on the proposed revisions to the FIRO Code of Practice chapter CI-1 \"Core Information for Resolution Planning."
+      ],
+      "source_excerpt": "The HKMA issued a letter on 6 November 2026 to consult the banking industry on the proposed revisions to the FIRO Code of Practice chapter CI-1 \"Core Information for Resolution Planning.\n\nCPR\n\nCurrent\n\nConsultation on revised FIRO Code of Practice chapter CI-1 “Core Information for Resolution Planning”\n\nEnclosure: Core Information for Resolution Planning (revisions for consultation)\n\nIssue Date:\n\n06 Nov 2026\n\nConsultation Status:\n\nOPEN\n\nConsultation Open Date:\n\nConsultation Close Date:\n\n06 Jan 2027\n\n20261021-3-EN.pdf (350.6 KB)\n\nTopic:\n\nResolution - Resolution execution\n\nResolution - Resolution planning\n\nResolution - Resolution standards\n\nGroup:\n\nSpecific\n\nDirectly related Document\n\nCross referenced Document\n\nVersion History\n\nSuperseded Document\n\nYou may also be interested in\n\n+\n\nCOP\n\n22 Jul 2022\n\nResolution Planning – Liquidity and Funding in Resolution\n\nArchive\n\n22 Apr 2016\n\nConsultation draft of resolution planning core information requirements\n\n05 Nov 2021\n\nResolution Planning – Operational Continuity in Resolution",
+      "summary_method": "extractive"
     },
     {
       "publication_date": "2026-11-05",
@@ -4305,9 +4310,9 @@
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 12,
-    "succeeded": 12,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
-    "pending": 1
+    "pending": 0
   }
 }
