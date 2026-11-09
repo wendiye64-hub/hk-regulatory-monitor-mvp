@@ -1,109 +1,163 @@
 {
-  "generated_at": "2026-11-08T22:03:29.712Z",
+  "generated_at": "2026-11-09T06:24:58.918Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5063,
+  "duration_ms": 7263,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4185,
+      "duration_ms": 5293,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2127,
+      "duration_ms": 4356,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2976,
+      "duration_ms": 6484,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 5049,
+      "duration_ms": 2659,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2006,
+      "duration_ms": 5876,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1766,
+      "duration_ms": 2661,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4161,
+      "duration_ms": 2870,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3436,
+      "duration_ms": 4225,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2789,
+      "duration_ms": 2929,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2788,
+      "duration_ms": 2927,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2788,
+      "duration_ms": 2927,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2788,
+      "duration_ms": 2927,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2788,
+      "duration_ms": 2927,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2788,
+      "duration_ms": 2927,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-09",
+      "title": "Ocean Star Technology Group Limited (Stock Code: 8297) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_397_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7821,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_397_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Ocean Star Technology Group…》。正文：will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+      "key_points": [
+        "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 1 December 2026 and 4 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 18 November 2026 until 4 January 2027, Existing Share certificates (light blue in colour) will be accepted for deposit under stock code: 8561 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "5 January 2027",
+          "kind": "effective",
+          "evidence": "Effective from 5 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 8297 (New)."
+        },
+        {
+          "date": "30 November 2026",
+          "kind": "effective",
+          "evidence": "Effective from 30 November 2026, the CCASS Depository will accept deposit of Consolidated Share certificates (light yellow in colour) under stock code: 8297 (New)."
+        },
+        {
+          "date": "18 November 2026",
+          "kind": "effective",
+          "evidence": "With effect from 18 November 2026 until 1 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 8561."
+        },
+        {
+          "date": "2 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 2 December 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 8297."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 1 December 2026 and 4 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 2,500 Existing Shares to 10,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 18 November 2026 until 4 January 2027, Existing Share certificates (light blue in colour) will be accepted for deposit under stock code: 8561 (Temp).\n\n2.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n3.\n\n1 1 0 2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-06",
       "title": "HKEX 2026 Third Quarter Results pdf",
@@ -4273,45 +4327,12 @@
       ],
       "source_excerpt": "The Hong Kong Mortgage Corporation Limited (HKMC) today (26 October) announced the highlights of its interim results for 2026.\n\nThe HKMC and its subsidiaries continued to fulfil their core missions and social objectives, contributing to the steady growth of Hong Kong’s economy amid an increasingly complex and evolving environment. The missions of the HKMC are to promote: the stability of the banking sector, wider home ownership, the development of the local debt market, and the development of the retirement planning market.\n\nIssued corporate debts totalling HK$24.8 billion (1H 2025: HK$23.3 billion), and continued to be one of the most active issuers in the domestic Hong Kong dollar (HKD) corporate bond market\n\nOutstanding balance of debt securities issued was HK$141.5 billion as of 30 June 2026 (31 December 2025: HK$155.2 billion)\n\nIn line with its mandate to promote the development of the retirement planning market in Hong Kong, the HKMC is dedicated to advancing its annuity and reverse mortgage businesses, which face increasing sensitivity and volatility of mark-to-market accounting effects.\n\nAccordingly, the annualised return on equity was 7.2% (1H 2025: 6.2%) and the cost-to-income ratio was 11.7% (1H 2025: 14.2%).\n\nBusiness Highlights\n\nAsset Purchase\n\nAcquired HK$2.9 billion of loan assets (1H 2025: HK$2.7 billion)\n\nPurchased HK$115 million of loans (1H 2025: HK$46 million) under the Dedicated 100% Loan Guarantee Schemes (DLGS)\n\nDebt Issuance\n\nAnnuity Business",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-26",
-      "title": "Download and Upgrade of Google Chrome Browser for DCASS Online pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_073_Eng_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2208,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_073_Eng_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Download and Upgrade of Google…》。正文：Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97…",
-      "key_points": [
-        "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .",
-        "To align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :",
-        "Circular will be issued to notify CPs when they can start to install this 9 Nov Version;",
-        "Prior to installing the 9 Nov Version, CPs are strongly recommended to backup the Google Chrome installer of the Current Version .",
-        "CPs may not be able to login DCASS if the Google Chrome version of their DCASS Online are not complied with HKEX’s requirement as prescribed from time to time ."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .",
-        "To align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :",
-        "Circular will be issued to notify CPs when they can start to install this 9 Nov Version;"
-      ],
-      "source_excerpt": "Currently, the official supporting browser for DCASS Online is Google Chrome version 148.0.7778.97 (“Current Version”) .\n\nTo align with the update of Google Chrome, Clearing Participants (“ CPs ”) are required to download the available Google Chrome for Windows version from the following link on 9 November 2026 during 9:00 a.m. to 12:00 noon Hong Kong Time (“ 9 Nov Version”) :\n\n1. Circular will be issued to notify CPs when they can start to install this 9 Nov Version;\n\n2. Prior to installing the 9 Nov Version, CPs are strongly recommended to backup the Google Chrome installer of the Current Version . By keeping a backup of the previously-verified installer, CPs can ensure that a reliable and stable Google Chrome version is available at all times. This can help to minimize any disruption to CPs’ clearing activities ; and\n\n3. CPs may not be able to login DCASS if the Google Chrome version of their DCASS Online are not complied with HKEX’s requirement as prescribed from time to time .\n\n香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE SEHK OPTIONS CLEARING HOUSE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Download and Upgrade of Google Chrome Browser for DCASS Online\n\nEnquiry: DCASS Hotline: 2979 7222 1 / Email: clearingpsd@hkex.com.hk\n\nhttps://chromeenterprise.google/download/?modal-id=download-chrome#windows-download\n\nCPs should pay attention to the followings:\n\nHKEX Privacy Notice is available here .\n\n編號 Ref.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
