@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-10T07:16:13.500Z",
+  "generated_at": "2026-11-10T19:42:52.704Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 11096,
+  "duration_ms": 7515,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2082,
+      "duration_ms": 3725,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3086,
+      "duration_ms": 2079,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2036,
+      "duration_ms": 3958,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3680,
+      "duration_ms": 4162,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1777,
+      "duration_ms": 1899,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3356,
+      "duration_ms": 2314,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2070,
+      "duration_ms": 4194,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 7002,
+      "duration_ms": 4013,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 1764,
+      "duration_ms": 2342,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 1762,
+      "duration_ms": 2340,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 1762,
+      "duration_ms": 2340,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 1762,
+      "duration_ms": 2340,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 1762,
+      "duration_ms": 2340,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 1762,
+      "duration_ms": 2340,
       "count": 5
     }
   ],
@@ -162,6 +162,233 @@
         "This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects."
       ],
       "source_excerpt": "To further strengthen the banking sector’s financing support for Northern Metropolis (NM) projects, the HKMA proposes to amend the Banking (Capital) Rules to designate government-related entities, including 11 post-secondary institutions and three park companies, as Domestic Public Sector Entities. This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects. The HKMA intends to submit the amendments to the Legislative Council in the first quarter of 2027, with a view to their taking effect in the second quarter of the same year.\n\nThe Northern Metropolis Financial Advisory Taskforce (Taskforce), jointly established by the Hong Kong Monetary Authority (HKMA) and The Hong Kong Association of Banks (HKAB), convened its third meeting today (10 November). Meeting participants included representatives from the HKMA, HKAB, the Development Bureau, the Education Bureau (EDB), The Financial Services and the Treasury Bureau, the Innovation, Technology and Industry Bureau and 25 participating banks in the Taskforce (see Annex).\n\nAt the meeting, the EDB presented the latest development of the Northern Metropolis University Town (NMUT), including the positioning of the three university towns1, development of campus areas and related financial arrangements.\n\nBackground\n\n10 November 2026\n\n1 San Tin University Town, Hung Shui Kiu University Town and Ta Kwu Ling University Town.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Exchange’s Disciplinary Action against Two Former Directors of TOMO Holdings Limited (Stock Code: 6928)",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261110news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Stock Admission - New Listing of Securities pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_399_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2074,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_399_2026.pdf",
+      "regulatory_domain": "listing_rules",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
+      "key_points": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
+        "case such trades will be settled on a trade-for-trade (TFT) basis.",
+        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The following securities have been approved for admission into CCASS for clearing, settlement,",
+        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
+        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
+      ],
+      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nI. Ordinary Shares\n\n1. Amicro Technology Co., Ltd. 2065 500 11/11/2026 12/11/2026\n\n2. HOSIN Electronics Co., LTD. 2681 100 11/11/2026 12/11/2026\n\n3. Adaspace Technology Co., Ltd. 6935 100 12/11/2026 13/11/2026\n\n編號 Ref. No.: PT/NIS/CCASS/399/2026\n\n日期 Date: 10/11/2026\n\nII. Provisional Allotment Letters relating to Nil-paid Rights\n\nCoolpad Group Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2999 5,000 12/11/2026 13/11/2026\n\nProcedures.\n\nNotes:",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_294_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 967,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_294_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 12 November 2026 (including the…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• Meituan",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "12 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• Meituan",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• Meituan\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/294/2026 日期 Date: 10/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Futures Contracts -Special Dividend pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_236_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 5217,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_236_26_e.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading and Clearing Operational…》。正文：will be made on the ex-date based on the corporate action announced:",
+      "key_points": [
+        "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:",
+        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
+        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: Privacy Notice",
+        "The trading arrangements for the existing Li Ning stock futures under trading symbol LNI will be as follows:"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:",
+        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
+        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf"
+      ],
+      "source_excerpt": "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:\n\nCorporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026\n\nFor details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf\n\n1 All calls to the HKATS and DCASS hotlines would be recorded. Please refer to the following link for HKEX privacy policy statement: Privacy Notice\n\nThe trading arrangements for the existing Li Ning stock futures under trading symbol LNI will be as follows:\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nUnderlying Stock Name of the Stock Futures Contracts (Stock Code) Li Ning Company Limited ( “ Li Ning ” ) (02331)\n\nHKATS Code LNI\n\nSubject: Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Futures Contracts – Special Dividend Enquiry: HKATS Hotline 1 Tel: 2211-6360 DCASS Hotline 1 Tel: 2979-7222\n\n編號 Ref. No.: MO/DT/236/26 日期 Date: 10/11/2026\n\nTrading Arrangements\n\nInform Your Staff and Clients",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Option Contracts -Special Dividend pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_237_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7643,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_237_26_e.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading and Clearing Operational…》。正文：will be made on the ex-date based on the corporate action announced:",
+      "key_points": [
+        "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:",
+        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
+        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: Privacy Notice",
+        "The trading arrangements for the existing Li Ning stock options under trading symbol LNI will be as follows:"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:",
+        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
+        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf"
+      ],
+      "source_excerpt": "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:\n\nCorporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026\n\nFor details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf\n\n1 All calls to the HKATS and DCASS hotlines would be recorded. Please refer to the following link for HKEX privacy policy statement: Privacy Notice\n\nThe trading arrangements for the existing Li Ning stock options under trading symbol LNI will be as follows:\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nUnderlying Stock Name of the Stock Option Contracts (Stock Code) Li Ning Company Limited ( “ Li Ning ” ) (02331)\n\nHKATS Code LNI\n\nSubject: Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Option Contracts – Special Dividend Enquiry: HKATS Hotline 1 Tel: 2211-6360 DCASS Hotline 1 Tel: 2979-7222\n\n編號 Ref. No.: MO/DT/237/26 日期 Date: 10/11/2026\n\nTrading Arrangements\n\nInform Your Staff and Clients",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Arrangement in HKEX Orion Market Data Platform - Derivatives Market (OMD-D) for the Capital Adjustment of Li Ning Company Limited Stock Futures and Options Contracts - Special Dividend",
+      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-10%20Arrangement%20in%20OMD-D%20for%20the%20Capital%20Adjustment%20of%20Li%20Ning%20Company%20Limited%20Stock%20Futures%20and%20Options%20Contracts%20-%20Special%20Dividend.pdf",
+      "reference": "MDD/26/687",
+      "source_id": "HKEX-MARKET-DATA-NOTICES",
+      "source_label": "HKEX Market Data Client Notices",
+      "detection": "new_official_publication",
+      "source_text_chars": 2643,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-10%20Arrangement%20in%20OMD-D%20for%20the%20Capital%20Adjustment%20of%20Li%20Ning%20Company%20Limited%20Stock%20Futures%20and%20Options%20Contracts%20-%20Special%20Dividend.pdf",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_notice",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Arrangement in HKEX Orion Market…》；对象：Derivatives Market Data。正文：will be made to Li Ning stock futures and options contracts with the…",
+      "key_points": [
+        "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :",
+        "LNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)",
+        "In OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday).",
+        "Clients and ISVs are requested to review their systems and make adjustments where necessary to ensure that the above stock futures and options contracts information could be handled properly.",
+        "The relevant Exchange Circulars (Ref: MO/DT/236/26 and MO/DT/237/26 ) are attached herewith for your reference on the details of the capital adjustment and the related trading and clearing operational arrangements."
+      ],
+      "key_dates": [],
+      "affected_parties": [
+        "Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”)"
+      ],
+      "evidence": [
+        "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :",
+        "LNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)",
+        "In OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday)."
+      ],
+      "source_excerpt": "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :\n\nLNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)\n\nIn OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday).\n\nClients and ISVs are requested to review their systems and make adjustments where necessary to ensure that the above stock futures and options contracts information could be handled properly.\n\nThe relevant Exchange Circulars (Ref: MO/DT/236/26 and MO/DT/237/26 ) are attached herewith for your reference on the details of the capital adjustment and the related trading and clearing operational arrangements.\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\nStock Futures",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1784,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-4/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Exchange Fund Bills Tender Results》。正文：*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
+      "key_points": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
+        "Tenders to be held in the week beginning – 16 November 2026:"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
+        "Tenders to be held in the week beginning – 16 November 2026:"
+      ],
+      "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTenders to be held in the week beginning – 16 November 2026:\n\nTender date\n\n10 November 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2645\n\nIssue date\n\n11 November 2026\n\nMaturity date\n\n10 February 2027\n\nAmount applied\n\nHK$168,655 MN\n\nAmount allotted\n\nHK$67,876 MN\n\nAverage yield accepted\n\n2.79 PCT\n\nHighest yield accepted\n\n2.83 PCT\n\nPro rata ratio*\n\nAbout 77 PCT\n\nAverage tender yield\n\n2.94 PCT\n\n****************************\n\nH2674\n\n12 May 2027\n\nHK$71,322 MN\n\nHK$19,000 MN\n\n2.93 PCT\n\n2.95 PCT\n\nAbout 36 PCT\n\n3.00 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\n17 November 2026\n\nQ2646\n\n18 November 2026\n\n17 February 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$69,281 MN\n\nH2675\n\n19 May 2027\n\n182 Days\n\nHK$15,000 MN\n\nY2697\n\n17 November 2027\n\n364 Days\n\nHK$5,000 MN\n\nEnd/Tuesday, 10 November, 2026",
       "summary_method": "extractive"
     },
     {
@@ -4101,240 +4328,13 @@
       ],
       "source_excerpt": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No. : ORM/CRC/277/2026 日期 Date : 29/10/2026",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_276_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 835,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_276_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index"
-      ],
-      "key_dates": [
-        {
-          "date": "2 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index"
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/276/2026 日期 Date: 29/10/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Display of Adjusted Previous Closing Price of Coolpad Group Limited (stock code 2369) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 2 November 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026175_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3587,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026175_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
-      "key_points": [
-        "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
-        "HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
-        "For illustration purpose, depending on Coolpad Group’s closing price on 30 October 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Coolpad Group’s OTP - C stock page on 2 November 2026 as follows: -",
-        "Shareholders, investors and market participants should read the Coolpad Group ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Coolpad Group in dealing with Coolpad Group ’s shares."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date.",
-        "HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
-      ],
-      "source_excerpt": "Pursuant to the rights issue timetable issued by Coolpad Group Limited (“ Coolpad Group ”), Coolpad Group ’s shares (stock code 2369 ) will be marked “ex - rights” on 2 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Coolpad Group ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Coolpad Group in dealing with Coolpad Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Coolpad Group ’ s OTP-C stock page on 2 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Coolpad Group ’s closing price on 30 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.30 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nAdjustment Formula:",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/074_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1208,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/074_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
-      "regulatory_domain": "enforcement",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 27 October 2026: - the updated list of terrorists and terrorist associates specified under…",
-      "key_points": [
-        "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:",
-        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
-        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).",
-        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:",
-        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
-        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB)."
-      ],
-      "source_excerpt": "Participants of HKSCC are requested to note that the following information was published on 27 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/074/2026 日期 Date: 29/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-28",
-      "title": "HKEX Expands Integrated Fund Platform with Launch of Platform and Nominee Services",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261028news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-28",
-      "title": "Display of Adjusted Previous Closing Price of Grand Ocean Advanced Resources Company Limited (stock code 65) on OTP-C for its 7-for-1 Rights Issue on Ex-Rights Date, 29 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026174_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3610,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026174_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 29 October 2026, the Ex-Rights Date.",
-      "key_points": [
-        "Pursuant to the rights issue timetable issued by Grand Ocean Advanced Resources Company Limited (“ Grand Ocean ”), Grand Ocean ’s shares (stock code 65 ) will be marked “ex - rights” on 29 October 2026, the Ex-Rights Date.",
-        "HK$0.28 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 7 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
-        "For illustration purpose, depending on Grand Ocean’s closing price on 28 October 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Grand Ocean’s OTP - C stock page on 29 October 2026 as follows: -",
-        "Shareholders, investors and market participants should read the Grand Ocean ’s announcements, circular and prospectus documents in full including the terms and conditions of the rights issue of Grand Ocean in dealing with Grand Ocean ’s shares."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the rights issue timetable issued by Grand Ocean Advanced Resources Company Limited (“ Grand Ocean ”), Grand Ocean ’s shares (stock code 65 ) will be marked “ex - rights” on 29 October 2026, the Ex-Rights Date.",
-        "HK$0.28 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 7 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
-        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
-      ],
-      "source_excerpt": "Pursuant to the rights issue timetable issued by Grand Ocean Advanced Resources Company Limited (“ Grand Ocean ”), Grand Ocean ’s shares (stock code 65 ) will be marked “ex - rights” on 29 October 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Grand Ocean ’s announcements, circular and prospectus documents in full including the terms and conditions of the rights issue of Grand Ocean in dealing with Grand Ocean ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Grand Ocean ’ s OTP-C stock page on 29 October 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Grand Ocean ’s closing price on 28 October 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.28 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 7 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-28",
-      "title": "Stock Admission - New Listing of Securities pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_376_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1726,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_376_2026.pdf",
-      "regulatory_domain": "listing_rules",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
-      "key_points": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
-        "case such trades will be settled on a trade-for-trade (TFT) basis.",
-        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
-      ],
-      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nProvisional Allotment Letters relating to Nil-paid Rights\n\nAsia-Pac Financial Investment Company Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n8555 10,000 29/10/2026 30/10/2026\n\nAll CCASS services are subject to the General Rules of HKSCC and HKSCC Operational\n\nProcedures.\n\n編號 Ref. No.: PT/NIS/CCASS/376/2026\n\n日期 Date: 28/10/2026\n\nElaine Choy Vice President Post Trade Operations Division\n\nNotes:\n\n1.\n\n2.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-27",
-      "title": "Display of Adjusted Previous Closing Price of Grown Up Group Investment Holdings Limited (stock code 1842) on OTP-C for its 10-into-1 Share Consolidation on 28 October 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026173_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3180,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026173_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 28 October 2026.",
-      "key_points": [
-        "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026.",
-        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
-        "For illustration purpose, depending on Grown Up Group’s closing price on 27 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Grown Up Group’s OTP - C temporary stock page on 28 October 2026 as follows: -",
-        "Shareholders, investors and market participants should read the Grown Up Group ’s circulars and regulatory announcements in full including the terms and conditions of Grown Up Group ’s share consolidation in dealing with Grown Up Group ’s shares.",
-        "If they are in doubt, they should consult their professional adviser(s)."
-      ],
-      "key_dates": [
-        {
-          "date": "28 October 2026",
-          "kind": "effective",
-          "evidence": "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026.",
-        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
-        "For illustration purpose, depending on Grown Up Group’s closing price on 27 October 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Grown Up Group’s OTP - C temporary stock page on 28 October 2026 as follows: -"
-      ],
-      "source_excerpt": "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026. Shareholders, investors and market participants should read the Grown Up Group ’s circulars and regulatory announcements in full including the terms and conditions of Grown Up Group ’s share consolidation in dealing with Grown Up Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Grown Up Group ’s OTP -C temporary stock page (stock code 2952) on 28 October 2026. Calculation of the Adjusted Previous Closing Price will be based on Grown Up Group ’s closing price on 27 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nWilson Chan (Tel: 2211 6934)\n\n…/2",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 2,
-    "succeeded": 2,
-    "failed": 0,
+    "attempted": 7,
+    "succeeded": 6,
+    "failed": 1,
     "pending": 0
   }
 }
