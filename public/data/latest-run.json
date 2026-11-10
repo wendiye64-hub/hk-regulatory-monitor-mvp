@@ -1,109 +1,169 @@
 {
-  "generated_at": "2026-11-09T22:20:30.489Z",
+  "generated_at": "2026-11-10T07:16:13.500Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7022,
+  "duration_ms": 11096,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2983,
+      "duration_ms": 2082,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2162,
+      "duration_ms": 3086,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3889,
+      "duration_ms": 2036,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3251,
+      "duration_ms": 3680,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 5213,
+      "duration_ms": 1777,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3438,
+      "duration_ms": 3356,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2465,
+      "duration_ms": 2070,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 975,
+      "duration_ms": 7002,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2305,
+      "duration_ms": 1764,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2303,
+      "duration_ms": 1762,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2303,
+      "duration_ms": 1762,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2303,
+      "duration_ms": 1762,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2303,
+      "duration_ms": 1762,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2303,
+      "duration_ms": 1762,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-10",
+      "title": "Extension of Liquidity Provider Program and Active Trader Program for Hang Seng Biotech Index Futures pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_21_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 4333,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_21_26_e.pdf",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Extension of Liquidity Provider…》。正文：will be extended to 31 May 2027. The service term of existing ATs will be automatically extended.…",
+      "key_points": [
+        "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.",
+        "The service term of existing ATs will be automatically extended.",
+        "This circular has been prepared in English with a Chinese translation.",
+        "Hang Seng Indexes Company Limited (“HSIL”) currently publishes, compiles and computes a number of stock indexes and may publish, compile and compute such additional stock indexes at the request of Hang Seng Data Services Limited (“HSDS”) from time to time (collectively, the “Hang Seng Indexes”).",
+        "Existing LPs will receive an amendment appointment letter for the extension."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.",
+        "The service term of existing ATs will be automatically extended.",
+        "This circular has been prepared in English with a Chinese translation."
+      ],
+      "source_excerpt": "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.\n\nThe service term of existing ATs will be automatically extended. Existing LPs will receive an amendment appointment letter for the extension. Existing LPs and ATs are not required to submit an application.\n\nThis circular has been prepared in English with a Chinese translation. If there are any inconsistencies between the two versions, the English version shall prevail.\n\nHang Seng Indexes Company Limited (“HSIL”) currently publishes, compiles and computes a number of stock indexes and may publish, compile and compute such additional stock indexes at the request of Hang Seng Data Services Limited (“HSDS”) from time to time (collectively, the “Hang Seng Indexes”).\n\nThe marks, names and processes of compilation and computation of the respective Hang Seng Indexes are the exclusive property of and proprietary to HSDS.\n\nHSIL has granted to the Exchange by way of licence the use of the Hang Seng Indexes solely for the purposes of and in connection with the creation, marketing and trading of futures contracts based on any of the Hang Seng Indexes respectively (collectively, “Futures Contracts”).\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-10",
+      "title": "Northern Metropolis Financial Advisory Taskforce holds its third meeting",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2589,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Northern Metropolis Financial…》。正文：will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby…",
+      "key_points": [
+        "This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects."
+      ],
+      "source_excerpt": "To further strengthen the banking sector’s financing support for Northern Metropolis (NM) projects, the HKMA proposes to amend the Banking (Capital) Rules to designate government-related entities, including 11 post-secondary institutions and three park companies, as Domestic Public Sector Entities. This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects. The HKMA intends to submit the amendments to the Legislative Council in the first quarter of 2027, with a view to their taking effect in the second quarter of the same year.\n\nThe Northern Metropolis Financial Advisory Taskforce (Taskforce), jointly established by the Hong Kong Monetary Authority (HKMA) and The Hong Kong Association of Banks (HKAB), convened its third meeting today (10 November). Meeting participants included representatives from the HKMA, HKAB, the Development Bureau, the Education Bureau (EDB), The Financial Services and the Treasury Bureau, the Innovation, Technology and Industry Bureau and 25 participating banks in the Taskforce (see Annex).\n\nAt the meeting, the EDB presented the latest development of the Northern Metropolis University Town (NMUT), including the positioning of the three university towns1, development of campus areas and related financial arrangements.\n\nBackground\n\n10 November 2026\n\n1 San Tin University Town, Hung Shui Kiu University Town and Ta Kwu Ling University Town.",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-09",
       "title": "Ocean Star Technology Group Limited (Stock Code: 8297) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
@@ -4268,86 +4328,12 @@
       ],
       "source_excerpt": "Pursuant to the share consolidation timetable issued by Grown Up Group Investment Holdings Limited (“ Grown Up Group ”), the share consolidation of 10 existing shares of HK$0.01 each in Grown Up Group into 1 consolidated share of HK$0.10 each will become effective on 28 October 2026. Shareholders, investors and market participants should read the Grown Up Group ’s circulars and regulatory announcements in full including the terms and conditions of Grown Up Group ’s share consolidation in dealing with Grown Up Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Grown Up Group ’s OTP -C temporary stock page (stock code 2952) on 28 October 2026. Calculation of the Adjusted Previous Closing Price will be based on Grown Up Group ’s closing price on 27 October 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nWilson Chan (Tel: 2211 6934)\n\n…/2",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-27",
-      "title": "Update on the Scrip Fee Concession and Stock Withdrawal Fee Concession Scheme under the Uncertificated Securities Market (“USM”) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_011_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2513,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_011_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Update on the Scrip Fee Concession…》。正文：will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the…",
-      "key_points": [
-        "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.",
-        "(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch.",
-        "(B) The withdrawal fee concession scheme will be updated as follows:",
-        "• Scenario 1 – The concession for the withdrawal of jumbo certificates previously deposited by the same Participant for and on behalf of the same underlying client will be repealed.",
-        "• Scenario 2 – The concession for withdrawals made to enable clients to exercise their rights as shareholders will remain unchanged; and"
-      ],
-      "key_dates": [
-        {
-          "date": "30 October 2026",
-          "kind": "deadline",
-          "evidence": "Accordingly, any scrip fee concession request must be submitted to CCASS by 30 October 2026."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.",
-        "(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch.",
-        "(B) The withdrawal fee concession scheme will be updated as follows:"
-      ],
-      "source_excerpt": "Upon the USM implementation of the USM on 16 November 2026, the scrip fee concession will cease to apply, and the stock withdrawal fee concession scheme will be updated to align with the revised fee structure and operational arrangements under the USM.\n\n(A) The scrip fee concession will cease after 13 November 2026 as the scrip fee will no longer apply following the USM launch. Accordingly, any scrip fee concession request must be submitted to CCASS by 30 October 2026.\n\n(B) The withdrawal fee concession scheme will be updated as follows:\n\n• Scenario 1 – The concession for the withdrawal of jumbo certificates previously deposited by the same Participant for and on behalf of the same underlying client will be repealed. Applications will no longer be granted after 29 October 2026;\n\n• Scenario 2 – The concession for withdrawals made to enable clients to exercise their rights as shareholders will remain unchanged; and\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Update on the Scrip Fee Concession and Stock Withdrawal Fee Concession Scheme under the Uncertificated Securities Market (“USM”)\n\nEnquiry: CCASS Hotline at 2979 7111 / Email: clearingps@hkex.com.hk\n\nReference is made to HKSCC Circular Ref.\n\nNo.\n\nUpdated Concession Arrangements:\n\n編號 Ref. No.: PT/DPS/CCASS/011/2026 日期 Date: 27/10/2026\n\n如 本 通 告 中 文 本 的 字 義 或 詞",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-27",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_275_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1004,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_275_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index"
-      ],
-      "key_dates": [
-        {
-          "date": "29 October 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index"
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 29 October 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Emerging Markets (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI China Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index • MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI Pacific ex Japan Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/275/2026 日期 Date: 27/10/2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 9,
-    "succeeded": 9,
+    "attempted": 2,
+    "succeeded": 2,
     "failed": 0,
     "pending": 0
   }
