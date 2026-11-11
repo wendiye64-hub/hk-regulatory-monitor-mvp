@@ -1,109 +1,140 @@
 {
-  "generated_at": "2026-11-10T19:42:52.704Z",
+  "generated_at": "2026-11-11T06:16:36.160Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7515,
+  "duration_ms": 7212,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3725,
+      "duration_ms": 4688,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2079,
+      "duration_ms": 2583,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3958,
+      "duration_ms": 3527,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4162,
+      "duration_ms": 3176,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1899,
+      "duration_ms": 2209,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2314,
+      "duration_ms": 3523,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4194,
+      "duration_ms": 4045,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 4013,
+      "duration_ms": 3472,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2342,
+      "duration_ms": 2602,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2600,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2600,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2600,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2600,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2340,
+      "duration_ms": 2600,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-11",
+      "title": "Enforcement collaboration between HKMA and IA – IA bans Lim Ka Kit from being an insurance intermediary for nine months",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1812,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-3/",
+      "regulatory_domain": "enforcement",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Enforcement collaboration between…》。正文：The Insurance Authority (IA) has banned Mr Lim Ka Kit (Mr Lim), former technical representative…",
+      "key_points": [
+        "The Insurance Authority (IA) has banned Mr Lim Ka Kit (Mr Lim), former technical representative (agent) of an Authorized Institution (Licence number: IC3091), from being an insurance intermediary for nine months in a joint enforcement action with the Hong Kong Monetary Authority (HKMA).",
+        "This joint enforcement action is effected under the Memorandum of Understanding on cross-sector collaboration signed by the HKMA and the IA.",
+        "Further details can be found at the section titled “Enforcement News” and the Register of Licensed Insurance Intermediaries on the IA website as well as the section titled “Enforcement Actions” on the HKMA website."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Insurance Authority (IA) has banned Mr Lim Ka Kit (Mr Lim), former technical representative (agent) of an Authorized Institution (Licence number: IC3091), from being an insurance intermediary for nine months in a joint enforcement action with the Hong Kong Monetary Authority (HKMA).",
+        "This joint enforcement action is effected under the Memorandum of Understanding on cross-sector collaboration signed by the HKMA and the IA.",
+        "Further details can be found at the section titled “Enforcement News” and the Register of Licensed Insurance Intermediaries on the IA website as well as the section titled “Enforcement Actions” on the HKMA website."
+      ],
+      "source_excerpt": "The Insurance Authority (IA) has banned Mr Lim Ka Kit (Mr Lim), former technical representative (agent) of an Authorized Institution (Licence number: IC3091), from being an insurance intermediary for nine months in a joint enforcement action with the Hong Kong Monetary Authority (HKMA).\n\nThis joint enforcement action is effected under the Memorandum of Understanding on cross-sector collaboration signed by the HKMA and the IA. Further details can be found at the section titled “Enforcement News” and the Register of Licensed Insurance Intermediaries on the IA website as well as the section titled “Enforcement Actions” on the HKMA website.\n\nThe investigation conducted by the HKMA revealed that Mr Lim had pressurised eight clients into acquiring medical insurance coverage via telemarketing despite their requests for time to consider. On two occasions, he went further by inducing the clients to alter their heights and weights for the purpose of meeting relevant underwriting requirements.\n\nMs Maria Tsui, Head of Enforcement of the IA, said, “This case underscores the importance of ethical selling and treating customers fairly. We would like to thank the HKMA for demonstrating its shared commitment to ensuring that the financial industry focuses on honesty, transparency and integrity to build long-term trust.”\n\nThe conclusion of this disciplinary case underlines the importance of acting with high integrity in the distribution of financial products.”\n\n11 November 2026",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-10",
       "title": "Extension of Liquidity Provider Program and Active Trader Program for Hang Seng Biotech Index Futures pdf",
@@ -4289,52 +4320,13 @@
       ],
       "source_excerpt": "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/075/2026 日期 Date: 29/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Margin Rates pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_277_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 950,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_277_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that with effect from the commencement of trading on 2 November 2026 (including the…",
-      "key_points": [
-        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
-        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
-      ],
-      "key_dates": [
-        {
-          "date": "2 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here ."
-        }
-      ],
-      "affected_parties": [
-        "Exchange Participants"
-      ],
-      "evidence": [
-        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
-        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
-      ],
-      "source_excerpt": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 2 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels, spread margin rates, inter-commodity delta/spread ratio and spread credit rates can be found here .\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No. : ORM/CRC/277/2026 日期 Date : 29/10/2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 7,
-    "succeeded": 6,
-    "failed": 1,
+    "attempted": 1,
+    "succeeded": 1,
+    "failed": 0,
     "pending": 0
   }
 }
