@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-11T06:16:36.160Z",
+  "generated_at": "2026-11-11T14:29:40.198Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7212,
+  "duration_ms": 7367,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4688,
+      "duration_ms": 3055,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2583,
+      "duration_ms": 2114,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3527,
+      "duration_ms": 2950,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3176,
+      "duration_ms": 2513,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2209,
+      "duration_ms": 3881,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3523,
+      "duration_ms": 3419,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4045,
+      "duration_ms": 4013,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3472,
+      "duration_ms": 3917,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2602,
+      "duration_ms": 2447,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2600,
+      "duration_ms": 2445,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2600,
+      "duration_ms": 2445,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2600,
+      "duration_ms": 2445,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2600,
+      "duration_ms": 2445,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2600,
+      "duration_ms": 2445,
       "count": 5
     }
   ],
@@ -133,6 +133,200 @@
         "Further details can be found at the section titled “Enforcement News” and the Register of Licensed Insurance Intermediaries on the IA website as well as the section titled “Enforcement Actions” on the HKMA website."
       ],
       "source_excerpt": "The Insurance Authority (IA) has banned Mr Lim Ka Kit (Mr Lim), former technical representative (agent) of an Authorized Institution (Licence number: IC3091), from being an insurance intermediary for nine months in a joint enforcement action with the Hong Kong Monetary Authority (HKMA).\n\nThis joint enforcement action is effected under the Memorandum of Understanding on cross-sector collaboration signed by the HKMA and the IA. Further details can be found at the section titled “Enforcement News” and the Register of Licensed Insurance Intermediaries on the IA website as well as the section titled “Enforcement Actions” on the HKMA website.\n\nThe investigation conducted by the HKMA revealed that Mr Lim had pressurised eight clients into acquiring medical insurance coverage via telemarketing despite their requests for time to consider. On two occasions, he went further by inducing the clients to alter their heights and weights for the purpose of meeting relevant underwriting requirements.\n\nMs Maria Tsui, Head of Enforcement of the IA, said, “This case underscores the importance of ethical selling and treating customers fairly. We would like to thank the HKMA for demonstrating its shared commitment to ensuring that the financial industry focuses on honesty, transparency and integrity to build long-term trust.”\n\nThe conclusion of this disciplinary case underlines the importance of acting with high integrity in the distribution of financial products.”\n\n11 November 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Announcement - In relation to the matter of E-Station Green Technology Group Co., Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 8475) Cancellation of listing",
+      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261111news?sc_lang=en",
+      "source_id": "DEDUP-00033",
+      "source_label": "HKEX Regulatory Announcements",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "listing_rules",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_295_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 983,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_295_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 13 November 2026 (including the…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• MSCI Taiwan (USD) Index",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "13 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• MSCI Taiwan (USD) Index",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• MSCI Taiwan (USD) Index\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/295/2026 日期 Date: 11/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Orion Cash Platform: Publication of Onboarding Guide and Updated Technical Guide for SI, ISI, ATI, STI Upload Services via RAP pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SET_040_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3010,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SET_040_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Orion Cash Platform: Publication…》。正文：Reference is made to the circular dated 13 February 2026 ( PT/SCS/CCASS/007/2026 ).",
+      "key_points": [
+        "Reference is made to the circular dated 13 February 2026 ( PT/SCS/CCASS/007/2026 ).",
+        "To facilitate CCASS Participants (other than Investor Participants) (“Participants”) , including existing Participant Gateway (“PG”) users , in preparing for the Enhancement, HKEX has published relevant onboarding and updated technical guides.",
+        "To facilitate Participant s’ preparation for the En hancement, the following materials are now available:",
+        "T he “ SI, ISI, ATI, STI Upload Onboarding Guide” is available on the OCP web corner .",
+        "HKEX Privacy Notice is available here . 2 Settlement Instructions 3 Investor Settlement Instructions 4 Account Transfer Instructions 5 Stock Segregated Account Transfer Instructions"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Reference is made to the circular dated 13 February 2026 ( PT/SCS/CCASS/007/2026 ).",
+        "To facilitate CCASS Participants (other than Investor Participants) (“Participants”) , including existing Participant Gateway (“PG”) users , in preparing for the Enhancement, HKEX has published relevant onboarding and updated technical guides.",
+        "To facilitate Participant s’ preparation for the En hancement, the following materials are now available:"
+      ],
+      "source_excerpt": "Reference is made to the circular dated 13 February 2026 ( PT/SCS/CCASS/007/2026 ). Hong Kong Exchanges and Clearing Limited (“HKEX”) is pleased to provide an update on the implementation preparations for the upload of SI 2 , ISI 3 , ATI 4 , STI 5 via the Report Access Platform (“RAP”) (the “Enhancement”) . The Enhancement is tentatively scheduled for launch in the first quarter of 2027, subject to regulatory approval.\n\nTo facilitate CCASS Participants (other than Investor Participants) (“Participants”) , including existing Participant Gateway (“PG”) users , in preparing for the Enhancement, HKEX has published relevant onboarding and updated technical guides. In addition, presentation materials from the recent OCP API Services Webinars are now available online for reference.\n\nTo facilitate Participant s’ preparation for the En hancement, the following materials are now available:\n\nT he “ SI, ISI, ATI, STI Upload Onboarding Guide” is available on the OCP web corner . The guide sets out the scope of the Enhancement, key functional and operational changes and implementation and onboarding arrangements.\n\n1 Calls to and from the CCASS Hotline may be recorded. HKEX Privacy Notice is available here . 2 Settlement Instructions 3 Investor Settlement Instructions 4 Account Transfer Instructions 5 Stock Segregated Account Transfer Instructions\n\n通告 CIRCULAR\n\nSI, ISI, ATI and STI File Upload via RAP\n\n1) SI, ISI, ATI and STI Upload Onboarding Guide\n\n編號 Ref.\n\n2) RAP Technical Guide",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_296_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 931,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_296_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI EM Asia ex Korea Net Total Return (USD) Index vs Hang Seng China Enterprises Index (Gross Total Return Index) • MSCI EM EMEA Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index"
+      ],
+      "key_dates": [
+        {
+          "date": "13 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
+        "• MSCI EM Asia ex Korea Net Total Return (USD) Index vs Hang Seng China Enterprises Index (Gross Total Return Index) • MSCI EM EMEA Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 13 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI EM Asia ex Korea Net Total Return (USD) Index vs Hang Seng China Enterprises Index (Gross Total Return Index) • MSCI EM EMEA Net Total Return (USD) Index vs MSCI AC Asia ex Japan Net Total Return Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/296/2026 日期 Date: 11/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Results of 7-year HKD HKSAR Institutional Government Bonds tender through re-opening",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1472,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-5/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Results of 7-year HKD HKSAR…》。正文：announced that a tender of 7-year HKD institutional Government Bonds through the re-opening of existing…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 7-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 07GB3302001) under the Infrastructure Bond Programme was held today (11 November).",
+        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 5.35.",
+        "* Calculated as the amount of bonds applied for over the amount of bonds issued.",
+        "The average price accepted is 95.77, implying an annualised yield of 3.708%."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 7-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 07GB3302001) under the Infrastructure Bond Programme was held today (11 November).",
+        "The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 5.35.",
+        "* Calculated as the amount of bonds applied for over the amount of bonds issued."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 7-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 07GB3302001) under the Infrastructure Bond Programme was held today (11 November).\n\nA total of HK$1.25 billion 7-year Government Bonds were offered today. A total of HK$6.693 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 5.35. The average price accepted is 95.77, implying an annualised yield of 3.708%.\n\n* Calculated as the amount of bonds applied for over the amount of bonds issued.\n\n11 November 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 7-year HKD HKSAR Institutional Government Bonds:-\n\nTender Date\n\nIssue Number\n\n07GB3302001 (Re-open)\n\nStock Code\n\n4201 (HKGB 2.91 3302)\n\nIssue and Settlement Date\n\n12 November 2026\n\nTenor\n\n7 years\n\nMaturity Date\n\n7 February 2033\n\nCoupon Rate\n\n2.91%\n\nAmount Applied\n\nAmount Allotted\n\nBid-to-Cover Ratio*\n\nAverage Price Accepted (Yield)\n\n95.77 (3.708%)\n\nLowest Price Accepted (Yield)\n\n95.44 (3.771%)\n\nPro-rata Ratio\n\nAbout 10%\n\nAverage Tender Price (Yield)\n\n95.04 (3.847%)",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-11",
+      "title": "Tender results of 1-year HONIA-indexed Floating Rate Notes",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1283,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-4/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Tender results of 1-year…》。正文：announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).",
+        "The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44.",
+        "* Calculated as the amount of notes applied for over the amount of notes issued."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).",
+        "The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44.",
+        "* Calculated as the amount of notes applied for over the amount of notes issued."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).\n\nA total of HK$1.5 billion 1-year HONIA-indexed Floating Rate Notes were offered today. A total of HK$5.155 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44. The highest spread accepted is 0.38%.\n\n* Calculated as the amount of notes applied for over the amount of notes issued.\n\n11 November 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 1-year HONIA-indexed Floating Rate Notes:-\n\nTender Date : 11 November 2026\n\nIssue Number : 01GH2711001\n\nStock Code : 4212 (HKGB FRN 2711)\n\nIssue and Settlement Date : 12 November 2026\n\nTenor : 1 year\n\nMaturity Date : 12 November 2027\n\nAmount Applied : HK$5.155 billion\n\nAmount Allotted : HK$1.5 billion\n\nBid-to-Cover Ratio* : 3.44\n\nHighest Spread Accepted : 0.38%\n\nAverage Spread Accepted : 0.23%\n\nPro-rata Ratio : About 68%\n\nAverage Tender Spread : 0.44%",
       "summary_method": "extractive"
     },
     {
@@ -4167,166 +4361,13 @@
       ],
       "source_excerpt": "The regular system recovery rehearsal (the “Rehearsal”) for Hosting Subscribers will be conducted on Saturday, 21 Nov 2026. Reference is made to the following HKEX circulars:\n\nDuring the Rehearsal, connectivity to various HKEX systems via HKEX Service Network (“HSN”) will be temporarily suspended in order to simulate the HKEX Primary Data Centre failover to Secondary Data Centre.\n\nAll HKEX Hosting Subscribers, particularly those subscribed with HSN, are encouraged to participate in the Rehearsal to verify the HSN can successfully be connected to HKEX Secondary Data Centre and continue its trading, clearing, and settlement systems and/or the market data dissemination system of the HKEX group. In addition, Subscribers are also encouraged to switch to disaster recovery setup with SDNet/2 outside HKEX Hosting Services Data Centre (if available) after failover to HKEX Secondary Data Centre and ensure its alternative means to connect to HKEX can function as intended, more information can be found in drill related Hosting circular / document.\n\nThe objective of the Rehearsal is to also enable HKEX Hosting Subscribers and related parties to familiarize themselves with contingency procedures and related operational matters for their business continuity and disaster recovery arrangements under emergency situations.\n\nPlease complete the online “ Participation Form for Regular System Recovery Rehearsal for Hosing Services Subscribers ” on or before 6:00 p.m. on 19 Nov 2026.\n\n編號 Ref.\n\nNo.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "HKMA’s Response to US Fed’s Interest Rate Decision",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261029-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1591,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261029-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《HKMA’s Response to US Fed’s…》。正文：announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate…",
-      "key_points": [
-        "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.",
-        "The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated.",
-        "Hong Kong’s monetary and financial markets have continued to operate in an orderly manner.",
-        "US interest rate adjustments are subject to considerable uncertainty, and will depend on developments in inflation, labour market, and other economic data, and may influence the interest rate environment in Hong Kong.",
-        "This reflects that the Committee is watchful over the outlook on inflation, though it may need more time to observe how the data evolves."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.",
-        "The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated.",
-        "Hong Kong’s monetary and financial markets have continued to operate in an orderly manner."
-      ],
-      "source_excerpt": "The Federal Open Market Committee of the Federal Reserve (the Fed) announced earlier today (Hong Kong time) its decision to keep the target range for the federal funds rate unchanged at 3.75-4%.\n\nThe policy decision is in line with market expectations. The statement released after the meeting indicated that economic activity was expanding at a strong pace and the labour market was stable, but inflation has remained elevated. This reflects that the Committee is watchful over the outlook on inflation, though it may need more time to observe how the data evolves.\n\nHong Kong’s monetary and financial markets have continued to operate in an orderly manner. As the noticeable HKD-USD interest rate differential persists, carry trade activities may cause the Hong Kong dollar to gradually ease. That said, the outlook for the Hong Kong dollar and interbank rates can vary due to various factors, such as the market’s risk appetite for carry trades, and the supply-demand conditions for Hong Kong dollars which are in turn influenced by capital market activities and other seasonal factors.\n\nUS interest rate adjustments are subject to considerable uncertainty, and will depend on developments in inflation, labour market, and other economic data, and may influence the interest rate environment in Hong Kong.\n\nThe public should carefully manage interest rate risks when making decisions about property purchase, investment or borrowing.\n\nHong Kong Monetary Authority\n\n29 October 2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Announcement - In relation to the matter of Xiwang Property Holdings Company Limited (Incorporated in Bermuda with limited liability) (Stock Code: 2088) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610294news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Announcement - In relation to the matter of Glorious Property Holdings Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 00845) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610293news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Announcement - In relation to the matter of Superactive Group Company Limited (incorporated in Bermuda with limited liability) (Stock Code: 176) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610292news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "Announcement - In relation to the matter of China Huarong Energy Company Limited (incorporated in the Cayman Islands with limited liability) (Stock Code: 1101) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2610291news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-10-29",
-      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/075_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1249,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/075_26_SEHKUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_e.pdf",
-      "regulatory_domain": "enforcement",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on 27 October 2026: - the updated list of terrorists and terrorist associates specified under…",
-      "key_points": [
-        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:",
-        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
-        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).",
-        "Please refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:",
-        "- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and",
-        "- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB)."
-      ],
-      "source_excerpt": "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the following information was published on 27 October 2026:\n\n- the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575); and\n\n- the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al- Qaida) Regulation (Cap. 537CB).\n\nPlease refer to the lists which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) and the CEDB ’ s website ( https://www.cedb.gov.hk/en/policies/united-nations-security-council-sanctions.html ) respectively for details and if in doubt, consult your legal advisers.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/075/2026 日期 Date: 29/10/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nLau Bik Yun, Vanessa Chief Executive",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 1,
-    "succeeded": 1,
-    "failed": 0,
+    "attempted": 6,
+    "succeeded": 5,
+    "failed": 1,
     "pending": 0
   }
 }
