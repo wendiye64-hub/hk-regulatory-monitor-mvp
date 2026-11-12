@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-12T15:12:55.504Z",
+  "generated_at": "2026-11-12T23:38:15.723Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7031,
+  "duration_ms": 5311,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1922,
+      "duration_ms": 4159,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3196,
+      "duration_ms": 4199,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2776,
+      "duration_ms": 4322,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2588,
+      "duration_ms": 4518,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1834,
+      "duration_ms": 4424,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3490,
+      "duration_ms": 2475,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1745,
+      "duration_ms": 4763,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3651,
+      "duration_ms": 3397,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 1954,
+      "duration_ms": 2755,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 1952,
+      "duration_ms": 2753,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 1952,
+      "duration_ms": 2753,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 1952,
+      "duration_ms": 2753,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 1952,
+      "duration_ms": 2753,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 1952,
+      "duration_ms": 2753,
       "count": 5
     }
   ],
@@ -464,6 +464,35 @@
         "Nelson Chow, Executive Director (Financial Infrastructure) of the HKMA said, “Hong Kong is well positioned to capitalise on the tokenisation era, driven by its advanced financial market infrastructure and an expanding array of digital money options and tokenised investment products."
       ],
       "source_excerpt": "The seminar followed closely the HKMA announcement coincided with a major milestone during Hong Kong Fintech Week 2026 of a new chapter of EnsembleTX, which enables 24/7 interbank settlement of tokenised deposits. This development presented an opportune moment for industry participants to unlock new opportunities leveraging EnsembleTX. Meanwhile, these efforts are further bolstered by the SFC’s approval of round-the-clock secondary trading for tokenised money market funds, allowing real-time investment and return optimisation by integrating tokenised deposits with investment products.\n\nLooking ahead, Project Ensemble aims to expand the scale of transactions by introducing more impactful tokenisation use cases that deliver tangible benefits and support a sustainable tokenisation market. The HKMA will continue to work closely with the SFC and the industry to broaden the commercial applications of tokenised deposits to settle various types of tokenised investment products.\n\nMr.\n\nNelson Chow, Executive Director (Financial Infrastructure) of the HKMA said, “Hong Kong is well positioned to capitalise on the tokenisation era, driven by its advanced financial market infrastructure and an expanding array of digital money options and tokenised investment products.\n\nThese capabilities serve as essential public utilities that future-proof our tokenisation ecosystem and support its continued development.\n\nHong Kong Monetary Authority\n\n12 November 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-12",
+      "title": "United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026/ United Nations Sanctions (Democratic Republic of the Congo) Regulation 2019 (Amendment) Regulation 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/082_26_HKFEUNSanctions_Libya_Congo_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1014,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/082_26_HKFEUNSanctions_Libya_Congo_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations Sanctions (Libya)…》。正文：published in the Gazette on 6 November 2026:",
+      "key_points": [
+        "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published in the Gazette on 6 November 2026:",
+        "Please refer to the regulations which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published in the Gazette on 6 November 2026:",
+        "Please refer to the regulations which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers."
+      ],
+      "source_excerpt": "Holders of Futures Exchange Trading Rights and Exchange Participants are requested to note that the following information was published in the Gazette on 6 November 2026:\n\nPlease refer to the regulations which are available on the Government website ( http://www.gld.gov.hk/egazette/ ) for details and if in doubt, consult your legal advisers.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/082/2026 日期 Date: 12/11/2026\n\nSubject: United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026 United Nations Sanctions (Democratic Republic of the Congo) Regulation 2019 (Amendment) Regulation 2026\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(1) United Nations Sanctions (Libya) Regulation 2019 (Amendment) Regulation 2026; and (2) United Nations Sanctions (Democratic Republic of the Congo) Regulation 2019 (Amendment) Regulation 2026.\n\nLau Bik Yun, Vanessa Chief Executive",
       "summary_method": "extractive"
     },
     {
@@ -4287,48 +4316,13 @@
       ],
       "source_excerpt": "Pursuant to the capital reorganisation proposal of Zhejiang United Investment Holdings Group Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”). Following the Share Consolidation, the par value of each Consolidated Share will be reduced from HK$0.20 to HK$0.01 (\"Adjusted Share\"). Upon the Capital Reorganisation becoming effective, the board lot size for trading will be changed from 10,000 Existing Shares to 5,000 Adjusted Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Adjusted and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nHKEX Privacy Notice is available here.\n\n編號 Ref.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-30",
-      "title": "Inter-commodity Spread pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_278_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 818,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_278_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 3 November 2026 (including the mandatory…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 3 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets (USD) Index"
-      ],
-      "key_dates": [
-        {
-          "date": "3 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 3 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 3 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended.",
-        "• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets (USD) Index"
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 3 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin offset for the following pair(s) will be suspended. The details can be found here .\n\n• MSCI Pacific ex Japan Net Total Return (USD) Index vs MSCI Emerging Markets (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nIrene Lee Senior Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/278/2026 日期 Date: 30/10/2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 11,
-    "succeeded": 10,
-    "failed": 1,
+    "attempted": 1,
+    "succeeded": 1,
+    "failed": 0,
     "pending": 0
   }
 }
