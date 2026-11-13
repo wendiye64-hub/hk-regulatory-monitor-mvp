@@ -1,109 +1,181 @@
 {
-  "generated_at": "2026-11-12T23:38:15.723Z",
+  "generated_at": "2026-11-13T06:43:01.230Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5311,
+  "duration_ms": 6497,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4159,
+      "duration_ms": 3855,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4199,
+      "duration_ms": 2182,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4322,
+      "duration_ms": 5451,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4518,
+      "duration_ms": 4144,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4424,
+      "duration_ms": 5414,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2475,
+      "duration_ms": 4607,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4763,
+      "duration_ms": 3961,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3397,
+      "duration_ms": 3035,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2755,
+      "duration_ms": 2931,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2753,
+      "duration_ms": 2929,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2753,
+      "duration_ms": 2929,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2753,
+      "duration_ms": 2929,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2753,
+      "duration_ms": 2929,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2753,
+      "duration_ms": 2929,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-13",
+      "title": "Display of Adjusted Previous Closing Price of Jolimark Holdings Limited (stock code 2028) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 17 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026184_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3640,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026184_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by Jolimark Holdings Limited (“ Jolimark Holdings ”), Jolimark Holdings ’s shares (stock code 2028 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+        "HK$0.750 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on Jolimark Holdings’s closing price on 16 November 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Jolimark Holdings’s OTP - C stock page on 17 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Jolimark Holdings ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Jolimark Holdings in dealing with Jolimark Holdings ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by Jolimark Holdings Limited (“ Jolimark Holdings ”), Jolimark Holdings ’s shares (stock code 2028 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+        "HK$0.750 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by Jolimark Holdings Limited (“ Jolimark Holdings ”), Jolimark Holdings ’s shares (stock code 2028 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Jolimark Holdings ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Jolimark Holdings in dealing with Jolimark Holdings ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Jolimark Holdings ’ s OTP-C stock page on 17 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Jolimark Holdings ’s closing price on 16 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.750 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-13",
+      "title": "Display of Adjusted Previous Closing Price of Ocean Star Technology Group Limited (stock code 8297) on OTP-C for its 10-into-1 Share Consolidation on 16 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026183_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3143,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026183_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 16 November 2026 .",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by Ocean Star Technology Group Limited (“ Ocean Star ”), the share consolidation of 10 existing shares of HK$0.01 each in Ocean Star into 1 consolidated share of HK$0.10 each will become effective on 16 November 2026 .",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Ocean Star’s closing price on 13 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Ocean Star’s OTP - C temporary stock page on 16 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Ocean Star ’s circulars and regulatory announcements in full including the terms and conditions of Ocean Star ’s share consolidation in dealing with Ocean Star ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "16 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by Ocean Star Technology Group Limited (“ Ocean Star ”), the share consolidation of 10 existing shares of HK$0.01 each in Ocean Star into 1 consolidated share of HK$0.10 each will become effective on 16 November 2026 ."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by Ocean Star Technology Group Limited (“ Ocean Star ”), the share consolidation of 10 existing shares of HK$0.01 each in Ocean Star into 1 consolidated share of HK$0.10 each will become effective on 16 November 2026 .",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Ocean Star’s closing price on 13 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Ocean Star’s OTP - C temporary stock page on 16 November 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by Ocean Star Technology Group Limited (“ Ocean Star ”), the share consolidation of 10 existing shares of HK$0.01 each in Ocean Star into 1 consolidated share of HK$0.10 each will become effective on 16 November 2026 . Shareholders, investors and market participants should read the Ocean Star ’s circulars and regulatory announcements in full including the terms and conditions of Ocean Star ’s share consolidation in dealing with Ocean Star ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Ocean Star ’s OTP -C temporary stock page (stock code 8561) on 16 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on Ocean Star ’s closing price on 13 November 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\n…/2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-12",
       "title": "HKEX Hosts ETF Summit 2026 as Market Sets New Records",
@@ -4229,99 +4301,12 @@
       ],
       "source_excerpt": "Exchange Participants (“EPs”) are advised that a regular OTP-C and OTP-CSC data centre failover rehearsal (the “Rehearsal”) will be conducted on Saturday, 21 November 2026 between 11:00am and 3:10pm .\n\nThe objective of the Rehearsal is to enable EPs and related parties to familiarize themselves with contingency procedures and related operational matters upon simulated service outage in the HKEX primary data center and restart of various HKEX systems at the secondary data center. All EPs and related parties are cordially invited to participate in the Rehearsal.\n\nThe Rehearsal will cover the OTP-C and OTP-CSC data centre failover during the Continuous Trading Session under emergency situation. During the Rehearsal, all production trading devices in EP’s offices which are subscribed for trading purpose and connected to OTP-C or OTP-CSC will be available for use from 11:00am.\n\nEPs rely on market datafeed vendors for providing price updates on their trading screens should liaise with their respective market datafeed vendors for providing the services during the Rehearsal.\n\nBefore the Rehearsal, EPs are required to complete and submit the “Notification Form for Participation in 2026 Market Rehearsal“ form ( Attachment 1 ) through Electronic Communication Platform (ECP) on or before 19 November 2026 .\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-30",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_378_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1530,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_378_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Discontinuation of the Eligibility…》。正文：will cease to be Participants are therefore requested to note the following CCASS arrangements.…",
-      "key_points": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 2",
-        "For more details, please refer to the announcement of the company on HKEXnews website.",
-        "Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 2"
-      ],
-      "source_excerpt": "With effect from the below-mentioned effective dates, the following securities will cease to be\n\nKong Limited. Participants are therefore requested to note the following CCASS arrangements.\n\nEffective Date for Discontinuing Eligibility in CCASS Note 2\n\n1. For more details, please refer to the announcement of the company on HKEXnews website.\n\n2. Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Discontinuation of the Eligibility of CCASS Stocks Enquiry: Hotline at 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nEligible Securities in CCASS following the withdrawal of listing on The Stock Exchange of Hong\n\nStock Name Stock Code Last Dealing Date\n\nLast Settlement Date for Settlement Instructions Expiry Date\n\nOrdinary Shares Note 1\n\n1. Xiwang Property Holdings Company Limited 2088 28/03/2025 02/11/2026 N/A 03/11/2026\n\n2. Superactive Group Company Limited 176 31/03/2025 02/11/2026 N/A 03/11/2026\n\n3. Glorious Property Holdings Limited 845 31/03/2025 02/11/2026 N/A 03/11/2026\n\n4. China Huarong Energy Company Limited 1101 31/03/2025 02/11/2026 N/A 03/11/2026\n\n編號 Ref. No.: PT/NIS/CCASS/378/2026\n\n日期 Date: 30/10/2026\n\nNotes:",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-10-30",
-      "title": "Zhejiang United Investment Holdings Group Limited (Stock Code: 8366) - Proposal of Capital Reorganisation and Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_377_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 7976,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_377_2026.pdf",
-      "regulatory_domain": "prudential",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Zhejiang United Investment…》。正文：will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
-      "key_points": [
-        "Pursuant to the capital reorganisation proposal of Zhejiang United Investment Holdings Group Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Adjusted and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 23 November 2026 and 21 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
-        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
-        "From 10 November 2026 until 21 December 2026, Existing Share certificates (light green in colour) will be accepted for deposit under stock code: 8557 (Temp)."
-      ],
-      "key_dates": [
-        {
-          "date": "22 December 2026",
-          "kind": "effective",
-          "evidence": "Effective from 22 December 2026, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 8366 (New)."
-        },
-        {
-          "date": "20 November 2026",
-          "kind": "effective",
-          "evidence": "Effective from 20 November 2026, the CCASS Depository will accept deposit of Adjusted Share certificates (pink in colour) under stock code: 8366 (New)."
-        },
-        {
-          "date": "10 November 2026",
-          "kind": "effective",
-          "evidence": "With effect from 10 November 2026 until 23 November 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 8557."
-        },
-        {
-          "date": "24 November 2026",
-          "kind": "effective",
-          "evidence": "With effect from 24 November 2026, the CCASS Depository will only accept withdrawal of Adjusted Shares under the new stock code: 8366."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the capital reorganisation proposal of Zhejiang United Investment Holdings Group Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Adjusted and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 23 November 2026 and 21 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
-      ],
-      "source_excerpt": "Pursuant to the capital reorganisation proposal of Zhejiang United Investment Holdings Group Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”). Following the Share Consolidation, the par value of each Consolidated Share will be reduced from HK$0.20 to HK$0.01 (\"Adjusted Share\"). Upon the Capital Reorganisation becoming effective, the board lot size for trading will be changed from 10,000 Existing Shares to 5,000 Adjusted Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Adjusted and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nHKEX Privacy Notice is available here.\n\n編號 Ref.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 1,
-    "succeeded": 1,
+    "attempted": 2,
+    "succeeded": 2,
     "failed": 0,
     "pending": 0
   }
