@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-16T06:27:05.982Z",
+  "generated_at": "2026-11-16T22:00:02.886Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 7859,
+  "duration_ms": 6786,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1949,
+      "duration_ms": 1929,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4336,
+      "duration_ms": 4245,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2094,
+      "duration_ms": 1859,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2253,
+      "duration_ms": 4126,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2963,
+      "duration_ms": 3283,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3357,
+      "duration_ms": 1406,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2105,
+      "duration_ms": 4431,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3310,
+      "duration_ms": 3089,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3211,
+      "duration_ms": 2813,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3209,
+      "duration_ms": 2811,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3209,
+      "duration_ms": 2811,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3209,
+      "duration_ms": 2811,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3209,
+      "duration_ms": 2811,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3209,
+      "duration_ms": 2811,
       "count": 5
     }
   ],
@@ -288,6 +288,99 @@
         "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
       ],
       "source_excerpt": "Pursuant to the rights issue timetable issued by Ta Yang Group Holdings Limited (“ Ta Yang Group ”), Ta Yang Group ’s shares (stock code 1991 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Ta Yang Group ’s announcements , circulars and prospectus documents in full including the terms and conditions of the rights issue of Ta Yang Group in dealing with Ta Yang Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Ta Yang Group ’ s OTP-C stock page on 17 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Ta Yang Group ’s closing price on 16 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.80 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\n…/2\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "Launch of Enhanced Timestamp Dissemination for Northbound Trading under Stock Connect pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT18026E.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3454,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/CT18026E.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Launch of Enhanced Timestamp…》。正文：Reference is made to the Exchange Circular (Ref: CT/172/26 ) regarding the Enhancements to Timestamp…",
+      "key_points": [
+        "Reference is made to the Exchange Circular (Ref: CT/172/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) .",
+        "As a reminder, the following enhancements will apply to all China Connect Central Gateway (“CCCG”) and China Connect Drop-Copy sessions.",
+        "To ensure a smooth launch, an optional PRT will be arranged on 5 December 2026 (Saturday) .",
+        "CCEPs are advised to take note of the following arrangements for NB Trading during the PRT:",
+        "Testing environment will be available during 9:15am – 11:30am on 5 December 2026 (Saturday) ; 2."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Reference is made to the Exchange Circular (Ref: CT/172/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) .",
+        "As a reminder, the following enhancements will apply to all China Connect Central Gateway (“CCCG”) and China Connect Drop-Copy sessions.",
+        "To ensure a smooth launch, an optional PRT will be arranged on 5 December 2026 (Saturday) ."
+      ],
+      "source_excerpt": "Reference is made to the Exchange Circular (Ref: CT/172/26 ) regarding the Enhancements to Timestamp Dissemination for Northbound (“NB”) Trading under Stock Connect (the “Timestamp Enhancements”) . Following the successful completion of the Practice Session (“PS”) on 7 November 2026, the Exchange is pleased to announce that the Timestamp Enhancements will be launched on 7 December 2026 (Monday) .\n\nAs a reminder, the following enhancements will apply to all China Connect Central Gateway (“CCCG”) and China Connect Drop-Copy sessions. Please refer to the updated CCCG Interface Specifications available on the HKEX Website for more details.\n\nTo ensure a smooth launch, an optional PRT will be arranged on 5 December 2026 (Saturday) . China Connect Exchange Participants (“CCEPs”) are strongly encouraged to participate in the PRT to verify their system readiness. Interested CCEPs are required to complete and submit the registration form ( Attachment 1 ) via ECP by 2 December 2026 (Wednesday) . Detailed activity rundown of the PRT will be separately sent to the registered CCEPs.\n\nCCEPs are advised to take note of the following arrangements for NB Trading during the PRT:\n\n1.\n\nTesting environment will be available during 9:15am – 11:30am on 5 December 2026 (Saturday) ; 2.\n\nThe stock database as at market open on 7 December 2026 will be used; 3.\n\nValid BCANs must be used during the PRT.\n\nOrders tagged with invalid or unregistered BCANs will be rejected during the PRT; and 4.\n\n通告 CIRCULAR",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "HKMA and Swift continue the collaboration to explore cross-border payment interoperability through Project Ensemble and Swift ledger",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2582,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/",
+      "regulatory_domain": "market_infrastructure",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《HKMA and Swift continue the…》。正文：announced today (16 November) a strengthened collaboration with Swift to explore the use of tokenised…",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (16 November) a strengthened collaboration with Swift to explore the use of tokenised deposits in enhancing the efficiency and end-to-end experience of cross-border transactions.",
+        "Since 2023, the HKMA has partnered with Swift to examine interoperability between Central Bank Digital Currency (CBDC) systems through the Project Ensemble Sandbox.",
+        "To advance this initiative, the HKMA has continued the collaboration with Swift and the broader banking community, including Bank of China (Hong Kong) Limited, Standard Chartered Bank (Hong Kong) Limited and The Hongkong and Shanghai Banking Corporation Limited in Hong Kong, to explore interoperability between Swift ledger and the settlement layer of Project Ensemble.",
+        "Mr Howard Lee, Deputy Chief Executive of the HKMA, said, “In Hong Kong, EnsembleTX has entered a new chapter to advance the tokenisation ecosystem.",
+        "As domestic systems evolve to support new forms of digital value, we are exploring how the Swift ledger can connect these emerging platforms across borders - helping financial institutions settle transactions more efficiently and bring the benefits of digital value to clients globally."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (16 November) a strengthened collaboration with Swift to explore the use of tokenised deposits in enhancing the efficiency and end-to-end experience of cross-border transactions.",
+        "Since 2023, the HKMA has partnered with Swift to examine interoperability between Central Bank Digital Currency (CBDC) systems through the Project Ensemble Sandbox.",
+        "To advance this initiative, the HKMA has continued the collaboration with Swift and the broader banking community, including Bank of China (Hong Kong) Limited, Standard Chartered Bank (Hong Kong) Limited and The Hongkong and Shanghai Banking Corporation Limited in Hong Kong, to explore interoperability between Swift ledger and the settlement layer of Project Ensemble."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (16 November) a strengthened collaboration with Swift to explore the use of tokenised deposits in enhancing the efficiency and end-to-end experience of cross-border transactions.\n\nSince 2023, the HKMA has partnered with Swift to examine interoperability between Central Bank Digital Currency (CBDC) systems through the Project Ensemble Sandbox.\n\nTo advance this initiative, the HKMA has continued the collaboration with Swift and the broader banking community, including Bank of China (Hong Kong) Limited, Standard Chartered Bank (Hong Kong) Limited and The Hongkong and Shanghai Banking Corporation Limited in Hong Kong, to explore interoperability between Swift ledger and the settlement layer of Project Ensemble. This collaborative effort focuses on developing cross-border payment mechanisms that utilise tokenised deposits in multiple currencies. By leveraging Swift’s extensive global network, the aim is to bridge the gap between international and local payment interoperability, thereby fostering deeper integration and development within the dynamic digital finance ecosystem.\n\nMr Howard Lee, Deputy Chief Executive of the HKMA, said, “In Hong Kong, EnsembleTX has entered a new chapter to advance the tokenisation ecosystem.\n\nOn the international front, our collaborative relationship with Swift further extends Project Ensemble’s engagement with international financial institutions.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "Credit Card Lending Survey Results for Third Quarter 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 588,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Credit Card Lending Survey Results…》。正文：published today (16 November) the credit card lending survey results for the third quarter of 2026.",
+      "key_points": [
+        "The Hong Kong Monetary Authority published today (16 November) the credit card lending survey results for the third quarter of 2026."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority published today (16 November) the credit card lending survey results for the third quarter of 2026."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority published today (16 November) the credit card lending survey results for the third quarter of 2026.\n\nTotal card receivables increased by 1.3% in the third quarter to HK$156.7 billion at end-September 2026, as compared to a decrease of 2.1% in the previous quarter.\n\nThe combined delinquent and rescheduled ratio was 0.39% at end-September 2026, compared with 0.42% at the previous quarter-end. The charge-off ratio for the third quarter of 2026 was 0.59%, compared with 0.61% in the previous quarter.\n\nAnnex\n\n16 November 2026",
       "summary_method": "extractive"
     },
     {
@@ -4216,112 +4309,13 @@
       ],
       "source_excerpt": "USM represents an important development in Hong Kong’s securities market infrastructure, facilitates electronic ownership and transfer of securities without paper title instruments, while the existing CCASS central nominee structure will continue to operate.\n\nTo facilitate a smooth transition to the post-USM Depository arrangements, the key concepts and related operational changes are set out below.\n\nUnder USM, prescribed securities will progressively transition from certificated to uncertificated form. The key highlights of each form are outlined below:\n\n• Participating securities are prescribed securities that have become USM-enabled, allowing legal title to be evidenced and transferred electronically without paper title instruments. Existing physical certificates will remain valid but no new certificates or title instruments will be issued once the securities become participating securities.\n\n• Non-participating securities are securities that have not become USM-enabled and therefore continue to operate under the applicable existing arrangements including certificate-based arrangements where applicable.\n\nIn view of the above, with effect from 16 November 2026, IPs should note the following:\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nRef. No.: PT/DPS/CCASS/013/2026\n\nDate: 02/11/2026\n\nMarket (“USM”) (For Investor Participants Only)\n\n1.\n\n2.\n\n3.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Revision of HKSCC Back-Up Centre Service Hours upon Uncertificated Securities Market (“USM”) Implementation pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_014_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3149,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_014_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Revision of HKSCC Back-Up Centre…》。正文：will be revised as set out below. With effect from the USM implementation date, the service hours of…",
-      "key_points": [
-        "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform HKSCC Participants (“Participants”) that, in connection with the USM implementation on 16 November 2026, the service hours of the HKSCC Back-Up Centre will be revised as set out below.",
-        "With effect from the USM implementation date, the service hours of the following facilities will be revised as follows:",
-        "The above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time.",
-        "The revised service hours are reflected in the HKSCC Operational Procedures.",
-        "Under USM implementation, Participants are also reminded that existing physical certificates will remain valid and that the dematerialization of such certificates is optional."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform HKSCC Participants (“Participants”) that, in connection with the USM implementation on 16 November 2026, the service hours of the HKSCC Back-Up Centre will be revised as set out below.",
-        "With effect from the USM implementation date, the service hours of the following facilities will be revised as follows:",
-        "The above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time."
-      ],
-      "source_excerpt": "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform HKSCC Participants (“Participants”) that, in connection with the USM implementation on 16 November 2026, the service hours of the HKSCC Back-Up Centre will be revised as set out below. This revision forms part of the consequential operational changes associated with the USM implementation.\n\nWith effect from the USM implementation date, the service hours of the following facilities will be revised as follows:\n\nThe above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time.\n\nThe revised service hours are reflected in the HKSCC Operational Procedures. Participants should review their internal operational arrangements and plan activities requiring support from the HKSCC Back-Up Centre accordingly.\n\nUnder USM implementation, Participants are also reminded that existing physical certificates will remain valid and that the dematerialization of such certificates is optional. Participants should continue to provide clear and consistent information to their clients and remind them to consider their own circumstances and needs when deciding whether to deposit, withdraw or dematerialize physical certificates.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nRevised Service Hours\n\nNo. .\n\n編號 Ref.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Revision of Depository Customer Service Centre Service Hours upon Uncertificated Securities Market (“USM”) Implementation (For Investor Participants Only) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_015_2026v2.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2642,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_015_2026v2.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Revision of Depository Customer…》。正文：will be revised as set out below. With effect from the USM implementation date, the service hours of the…",
-      "key_points": [
-        "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform Investor Participants (“IPs”) that, in connection with the USM implementation on 16 November 2026, the service hours of the Depository Customer Service Centre will be revised as set out below.",
-        "With effect from the USM implementation date, the service hours of the following facilities will be revised as follows:",
-        "The above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time.",
-        "The revised service hours are reflected in the Terms and Conditions for Investor Participants (“IP T&Cs”).",
-        "In connection with USM implementation, IPs are also reminded that existing physical certificates will remain valid and their dematerialization is optional."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform Investor Participants (“IPs”) that, in connection with the USM implementation on 16 November 2026, the service hours of the Depository Customer Service Centre will be revised as set out below.",
-        "With effect from the USM implementation date, the service hours of the following facilities will be revised as follows:",
-        "The above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time."
-      ],
-      "source_excerpt": "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to inform Investor Participants (“IPs”) that, in connection with the USM implementation on 16 November 2026, the service hours of the Depository Customer Service Centre will be revised as set out below. This revision forms part of the consequential operational changes associated with the USM implementation.\n\nWith effect from the USM implementation date, the service hours of the following facilities will be revised as follows:\n\nThe above service hours will apply from Monday to Friday (excluding public holidays) or such other times as may be prescribed by HKSCC from time to time.\n\nThe revised service hours are reflected in the Terms and Conditions for Investor Participants (“IP T&Cs”). IPs should review their operational arrangements and plan activities at the Depository Customer Service Centre accordingly.\n\nIn connection with USM implementation, IPs are also reminded that existing physical certificates will remain valid and their dematerialization is optional. IPs should consider their own circumstances and needs when deciding whether to deposit, withdraw or dematerialize physical certificates.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nRef. No.: PT/DPS/CCASS/015/2026\n\nDate: 02/11/2026\n\nClassification – Internal\n\nEnquiry: IP Hotline at 2979 7888\n\nRevised Service Hours",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "FINI Services Suspension on 7-8 November 2026 pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_381_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1212,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_381_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《FINI Services Suspension on 7-8…》。正文：will be extended and FINI service will be suspended during the",
-      "key_points": [
-        "system maintenance time will be extended and FINI service will be suspended during the",
-        "• From 06:00a.m. on 7 November 2026 (Saturday) to 12:00noon on 8 November 2026 (Sunday)",
-        "During the aforementioned period, FINI will not be accessible.",
-        "to connect to FINI and should disregard any testing data encountered if applicable.",
-        "prudence sake, Participants are suggested to download reports of IPO cases in FINI before"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "system maintenance time will be extended and FINI service will be suspended during the",
-        "• From 06:00a.m. on 7 November 2026 (Saturday) to 12:00noon on 8 November 2026 (Sunday)",
-        "During the aforementioned period, FINI will not be accessible."
-      ],
-      "source_excerpt": "system maintenance time will be extended and FINI service will be suspended during the\n\n• From 06:00a.m. on 7 November 2026 (Saturday) to 12:00noon on 8 November 2026 (Sunday)\n\nDuring the aforementioned period, FINI will not be accessible. Participants are advised not\n\nto connect to FINI and should disregard any testing data encountered if applicable. For\n\nprudence sake, Participants are suggested to download reports of IPO cases in FINI before\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: FINI Services Suspension on 7-8 November 2026\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nTo facilitate internal system testing for FINI (Fast Interface for New Issuance), the regular\n\nfollowing periods:\n\nthe start of system maintenance for internal record.\n\nParticipants should also inform its relevant IT support or BOS vendors about this\n\narrangement for necessary preparation.\n\nFor any enquiries, please contact Hotline at 2979-7111.\n\nStanley Ng Vice President Post Trade Operations Division\n\n編號 Ref. No.: PT/NIS/CCASS/381/2026\n\n日期 Date: 02/11/2026",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 5,
-    "succeeded": 4,
-    "failed": 1,
+    "attempted": 3,
+    "succeeded": 3,
+    "failed": 0,
     "pending": 0
   }
 }
