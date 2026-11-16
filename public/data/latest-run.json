@@ -1,109 +1,295 @@
 {
-  "generated_at": "2026-11-15T18:50:11.129Z",
+  "generated_at": "2026-11-16T06:27:05.982Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4306,
+  "duration_ms": 7859,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3370,
+      "duration_ms": 1949,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4296,
+      "duration_ms": 4336,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 4033,
+      "duration_ms": 2094,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3386,
+      "duration_ms": 2253,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2064,
+      "duration_ms": 2963,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3520,
+      "duration_ms": 3357,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4007,
+      "duration_ms": 2105,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1014,
+      "duration_ms": 3310,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2630,
+      "duration_ms": 3211,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2628,
+      "duration_ms": 3209,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2628,
+      "duration_ms": 3209,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2628,
+      "duration_ms": 3209,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2628,
+      "duration_ms": 3209,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2628,
+      "duration_ms": 3209,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-16",
+      "title": "Notification of Specified Date under Uncertificated Securities Market Regime pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/2611162news/2611162news_e.pdf",
+      "source_id": "HKEX-CORP-NEWS",
+      "source_label": "HKEX Corporate News Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 3534,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/2611162news/2611162news_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "corporate_news",
+      "impact_status": "no_clear_impact",
+      "human_review_required": true,
+      "summary": "HKEX发布《Notification of Specified Date…》。正文：Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong…",
+      "key_points": [
+        "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited.",
+        "Various legislation were enacted since 2021 to facilitate the establishment and implementation of the Uncertificated Securities Market (“USM”) regime, which has come into operation on 16 November 2026 and removes the need of using paper instruments to effect transfers of legal title of prescribed securities listed on The Stock Exchange of Hong Kong Limited.",
+        "Shares of Hong Kong Exchanges and Clearing Limited (“HKEX” or the “Company”) (the “HKEX Shares”) constitute prescribed securities and pursuant to rule 28(1) of the USM Rules, must become participating securities under the USM regime (the “Participating Securities”) by the Specified Date (as defined below).",
+        "On 16 November 2026, the Company received a written notification jointly issued by the Securities and Futures Commission (“SFC”), Hong Kong Securities Clearing Company Limited and Computershare Hong Kong Investor Services Limited that 16 February 2027 has been specified as the statutory deadline by which the HKEX Shares must become Participating Securities (the “Specified Date”).",
+        "The adoption of the New Articles is subject to the written approval of the SFC."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited.",
+        "Various legislation were enacted since 2021 to facilitate the establishment and implementation of the Uncertificated Securities Market (“USM”) regime, which has come into operation on 16 November 2026 and removes the need of using paper instruments to effect transfers of legal title of prescribed securities listed on The Stock Exchange of Hong Kong Limited.",
+        "Shares of Hong Kong Exchanges and Clearing Limited (“HKEX” or the “Company”) (the “HKEX Shares”) constitute prescribed securities and pursuant to rule 28(1) of the USM Rules, must become participating securities under the USM regime (the “Participating Securities”) by the Specified Date (as defined below)."
+      ],
+      "source_excerpt": "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited. The Securities and Futures Commission takes no responsibility for the contents of this announcement, makes no representation as to its accuracy or completeness, and expressly disclaims any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement.\n\nVarious legislation were enacted since 2021 to facilitate the establishment and implementation of the Uncertificated Securities Market (“USM”) regime, which has come into operation on 16 November 2026 and removes the need of using paper instruments to effect transfers of legal title of prescribed securities listed on The Stock Exchange of Hong Kong Limited. These include, among others, the Securities and Futures (Uncertificated Securities Market) Rules (Chapter 571AS of the Laws of Hong Kong) (the “USM Rules”).\n\nShares of Hong Kong Exchanges and Clearing Limited (“HKEX” or the “Company”) (the “HKEX Shares”) constitute prescribed securities and pursuant to rule 28(1) of the USM Rules, must become participating securities under the USM regime (the “Participating Securities”) by the Specified Date (as defined below).\n\nIntroduction\n\nNotification of Specified Date",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "HKEX Launches Offshore RMB Bond Index",
+      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261116news?sc_lang=en",
+      "source_id": "HKEX-CORP-NEWS",
+      "source_label": "HKEX Corporate News Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "corporate_news",
+      "impact_status": "no_clear_impact",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "Star Shine Holdings Group Limited (Stock Code: 1440) - Proposal of Share Subdivision and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_405_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7095,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_405_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Star Shine Holdings Group Limited…》。正文：will be subdivided into 4 subdivided shares of HK$0.0025 (“Subdivided Share”).",
+      "key_points": [
+        "Pursuant to the share subdivision proposal of Star Shine Holdings Group Limited (“the Company”), every existing share of HK$0.01 each (“Existing Share”) will be subdivided into 4 subdivided shares of HK$0.0025 (“Subdivided Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Subdivided Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 8 December 2026 and 8 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 25 November 2026 until 8 January 2027, Existing Share certificates (pink in colour) will be accepted for deposit under stock code: 2963 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "11 January 2027",
+          "kind": "effective",
+          "evidence": "Effective from 11 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 1440 (New)."
+        },
+        {
+          "date": "7 December 2026",
+          "kind": "effective",
+          "evidence": "Effective from 7 December 2026, the CCASS Depository will accept deposit of Subdivided"
+        },
+        {
+          "date": "25 November 2026",
+          "kind": "effective",
+          "evidence": "With effect from 25 November 2026 until 8 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2963."
+        },
+        {
+          "date": "9 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 9 December 2026, the CCASS Depository will only accept withdrawal of Subdivided Shares under the new stock code: 1440."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share subdivision proposal of Star Shine Holdings Group Limited (“the Company”), every existing share of HK$0.01 each (“Existing Share”) will be subdivided into 4 subdivided shares of HK$0.0025 (“Subdivided Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Subdivided Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 8 December 2026 and 8 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the share subdivision proposal of Star Shine Holdings Group Limited (“the Company”), every existing share of HK$0.01 each (“Existing Share”) will be subdivided into 4 subdivided shares of HK$0.0025 (“Subdivided Share”). Upon the Share Subdivision becoming effective, the board lot size in trading will be changed from 2,500 Existing Shares to 500 Subdivided Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Subdivided Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 25 November 2026 until 8 January 2027, Existing Share certificates (pink in colour) will be accepted for deposit under stock code: 2963 (Temp).\n\n2.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n3.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "IDT International Limited (Stock Code : 167) - Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_404_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 4580,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_404_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《IDT International Limited (Stock…》。正文：will be changed from 18,000 shares to 500 shares with effect from 23 November 2026.",
+      "key_points": [
+        "Pursuant to the announcement of IDT International Limited (\"the Company\"), the board lot size of shares for trading will be changed from 18,000 shares to 500 shares with effect from 23 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 23 November 2026 and 22 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "With effect from 23 November 2026 until 22 December 2026, CCASS Depository will accept deposits of the existing share certificates under temporary stock code: 2964 and the new share certificates under stock code: 167 in accordance with the schedule as listed in Appendix II."
+      ],
+      "key_dates": [
+        {
+          "date": "23 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the announcement of IDT International Limited (\"the Company\"), the board lot size of shares for trading will be changed from 18,000 shares to 500 shares with effect from 23 November 2026."
+        },
+        {
+          "date": "16 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 16 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 167."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the announcement of IDT International Limited (\"the Company\"), the board lot size of shares for trading will be changed from 18,000 shares to 500 shares with effect from 23 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 23 November 2026 and 22 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the announcement of IDT International Limited (\"the Company\"), the board lot size of shares for trading will be changed from 18,000 shares to 500 shares with effect from 23 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 23 November 2026 and 22 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 16 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 167.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n4\n\nYes",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-16",
+      "title": "Display of Adjusted Previous Closing Price of Ta Yang Group Holdings Limited (stock code 1991) on OTP-C for its 2-for-1 Rights Issue on Ex-Rights Date, 17 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026185_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3610,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026185_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by Ta Yang Group Holdings Limited (“ Ta Yang Group ”), Ta Yang Group ’s shares (stock code 1991 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+        "HK$0.80 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on Ta Yang Group’s closing price on 16 November 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Ta Yang Group’s OTP - C stock page on 17 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Ta Yang Group ’s announcements , circulars and prospectus documents in full including the terms and conditions of the rights issue of Ta Yang Group in dealing with Ta Yang Group ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by Ta Yang Group Holdings Limited (“ Ta Yang Group ”), Ta Yang Group ’s shares (stock code 1991 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date.",
+        "HK$0.80 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by Ta Yang Group Holdings Limited (“ Ta Yang Group ”), Ta Yang Group ’s shares (stock code 1991 ) will be marked “ex - rights” on 17 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Ta Yang Group ’s announcements , circulars and prospectus documents in full including the terms and conditions of the rights issue of Ta Yang Group in dealing with Ta Yang Group ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Ta Yang Group ’ s OTP-C stock page on 17 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Ta Yang Group ’s closing price on 16 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.80 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 1 share\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\n…/2\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-13",
       "title": "Display of Adjusted Previous Closing Price of Jolimark Holdings Limited (stock code 2028) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 17 November 2026 pdf",
@@ -4129,199 +4315,13 @@
       ],
       "source_excerpt": "system maintenance time will be extended and FINI service will be suspended during the\n\n• From 06:00a.m. on 7 November 2026 (Saturday) to 12:00noon on 8 November 2026 (Sunday)\n\nDuring the aforementioned period, FINI will not be accessible. Participants are advised not\n\nto connect to FINI and should disregard any testing data encountered if applicable. For\n\nprudence sake, Participants are suggested to download reports of IPO cases in FINI before\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: FINI Services Suspension on 7-8 November 2026\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nTo facilitate internal system testing for FINI (Fast Interface for New Issuance), the regular\n\nfollowing periods:\n\nthe start of system maintenance for internal record.\n\nParticipants should also inform its relevant IT support or BOS vendors about this\n\narrangement for necessary preparation.\n\nFor any enquiries, please contact Hotline at 2979-7111.\n\nStanley Ng Vice President Post Trade Operations Division\n\n編號 Ref. No.: PT/NIS/CCASS/381/2026\n\n日期 Date: 02/11/2026",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Margin Rates pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_284_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 997,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_284_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 4 November 2026 (including the…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 4 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
-        "• China Petroleum & Chemical Corporation",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
-        "The details of the revised margin levels can be found here .",
-        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
-      ],
-      "key_dates": [
-        {
-          "date": "4 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 4 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised."
-        }
-      ],
-      "affected_parties": [
-        "Exchange Participants"
-      ],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 4 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
-        "• China Petroleum & Chemical Corporation",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 4 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• China Petroleum & Chemical Corporation\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/284/2026 日期 Date: 02/11/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_380_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1282,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_380_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Discontinuation of the Eligibility…》。正文：will cease to be Participants are therefore requested to note the following CCASS arrangements.…",
-      "key_points": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 1",
-        "Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "With effect from the below-mentioned effective dates, the following securities will cease to be",
-        "Participants are therefore requested to note the following CCASS arrangements.",
-        "Effective Date for Discontinuing Eligibility in CCASS Note 1"
-      ],
-      "source_excerpt": "With effect from the below-mentioned effective dates, the following securities will cease to be\n\nKong Limited. Participants are therefore requested to note the following CCASS arrangements.\n\nEffective Date for Discontinuing Eligibility in CCASS Note 1\n\n1. Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Discontinuation of the Eligibility of CCASS Stocks Enquiry: Hotline at 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nEligible Securities in CCASS following the withdrawal of listing on The Stock Exchange of Hong\n\nStock Name Stock Code Last Dealing Date\n\nLast Settlement Date for Settlement Instructions Expiry Date\n\nProvisional Allotment Letters relating to Nil-paid Rights\n\nAlpha Professional Holdings Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2950 03/11/2026 06/11/2026 N/A 09/11/2026\n\nS tanley Ng Vice President Post Trade Operations Division\n\nNotes:\n\n編號 Ref. No.: PT/NIS/CCASS/380/2026\n\n日期 Date: 02/11/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Plan to Extend After-Hours Trading Session in the Derivatives Market pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_234_26_E.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2325,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_234_26_E.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Plan to Extend After-Hours Trading…》。正文：will be made to the post- trade service start time and the advised system connection time to Orion…",
-      "key_points": [
-        "To support the extended AHT trading hours, corresponding adjustments will be made to the post- trade service start time and the advised system connection time to Orion Market Data Platform - Derivatives Market (“OMD - D”) clients.",
-        "Exchange Participants participating in, or planning to participate in, the AHT Session are highly recommended to assess the potential impact of the proposed extensions on their systems, operations and vendor arrangements and to undertake the necessary resource planning and preparation to support the proposed extensions in March 2027 and November 2027.",
-        "Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/eng/global/privacy_policy.htm 2 EPs may refer to the After-Hours Trading website for further information of the AHT Session and the latest product list.",
-        "This circular has been issued in the English language with a separate Chinese language translation.",
-        "Position snapshot time for the Mandatory Intra-day Variation Adjustment and Margin Call and the monitoring of Capital-based Position Limits will be adjusted accordingly."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "To support the extended AHT trading hours, corresponding adjustments will be made to the post- trade service start time and the advised system connection time to Orion Market Data Platform - Derivatives Market (“OMD - D”) clients.",
-        "Exchange Participants participating in, or planning to participate in, the AHT Session are highly recommended to assess the potential impact of the proposed extensions on their systems, operations and vendor arrangements and to undertake the necessary resource planning and preparation to support the proposed extensions in March 2027 and November 2027.",
-        "Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/eng/global/privacy_policy.htm 2 EPs may refer to the After-Hours Trading website for further information of the AHT Session and the latest product list."
-      ],
-      "source_excerpt": "The proposed extensions intend to cover all products available for trading during the AHT Session 2 . To support the extended AHT trading hours, corresponding adjustments will be made to the post- trade service start time and the advised system connection time to Orion Market Data Platform - Derivatives Market (“OMD - D”) clients. Position snapshot time for the Mandatory Intra-day Variation Adjustment and Margin Call and the monitoring of Capital-based Position Limits will be adjusted accordingly. Further details of the adjustments will be announced in due course.\n\nExchange Participants participating in, or planning to participate in, the AHT Session are highly recommended to assess the potential impact of the proposed extensions on their systems, operations and vendor arrangements and to undertake the necessary resource planning and preparation to support the proposed extensions in March 2027 and November 2027.\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/eng/global/privacy_policy.htm 2 EPs may refer to the After-Hours Trading website for further information of the AHT Session and the latest product list.\n\nThis circular has been issued in the English language with a separate Chinese language translation.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Margin Parameters and Update of PC-SPAN Organisation Master File for New Stock Option Classes pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_279_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3245,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEOCH/2026/ce_SEOCH_DCRC_279_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Margin Parameters and Update of…》。正文：Reference is made to the circular (Ref: EQD/17/26 ) dated 12 October 2026 regarding the introduction of…",
-      "key_points": [
-        "Reference is made to the circular (Ref: EQD/17/26 ) dated 12 October 2026 regarding the introduction of new stock option classes on 9 November 2026.",
-        "In addition, Participants using PC-SPAN 1 to calculate the margin requirements for the above- mentioned products are reminded to update the Organisation Master File on or before 9 November 2026 .",
-        "Participant should refer to advisory notices issued by the CME from time to time for information on the update schedule; or",
-        "Participants should use this alternative only as a last resort, given the potential human errors in the manual process.",
-        "1 SPAN (Standard Portfolio Analysis of Risk) is a registered trademark of the Chicago Mercantile Exchange"
-      ],
-      "key_dates": [
-        {
-          "date": "9 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that the Clearing House has determined that with effect from the commencement of trading on 9 November 2026 , the margin parameters for the new stock option contracts shall be as follows:"
-        },
-        {
-          "date": "9 November 2026",
-          "kind": "deadline",
-          "evidence": "In addition, Participants using PC-SPAN 1 to calculate the margin requirements for the above- mentioned products are reminded to update the Organisation Master File on or before 9 November 2026 ."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Reference is made to the circular (Ref: EQD/17/26 ) dated 12 October 2026 regarding the introduction of new stock option classes on 9 November 2026.",
-        "In addition, Participants using PC-SPAN 1 to calculate the margin requirements for the above- mentioned products are reminded to update the Organisation Master File on or before 9 November 2026 .",
-        "Participant should refer to advisory notices issued by the CME from time to time for information on the update schedule; or"
-      ],
-      "source_excerpt": "Reference is made to the circular (Ref: EQD/17/26 ) dated 12 October 2026 regarding the introduction of new stock option classes on 9 November 2026. Please be advised that the Clearing House has determined that with effect from the commencement of trading on 9 November 2026 , the margin parameters for the new stock option contracts shall be as follows:\n\nIn addition, Participants using PC-SPAN 1 to calculate the margin requirements for the above- mentioned products are reminded to update the Organisation Master File on or before 9 November 2026 . Participants may update the Organisation Master File via one of the following alternatives:\n\nThis file is maintained by the CME. Participant should refer to advisory notices issued by the CME from time to time for information on the update schedule; or\n\nParticipants should use this alternative only as a last resort, given the potential human errors in the manual process.\n\n1 SPAN (Standard Portfolio Analysis of Risk) is a registered trademark of the Chicago Mercantile Exchange\n\n香 港 聯 合 交 易 所 期 權 結 算 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE SEHK OPTIONS CLEARING HOUSE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Parameters and Update of PC-SPAN Organisation Master File for New Stock Option Classes Enquiry: 2211-6901\n\nVolatility Scan Range Short Option Minimum\n\nASMPT Limited 12% 5% of Clearing House Margin Interval\n\nChina Gold International Resources Corp.\n\n編號 Ref.\n\n1.\n\n2.\n\n3.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Arrangement in HKEX Orion Market Data Platform - Derivatives Market (OMD-D) for Planning to Extend the After-Hours Trading (AHT) Session in Derivatives Market",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-02%20Arrangement%20in%20OMD-D%20for%20Planning%20to%20Extend%20the%20After-Hours%20Trading%20(AHT)%20Session%20in%20Derivatives%20Market.pdf",
-      "reference": "MDD/26/664",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "source_text_chars": 2112,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-02%20Arrangement%20in%20OMD-D%20for%20Planning%20to%20Extend%20the%20After-Hours%20Trading%20(AHT)%20Session%20in%20Derivatives%20Market.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Arrangement in HKEX Orion Market…》；对象：Derivatives Market Data。正文：will be changed from the current 6:00 a.m. to 7:30 a.m. and there is no…",
-      "key_points": [
-        "To support the extended AHT trading hours, the advised system connection time to OMD-D will be changed from the current 6:00 a.m. to 7:30 a.m. and there is no other functional interface change in OMD-D.",
-        "Enclosed are the updated OMD-D Interface Specification (version 1.50) and OMD-D Developers Guide (version 1.29) for the updates on the advised system connection time to OMD-D.",
-        "For details, please refer to the enclosed relevant Exchange Circular (Ref: MO/DT/234/26 ).",
-        "Should you have any queries, please contact us at (852) 2211 6558 or send your questions to IVSupport@hkex.com.hk .",
-        "All changes are summarised in the change history and highlighted with “|” in the left margin of the documents."
-      ],
-      "key_dates": [],
-      "affected_parties": [
-        "Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”)"
-      ],
-      "evidence": [
-        "To support the extended AHT trading hours, the advised system connection time to OMD-D will be changed from the current 6:00 a.m. to 7:30 a.m. and there is no other functional interface change in OMD-D.",
-        "Enclosed are the updated OMD-D Interface Specification (version 1.50) and OMD-D Developers Guide (version 1.29) for the updates on the advised system connection time to OMD-D.",
-        "For details, please refer to the enclosed relevant Exchange Circular (Ref: MO/DT/234/26 )."
-      ],
-      "source_excerpt": "The proposed extensions intend to cover all products available for trading during the AHT Session. To support the extended AHT trading hours, the advised system connection time to OMD-D will be changed from the current 6:00 a.m. to 7:30 a.m. and there is no other functional interface change in OMD-D.\n\nEnclosed are the updated OMD-D Interface Specification (version 1.50) and OMD-D Developers Guide (version 1.29) for the updates on the advised system connection time to OMD-D. All changes are summarised in the change history and highlighted with “|” in the left margin of the documents.\n\nFor details, please refer to the enclosed relevant Exchange Circular (Ref: MO/DT/234/26 ). Further implementation arrangements will be announced in due course.\n\nShould you have any queries, please contact us at (852) 2211 6558 or send your questions to IVSupport@hkex.com.hk .\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n2 November 2026 By Email Our Ref: MDD/26/664\n\nTo: Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”)\n\nCopy: Derivatives Market Independent Software Vendors (ISVs)\n\nArrangement in HKEX Orion Market Data Platform – Derivatives Market (OMD-D) for Planning to Extend the After- Hours Trading (“AHT”) Session in Derivatives Market\n\nHong Kong Time (\"HKT\") in March 2027 subject to regulatory approval.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
-    "failed": 0,
+    "attempted": 5,
+    "succeeded": 4,
+    "failed": 1,
     "pending": 0
   }
 }
