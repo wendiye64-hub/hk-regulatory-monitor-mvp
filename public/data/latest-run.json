@@ -1,109 +1,208 @@
 {
-  "generated_at": "2026-11-16T22:00:02.886Z",
+  "generated_at": "2026-11-17T07:54:08.390Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 6786,
+  "duration_ms": 6995,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 1929,
+      "duration_ms": 3220,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4245,
+      "duration_ms": 4727,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 1859,
+      "duration_ms": 3263,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4126,
+      "duration_ms": 4011,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3283,
+      "duration_ms": 3402,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1406,
+      "duration_ms": 2350,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4431,
+      "duration_ms": 1769,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3089,
+      "duration_ms": 3155,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2813,
+      "duration_ms": 2487,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 2486,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 2486,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 2486,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 2486,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2811,
+      "duration_ms": 2486,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-17",
+      "title": "Display of Adjusted Previous Closing Price of FAR International Holdings Group Company Limited (stock code 2516) on OTP-C for its 2-for-5 Rights Issue on Ex-Rights Date, 19 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026187_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3656,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026187_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 19 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by FAR International Holdings Group Company Limited (“ FAR International ”), FAR International ’s shares (stock code 2516 ) will be marked “ex - rights” on 19 November 2026, the Ex-Rights Date.",
+        "HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 5 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on FAR International’s closing price on 18 November 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on FAR International’s OTP - C stock page on 19 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the FAR International ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of FAR International in dealing with FAR International ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by FAR International Holdings Group Company Limited (“ FAR International ”), FAR International ’s shares (stock code 2516 ) will be marked “ex - rights” on 19 November 2026, the Ex-Rights Date.",
+        "HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 5 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by FAR International Holdings Group Company Limited (“ FAR International ”), FAR International ’s shares (stock code 2516 ) will be marked “ex - rights” on 19 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the FAR International ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of FAR International in dealing with FAR International ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of FAR International ’ s OTP-C stock page on 19 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on FAR International ’s closing price on 18 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.20 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 2 rights shares Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 5 shares\n\n通告 CIRCULAR",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-17",
+      "title": "Display of Previous Closing Price of China Travel International Investment Hong Kong Limited (stock code 308) on OTP-C for its conditional special dividend by way of a distribution in specie of 1 share of CTG Hongkong and Macao Culture and Tourism Holding Limited for 4 shares held on Ex-All Date, 18 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026186_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 2263,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026186_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Previous Closing Price…》。正文：announced a spin -off proposal for a separate listing of CTG Hongkong and Macao Culture and Tourism…",
+      "key_points": [
+        "China Travel International Investment Hong Kong Limited (“China Travel”) announced a spin -off proposal for a separate listing of CTG Hongkong and Macao Culture and Tourism Holding Limited (“CTG HKM”) (the “Proposed Spin - Off”).",
+        "Qualifying shareholders will be entitled to receive 1 CTG HKM ’ s share for every 4 China Travel ’ s shares (the “Distribution”).",
+        "According to the timetable for the Distribution, China Travel ’s shares (stock code 308 ) will be marked “ex - all” on 18 November 2026, the Ex-All Date.",
+        "Given that the exact value of the shares of CTG HKM is not known , the Exchange will display “N/A” in the “PRV CLOSE” field of China Travel ’s OTP -C stock page on 18 November 2026, the Ex-All Date in accordance with the OTP-C standard practice.",
+        "The unadjusted previous closing price will be displayed in the free text field."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "China Travel International Investment Hong Kong Limited (“China Travel”) announced a spin -off proposal for a separate listing of CTG Hongkong and Macao Culture and Tourism Holding Limited (“CTG HKM”) (the “Proposed Spin - Off”).",
+        "Qualifying shareholders will be entitled to receive 1 CTG HKM ’ s share for every 4 China Travel ’ s shares (the “Distribution”).",
+        "According to the timetable for the Distribution, China Travel ’s shares (stock code 308 ) will be marked “ex - all” on 18 November 2026, the Ex-All Date."
+      ],
+      "source_excerpt": "China Travel International Investment Hong Kong Limited (“China Travel”) announced a spin -off proposal for a separate listing of CTG Hongkong and Macao Culture and Tourism Holding Limited (“CTG HKM”) (the “Proposed Spin - Off”). Qualifying shareholders will be entitled to receive 1 CTG HKM ’ s share for every 4 China Travel ’ s shares (the “Distribution”). According to the timetable for the Distribution, China Travel ’s shares (stock code 308 ) will be marked “ex - all” on 18 November 2026, the Ex-All Date. Given that the exact value of the shares of CTG HKM is not known , the Exchange will display “N/A” in the “PRV CLOSE” field of China Travel ’s OTP -C stock page on 18 November 2026, the Ex-All Date in accordance with the OTP-C standard practice. The unadjusted previous closing price will be displayed in the free text field. Shareholders, investors and market participants should read the announcements and circulars issued by China Travel in full including the terms and conditions of the Proposed Spin-Off and the Distribution in dealing with China Travel ’s shares. If they are in doubt, they should consult their professional adviser(s ).\n\n(GS/tc)\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nWilson Chan (Tel: 2211 6934)",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-17",
+      "title": "Report on “From Assistance to Autonomy: A.I. Adoption, Governance, and Compliance in Hong Kong’s Financial Services Industry”",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261117-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 3799,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261117-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Report on “From Assistance to…》。正文：published in 2025,1 provides an updated overview of the Generative A.I. (GenA.I.) landscape and explores…",
+      "key_points": [
+        "The report, building on the HKIMR’s prior study published in 2025,1 provides an updated overview of the Generative A.I. (GenA.I.) landscape and explores agentic A.I. developments in Hong Kong’s financial services industry.",
+        "The report underscores sustained momentum for GenA.I. adoption in Hong Kong’s financial services industry, with current or planned adoption reaching 90%, up from 75% in 2025.2 Meanwhile, agentic A.I. adoption is growing, with 13% of financial institutions having already implemented and 56% planning to implement the technology.",
+        "Within the regulatory compliance space, 86% of the surveyed financial institutions have adopted or plan to adopt GenA.I. solutions, and over 70% expressed interest in exploring the use of agentic A.I. over the next three to five years.",
+        "We hope that the findings of this report will help better inform the everchanging landscape of GenA.I. and agentic A.I. in the financial services industry, and contribute meaningfully to shaping actionable plans for A.I. adoption, governance, and compliance.”",
+        "The AoF is set up with full collaboration amongst the Hong Kong Monetary Authority, the Securities and Futures Commission, the Insurance Authority and the Mandatory Provident Fund Schemes Authority."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The report, building on the HKIMR’s prior study published in 2025,1 provides an updated overview of the Generative A.I. (GenA.I.) landscape and explores agentic A.I. developments in Hong Kong’s financial services industry.",
+        "The report underscores sustained momentum for GenA.I. adoption in Hong Kong’s financial services industry, with current or planned adoption reaching 90%, up from 75% in 2025.2 Meanwhile, agentic A.I. adoption is growing, with 13% of financial institutions having already implemented and 56% planning to implement the technology.",
+        "Within the regulatory compliance space, 86% of the surveyed financial institutions have adopted or plan to adopt GenA.I. solutions, and over 70% expressed interest in exploring the use of agentic A.I. over the next three to five years."
+      ],
+      "source_excerpt": "The report, building on the HKIMR’s prior study published in 2025,1 provides an updated overview of the Generative A.I. (GenA.I.) landscape and explores agentic A.I. developments in Hong Kong’s financial services industry. It places particular emphasis on the application of A.I. in regulatory compliance. The report draws on comprehensive insights from a survey and in-depth interviews commissioned by the HKIMR, conducted between January and July 2026 with financial institutions and technology and Regtech service providers.\n\nThe report underscores sustained momentum for GenA.I. adoption in Hong Kong’s financial services industry, with current or planned adoption reaching 90%, up from 75% in 2025.2 Meanwhile, agentic A.I. adoption is growing, with 13% of financial institutions having already implemented and 56% planning to implement the technology. Looking ahead, over half of the surveyed financial institutions would prioritise GenA.I. and explore agentic A.I., while some others indicated a balanced approach between the two.\n\nWithin the regulatory compliance space, 86% of the surveyed financial institutions have adopted or plan to adopt GenA.I. solutions, and over 70% expressed interest in exploring the use of agentic A.I. over the next three to five years.\n\nThere are still challenges hindering the further adoption of GenA.I. and agentic A.I., such as concerns regarding explainability and security.\n\nThe report is available on the AoF/HKIMR website.\n\nHong Kong Academy of Finance",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-16",
       "title": "Notification of Specified Date under Uncertificated Securities Market Regime pdf",
@@ -4209,106 +4308,6 @@
       "evidence": [],
       "source_excerpt": "",
       "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "HKEX to Extend Derivatives After-Hours Trading Session",
-      "official_url": "https://www.hkex.com.hk/News/News-Release/2026/261102news?sc_lang=en",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Change of Depository Service Arrangements under Uncertificated Securities Market (“USM”) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_012_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 4183,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_012_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Change of Depository Service…》。正文：The USM initiative is intended to streamline and automate existing processes, reduce reliance on manual and…",
-      "key_points": [
-        "The USM initiative is intended to streamline and automate existing processes, reduce reliance on manual and paper-based processing and enhance overall operational efficiency.",
-        "Participants are requested to familiarize themselves with the new arrangements set out below and make the necessary operational and staff training preparations to ensure a smooth transition to the new operating model.",
-        "Upon USM implementation, the existing physical deposit forms will be replaced by electronic deposit instructions submitted through the new “Login Deposit/Demat Order” function in CCASS.",
-        "For details, please refer to Chapter 2 of the Information Paper dated 30 March 2026.",
-        "With effect from 16 November 2026, Participants should use the new Standard Transfer Form (“STF”) (Attachment 1) for the applicable deposit and dematerialisation requests submitted to the Depository Counter."
-      ],
-      "key_dates": [
-        {
-          "date": "16 November 2026",
-          "kind": "effective",
-          "evidence": "With effect from 16 November 2026, Participants should use the new Standard Transfer Form (“STF”) (Attachment 1) for the applicable deposit and dematerialisation requests submitted to the Depository Counter."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "The USM initiative is intended to streamline and automate existing processes, reduce reliance on manual and paper-based processing and enhance overall operational efficiency.",
-        "Participants are requested to familiarize themselves with the new arrangements set out below and make the necessary operational and staff training preparations to ensure a smooth transition to the new operating model.",
-        "Upon USM implementation, the existing physical deposit forms will be replaced by electronic deposit instructions submitted through the new “Login Deposit/Demat Order” function in CCASS."
-      ],
-      "source_excerpt": "Hong Kong Securities Clearing Company Limited (“HKSCC”) would like to remind HKSCC Participants (“Participants”) of the changes to the Depository service arrangements for the deposit and dematerialization of physical securities certificates following the USM implementation on 16 November 2026. The USM initiative is intended to streamline and automate existing processes, reduce reliance on manual and paper-based processing and enhance overall operational efficiency.\n\nParticipants are requested to familiarize themselves with the new arrangements set out below and make the necessary operational and staff training preparations to ensure a smooth transition to the new operating model.\n\nUpon USM implementation, the existing physical deposit forms will be replaced by electronic deposit instructions submitted through the new “Login Deposit/Demat Order” function in CCASS. The function will support both (i) deposit requests for securities certificates of non-participating securities and (ii) demat with transfer requests for participating securities, and Participants should:\n\nFor details, please refer to Chapter 2 of the Information Paper dated 30 March 2026.\n\nWith effect from 16 November 2026, Participants should use the new Standard Transfer Form (“STF”) (Attachment 1) for the applicable deposit and dematerialisation requests submitted to the Depository Counter.\n\n通告 CIRCULAR\n\nSubject: Change of Depository Service Arrangements under Uncertificated Securities Market (“USM”)\n\n1.\n\n編號 Ref.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-02",
-      "title": "Change of Depository Service Arrangements under Uncertificated Securities Market (“USM”) (For Investor Participants Only) pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_013_2026v3.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 5527,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_013_2026v3.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Change of Depository Service…》。正文：will continue to operate. To facilitate a smooth transition to the post-USM Depository arrangements, the…",
-      "key_points": [
-        "USM represents an important development in Hong Kong’s securities market infrastructure, facilitates electronic ownership and transfer of securities without paper title instruments, while the existing CCASS central nominee structure will continue to operate.",
-        "To facilitate a smooth transition to the post-USM Depository arrangements, the key concepts and related operational changes are set out below.",
-        "Under USM, prescribed securities will progressively transition from certificated to uncertificated form.",
-        "• Participating securities are prescribed securities that have become USM-enabled, allowing legal title to be evidenced and transferred electronically without paper title instruments.",
-        "• Non-participating securities are securities that have not become USM-enabled and therefore continue to operate under the applicable existing arrangements including certificate-based arrangements where applicable."
-      ],
-      "key_dates": [
-        {
-          "date": "16 November 2026",
-          "kind": "effective",
-          "evidence": "In view of the above, with effect from 16 November 2026, IPs should note the following:"
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "USM represents an important development in Hong Kong’s securities market infrastructure, facilitates electronic ownership and transfer of securities without paper title instruments, while the existing CCASS central nominee structure will continue to operate.",
-        "To facilitate a smooth transition to the post-USM Depository arrangements, the key concepts and related operational changes are set out below.",
-        "Under USM, prescribed securities will progressively transition from certificated to uncertificated form."
-      ],
-      "source_excerpt": "USM represents an important development in Hong Kong’s securities market infrastructure, facilitates electronic ownership and transfer of securities without paper title instruments, while the existing CCASS central nominee structure will continue to operate.\n\nTo facilitate a smooth transition to the post-USM Depository arrangements, the key concepts and related operational changes are set out below.\n\nUnder USM, prescribed securities will progressively transition from certificated to uncertificated form. The key highlights of each form are outlined below:\n\n• Participating securities are prescribed securities that have become USM-enabled, allowing legal title to be evidenced and transferred electronically without paper title instruments. Existing physical certificates will remain valid but no new certificates or title instruments will be issued once the securities become participating securities.\n\n• Non-participating securities are securities that have not become USM-enabled and therefore continue to operate under the applicable existing arrangements including certificate-based arrangements where applicable.\n\nIn view of the above, with effect from 16 November 2026, IPs should note the following:\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nRef. No.: PT/DPS/CCASS/013/2026\n\nDate: 02/11/2026\n\nMarket (“USM”) (For Investor Participants Only)\n\n1.\n\n2.\n\n3.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
