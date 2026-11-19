@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-18T20:29:57.826Z",
+  "generated_at": "2026-11-19T07:23:50.539Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8999,
+  "duration_ms": 5800,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 4434,
+      "duration_ms": 4414,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2319,
+      "duration_ms": 3365,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2047,
+      "duration_ms": 2593,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 3706,
+      "duration_ms": 2132,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3073,
+      "duration_ms": 2232,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1632,
+      "duration_ms": 2494,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4878,
+      "duration_ms": 4511,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3481,
+      "duration_ms": 4288,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2283,
+      "duration_ms": 2151,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2280,
+      "duration_ms": 2149,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2280,
+      "duration_ms": 2149,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2280,
+      "duration_ms": 2149,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2280,
+      "duration_ms": 2149,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2280,
+      "duration_ms": 2149,
       "count": 5
     }
   ],
@@ -141,6 +141,74 @@
       ],
       "source_excerpt": "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 19 November 2026 (Thursday) for below markets:\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/Global/Exchange/Privacy-Policy?sc_lang=en\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nDaily Maximum Fluctuation Price Band Product Name Lower Limit Upper Limit USD London Copper Mini Futures (LUC) 10,988 13,984\n\nCNH London Copper Mini Futures (LRC) 73,250 93,210\n\nUSD London Tin Mini Futures (LUS) 36,427 49,282\n\nCNH London Tin Mini Futures (LRS) 242,830 328,520\n\nThomas Lam Senior Vice President Trading Department Operations Division\n\nEnquiry: H KATS ( Hotline 1 : 2211 - 6360 E - mail: hkatssupport@hkex.com.hk )\n\n編號 Ref.",
       "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-19",
+      "title": "Jiangxi Qiyunshan Food Co., Ltd. (Stock Code : 2797) - Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_414_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 4614,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_414_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Jiangxi Qiyunshan Food Co., Ltd.…》。正文：will be changed from 500 shares to 100 shares with effect from 26 November 2026.",
+      "key_points": [
+        "Pursuant to the announcement of Jiangxi Qiyunshan Food Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 500 shares to 100 shares with effect from 26 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 26 November 2026 and 29 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "With effect from 26 November 2026 until 29 December 2026, CCASS Depository will accept deposits of the existing share certificates under temporary stock code: 2972 and the new share certificates under stock code: 2797 in accordance with the schedule as listed in Appendix II."
+      ],
+      "key_dates": [
+        {
+          "date": "26 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the announcement of Jiangxi Qiyunshan Food Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 500 shares to 100 shares with effect from 26 November 2026."
+        },
+        {
+          "date": "21 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 21 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 2797."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the announcement of Jiangxi Qiyunshan Food Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 500 shares to 100 shares with effect from 26 November 2026.",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
+        "However, for stock positions that remain unsettled between 26 November 2026 and 29 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the announcement of Jiangxi Qiyunshan Food Co., Ltd. (\"the Company\"), the board lot size of shares for trading will be changed from 500 shares to 100 shares with effect from 26 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 26 November 2026 and 29 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 21 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 2797.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n3",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-19",
+      "title": "Guideline on Corruption Prevention issued by Hong Kong Association of Banks",
+      "official_url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/20261027-1-EN",
+      "reference": "20261027-1-EN",
+      "document_type": "CIR - Circular",
+      "source_id": "HKMA-CIRCULARS",
+      "source_label": "HKMA Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 0,
+      "text_extraction": "failed",
+      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "regulatory_circular",
+      "impact_status": "potential_impact",
+      "human_review_required": true,
+      "summary": "仅能获取标题，未能抽取正文",
+      "key_points": [],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [],
+      "source_excerpt": "",
+      "summary_method": "title_only"
     },
     {
       "publication_date": "2026-11-18",
@@ -4270,57 +4338,13 @@
       ],
       "source_excerpt": "Pursuant to the announcement of Grand Ocean Advanced Resources Company Limited (\"the Company\"), the board lot size of shares for trading will be changed from 4,000 shares to 5,000 shares with effect from 11 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 11 November 2026 and 10 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 4 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 65.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n編號 Ref.",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-04",
-      "title": "Announcement - In relation to the matter of Century Sunshine Group Holdings Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 509) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611043news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-11-04",
-      "title": "Announcement - In relation to the matter of Grand Baoxin Auto Group Limited (Incorporated in the Cayman Islands with limited liability) (Stock Code: 1293) Cancellation of listing",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/2611042news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "listing_rules",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 10,
-    "succeeded": 8,
-    "failed": 2,
+    "attempted": 2,
+    "succeeded": 1,
+    "failed": 1,
     "pending": 0
   }
 }
