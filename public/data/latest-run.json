@@ -1,109 +1,256 @@
 {
-  "generated_at": "2026-11-19T20:35:35.396Z",
+  "generated_at": "2026-11-20T07:14:04.556Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 5435,
+  "duration_ms": 7292,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 3836,
+      "duration_ms": 4581,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3167,
+      "duration_ms": 3455,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3821,
+      "duration_ms": 4261,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4410,
+      "duration_ms": 3588,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4093,
+      "duration_ms": 2063,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1360,
+      "duration_ms": 3733,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4314,
+      "duration_ms": 4435,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3764,
+      "duration_ms": 6369,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2260,
+      "duration_ms": 2529,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2259,
+      "duration_ms": 2527,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2259,
+      "duration_ms": 2527,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2259,
+      "duration_ms": 2527,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2259,
+      "duration_ms": 2527,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2259,
+      "duration_ms": 2527,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-20",
+      "title": "Asiasec Properties Limited (Stock Code: 271) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_417_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7632,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_417_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Asiasec Properties Limited (Stock…》。正文：will be consolidated into 1 consolidated share (“Consolidated Share”).",
+      "key_points": [
+        "Pursuant to the share consolidation proposal of Asiasec Properties Limited (“the Company”), every 10 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 14 December 2026 and 13 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 1 December 2026 until 13 January 2027, Existing Share certificates (red in colour) will be accepted for deposit under stock code: 2966 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "14 January 2027",
+          "kind": "effective",
+          "evidence": "Effective from 14 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 271 (New)."
+        },
+        {
+          "date": "11 December 2026",
+          "kind": "effective",
+          "evidence": "Effective from 11 December 2026, the CCASS Depository will accept deposit of Consolidated"
+        },
+        {
+          "date": "1 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 1 December 2026 until 14 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2966."
+        },
+        {
+          "date": "15 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 15 December 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 271."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation proposal of Asiasec Properties Limited (“the Company”), every 10 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 14 December 2026 and 13 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the share consolidation proposal of Asiasec Properties Limited (“the Company”), every 10 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 1,000 Existing Shares to 5,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 14 December 2026 and 13 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.\n\n1.\n\n2.\n\n3.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-20",
+      "title": "China Castson 81 Finance Company Limited (Stock Code: 810) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_416_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7705,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_416_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《China Castson 81 Finance Company…》。正文：will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+      "key_points": [
+        "Pursuant to the share consolidation proposal of China Castson 81 Finance Company Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 14 December 2026 and 13 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 1 December 2026 until 13 January 2027, Existing Share certificates (purple in colour) will be accepted for deposit under stock code: 2970 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "14 January 2027",
+          "kind": "effective",
+          "evidence": "Effective from 14 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 810 (New)."
+        },
+        {
+          "date": "11 December 2026",
+          "kind": "effective",
+          "evidence": "Effective from 11 December 2026, the CCASS Depository will accept deposit of Consolidated Share certificates (green in colour) under stock code: 810 (New)."
+        },
+        {
+          "date": "1 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 1 December 2026 until 14 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2970."
+        },
+        {
+          "date": "15 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 15 December 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 810."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation proposal of China Castson 81 Finance Company Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 14 December 2026 and 13 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the share consolidation proposal of China Castson 81 Finance Company Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 6,000 Existing Shares to 1,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 1 December 2026 until 13 January 2027, Existing Share certificates (purple in colour) will be accepted for deposit under stock code: 2970 (Temp).\n\n2.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n3.\n\n4\n\n5",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-20",
+      "title": "Display of Adjusted Previous Closing Price of Star Shine Holdings Group Limited (stock code 1440) on OTP-C for its 1-into-4 Share Subdivision on 23 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026190_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3108,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026190_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 23 November 2026.",
+      "key_points": [
+        "Pursuant to the share subdivision timetable issued by Star Shine Holdings Group Limited (“ Star Shine ”), the share subdivision of 1 existing share of HK$0.01 each in Star Shine into 4 subdivided shares of HK$0.0025 each will become effective on 23 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Subdivision becoming effective x R",
+        "For illustration purpose, depending on Star Shine’s closing price on 20 November 2026, the Exchange shall base on the above standard formula for share subdivision generally to calculate and display the Adjusted Previous Closing Price on Star Shine’s OTP - C temporary stock page on 23 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Star Shine ’s circulars and regulatory announcements in full including the terms and conditions of Star Shine ’s share subdivision in dealing with Star Shine ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "23 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share subdivision timetable issued by Star Shine Holdings Group Limited (“ Star Shine ”), the share subdivision of 1 existing share of HK$0.01 each in Star Shine into 4 subdivided shares of HK$0.0025 each will become effective on 23 November 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share subdivision timetable issued by Star Shine Holdings Group Limited (“ Star Shine ”), the share subdivision of 1 existing share of HK$0.01 each in Star Shine into 4 subdivided shares of HK$0.0025 each will become effective on 23 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Subdivision becoming effective x R",
+        "For illustration purpose, depending on Star Shine’s closing price on 20 November 2026, the Exchange shall base on the above standard formula for share subdivision generally to calculate and display the Adjusted Previous Closing Price on Star Shine’s OTP - C temporary stock page on 23 November 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share subdivision timetable issued by Star Shine Holdings Group Limited (“ Star Shine ”), the share subdivision of 1 existing share of HK$0.01 each in Star Shine into 4 subdivided shares of HK$0.0025 each will become effective on 23 November 2026. Shareholders, investors and market participants should read the Star Shine ’s circulars and regulatory announcements in full including the terms and conditions of Star Shine ’s share subdivision in dealing with Star Shine ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share subdivision and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Star Shine ’s OTP -C temporary stock page (stock code 2963) on 23 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on Star Shine ’s closing price on 20 November 2026 (i.e. the day immediately before the share subdivision becoming effective) and by using the following standard adjustment formula for share subdivision generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Subdivision becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\nFOR REFERENCE ONLY\n\n…/2",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-19",
       "title": "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price pdf",
@@ -4231,111 +4378,12 @@
       ],
       "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (6 November) that a tender of 10-year RMB institutional Government Bonds (Bonds) through the re-opening of existing 10-year Government Bond issue 10GB3505001 under the Infrastructure Bond Programme will be held on Thursday, 12 November 2026, for settlement on Monday, 16 November 2026.\n\nAn additional amount of RMB1.5 billion of the outstanding 10-year Bonds (issue no. 10GB3505001) will be on offer. The Bonds will mature on 15 May 2035 and will carry interest at the rate of 2.29% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 6 November 2026 are 104.18 with a semi-annualised yield of 1.760%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of RMB50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number : 10GB3505001",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "Tender of 3-year RMB HKSAR Institutional Government Bonds through re-opening to be held on Thursday, 12 November 2026",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-5/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 3665,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-5/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Tender of 3-year RMB HKSAR…》。正文：announced today (6 November) that a tender of 3-year RMB institutional Government Bonds (Bonds) through the…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (6 November) that a tender of 3-year RMB institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912002 under the Infrastructure Bond Programme will be held on Thursday, 12 November 2026, for settlement on Monday, 16 November 2026.",
-        "An additional amount of RMB0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912002) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme.",
-        "Tender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX).",
-        "Interest Payment Dates : 9 June and 9 December in each year, commencing on the Issue Date up to and including the Maturity Date, subject to adjustment in accordance with the terms of the Institutional Issuances Information Memorandum of the Infrastructure Bond Programme and Government Sustainable Bond Programme (Information Memorandum) published on the Hong Kong Government Bonds website."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (6 November) that a tender of 3-year RMB institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912002 under the Infrastructure Bond Programme will be held on Thursday, 12 November 2026, for settlement on Monday, 16 November 2026.",
-        "An additional amount of RMB0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912002) will be on offer.",
-        "Tender is open only to Primary Dealers appointed under the Infrastructure Bond Programme."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced today (6 November) that a tender of 3-year RMB institutional Government Bonds (Bonds) through the re-opening of existing 5-year Government Bond issue 05GB2912002 under the Infrastructure Bond Programme will be held on Thursday, 12 November 2026, for settlement on Monday, 16 November 2026.\n\nAn additional amount of RMB0.75 billion of the outstanding 5-year Bonds (issue no. 05GB2912002) will be on offer. The Bonds will mature on 10 December 2029 and will carry interest at the rate of 2.37% per annum payable semi-annually in arrear. The Indicative Pricings of the Bonds on 6 November 2026 are 102.74 with a semi-annualised yield of 1.459%.\n\nTender is open only to Primary Dealers appointed under the Infrastructure Bond Programme. Anyone wishing to apply for the Bonds on offer can do so through any of the Primary Dealers on the latest published list, which can be obtained from the Hong Kong Government Bonds website at https://www.hkgb.gov.hk. Each tender must be for an amount of RMB50,000 or integral multiples thereof.\n\nTender results will be published on the HKMA’s website, the Hong Kong Government Bonds website, Bloomberg (GBHK <GO>) and Refinitiv (IBPGSBPINDEX). The publication time is expected to be no later than 3:00 pm on the tender day.\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER INFORMATION\n\nIssue Number : 05GB2912002",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "Survey on Small and Medium-Sized Enterprises (SMEs)’ Credit Conditions for Third Quarter 2026",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 3469,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-4/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Survey on Small and Medium-Sized…》。正文：published today (6 November) the results of the Survey on Small and Medium-Sized Enterprises (SMEs)’…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA) published today (6 November) the results of the Survey on Small and Medium-Sized Enterprises (SMEs)’ Credit Conditions for the third quarter of 2026.",
-        "Owing to small sample sizes of SMEs with existing credit lines (18% of surveyed SMEs) and with new credit applications (2% of surveyed SMEs) during the quarter, the results could be prone to large fluctuations, and hence should be interpreted with care.",
-        "In light of the importance of SMEs to the Hong Kong economy and concerns about potential funding difficulties facing SMEs over the past few years, the HKMA has appointed the Hong Kong Productivity Council (HKPC) to carry out this survey, starting from the third quarter of 2016.",
-        "The results of this survey should be interpreted with caution.",
-        "Detailed tables and technical information of this survey are published on the website of the HKPC (https://smecc.hkpc.org)."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA) published today (6 November) the results of the Survey on Small and Medium-Sized Enterprises (SMEs)’ Credit Conditions for the third quarter of 2026.",
-        "Owing to small sample sizes of SMEs with existing credit lines (18% of surveyed SMEs) and with new credit applications (2% of surveyed SMEs) during the quarter, the results could be prone to large fluctuations, and hence should be interpreted with care.",
-        "In light of the importance of SMEs to the Hong Kong economy and concerns about potential funding difficulties facing SMEs over the past few years, the HKMA has appointed the Hong Kong Productivity Council (HKPC) to carry out this survey, starting from the third quarter of 2016."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) published today (6 November) the results of the Survey on Small and Medium-Sized Enterprises (SMEs)’ Credit Conditions for the third quarter of 2026. According to the survey, SMEs’ credit conditions improved slightly.\n\nOwing to small sample sizes of SMEs with existing credit lines (18% of surveyed SMEs) and with new credit applications (2% of surveyed SMEs) during the quarter, the results could be prone to large fluctuations, and hence should be interpreted with care.\n\nIn light of the importance of SMEs to the Hong Kong economy and concerns about potential funding difficulties facing SMEs over the past few years, the HKMA has appointed the Hong Kong Productivity Council (HKPC) to carry out this survey, starting from the third quarter of 2016. This survey is conducted on a quarterly basis, covering about 2,500 SMEs from different economic sectors each time. The results of this survey can help monitor the development of SMEs’ access to bank credit from a demand-side perspective.\n\nThe results of this survey should be interpreted with caution.\n\nSimilar to other opinion surveys, views collected in this survey may be affected by changes in sentiment due to idiosyncratic events that occurred over the survey period, which can make the results prone to fluctuations.\n\nReaders are advised to interpret the results together with other economic and financial information.\n\nAbout Survey on Small and Medium-Sized Enterprises (SMEs)’ Credit Conditions",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "Hong Kong’s Latest Foreign Currency Reserve Assets Figures Released",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1525,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261106-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Hong Kong’s Latest Foreign…》。正文：announced today (6 November) that the official foreign currency reserve assets of Hong Kong amounted to…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA) announced today (6 November) that the official foreign currency reserve assets of Hong Kong amounted to US$440.5 billion as at the end of October 2026 (end-September 2026: US$432.9 billion) (Annex).",
-        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
-        "Three of these releases are issued to disseminate monetary data in accordance with International Monetary Fund’s Special Data Dissemination Standard (SDDS).",
-        "The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency.",
-        "For the month of November 2026, the scheduled dates for issuing the press releases are as follows:"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA) announced today (6 November) that the official foreign currency reserve assets of Hong Kong amounted to US$440.5 billion as at the end of October 2026 (end-September 2026: US$432.9 billion) (Annex).",
-        "At present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month.",
-        "Three of these releases are issued to disseminate monetary data in accordance with International Monetary Fund’s Special Data Dissemination Standard (SDDS)."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (6 November) that the official foreign currency reserve assets of Hong Kong amounted to US$440.5 billion as at the end of October 2026 (end-September 2026: US$432.9 billion) (Annex).\n\nAt present, four press releases relating to the Exchange Fund’s data are issued by the HKMA each month. Three of these releases are issued to disseminate monetary data in accordance with International Monetary Fund’s Special Data Dissemination Standard (SDDS). The fourth press release, on the Exchange Fund’s Abridged Balance Sheet and Currency Board Account, is made in accordance with the HKMA’s policy of maintaining a high level of transparency. For the month of November 2026, the scheduled dates for issuing the press releases are as follows:\n\nThere were no unsettled foreign exchange contracts at end-October and end-September 2026.\n\nThe total foreign currency reserve assets of US$440.5 billion represent over five times the currency in circulation or about 36% of Hong Kong dollar M3.\n\n6 November 2026\n\n****************************************************************\n\nSDDS International Reserves\n\n(Hong Kong’s Latest Foreign Currency Reserve Assets Figures)\n\n13 November\n\nSDDS Analytical Accounts of the Central Bank\n\n(Analytical Accounts of the Exchange Fund)\n\n30 November\n\nSDDS Template on International Reserves and\n\nForeign Currency Liquidity\n\nExchange Fund Abridged Balance Sheet and",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 11,
-    "succeeded": 11,
+    "attempted": 3,
+    "succeeded": 3,
     "failed": 0,
     "pending": 0
   }
