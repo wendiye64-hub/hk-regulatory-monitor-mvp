@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-23T07:35:57.802Z",
+  "generated_at": "2026-11-23T23:52:32.994Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8443,
+  "duration_ms": 4986,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2522,
+      "duration_ms": 2785,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3407,
+      "duration_ms": 4174,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3972,
+      "duration_ms": 1815,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4522,
+      "duration_ms": 2194,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 4223,
+      "duration_ms": 2973,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2619,
+      "duration_ms": 1363,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4006,
+      "duration_ms": 4385,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 1111,
+      "duration_ms": 3737,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2844,
+      "duration_ms": 2402,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2842,
+      "duration_ms": 2399,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2842,
+      "duration_ms": 2399,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2842,
+      "duration_ms": 2399,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2842,
+      "duration_ms": 2399,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2842,
+      "duration_ms": 2399,
       "count": 5
     }
   ],
@@ -164,6 +164,125 @@
         "The HKMC, in fulfilling its mandate of developing the Hong Kong local debt capital market, has been issuing ILBS regularly through its Bauhinia brand name for the past three years, with the long-term goal of promoting ILBS as a standalone asset class and strengthening Hong Kong’s position as an infrastructure financing hub."
       ],
       "source_excerpt": "The Hong Kong Mortgage Corporation Limited (HKMC) and the Asian Infrastructure Investment Bank (AIIB) have signed a Letter of Intent (LoI) on 20 November in Hong Kong to set out a framework for co-operation between the two parties.\n\nOver the past three years, AIIB has continued to support the HKMC’s ILBS issuances as an anchor investor through its US$300 million investment program, Project Ocean, primarily through its investments in the sustainability tranche of the issuances.\n\nThe HKMC, in fulfilling its mandate of developing the Hong Kong local debt capital market, has been issuing ILBS regularly through its Bauhinia brand name for the past three years, with the long-term goal of promoting ILBS as a standalone asset class and strengthening Hong Kong’s position as an infrastructure financing hub. The Bauhinia issuances offer professional investors exposure to a diversified portfolio of projects and infrastructure debts across multiple geographies and industry sectors. AIIB has been a key supporter of the Bauhinia issuances. Given its status as a multilateral development bank, AIIB’s involvement has strengthened investors’ confidence, furthering investor base growth and increasing private capital mobilisation.\n\nFurther advancing our partnership with AIIB will bring further opportunities to develop our business and promote the development of Hong Kong as an infrastructure financing hub.”\n\n23 November 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-23",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_308_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1065,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_308_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that with effect from the commencement of trading on 25 November 2026 (including the…",
+      "key_points": [
+        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 25 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contracts will be revised.",
+        "• MSCI Taiwan Net Total Return (USD) Index • MSCI AC Asia ex Japan Net Total Return Index • USD Gold Futures",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "25 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 25 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contracts will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 25 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contracts will be revised.",
+        "• MSCI Taiwan Net Total Return (USD) Index • MSCI AC Asia ex Japan Net Total Return Index • USD Gold Futures",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
+      ],
+      "source_excerpt": "Please be advised that pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that with effect from the commencement of trading on 25 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contracts will be revised. The details of the revised margin levels can be found here .\n\n• MSCI Taiwan Net Total Return (USD) Index • MSCI AC Asia ex Japan Net Total Return Index • USD Gold Futures\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/308/2026 日期 Date: 23/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-23",
+      "title": "Change of SZSE-Listed China Connect Securities List pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_185_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1523,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CTCSC_185_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Change of SZSE-Listed China…》。正文：will be removed from the list of China Connect Securities and will be added to the list of Special China…",
+      "key_points": [
+        "With effect from 24 November 2026 , 1 security which is listed on Shenzhen Stock Exchange (\"SZSE\") will be removed from the list of China Connect Securities and will be added to the list of Special China Connect Securities which will be eligible for sell only in Northbound trading.",
+        "The aforementioned changes are also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SZSE website.",
+        "This circular has been issued in the English language with a separate Chinese language translation.",
+        "If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail."
+      ],
+      "key_dates": [
+        {
+          "date": "24 November 2026",
+          "kind": "effective",
+          "evidence": "With effect from 24 November 2026 , 1 security which is listed on Shenzhen Stock Exchange (\"SZSE\") will be removed from the list of China Connect Securities and will be added to the list of Special China Connect Securities which will be eligible for sell only in Northbound trading."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "With effect from 24 November 2026 , 1 security which is listed on Shenzhen Stock Exchange (\"SZSE\") will be removed from the list of China Connect Securities and will be added to the list of Special China Connect Securities which will be eligible for sell only in Northbound trading.",
+        "The aforementioned changes are also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.",
+        "When providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SZSE website."
+      ],
+      "source_excerpt": "With effect from 24 November 2026 , 1 security which is listed on Shenzhen Stock Exchange (\"SZSE\") will be removed from the list of China Connect Securities and will be added to the list of Special China Connect Securities which will be eligible for sell only in Northbound trading.\n\nThe aforementioned changes are also available on the “ Eligible Stocks ” section of the Connect Programmes webpage.\n\nWhen providing services to clients on China Connect Securities, Exchange Participants are reminded to refer to the latest information including but not limited to the announcements issued by listed companies on the SZSE website.\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Change of SZSE-Listed China Connect Securities List\n\nEnquiry: Participant General Enquiry Hotline 1 (Tel : 2840 3626 E-mail : trd@hkex.com.hk )\n\nOlivia Mak Senior Vice President Trading Department Operations Division\n\n1 All calls to and from the Participant General Enquiry Hotline may be recorded. HKEX Privacy Policy Statement is available here .\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-23",
+      "title": "Liquidity Risk Multiplier in Initial Margin calculation for FDR007 for Northbound Swaps pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Nov_2026_309.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3031,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/OTC-Clear/2026/Circular_OTCRM_Nov_2026_309.pdf",
+      "regulatory_domain": "prudential",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Liquidity Risk Multiplier in…》。正文：Following the introduction of FDR007 for Northbound swaps with reference to the circular dated 20 November…",
+      "key_points": [
+        "Following the introduction of FDR007 for Northbound swaps with reference to the circular dated 20 November 2026 (Ref: OTCO/015/2026 ), pursuant to Chapter 4 of the OTC Clearing Hong Kong Limited (“OTC Clear”) Clearing Procedures, OTC Clear has completed the calibration of the Liquidity Risk Multiplier for such product, i.e.",
+        "Based on the poll results, OTC Clear calibrates the required levels of margin add-on with respect to the different level of risks as reflected by the Initial Margin requirements.",
+        "For example, if a Clearing Member ’ s cleared portfolio consists of only CNY IRS (FDR007) trades: ◼ Initial Margin for the portfolio is HKD 700 mn The margin add-on to be imposed would be HKD 182 mn, being the higher of i) Portfolio Level Add- on of HKD 700 mn x (1 – 1) = HKD 0 mn and ii) Component Level Add-on of HKD 700 mn x (1.26 – 1) = HKD 182 mn",
+        "The component levels of Liquidity Risk Multiplier are determined based on the results from the poll conducted with Clearing Members in September 2026.",
+        "The following tables summarize the levels of Liquidity Risk Multiplier which will be effective from 30 November 2026."
+      ],
+      "key_dates": [
+        {
+          "date": "30 November 2026",
+          "kind": "effective",
+          "evidence": "The following tables summarize the levels of Liquidity Risk Multiplier which will be effective from 30 November 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Following the introduction of FDR007 for Northbound swaps with reference to the circular dated 20 November 2026 (Ref: OTCO/015/2026 ), pursuant to Chapter 4 of the OTC Clearing Hong Kong Limited (“OTC Clear”) Clearing Procedures, OTC Clear has completed the calibration of the Liquidity Risk Multiplier for such product, i.e.",
+        "Based on the poll results, OTC Clear calibrates the required levels of margin add-on with respect to the different level of risks as reflected by the Initial Margin requirements.",
+        "For example, if a Clearing Member ’ s cleared portfolio consists of only CNY IRS (FDR007) trades: ◼ Initial Margin for the portfolio is HKD 700 mn The margin add-on to be imposed would be HKD 182 mn, being the higher of i) Portfolio Level Add- on of HKD 700 mn x (1 – 1) = HKD 0 mn and ii) Component Level Add-on of HKD 700 mn x (1.26 – 1) = HKD 182 mn"
+      ],
+      "source_excerpt": "Following the introduction of FDR007 for Northbound swaps with reference to the circular dated 20 November 2026 (Ref: OTCO/015/2026 ), pursuant to Chapter 4 of the OTC Clearing Hong Kong Limited (“OTC Clear”) Clearing Procedures, OTC Clear has completed the calibration of the Liquidity Risk Multiplier for such product, i.e. CNY IRS (FDR007). The component levels of Liquidity Risk Multiplier are determined based on the results from the poll conducted with Clearing Members in September 2026. The following tables summarize the levels of Liquidity Risk Multiplier which will be effective from 30 November 2026.\n\nTo mitigate the added risk associated with large cleared portfolios, OTC Clear imposes a margin add-on on portfolios that present material liquidation risk in the potential event of default. Based on the poll results, OTC Clear calibrates the required levels of margin add-on with respect to the different level of risks as reflected by the Initial Margin requirements. OTC Clear will apply the relevant Liquidity Risk Multiplier to calculate a margin add-on for the entire cleared portfolio (Portfolio Level Add-on) and a margin add-on with reference to the product group within the cleared portfolio (Component Level Add-on). The higher between the Portfolio Level Add-on and the Component Level Add-on shall be the margin add-on to be imposed on the Clearing Member.\n\n通告 CIRCULAR\n\nClassification – Internal\n\nPortfolio Level Liquidity Risk Multiplier :\n\n>2,000 & ≤ 2,500\n\n編號 Ref.",
       "summary_method": "extractive"
     },
     {
@@ -4233,143 +4352,12 @@
       ],
       "source_excerpt": "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited. The Securities and Futures Commission takes no responsibility for the contents of this announcement, makes no representation as to its accuracy or completeness, and expressly disclaims any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement.\n\n(Incorporated in Hong Kong with limited liability) Stock Codes: 388 (HKD counter) and 80388 (RMB counter) (Financial figures in this announcement are expressed in Hong Kong dollar (HKD) unless otherwise stated)\n\nWith global investors rethinking their capital allocation strategies, this is a defining moment for Hong Kong’s markets, and HKEX is meeting it with ambition and action.\n\nThrough listing reforms, market infrastructure enhancements and new products, we are advancing our strategic initiatives to deepen liquidity, broaden participation and strengthen the connections across asset classes.\n\nAs we navigate heightened macro uncertainties and ongoing volatility, our conviction in building a deeper and more diverse multi-asset ecosystem has only strengthened.\n\nIt excludes the Group’s share of results of joint ventures and an associate.\n\n1\n\nQUARTERLY RESULTS\n\n2\n\nHIGHLIGHTS",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "HKCC Participant Additional Deposit pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_291_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 1772,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_291_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《HKCC Participant Additional Deposit》。正文：Please be advised that HKFE Clearing Corporation Limited (HKCC) has recalculated the HKCC Participant…",
-      "key_points": [
-        "Please be advised that HKFE Clearing Corporation Limited (HKCC) has recalculated the HKCC Participant Additional Deposits (HPAD) pursuant to the HKCC Rule 705A and the Clearing House Procedures.",
-        "Participants can obtain the details regarding the individual contribution requirement from the HKCC Participant Additional Deposits report (RP008) distributed through the DCASS Terminal on 6 November 2026 .",
-        "Please be advised that the Reserve Fund (RF) (including the HKCC Participant Additional Deposits Credit) will be equal to HK$5,099 million after the abovementioned recalculation.",
-        "The new total HPAD requirement of HK$4,019 million after the recalculation will be shared by all the Participants based on their daily average net margin liabilities during the period from 14 August 2026 to 5 November 2026 in accordance with Chapter 4 of the Clearing House Procedures for Futures/Options Contracts Traded on the Automated Trading System of the Exchange (“HKATS”).",
-        "The required/surplus amount will be directly debited/credited from/to Participants’ House bank accounts designated for the settlement of HSI futures/options via the “Direct Margin Debiting System” by 4:00 p.m. on 9 November 2026."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Please be advised that HKFE Clearing Corporation Limited (HKCC) has recalculated the HKCC Participant Additional Deposits (HPAD) pursuant to the HKCC Rule 705A and the Clearing House Procedures.",
-        "Participants can obtain the details regarding the individual contribution requirement from the HKCC Participant Additional Deposits report (RP008) distributed through the DCASS Terminal on 6 November 2026 .",
-        "Please be advised that the Reserve Fund (RF) (including the HKCC Participant Additional Deposits Credit) will be equal to HK$5,099 million after the abovementioned recalculation."
-      ],
-      "source_excerpt": "Please be advised that HKFE Clearing Corporation Limited (HKCC) has recalculated the HKCC Participant Additional Deposits (HPAD) pursuant to the HKCC Rule 705A and the Clearing House Procedures. The new total HPAD requirement of HK$4,019 million after the recalculation will be shared by all the Participants based on their daily average net margin liabilities during the period from 14 August 2026 to 5 November 2026 in accordance with Chapter 4 of the Clearing House Procedures for Futures/Options Contracts Traded on the Automated Trading System of the Exchange (“HKATS”).\n\nParticipants can obtain the details regarding the individual contribution requirement from the HKCC Participant Additional Deposits report (RP008) distributed through the DCASS Terminal on 6 November 2026 . The required/surplus amount will be directly debited/credited from/to Participants’ House bank accounts designated for the settlement of HSI futures/options via the “Direct Margin Debiting System” by 4:00 p.m. on 9 November 2026.\n\nPlease be advised that the Reserve Fund (RF) (including the HKCC Participant Additional Deposits Credit) will be equal to HK$5,099 million after the abovementioned recalculation. Should the RF Threshold of HK$7,300 million is reached, RF additional margin in the amount of net projected loss of the CP and its affiliates (CP Group) in excess of 50% of the RF will be collected from the concerned CP Group.\n\n通告 CIRCULAR\n\n編號 Ref. No.: ORM/CRC/291/2026 日期 Date: 06/11/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "AOM International Group Company Limited (Stock Code: 381) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_393_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 7840,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_393_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《AOM International Group Company…》。正文：will be consolidated into 1 consolidated share (“Consolidated Share”).",
-      "key_points": [
-        "Pursuant to the share consolidation proposal of AOM International Group Company Limited (“the Company”), every 2 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 30 November 2026 and 30 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
-        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
-        "From 17 November 2026 until 30 December 2026, Existing Share certificates (purple in colour) will be accepted for deposit under stock code: 2959 (Temp)."
-      ],
-      "key_dates": [
-        {
-          "date": "31 December 2026",
-          "kind": "effective",
-          "evidence": "Effective from 31 December 2026, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 381 (New)."
-        },
-        {
-          "date": "27 November 2026",
-          "kind": "effective",
-          "evidence": "Effective from 27 November 2026, the CCASS Depository will accept deposit of Consolidated Share certificates (yellow in colour) under stock code: 381 (New)."
-        },
-        {
-          "date": "17 November 2026",
-          "kind": "effective",
-          "evidence": "With effect from 17 November 2026 until 30 November 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2959."
-        },
-        {
-          "date": "1 December 2026",
-          "kind": "effective",
-          "evidence": "With effect from 1 December 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 381."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the share consolidation proposal of AOM International Group Company Limited (“the Company”), every 2 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 30 November 2026 and 30 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
-      ],
-      "source_excerpt": "Pursuant to the share consolidation proposal of AOM International Group Company Limited (“the Company”), every 2 existing shares (“Existing Share”) will be consolidated into 1 consolidated share (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 20,000 Existing Shares to 10,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 17 November 2026 until 30 December 2026, Existing Share certificates (purple in colour) will be accepted for deposit under stock code: 2959 (Temp).\n\n2.\n\n1 Calls to and from the CCASS Hotline may be recorded.\n\n3.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "CMOC Group Limited (Stock Code : 3993) - Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_392_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 4561,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_392_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《CMOC Group Limited (Stock Code :…》。正文：will be changed from 3,000 shares to 500 shares with effect from 13 November 2026.",
-      "key_points": [
-        "Pursuant to the announcement of CMOC Group Limited (\"the Company\"), the board lot size of shares for trading will be changed from 3,000 shares to 500 shares with effect from 13 November 2026.",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
-        "However, for stock positions that remain unsettled between 13 November 2026 and 14 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
-        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
-        "With effect from 13 November 2026 until 14 December 2026, CCASS Depository will accept deposits of the existing share certificates under temporary stock code: 2957 and the new share certificates under stock code: 3993 in accordance with the schedule as listed in Appendix II."
-      ],
-      "key_dates": [
-        {
-          "date": "13 November 2026",
-          "kind": "effective",
-          "evidence": "Pursuant to the announcement of CMOC Group Limited (\"the Company\"), the board lot size of shares for trading will be changed from 3,000 shares to 500 shares with effect from 13 November 2026."
-        },
-        {
-          "date": "8 December 2026",
-          "kind": "effective",
-          "evidence": "With effect from 8 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3993."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the announcement of CMOC Group Limited (\"the Company\"), the board lot size of shares for trading will be changed from 3,000 shares to 500 shares with effect from 13 November 2026.",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company.",
-        "However, for stock positions that remain unsettled between 13 November 2026 and 14 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
-      ],
-      "source_excerpt": "Pursuant to the announcement of CMOC Group Limited (\"the Company\"), the board lot size of shares for trading will be changed from 3,000 shares to 500 shares with effect from 13 November 2026.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) of participants in CCASS to facilitate settlement of shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates. However, for stock positions that remain unsettled between 13 November 2026 and 14 December 2026, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\n2.\n\nWith effect from 8 December 2026, the CCASS Depository will only accept withdrawal of shares under new stock code: 3993.\n\n1 Calls to and from the CCASS Hotline may be recorded. HKEX Privacy Notice is available here.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 2,
-    "succeeded": 2,
+    "attempted": 3,
+    "succeeded": 3,
     "failed": 0,
     "pending": 0
   }
