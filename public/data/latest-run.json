@@ -1,109 +1,192 @@
 {
-  "generated_at": "2026-11-23T23:52:32.994Z",
+  "generated_at": "2026-11-24T09:52:39.521Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4986,
+  "duration_ms": 7224,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2785,
+      "duration_ms": 4397,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4174,
+      "duration_ms": 4396,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 1815,
+      "duration_ms": 3770,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2194,
+      "duration_ms": 3518,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2973,
-      "count": 10
+      "duration_ms": 4829,
+      "count": 0
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1363,
+      "duration_ms": 2910,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4385,
+      "duration_ms": 4921,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3737,
+      "duration_ms": 3787,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2402,
+      "duration_ms": 3066,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 3064,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 3064,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 3064,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 3064,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 3064,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-24",
+      "title": "Exchange Fund Notes Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-5/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 878,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-5/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Exchange Fund Notes Tender Results》。正文：* “Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
+      "key_points": [
+        "* “Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “lowest price accepted” level."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "* “Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “lowest price accepted” level."
+      ],
+      "source_excerpt": "* “Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “lowest price accepted” level.\n\nTender date : 24 November 2026\n\nPaper on offer : EF Notes\n\nIssue number : 02Y2811\n\nIssue date : 25 November 2026\n\nMaturity date : 27 November 2028\n\nCoupon : 3.48% p.a.\n\nCompetitive Tender Result\n\nAmount applied : HK$5,395 MN\n\nAmount allotted : HK$1,198.4 MN\n\nAverage price accepted (yield) : 100.07 (3.47 PCT)\n\nLowest price accepted (yield) : 100.00 (3.51 PCT)\n\nPro rata ratio* : About 32 PCT\n\nAverage tender price (yield) : 99.86 (3.58 PCT)\n\nNon-competitive Tender Results (for applications submitted through Hong Kong Securities Clearing Company Limited)\n\nAmount applied : HK$1.6 MN\n\nAmount allotted : HK$1.6 MN\n\nAllotment Price (yield) : 100.00 (3.51 PCT)\n\nPro rata ratio* : 100 PCT\n\nEnd/Tuesday, 24 November 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-24",
+      "title": "Exchange Fund Bills Tender Results",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-4/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1537,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-4/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Exchange Fund Bills Tender Results》。正文：*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
+      "key_points": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
+        "Tenders to be held in the week beginning – 30 November 2026:"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
+        "Tenders to be held in the week beginning – 30 November 2026:"
+      ],
+      "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTenders to be held in the week beginning – 30 November 2026:\n\nTender date\n\n24 November 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2647\n\nIssue date\n\n25 November 2026\n\nMaturity date\n\n24 February 2027\n\nAmount applied\n\nHK$180,675 MN\n\nAmount allotted\n\nHK$70,271 MN\n\nAverage yield accepted\n\n2.92 PCT\n\nHighest yield accepted\n\n2.97 PCT\n\nPro rata ratio*\n\nAbout 24 PCT\n\nAverage tender yield\n\n3.11 PCT\n\n****************************\n\nH2676\n\n26 May 2027\n\nHK$49,195 MN\n\nHK$15,000 MN\n\n3.15 PCT\n\nAbout 84 PCT\n\n3.22 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\n1 December 2026\n\nQ2648\n\n2 December 2026\n\n3 March 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$68,485 MN\n\nH2677\n\n2 June 2027\n\n182 Days\n\nHK$13,000 MN\n\nEnd/Tuesday, 24 November, 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-24",
+      "title": "Result of the tenders of the People's Bank of China RMB Bills held on 24 November 2026",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 1292,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261124-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Result of the tenders of the…》。正文：*************************************************************************",
+      "key_points": [
+        "*************************************************************************"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "*************************************************************************"
+      ],
+      "source_excerpt": "*************************************************************************\n\nTender Result\n\nTender Date\n\n:\n\n24 November 2026\n\nBills available for Tender\n\nThree-Month RMB Bills\n\nIssuer\n\nThe People’s Bank of China\n\nIssue Number\n\nBCHKFP26082\n\nIssue Date\n\n26 November 2026\n\nMaturity Date\n\n25 February 2027 (or the closest coupon payment date)\n\nApplication Amount\n\nRMB 49,170 million\n\nIssue Amount\n\nRMB 20,000 million\n\nAverage accepted Coupon Rate\n\n1.28 %\n\nHighest accepted Coupon Rate (Bills’ Coupon)\n\n1.32 %\n\nLowest accepted Coupon Rate\n\n1.20 %\n\nAllocation Ratio (At Highest accepted Coupon Rate)\n\nApproximately 30.67 %\n\nOne-Year RMB Bills\n\nBCHKFP26083\n\n26 November 2027 (or the closest coupon payment date)\n\nRMB 94,600 million\n\nRMB 30,000 million\n\n1.38 %\n\n1.41 %\n\n1.29 %\n\nApproximately 2.88 %",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-23",
       "title": "Planned system enhancement for the Faster Payment System on 29 November 2026",
@@ -4208,149 +4291,6 @@
         "The marked-up version of the amendments can also be downloaded from the “ Rule Update - Rules of the Exchange ” section of the HKEX website."
       ],
       "source_excerpt": "Holders of Stock Exchange Trading Rights and Exchange Participants are requested to note that the Securities and Futures Commission has approved amendments to the Rules for the purpose of facilitating the enhancement in the Hong Kong securities market brought about by the implementation of the Uncertificated Securities Market initiative in Hong Kong.\n\nThe amendments are set out in the Appendix and will come into effect on Monday, 16 November 2026.\n\nThe marked-up version of the amendments can also be downloaded from the “ Rule Update - Rules of the Exchange ” section of the HKEX website.\n\n552A. Scrips and transfer deeds Securities should be delivered in such manner as prescribed by the Board from time to time. All deliveries shall be in board lot unless otherwise agreed by the contracting parties.\n\n553. [Repealed]It is the duty of the selling Exchange Participant to see that:-\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Amendments to the Rules of the Exchange (the “Rules”)\n\nEnquiry: Participant General Enquiry Hotline 1 (Tel: 2840 3626 E-mail: trd@hkex.com.hk )\n\nBeatrice Lung Head of Legal\n\n1 Calls to and from the Participant General Enquiry Hotline may be recorded. HKEX Privacy Notice is available here .\n\n編號 Ref. No.: LSD/079/2026 日期 Date: 09/11/2026\n\nAppendix Rules of the Exchange\n\nCHAPTER 5\n\nTRADING\n\nOperational Trading Rules\n\nFees\n\n554.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-09",
-      "title": "Amendments to the Terms and Conditions for Investor Participants of Hong Kong Securities Clearing Company Limited pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/081_26_IP-TnC_USM_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 10710,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/081_26_IP-TnC_USM_e.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Amendments to the Terms and…》。正文：Investor Participants of HKSCC are requested to note that the Securities and Futures Commission has approved…",
-      "key_points": [
-        "Investor Participants of HKSCC are requested to note that the Securities and Futures Commission has approved amendments to the IP T&Cs for the purpose of facilitating the enhancement in the Hong Kong securities market brought about by the implementation of the Uncertificated Securities Market initiative in Hong Kong.",
-        "The amendments to the IP T&Cs, as set out in the Appendix, will come into effect on Monday, 16 November 2026.",
-        "The marked-up version of the amendments can also be downloaded from the “ Rule Update – Terms and Conditions for Investor Participants ” section of the HKEX website.",
-        "1.1 In this document, unless the context otherwise requires, the following expressions have the following meanings:-",
-        "“participating securities” has the meaning given to it by rule 4 of the Securities and Futures (Uncertificated Securities Market) Rules;"
-      ],
-      "key_dates": [
-        {
-          "date": "16 November 2026",
-          "kind": "effective",
-          "evidence": "The amendments to the IP T&Cs, as set out in the Appendix, will come into effect on Monday, 16 November 2026."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Investor Participants of HKSCC are requested to note that the Securities and Futures Commission has approved amendments to the IP T&Cs for the purpose of facilitating the enhancement in the Hong Kong securities market brought about by the implementation of the Uncertificated Securities Market initiative in Hong Kong.",
-        "The amendments to the IP T&Cs, as set out in the Appendix, will come into effect on Monday, 16 November 2026.",
-        "The marked-up version of the amendments can also be downloaded from the “ Rule Update – Terms and Conditions for Investor Participants ” section of the HKEX website."
-      ],
-      "source_excerpt": "Investor Participants of HKSCC are requested to note that the Securities and Futures Commission has approved amendments to the IP T&Cs for the purpose of facilitating the enhancement in the Hong Kong securities market brought about by the implementation of the Uncertificated Securities Market initiative in Hong Kong.\n\nThe amendments to the IP T&Cs, as set out in the Appendix, will come into effect on Monday, 16 November 2026.\n\nThe marked-up version of the amendments can also be downloaded from the “ Rule Update – Terms and Conditions for Investor Participants ” section of the HKEX website.\n\n1.1 In this document, unless the context otherwise requires, the following expressions have the following meanings:-\n\n“participating securities” has the meaning given to it by rule 4 of the Securities and Futures (Uncertificated Securities Market) Rules;\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/081/2026 日期 Date: 09/11/2026\n\nSubject: Amendments to the Terms and Conditions for Investor Participants (the “IP T&Cs”) of Hong Kong Securities Clearing Company Limited (“HKSCC”)\n\nEnquiry: IP Hotline 1 : 2979 7888\n\nBeatrice Lung Head of Legal\n\n1 Calls to and from the IP Hotline may be recorded. HKEX Privacy Notice is available here .\n\n1. Definitions\n\n5. HKSCC services and facilities available to Investor Participant\n\n6. Operation of Stock Account\n\n7.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-09",
-      "title": "Amendments to the General Rules of HKSCC, the HKSCC Operational Procedures and the Terms and Conditions of FINI of Hong Kong Securities Clearing Company Limited pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/080_26_HKSCC_GR_OP_USM_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 263160,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/080_26_HKSCC_GR_OP_USM_e.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Amendments to the General Rules of…》；对象：an applicant as it sees fit。正文：Participants of HKSCC are requested to note that the Securities and…",
-      "key_points": [
-        "The amendments to the Rules, the Procedures and the FINI T&Cs, as set out in Appendices 1, 2 and 3 respectively, will come into effect on Monday, 16 November 2026.",
-        "The marked-up version of the amendments can also be downloaded from the following sections of the HKEX website:",
-        "• \" Rule Update - General Rules of HKSCC \" • \" Rule Update - HKSCC Operational Procedures \" • \" Rule Update - Terms and Conditions of FINI \"",
-        "Definitions When used herein, the following expressions shall, unless the context otherwise requires, bear the following meanings:-",
-        "“ approved securities r egistrar” or “ASR” has the meaning given by section 1 of Part 1 of Schedule 1 to the Securities and Futures Ordinance;"
-      ],
-      "key_dates": [
-        {
-          "date": "16 November 2026",
-          "kind": "effective",
-          "evidence": "The amendments to the Rules, the Procedures and the FINI T&Cs, as set out in Appendices 1, 2 and 3 respectively, will come into effect on Monday, 16 November 2026."
-        }
-      ],
-      "affected_parties": [
-        "an applicant as it sees fit and may also from time to time require an applicant to comply with additional conditions and requirements",
-        "Registrar Participants",
-        "China Connect Securities",
-        "a Stamp Authorized Person",
-        "a Registrar Participant under or by virtue of:-"
-      ],
-      "evidence": [
-        "The amendments to the Rules, the Procedures and the FINI T&Cs, as set out in Appendices 1, 2 and 3 respectively, will come into effect on Monday, 16 November 2026.",
-        "The marked-up version of the amendments can also be downloaded from the following sections of the HKEX website:",
-        "• \" Rule Update - General Rules of HKSCC \" • \" Rule Update - HKSCC Operational Procedures \" • \" Rule Update - Terms and Conditions of FINI \""
-      ],
-      "source_excerpt": "The amendments to the Rules, the Procedures and the FINI T&Cs, as set out in Appendices 1, 2 and 3 respectively, will come into effect on Monday, 16 November 2026.\n\nThe marked-up version of the amendments can also be downloaded from the following sections of the HKEX website:\n\n• \" Rule Update - General Rules of HKSCC \" • \" Rule Update - HKSCC Operational Procedures \" • \" Rule Update - Terms and Conditions of FINI \"\n\n101. Definitions When used herein, the following expressions shall, unless the context otherwise requires, bear the following meanings:-\n\n“ approved securities r egistrar” or “ASR” has the meaning given by section 1 of Part 1 of Schedule 1 to the Securities and Futures Ordinance;\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/080/2026 日期 Date: 09/11/2026\n\nSubject: Amendments to the General Rules of HKSCC (“Rules”), the HKSCC Operational Procedures (“Procedures”) and the Terms and Conditions of FINI (the “FINI T&Cs”) of Hong Kong Securities Clearing Company Limited (“HKSCC”)\n\nEnquiry: CCASS Hotline 1 : 2979 7111 / E-mail: clearingps@hkex.com.hk\n\nBeatrice Lung Head of Legal\n\n1 Calls to and from the CCASS Hotline may be recorded. HKEX Privacy Notice is available here .\n\nAppendix 1\n\nPART A: RULES OF GENERAL APPLICATION\n\nCHAPTER 1\n\nINTERPRETATION\n\n“authenticated message” has the meaning given by rule 15(1) of the USM Rules;",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-06",
-      "title": "HKEX 2026 Third Quarter Results pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/261106news/261106news_e.pdf",
-      "source_id": "HKEX-CORP-NEWS",
-      "source_label": "HKEX Corporate News Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 72219,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/261106news/261106news_e.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "corporate_news",
-      "impact_status": "no_clear_impact",
-      "human_review_required": true,
-      "summary": "HKEX发布《HKEX 2026 Third Quarter Results》。正文：Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong…",
-      "key_points": [
-        "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited.",
-        "(Incorporated in Hong Kong with limited liability) Stock Codes: 388 (HKD counter) and 80388 (RMB counter) (Financial figures in this announcement are expressed in Hong Kong dollar (HKD) unless otherwise stated)",
-        "With global investors rethinking their capital allocation strategies, this is a defining moment for Hong Kong’s markets, and HKEX is meeting it with ambition and action.",
-        "As we navigate heightened macro uncertainties and ongoing volatility, our conviction in building a deeper and more diverse multi-asset ecosystem has only strengthened.",
-        "1 For the purposes of this announcement, EBITDA is defined as earnings before interest expenses and other finance costs, taxation, depreciation and amortisation."
-      ],
-      "key_dates": [
-        {
-          "date": "30 June 2025",
-          "kind": "effective",
-          "evidence": "Clearing fees for Stock Exchange equity products rose by 10 per cent to $3,073 million in YTD Q3 2026 (YTD Q3 2025: $2,788 million), reflecting the increase in ADT, and a higher average clearing fee per trade value following the removal of the maximum and minimum fees per trade with effect from 30 June 2025."
-        },
-        {
-          "date": "30 November 2026",
-          "kind": "consultation",
-          "evidence": "The consultation period will end on 30 November 2026."
-        },
-        {
-          "date": "1 July 2026",
-          "kind": "effective",
-          "evidence": "Effective from 1 July 2026, enhancements to Chapter 15A expanded the eligibility criteria for ETFs by replacing the minimum public float capitalisation requirement of $4 billion with an assets under management threshold of $1 billion."
-        },
-        {
-          "date": "1 January 2026",
-          "kind": "effective",
-          "evidence": "Both LME trading fees and LME Clear clearing fees were up 24 per cent compared with YTD Q3 2025, reflecting a 16 per cent increase in chargeable ADV of metals contracts traded, and the increase in fee tariffs effective from 1 January 2026."
-        },
-        {
-          "date": "11 September 2026",
-          "kind": "consultation",
-          "evidence": "The consultation period ended on 11 September 2026, and a decision notice is expected to be published in Q4 2026."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited.",
-        "(Incorporated in Hong Kong with limited liability) Stock Codes: 388 (HKD counter) and 80388 (RMB counter) (Financial figures in this announcement are expressed in Hong Kong dollar (HKD) unless otherwise stated)",
-        "With global investors rethinking their capital allocation strategies, this is a defining moment for Hong Kong’s markets, and HKEX is meeting it with ambition and action."
-      ],
-      "source_excerpt": "Pursuant to Chapter 38 of the Rules Governing the Listing of Securities on The Stock Exchange of Hong Kong Limited, the Securities and Futures Commission regulates Hong Kong Exchanges and Clearing Limited in relation to the listing of its shares on The Stock Exchange of Hong Kong Limited. The Securities and Futures Commission takes no responsibility for the contents of this announcement, makes no representation as to its accuracy or completeness, and expressly disclaims any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement.\n\n(Incorporated in Hong Kong with limited liability) Stock Codes: 388 (HKD counter) and 80388 (RMB counter) (Financial figures in this announcement are expressed in Hong Kong dollar (HKD) unless otherwise stated)\n\nWith global investors rethinking their capital allocation strategies, this is a defining moment for Hong Kong’s markets, and HKEX is meeting it with ambition and action.\n\nThrough listing reforms, market infrastructure enhancements and new products, we are advancing our strategic initiatives to deepen liquidity, broaden participation and strengthen the connections across asset classes.\n\nAs we navigate heightened macro uncertainties and ongoing volatility, our conviction in building a deeper and more diverse multi-asset ecosystem has only strengthened.\n\nIt excludes the Group’s share of results of joint ventures and an associate.\n\n1\n\nQUARTERLY RESULTS\n\n2\n\nHIGHLIGHTS",
       "summary_method": "extractive"
     }
   ],
