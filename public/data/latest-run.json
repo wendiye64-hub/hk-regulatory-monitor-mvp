@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-24T22:25:20.622Z",
+  "generated_at": "2026-11-25T08:30:47.276Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 6621,
+  "duration_ms": 8998,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2810,
+      "duration_ms": 2244,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 4967,
+      "duration_ms": 2543,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 2910,
+      "duration_ms": 3822,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 4124,
+      "duration_ms": 6457,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3894,
+      "duration_ms": 3957,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1443,
+      "duration_ms": 1642,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 1398,
+      "duration_ms": 4184,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 2568,
+      "duration_ms": 3685,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2894,
+      "duration_ms": 2604,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2601,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2601,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2601,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2601,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2892,
+      "duration_ms": 2601,
       "count": 5
     }
   ],
@@ -140,6 +140,169 @@
         "This circular has been issued in the English language with a separate Chinese language translation."
       ],
       "source_excerpt": "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 25 November 2026 (Wednesday) for below markets:\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/Global/Exchange/Privacy-Policy?sc_lang=en\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nDaily Maximum Fluctuation Price Band Product Name Lower Limit Upper Limit USD London Aluminium Mini Futures (LUA) 2,459 3,129.5\n\nCNH London Aluminium Mini Futures (LRA) 16,390 20,855\n\nUSD London Copper Mini Futures (LUC) 10,412 13,251\n\nCNH London Copper Mini Futures (LRC) 69,390 88,300\n\nUSD London Tin Mini Futures (LUS) 33,589 45,443\n\nCNH London Tin Mini Futures (LRS) 223,850 302,840\n\n編號 Ref. No.: MO/DT/243/26 日期 Date: 25/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Inter-commodity Spread pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_312_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 943,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_312_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Inter-commodity Spread》。正文：determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised.",
+        "• MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index"
+      ],
+      "key_dates": [
+        {
+          "date": "27 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised.",
+        "• MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index"
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the delta/spread ratio and spread credit rate for the following product pair(s) will be revised. The details can be found here .\n\n• MSCI EM Asia ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index • MSCI EM ex Korea Net Total Return (USD) Index vs MSCI China Net Total Return (USD) Index\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Inter-commodity Spread Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/312/2026 日期 Date: 25/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Margin Rates pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_311_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 983,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_311_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 27 November 2026 (including the…",
+      "key_points": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• MSCI Taiwan (USD) Index",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
+        "The details of the revised margin levels can be found here .",
+        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
+      ],
+      "key_dates": [
+        {
+          "date": "27 November 2026",
+          "kind": "effective",
+          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised."
+        }
+      ],
+      "affected_parties": [
+        "Exchange Participants"
+      ],
+      "evidence": [
+        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
+        "• MSCI Taiwan (USD) Index",
+        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
+      ],
+      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 27 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• MSCI Taiwan (USD) Index\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/311/2026 日期 Date: 25/11/2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Extrawell Pharmaceutical Holdings Limited (Stock Code: 858) -Proposed Transactions and Change in Board Lot Size pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_419_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7770,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_419_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Extrawell Pharmaceutical Holdings…》。正文：will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+      "key_points": [
+        "Pursuant to the Proposed Transactions (the Share Consolidation, the Capital Reduction and the Share Sub-division) of Extrawell Pharmaceutical Holdings Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both New and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 17 December 2026 and 18 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period.",
+        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
+        "From 4 December 2026 until 18 January 2027, Existing Share certificates (blue in colour) will be accepted for deposit under stock code: 2979 (Temp)."
+      ],
+      "key_dates": [
+        {
+          "date": "19 January 2027",
+          "kind": "effective",
+          "evidence": "Effective from 19 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock"
+        },
+        {
+          "date": "16 December 2026",
+          "kind": "effective",
+          "evidence": "Effective from 16 December 2026, the CCASS Depository will accept deposit of New Share certificates (brown in colour) under stock code: 858 (New)."
+        },
+        {
+          "date": "4 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 4 December 2026 until 17 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 2979."
+        },
+        {
+          "date": "18 December 2026",
+          "kind": "effective",
+          "evidence": "With effect from 18 December 2026, the CCASS Depository will only accept withdrawal of New Shares under the new stock code: 858."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the Proposed Transactions (the Share Consolidation, the Capital Reduction and the Share Sub-division) of Extrawell Pharmaceutical Holdings Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”).",
+        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both New and Existing Shares of the Company.",
+        "However, for stock positions that remain unsettled between 17 December 2026 and 18 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above- mentioned period."
+      ],
+      "source_excerpt": "Pursuant to the Proposed Transactions (the Share Consolidation, the Capital Reduction and the Share Sub-division) of Extrawell Pharmaceutical Holdings Limited (“the Company”), every 20 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.20 (“Consolidated Share”). Immediately upon the Share Consolidation becoming effective, the par value of each Consolidated Share will be reduced from HK$0.20 to HK$0.01 (\"New Share\"). Upon the Proposed Transactions becoming effective, the board lot size for trading will be changed from 10,000 Existing Shares to 1,000 New Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both New and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\n1.\n\n2.\n\n1 Calls to and from the CCASS Hotline may be recorded. HKEX Privacy Notice is available here.\n\n通告 CIRCULAR\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Launch of CMU Digital Asset Platform",
+      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261125-3/",
+      "source_id": "DEDUP-00031",
+      "source_label": "HKMA Press Releases",
+      "detection": "new_official_publication",
+      "source_text_chars": 2970,
+      "text_extraction": "success",
+      "source_format": "html",
+      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261125-3/",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "official_release",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKMA发布《Launch of CMU Digital Asset…》。正文：announced today (25 November) the official launch of CMU Digital Asset Platform (CMU DAP).",
+      "key_points": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (25 November) the official launch of CMU Digital Asset Platform (CMU DAP).",
+        "Adopting an atomic Delivery versus Payment (DvP) on-chain settlement model, CMU DAP has direct interfaces with the Real Time Gross Settlement (RTGS) systems and central bank digital currencies (CBDC), and supports 24-hour settlement in multi-currencies using cash tokens, significantly enhancing market liquidity, operational efficiency and flexibility.",
+        "Building on the solid foundation of CMU DAP, CMU OmniClear has formulated a strategic roadmap for future development.",
+        "Mr Eddie Yue, Chief Executive of the HKMA and Chairperson of the Board of Directors of CMU OmniClear Holdings Limited, said, “Through CMU DAP, we are unlocking the transformative power of DLT to push the boundaries of financial innovation.",
+        "For more details of CMU DAP, please refer to the press release of CMU OmniClear."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "The Hong Kong Monetary Authority (HKMA) announced today (25 November) the official launch of CMU Digital Asset Platform (CMU DAP).",
+        "Adopting an atomic Delivery versus Payment (DvP) on-chain settlement model, CMU DAP has direct interfaces with the Real Time Gross Settlement (RTGS) systems and central bank digital currencies (CBDC), and supports 24-hour settlement in multi-currencies using cash tokens, significantly enhancing market liquidity, operational efficiency and flexibility.",
+        "Building on the solid foundation of CMU DAP, CMU OmniClear has formulated a strategic roadmap for future development."
+      ],
+      "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (25 November) the official launch of CMU Digital Asset Platform (CMU DAP). Developed and operated by CMU OmniClear Limited (CMU OmniClear) on behalf of the HKMA, this distributed ledger technology (DLT)-based platform of the Central Moneymarkets Unit (CMU) represents a major milestone in advancing the digital landscape of Hong Kong’s financial market.\n\nCMU DAP not only facilitates a paperless process spanning debt securities primary issuance, clearing and settlement of secondary transactions, coupon payment and redemption at maturity, but also supports the tokenisation of traditional debt securities to bridge digital finance and traditional finance. Adopting an atomic Delivery versus Payment (DvP) on-chain settlement model, CMU DAP has direct interfaces with the Real Time Gross Settlement (RTGS) systems and central bank digital currencies (CBDC), and supports 24-hour settlement in multi-currencies using cash tokens, significantly enhancing market liquidity, operational efficiency and flexibility.\n\nBuilding on the solid foundation of CMU DAP, CMU OmniClear has formulated a strategic roadmap for future development.\n\nMr Eddie Yue, Chief Executive of the HKMA and Chairperson of the Board of Directors of CMU OmniClear Holdings Limited, said, “Through CMU DAP, we are unlocking the transformative power of DLT to push the boundaries of financial innovation.\n\n25 November 2026",
       "summary_method": "extractive"
     },
     {
@@ -4125,172 +4288,12 @@
       ],
       "source_excerpt": "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:\n\nCorporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026\n\nFor details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf\n\n1 All calls to the HKATS and DCASS hotlines would be recorded. Please refer to the following link for HKEX privacy policy statement: Privacy Notice\n\nThe trading arrangements for the existing Li Ning stock options under trading symbol LNI will be as follows:\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nUnderlying Stock Name of the Stock Option Contracts (Stock Code) Li Ning Company Limited ( “ Li Ning ” ) (02331)\n\nHKATS Code LNI\n\nSubject: Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Option Contracts – Special Dividend Enquiry: HKATS Hotline 1 Tel: 2211-6360 DCASS Hotline 1 Tel: 2979-7222\n\n編號 Ref. No.: MO/DT/237/26 日期 Date: 10/11/2026\n\nTrading Arrangements\n\nInform Your Staff and Clients",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Arrangement in HKEX Orion Market Data Platform - Derivatives Market (OMD-D) for the Capital Adjustment of Li Ning Company Limited Stock Futures and Options Contracts - Special Dividend",
-      "official_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-10%20Arrangement%20in%20OMD-D%20for%20the%20Capital%20Adjustment%20of%20Li%20Ning%20Company%20Limited%20Stock%20Futures%20and%20Options%20Contracts%20-%20Special%20Dividend.pdf",
-      "reference": "MDD/26/687",
-      "source_id": "HKEX-MARKET-DATA-NOTICES",
-      "source_label": "HKEX Market Data Client Notices",
-      "detection": "new_official_publication",
-      "source_text_chars": 2643,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/eng/prod/dataprod/Documents/26-11-10%20Arrangement%20in%20OMD-D%20for%20the%20Capital%20Adjustment%20of%20Li%20Ning%20Company%20Limited%20Stock%20Futures%20and%20Options%20Contracts%20-%20Special%20Dividend.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "official_notice",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Arrangement in HKEX Orion Market…》；对象：Derivatives Market Data。正文：will be made to Li Ning stock futures and options contracts with the…",
-      "key_points": [
-        "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :",
-        "LNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)",
-        "In OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday).",
-        "Clients and ISVs are requested to review their systems and make adjustments where necessary to ensure that the above stock futures and options contracts information could be handled properly.",
-        "The relevant Exchange Circulars (Ref: MO/DT/236/26 and MO/DT/237/26 ) are attached herewith for your reference on the details of the capital adjustment and the related trading and clearing operational arrangements."
-      ],
-      "key_dates": [],
-      "affected_parties": [
-        "Derivatives Market Data Vendors, End Users and Application Service Providers (ASPs) (Collectively “Clients”)"
-      ],
-      "evidence": [
-        "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :",
-        "LNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)",
-        "In OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday)."
-      ],
-      "source_excerpt": "With reference to the announcement made by Li Ning Company Limited (“Li Ning”) on 5 November 2026, capital adjustment will be made to Li Ning stock futures and options contracts with the following arrangements in OMD-D from the ex-date, 18 November 2026 (Wednesday) :\n\nLNI 2331 New standard stock options contracts on Li Ning From ex-date onwards * Contract Months: Spot Month (i.e. the month in which the next last trading date occurs), the next two calendar months, and the next two calendar quarter months (i.e. quarterly months are March, June, September and December) # Contract expiry months: the spot month (i.e. the month in which the next expiring date occurs), any of the next three calendar months; and any of the next three calendar quarter months (i.e. quarterly months are March, June, September and December)\n\nIn OMD-D, the information will be available via Reference Data on 17 November 2026 (Tuesday).\n\nClients and ISVs are requested to review their systems and make adjustments where necessary to ensure that the above stock futures and options contracts information could be handled properly.\n\nThe relevant Exchange Circulars (Ref: MO/DT/236/26 and MO/DT/237/26 ) are attached herewith for your reference on the details of the capital adjustment and the related trading and clearing operational arrangements.\n\n香 港 交 易 所 資 訊 服 務 有 限 公 司 ( 香港交易及結算所有限公司集團全資附屬公司 ) HKEX INFORMATION SERVICES LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\nStock Futures",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Exchange Fund Bills Tender Results",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1784,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-4/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Exchange Fund Bills Tender Results》。正文：*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender…",
-      "key_points": [
-        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
-        "Tenders to be held in the week beginning – 16 November 2026:"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.",
-        "Tenders to be held in the week beginning – 16 November 2026:"
-      ],
-      "source_excerpt": "*“Pro rata ratio” refers to the average percentage of allotment with respect to each tender participant’s tendered amount at the “highest yield accepted” level.\n\nTenders to be held in the week beginning – 16 November 2026:\n\nTender date\n\n10 November 2026\n\nPaper on offer\n\nEF Bills\n\nIssue number\n\nQ2645\n\nIssue date\n\n11 November 2026\n\nMaturity date\n\n10 February 2027\n\nAmount applied\n\nHK$168,655 MN\n\nAmount allotted\n\nHK$67,876 MN\n\nAverage yield accepted\n\n2.79 PCT\n\nHighest yield accepted\n\n2.83 PCT\n\nPro rata ratio*\n\nAbout 77 PCT\n\nAverage tender yield\n\n2.94 PCT\n\n****************************\n\nH2674\n\n12 May 2027\n\nHK$71,322 MN\n\nHK$19,000 MN\n\n2.93 PCT\n\n2.95 PCT\n\nAbout 36 PCT\n\n3.00 PCT\n\n---------------------------------------------------------\n\nHong Kong Monetary Authority\n\n17 November 2026\n\nQ2646\n\n18 November 2026\n\n17 February 2027\n\nTenor\n\n91 Days\n\nAmount on offer\n\nHK$69,281 MN\n\nH2675\n\n19 May 2027\n\n182 Days\n\nHK$15,000 MN\n\nY2697\n\n17 November 2027\n\n364 Days\n\nHK$5,000 MN\n\nEnd/Tuesday, 10 November, 2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-09",
-      "title": "Ocean Star Technology Group Limited (Stock Code: 8297) - Proposal of Share Consolidation and Change in Board Lot Size pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_397_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 7821,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_NOM_397_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Ocean Star Technology Group…》。正文：will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
-      "key_points": [
-        "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 1 December 2026 and 4 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period.",
-        "CCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -",
-        "From 18 November 2026 until 4 January 2027, Existing Share certificates (light blue in colour) will be accepted for deposit under stock code: 8561 (Temp)."
-      ],
-      "key_dates": [
-        {
-          "date": "5 January 2027",
-          "kind": "effective",
-          "evidence": "Effective from 5 January 2027, Existing Share certificates will only be accepted for deposit for custody purpose under stock code: 8297 (New)."
-        },
-        {
-          "date": "30 November 2026",
-          "kind": "effective",
-          "evidence": "Effective from 30 November 2026, the CCASS Depository will accept deposit of Consolidated Share certificates (light yellow in colour) under stock code: 8297 (New)."
-        },
-        {
-          "date": "18 November 2026",
-          "kind": "effective",
-          "evidence": "With effect from 18 November 2026 until 1 December 2026, the CCASS Depository will only accept withdrawal of shares under the temporary stock code: 8561."
-        },
-        {
-          "date": "2 December 2026",
-          "kind": "effective",
-          "evidence": "With effect from 2 December 2026, the CCASS Depository will only accept withdrawal of Consolidated Shares under the new stock code: 8297."
-        }
-      ],
-      "affected_parties": [],
-      "evidence": [
-        "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”).",
-        "For the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company.",
-        "However, for stock positions that remain unsettled between 1 December 2026 and 4 January 2027, the CCASS Participants concerned who need to effect the relevant conversion of their holdings for the purpose of settling their short positions should submit the Parallel Trading Conversion Instruction through CCASS Terminals during the above-mentioned period."
-      ],
-      "source_excerpt": "Pursuant to the share consolidation proposal of Ocean Star Technology Group Limited (“the Company”), every 10 existing shares of HK$0.01 each (“Existing Share”) will be consolidated into 1 consolidated share of HK$0.10 (“Consolidated Share”). Upon the Share Consolidation becoming effective, the board lot size for trading will be changed from 2,500 Existing Shares to 10,000 Consolidated Shares.\n\nFor the convenience of CCASS Participants, HKSCC will carry out the conversions of actual holdings, transactions (including Settlement Instruction Transaction (\"SI Transaction\"), Investor Settlement Instruction Transaction (\"ISI Transaction\") and Compulsory Stock Borrowing Transaction (\"CSB Transaction\")) and/or unsettled stock positions (including Continuous Net Settlement Position (\"CNS Position\") and Isolated Trade Position (\"IT Position\")) of participants in CCASS to facilitate settlement of both Consolidated Shares and Existing Shares of the Company. A stock conversion schedule is attached herewith as per Appendix I.\n\nThe aforesaid conversion process would be carried out in the Central Clearing and Settlement System automatically on the scheduled dates.\n\nCCASS Participants who wish to deposit shares to or withdraw shares from the CCASS Depository are requested to note the following: -\n\n1.\n\nFrom 18 November 2026 until 4 January 2027, Existing Share certificates (light blue in colour) will be accepted for deposit under stock code: 8561 (Temp).\n\n2.\n\n通告 CIRCULAR\n\n編號 Ref.\n\n3.\n\n1 1 0 2",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-09",
-      "title": "Trading Arrangements of CSOP KIOXIA Daily Max (1.25x) Leveraged Product pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_178_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 3375,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/ce_SEHK_CT_178_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Trading Arrangements of CSOP…》；对象：Exchange Participants。正文：Exchange Participants are requested to note that CSOP KIOXIA Daily Max (1.25x)…",
-      "key_points": [
-        "Exchange Participants are requested to note that CSOP KIOXIA Daily Max (1.25x) Leveraged Product (Stock Code: 7772) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 10 November 2026 (Tuesday) .",
-        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned Leveraged Product effective the same day.",
-        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.",
-        "Exchange Participants should advise their clients to carefully consider whether trading in the L&I Products is/are appropriate for them in light of their understanding of the product nature and characteristics, their own investment objectives, skills and experience, financial resources, risk tolerance and other relevant circumstances prior to making any decision.",
-        "As stated in the SFC’s “ Circular on listed structured funds ”, L&I Products are derivative products."
-      ],
-      "key_dates": [
-        {
-          "date": "10 November 2026",
-          "kind": "effective",
-          "evidence": "Exchange Participants are requested to note that CSOP KIOXIA Daily Max (1.25x) Leveraged Product (Stock Code: 7772) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 10 November 2026 (Tuesday) ."
-        }
-      ],
-      "affected_parties": [
-        "Exchange Participants"
-      ],
-      "evidence": [
-        "Exchange Participants are requested to note that CSOP KIOXIA Daily Max (1.25x) Leveraged Product (Stock Code: 7772) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 10 November 2026 (Tuesday) .",
-        "Securities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned Leveraged Product effective the same day.",
-        "Please refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time."
-      ],
-      "source_excerpt": "Exchange Participants are requested to note that CSOP KIOXIA Daily Max (1.25x) Leveraged Product (Stock Code: 7772) has been authorized under collective investment scheme by the Securities and Futures Commission and is expected to commence trading on the Exchange and admitted to the list of Designated Securities eligible for short selling on 10 November 2026 (Tuesday) . Investors should always refer to the details about the Product provided by the Fund Manager, e.g. Net Asset Value per Unit, before trading the Product. Detail of its trading arrangements ( Attachment 1 ) are attached for reference.\n\nSecurities Market Maker permit(s) has/have been granted for relevant Exchange Participant(s) to make market for the abovementioned Leveraged Product effective the same day. The Securities Market Maker(s) is/are listed in Attachment 1 for reference. The Securities Market Maker(s) is/are subject to the market making obligations set out in Attachment 2 of this circular and Securities Market Maker Regulations of the Rules of the Exchange.\n\nPlease refer to ETP webpage for any changes of trading arrangement, including but not limited to Spread Table applied, Market Making Obligations applicable for Securities Market Maker(s), etc., from time to time.\n\nTrading in the Leveraged and Inverse Product(s) (L&I Product(s)) may not be suitable for all members of the public.\n\nAs stated in the SFC’s “ Circular on listed structured funds ”, L&I Products are derivative products.\n\n通告 CIRCULAR\n\n編號 Ref.",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 6,
-    "succeeded": 6,
+    "attempted": 4,
+    "succeeded": 4,
     "failed": 0,
     "pending": 0
   }
