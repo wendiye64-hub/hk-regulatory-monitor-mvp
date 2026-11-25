@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-25T08:30:47.276Z",
+  "generated_at": "2026-11-25T21:40:25.649Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 8998,
+  "duration_ms": 3228,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2244,
+      "duration_ms": 2857,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 2543,
+      "duration_ms": 3210,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3822,
+      "duration_ms": 1968,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 6457,
+      "duration_ms": 2399,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 3957,
-      "count": 10
+      "duration_ms": 1827,
+      "count": 0
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 1642,
+      "duration_ms": 2061,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 4184,
+      "duration_ms": 2630,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3685,
+      "duration_ms": 868,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2604,
+      "duration_ms": 2610,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2607,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2607,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2607,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2607,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2601,
+      "duration_ms": 2607,
       "count": 5
     }
   ],
@@ -4292,8 +4292,8 @@
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 4,
-    "succeeded": 4,
+    "attempted": 0,
+    "succeeded": 0,
     "failed": 0,
     "pending": 0
   }
