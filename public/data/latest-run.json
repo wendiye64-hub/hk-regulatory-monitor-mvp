@@ -1,109 +1,258 @@
 {
-  "generated_at": "2026-11-25T21:40:25.649Z",
+  "generated_at": "2026-11-26T08:14:42.486Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 3228,
+  "duration_ms": 8057,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2857,
+      "duration_ms": 3918,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3210,
+      "duration_ms": 2462,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 1968,
+      "duration_ms": 4464,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2399,
+      "duration_ms": 6565,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 1827,
-      "count": 0
+      "duration_ms": 4525,
+      "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 2061,
+      "duration_ms": 2602,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 2630,
+      "duration_ms": 4053,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 868,
+      "duration_ms": 1462,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 2610,
+      "duration_ms": 3114,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 2607,
+      "duration_ms": 3112,
       "count": 2
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 2607,
+      "duration_ms": 3112,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 2607,
+      "duration_ms": 3112,
       "count": 2
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 2607,
+      "duration_ms": 3112,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 2607,
+      "duration_ms": 3112,
       "count": 5
     }
   ],
   "items": [
+    {
+      "publication_date": "2026-11-26",
+      "title": "Display of Adjusted Previous Closing Price of Sheung Yue Group Holdings Limited (stock code 1633) on OTP-C for its 1-for-2 Rights Issue on Ex-Rights Date, 30 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026194_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3593,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026194_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will be marked “ex - rights” on 30 November 2026, the Ex-Rights Date.",
+      "key_points": [
+        "Pursuant to the rights issue timetable issued by Sheung Yue Group Holdings Limited (“ Sheung Yue ”), Sheung Yue ’s shares (stock code 1633 ) will be marked “ex - rights” on 30 November 2026, the Ex-Rights Date.",
+        "HK$0.100 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day.",
+        "For illustration purpose, depending on Sheung Yue’s closing price on 27 November 2026, the Exchange shall base on the above standard formula for rights issue generally to calculate and display the Adjusted Previous Closing Price on Sheung Yue’s OTP - C stock page on 30 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Sheung Yue ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Sheung Yue in dealing with Sheung Yue ’s shares."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the rights issue timetable issued by Sheung Yue Group Holdings Limited (“ Sheung Yue ”), Sheung Yue ’s shares (stock code 1633 ) will be marked “ex - rights” on 30 November 2026, the Ex-Rights Date.",
+        "HK$0.100 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares",
+        "Note: Price adjustment for rights issue will not be made and the previous closing price will remain unchanged on ex-rights date when the subscription price is higher than the closing price of the shares on the last cum-rights trading day."
+      ],
+      "source_excerpt": "Pursuant to the rights issue timetable issued by Sheung Yue Group Holdings Limited (“ Sheung Yue ”), Sheung Yue ’s shares (stock code 1633 ) will be marked “ex - rights” on 30 November 2026, the Ex-Rights Date. Shareholders, investors and market participants should read the Sheung Yue ’s announcements and prospectus documents in full including the terms and conditions of the rights issue of Sheung Yue in dealing with Sheung Yue ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for ex-rights issue and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Sheung Yue ’ s OTP-C stock page on 30 November 2026, the Ex-Rights Date. The unadjusted previous closing price will instead be displayed in the free text field. Calculation of the Adjusted Previous Closing Price will be based on Sheung Yue ’s closing price on 27 November 2026 (i.e. last cum-rights trading day) and by using the following standard adjustment formula for rights issue generally.\n\nwhere: S = Subscription price per rights share, i.e. HK$0.100 X = Number of rights shares a shareholder is entitled to subscribe when he/she holds Y existing shares on the record date, i.e. 1 rights share Y = Number of existing shares a shareholder has to hold on the record date for entitling him/herself to subscribe for X rights shares, i.e. 2 shares\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nAdjustment Formula:\n\n…/2",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-26",
+      "title": "Display of Adjusted Previous Closing Price of China Castson 81 Finance Company Limited (stock code 810) on OTP-C for its 20-into-1 Share Consolidation on 27 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026193_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3205,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026193_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 27 November 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by China Castson 81 Finance Company Limited (“ China Castson ”), the share consolidation of 20 existing shares of HK$0.01 each in China Castson into 1 consolidated share of HK$0.20 each will become effective on 27 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on China Castson’s closing price on 26 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China Castson’s OTP - C temporary stock page on 27 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the China Castson ’s circulars and regulatory announcements in full including the terms and conditions of China Castson ’s share consolidation in dealing with China Castson ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "27 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by China Castson 81 Finance Company Limited (“ China Castson ”), the share consolidation of 20 existing shares of HK$0.01 each in China Castson into 1 consolidated share of HK$0.20 each will become effective on 27 November 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by China Castson 81 Finance Company Limited (“ China Castson ”), the share consolidation of 20 existing shares of HK$0.01 each in China Castson into 1 consolidated share of HK$0.20 each will become effective on 27 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on China Castson’s closing price on 26 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on China Castson’s OTP - C temporary stock page on 27 November 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by China Castson 81 Finance Company Limited (“ China Castson ”), the share consolidation of 20 existing shares of HK$0.01 each in China Castson into 1 consolidated share of HK$0.20 each will become effective on 27 November 2026. Shareholders, investors and market participants should read the China Castson ’s circulars and regulatory announcements in full including the terms and conditions of China Castson ’s share consolidation in dealing with China Castson ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of China Castson ’s OTP -C temporary stock page (stock code 2970) on 27 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on China Castson ’s closing price on 26 November 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nFOR REFERENCE ONLY\n\nEnquiry Tel : Ms.\n\nCynthia Chiu (Tel: 2840 3076) or Mr.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-26",
+      "title": "Display of Adjusted Previous Closing Price of Asiasec Properties Limited (stock code 271) on OTP-C for its 10-into-1 Share Consolidation on 27 November 2026 pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026192_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 3138,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/SMD2026192_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Display of Adjusted Previous…》。正文：will become effective on 27 November 2026.",
+      "key_points": [
+        "Pursuant to the share consolidation timetable issued by Asiasec Properties Limited (“ Asiasec Properties ”), the share consolidation of 10 existing shares into 1 consolidated share will become effective on 27 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Asiasec Properties’s closing price on 26 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Asiasec Properties’s OTP - C temporary stock page on 27 November 2026 as follows: -",
+        "Shareholders, investors and market participants should read the Asiasec Properties ’s circulars and regulatory announcements in full including the terms and conditions of Asiasec Properties ’s share consolidation in dealing with Asiasec Properties ’s shares.",
+        "If they are in doubt, they should consult their professional adviser(s)."
+      ],
+      "key_dates": [
+        {
+          "date": "27 November 2026",
+          "kind": "effective",
+          "evidence": "Pursuant to the share consolidation timetable issued by Asiasec Properties Limited (“ Asiasec Properties ”), the share consolidation of 10 existing shares into 1 consolidated share will become effective on 27 November 2026."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Pursuant to the share consolidation timetable issued by Asiasec Properties Limited (“ Asiasec Properties ”), the share consolidation of 10 existing shares into 1 consolidated share will become effective on 27 November 2026.",
+        "Adjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R",
+        "For illustration purpose, depending on Asiasec Properties’s closing price on 26 November 2026, the Exchange shall base on the above standard formula for share consolidation generally to calculate and display the Adjusted Previous Closing Price on Asiasec Properties’s OTP - C temporary stock page on 27 November 2026 as follows: -"
+      ],
+      "source_excerpt": "Pursuant to the share consolidation timetable issued by Asiasec Properties Limited (“ Asiasec Properties ”), the share consolidation of 10 existing shares into 1 consolidated share will become effective on 27 November 2026. Shareholders, investors and market participants should read the Asiasec Properties ’s circulars and regulatory announcements in full including the terms and conditions of Asiasec Properties ’s share consolidation in dealing with Asiasec Properties ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Asiasec Properties ’s OTP -C temporary stock page (stock code 2966) on 27 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on Asiasec Properties ’s closing price on 26 November 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\n…/2\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-26",
+      "title": "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_244_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1536,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_244_26_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《USD and CNH London Mini Futures…》。正文：published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME…",
+      "key_points": [
+        "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 26 November 2026 (Thursday) for below markets:",
+        "This circular has been issued in the English language with a separate Chinese language translation.",
+        "Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/Global/Exchange/Privacy-Policy?sc_lang=en",
+        "If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail."
+      ],
+      "key_dates": [
+        {
+          "date": "26 November 2026",
+          "kind": "effective",
+          "evidence": "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 26 November 2026 (Thursday) for below markets:"
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 26 November 2026 (Thursday) for below markets:",
+        "This circular has been issued in the English language with a separate Chinese language translation.",
+        "Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/Global/Exchange/Privacy-Policy?sc_lang=en"
+      ],
+      "source_excerpt": "Due to the difference between the HKFE T-session Close of the following USD London Mini Futures Contract and the Closing Price published by the London Metal Exchange (LME) for the corresponding LME contract is greater than 5%, LME Closing Price is used as the reference price to determine the Maximum Fluctuation price band effective on 26 November 2026 (Thursday) for below markets:\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: http://www.hkex.com.hk/Global/Exchange/Privacy-Policy?sc_lang=en\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nDaily Maximum Fluctuation Price Band Product Name Lower Limit Upper Limit USD London Tin Mini Futures (LUS) 31,603 42,756\n\nCNH London Tin Mini Futures (LRS) 210,940 285,380\n\nThomas Lam Senior Vice President Trading Department Operations Division\n\nSubject: USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price\n\nEnquiry: H KATS ( Hotline 1 : 2211 - 6360 E - mail: hkatssupport@hkex.com.hk )\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
     {
       "publication_date": "2026-11-25",
       "title": "USD and CNH London Mini Futures Contracts Daily Maximum Fluctuation Price Band Reference Price pdf",
@@ -303,6 +452,149 @@
         "Building on the solid foundation of CMU DAP, CMU OmniClear has formulated a strategic roadmap for future development."
       ],
       "source_excerpt": "The Hong Kong Monetary Authority (HKMA) announced today (25 November) the official launch of CMU Digital Asset Platform (CMU DAP). Developed and operated by CMU OmniClear Limited (CMU OmniClear) on behalf of the HKMA, this distributed ledger technology (DLT)-based platform of the Central Moneymarkets Unit (CMU) represents a major milestone in advancing the digital landscape of Hong Kong’s financial market.\n\nCMU DAP not only facilitates a paperless process spanning debt securities primary issuance, clearing and settlement of secondary transactions, coupon payment and redemption at maturity, but also supports the tokenisation of traditional debt securities to bridge digital finance and traditional finance. Adopting an atomic Delivery versus Payment (DvP) on-chain settlement model, CMU DAP has direct interfaces with the Real Time Gross Settlement (RTGS) systems and central bank digital currencies (CBDC), and supports 24-hour settlement in multi-currencies using cash tokens, significantly enhancing market liquidity, operational efficiency and flexibility.\n\nBuilding on the solid foundation of CMU DAP, CMU OmniClear has formulated a strategic roadmap for future development.\n\nMr Eddie Yue, Chief Executive of the HKMA and Chairperson of the Board of Directors of CMU OmniClear Holdings Limited, said, “Through CMU DAP, we are unlocking the transformative power of DLT to push the boundaries of financial innovation.\n\n25 November 2026",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Depository Customer Service Counter - Fire Drill Arrangement",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_024_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1864,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_DPS_024_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Depository Customer Service…》。正文：will be conducted at CCASS Depository Customer Service Counter (Depository Counter) at China Merchants Plaza…",
+      "key_points": [
+        "CCASS Participants are advised that a fire drill will be conducted at CCASS Depository Customer Service Counter (Depository Counter) at China Merchants Plaza (CMP) from 4:00 to 5:00 p.m. on Thursday, 3 December 2026.",
+        "During the drill, a fire alarm will be activated as part of the building’s standard emergency preparedness exercise.",
+        "Notwithstanding the above, Depository Counter services will continue to operate as normal, and service provision will be maintained throughout the drill.",
+        "Participants are encouraged to allow additional time for access to the premises and elevator services due to possible temporary disruptions.",
+        "Should you have any questions regarding the above, please contact our Hotline at 2979 7111 or email to clearingps@hkex.com.hk"
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "CCASS Participants are advised that a fire drill will be conducted at CCASS Depository Customer Service Counter (Depository Counter) at China Merchants Plaza (CMP) from 4:00 to 5:00 p.m. on Thursday, 3 December 2026.",
+        "During the drill, a fire alarm will be activated as part of the building’s standard emergency preparedness exercise.",
+        "Notwithstanding the above, Depository Counter services will continue to operate as normal, and service provision will be maintained throughout the drill."
+      ],
+      "source_excerpt": "CCASS Participants are advised that a fire drill will be conducted at CCASS Depository Customer Service Counter (Depository Counter) at China Merchants Plaza (CMP) from 4:00 to 5:00 p.m. on Thursday, 3 December 2026.\n\nDuring the drill, a fire alarm will be activated as part of the building’s standard emergency preparedness exercise.\n\nNotwithstanding the above, Depository Counter services will continue to operate as normal, and service provision will be maintained throughout the drill. Participants who plan to visit Depository Counter at CMP during the drill period are advised to remain calm and follow on-site instructions where necessary.\n\nParticipants are encouraged to allow additional time for access to the premises and elevator services due to possible temporary disruptions.\n\nShould you have any questions regarding the above, please contact our Hotline at 2979 7111 or email to clearingps@hkex.com.hk\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Depository Customer Service Counter – Fire Drill Arrangement\n\nEnquiry: CCASS Hotline at 2979 7111 1 / E-mail: clearingps@hkex.com.hk\n\nWilson So Vice President Post Trade Operations Division\n\nThis circular has been issued in the English language with a separate Chinese language translation.\n\n如 本 通 告 中 文 本 的 字 義 或 詞 義 與 英 文 本 有 所 出 入 ， 概 以 英 文 本 為 準 。\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Discontinuation of the Eligibility of CCASS Stocks pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_420_2026.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1577,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_420_2026.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Discontinuation of the Eligibility…》。正文：will cease to be Participants are therefore requested to note the following CCASS arrangements.…",
+      "key_points": [
+        "With effect from the below-mentioned effective dates, the following securities will cease to be",
+        "Participants are therefore requested to note the following CCASS arrangements.",
+        "Effective Date for Discontinuing Eligibility in CCASS Note 1",
+        "Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "With effect from the below-mentioned effective dates, the following securities will cease to be",
+        "Participants are therefore requested to note the following CCASS arrangements.",
+        "Effective Date for Discontinuing Eligibility in CCASS Note 1"
+      ],
+      "source_excerpt": "With effect from the below-mentioned effective dates, the following securities will cease to be\n\nKong Limited. Participants are therefore requested to note the following CCASS arrangements.\n\nEffective Date for Discontinuing Eligibility in CCASS Note 1\n\n1. Upon the discontinuation of eligibility, CCASS Participants are required to withdraw the above securities from the CCASS Depository according to the General Rules of HKSCC and HKSCC Operational Procedures.\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Discontinuation of the Eligibility of CCASS Stocks Enquiry: Hotline at 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nEligible Securities in CCASS following the withdrawal of listing on The Stock Exchange of Hong\n\nStock Name Stock Code Last Dealing Date\n\nLast Settlement Date for Settlement Instructions Expiry Date\n\nProvisional Allotment Letters relating to Nil-paid Rights\n\n1. Flowing Cloud Technology Ltd – Provisional Allotment Letters relating to Nil-paid Rights\n\n2962 26/11/2026 01/12/2026 N/A 02/12/2026\n\n2. Easyhold Group Holdings Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2960 27/11/2026 02/12/2026 N/A 03/12/2026\n\n3. Zhejiang United Investment Holdings Group Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n8575 27/11/2026 02/12/2026 N/A 03/12/2026\n\n編號 Ref. No.: PT/NIS/CCASS/420/2026\n\nNotes:",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Trading Arrangement Relating to Stock Futures Contracts of Alibaba Health Information Technology Limited pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_22_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 7727,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_22_26_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading Arrangement Relating to…》。正文：will be no change to the contract multiplier for stock futures contracts of Alibaba Health Information…",
+      "key_points": [
+        "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract multiplier for stock futures contracts of Alibaba Health Information Technology Limited.",
+        "For details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted option stock futures contracts due to capital adjustment, for details please refer to the circular MO/DT/193/26",
+        "The full list of stock futures available for trading effective from 9 December 2026 is set forth in the Attachment for reference.",
+        "Participants should notify your staff and interested clients about the arrangements and pay special attention to the fact that the stock futures contract multiplier will be in multiple board lots of the underlying securities."
+      ],
+      "key_dates": [
+        {
+          "date": "9 December 2026",
+          "kind": "effective",
+          "evidence": "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract multiplier for stock futures contracts of Alibaba Health Information Technology Limited."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract multiplier for stock futures contracts of Alibaba Health Information Technology Limited.",
+        "For details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted option stock futures contracts due to capital adjustment, for details please refer to the circular MO/DT/193/26"
+      ],
+      "source_excerpt": "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract multiplier for stock futures contracts of Alibaba Health Information Technology Limited.\n\nFor details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted option stock futures contracts due to capital adjustment, for details please refer to the circular MO/DT/193/26\n\nThe full list of stock futures available for trading effective from 9 December 2026 is set forth in the Attachment for reference.\n\nParticipants should notify your staff and interested clients about the arrangements and pay special attention to the fact that the stock futures contract multiplier will be in multiple board lots of the underlying securities. Please also ensure the back office systems are ready for smooth operation.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nEnquiry: HKATS Hotline 1 Tel: 2211-6360\n\n編號 Ref.\n\nNo.\n\nLtd.\n\n4",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-25",
+      "title": "Trading Arrangement Relating to Stock Option Contracts of Alibaba Health Information Technology Limited pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/EQD_23_26_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 11585,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/EQD_23_26_e.pdf",
+      "regulatory_domain": "other_regulatory",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《Trading Arrangement Relating to…》。正文：will be no change to the contract size for stock option contracts of Alibaba Health Information…",
+      "key_points": [
+        "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract size for stock option contracts of Alibaba Health Information Technology Limited.",
+        "For details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted stock option class due to capital adjustment, for details please refer to the circular MO/DT/194/26",
+        "The full list of stock option classes available for trading effective from 9 December 2026 is set forth in the Attachment for reference.",
+        "Participants should notify your staff and interested clients about the arrangements and pay special attention to the fact that the stock option contract size will be in multiple board lots of the underlying securities."
+      ],
+      "key_dates": [
+        {
+          "date": "9 December 2026",
+          "kind": "effective",
+          "evidence": "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract size for stock option contracts of Alibaba Health Information Technology Limited."
+        }
+      ],
+      "affected_parties": [],
+      "evidence": [
+        "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract size for stock option contracts of Alibaba Health Information Technology Limited.",
+        "For details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf",
+        "Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted stock option class due to capital adjustment, for details please refer to the circular MO/DT/194/26"
+      ],
+      "source_excerpt": "Participants are requested to note that, following the announcement from Alibaba Health Information Technology Limited on 18 November 2026 in relation to the change in board lot size from 2,000 shares to 500 shares effective from 9 December 2026, there will be no change to the contract size for stock option contracts of Alibaba Health Information Technology Limited.\n\nFor details of the announcement, please refer to the following link: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801177.pdf\n\n1 All calls to the HKATS hotline would be recorded. Please refer to the following link for HKEX privacy policy statement: https://www.hkex.com.hk/Global/Exchange/Privacy-Notice?sc_lang=en 2 Adjusted stock option class due to capital adjustment, for details please refer to the circular MO/DT/194/26\n\nThe full list of stock option classes available for trading effective from 9 December 2026 is set forth in the Attachment for reference.\n\nParticipants should notify your staff and interested clients about the arrangements and pay special attention to the fact that the stock option contract size will be in multiple board lots of the underlying securities. Please also ensure the back office systems are ready for smooth operation.\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nEnquiry: HKATS Hotline 1 Tel: 2211-6360\n\n編號 Ref.\n\nNo.\n\nLtd.\n\nINB 1,000 2 1",
       "summary_method": "extractive"
     },
     {
@@ -4035,265 +4327,12 @@
       ],
       "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender of 7-year HKD institutional Government Bonds through the re-opening of existing Government Bond (issue number 07GB3302001) under the Infrastructure Bond Programme was held today (11 November).\n\nA total of HK$1.25 billion 7-year Government Bonds were offered today. A total of HK$6.693 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of bonds applied for to bonds issued, is 5.35. The average price accepted is 95.77, implying an annualised yield of 3.708%.\n\n* Calculated as the amount of bonds applied for over the amount of bonds issued.\n\n11 November 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 7-year HKD HKSAR Institutional Government Bonds:-\n\nTender Date\n\nIssue Number\n\n07GB3302001 (Re-open)\n\nStock Code\n\n4201 (HKGB 2.91 3302)\n\nIssue and Settlement Date\n\n12 November 2026\n\nTenor\n\n7 years\n\nMaturity Date\n\n7 February 2033\n\nCoupon Rate\n\n2.91%\n\nAmount Applied\n\nAmount Allotted\n\nBid-to-Cover Ratio*\n\nAverage Price Accepted (Yield)\n\n95.77 (3.708%)\n\nLowest Price Accepted (Yield)\n\n95.44 (3.771%)\n\nPro-rata Ratio\n\nAbout 10%\n\nAverage Tender Price (Yield)\n\n95.04 (3.847%)",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-11",
-      "title": "Tender results of 1-year HONIA-indexed Floating Rate Notes",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-4/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 1283,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261111-4/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Tender results of 1-year…》。正文：announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the…",
-      "key_points": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).",
-        "The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44.",
-        "* Calculated as the amount of notes applied for over the amount of notes issued."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).",
-        "The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44.",
-        "* Calculated as the amount of notes applied for over the amount of notes issued."
-      ],
-      "source_excerpt": "The Hong Kong Monetary Authority (HKMA), as representative of the Hong Kong Special Administrative Region Government (HKSAR Government), announced that a tender for 1-year HONIA-indexed Floating Rate Notes (issue number 01GH2711001) under the Infrastructure Bond Programme was held today (11 November).\n\nA total of HK$1.5 billion 1-year HONIA-indexed Floating Rate Notes were offered today. A total of HK$5.155 billion tender applications were received. The bid-to-cover ratio, i.e. the ratio of notes applied for to notes issued, is 3.44. The highest spread accepted is 0.38%.\n\n* Calculated as the amount of notes applied for over the amount of notes issued.\n\n11 November 2026\n\nHKSAR INSTITUTIONAL GOVERNMENT BONDS TENDER RESULTS\n\nTender results of 1-year HONIA-indexed Floating Rate Notes:-\n\nTender Date : 11 November 2026\n\nIssue Number : 01GH2711001\n\nStock Code : 4212 (HKGB FRN 2711)\n\nIssue and Settlement Date : 12 November 2026\n\nTenor : 1 year\n\nMaturity Date : 12 November 2027\n\nAmount Applied : HK$5.155 billion\n\nAmount Allotted : HK$1.5 billion\n\nBid-to-Cover Ratio* : 3.44\n\nHighest Spread Accepted : 0.38%\n\nAverage Spread Accepted : 0.23%\n\nPro-rata Ratio : About 68%\n\nAverage Tender Spread : 0.44%",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Extension of Liquidity Provider Program and Active Trader Program for Hang Seng Biotech Index Futures pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_21_26_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 4333,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/EQD_21_26_e.pdf",
-      "regulatory_domain": "prudential",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Extension of Liquidity Provider…》。正文：will be extended to 31 May 2027. The service term of existing ATs will be automatically extended.…",
-      "key_points": [
-        "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.",
-        "The service term of existing ATs will be automatically extended.",
-        "This circular has been prepared in English with a Chinese translation.",
-        "Hang Seng Indexes Company Limited (“HSIL”) currently publishes, compiles and computes a number of stock indexes and may publish, compile and compute such additional stock indexes at the request of Hang Seng Data Services Limited (“HSDS”) from time to time (collectively, the “Hang Seng Indexes”).",
-        "Existing LPs will receive an amendment appointment letter for the extension."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.",
-        "The service term of existing ATs will be automatically extended.",
-        "This circular has been prepared in English with a Chinese translation."
-      ],
-      "source_excerpt": "With reference to the circular (ref: EQD/18/25 ) dated 15 October 2025, the existing Liquidity Provider ( “ LP ” ) Program and Active Trader (“ AT ”) Program for Hang Seng Biotech Index Futures will be extended to 31 May 2027.\n\nThe service term of existing ATs will be automatically extended. Existing LPs will receive an amendment appointment letter for the extension. Existing LPs and ATs are not required to submit an application.\n\nThis circular has been prepared in English with a Chinese translation. If there are any inconsistencies between the two versions, the English version shall prevail.\n\nHang Seng Indexes Company Limited (“HSIL”) currently publishes, compiles and computes a number of stock indexes and may publish, compile and compute such additional stock indexes at the request of Hang Seng Data Services Limited (“HSDS”) from time to time (collectively, the “Hang Seng Indexes”).\n\nThe marks, names and processes of compilation and computation of the respective Hang Seng Indexes are the exclusive property of and proprietary to HSDS.\n\nHSIL has granted to the Exchange by way of licence the use of the Hang Seng Indexes solely for the purposes of and in connection with the creation, marketing and trading of futures contracts based on any of the Hang Seng Indexes respectively (collectively, “Futures Contracts”).\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Northern Metropolis Financial Advisory Taskforce holds its third meeting",
-      "official_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-3/",
-      "source_id": "DEDUP-00031",
-      "source_label": "HKMA Press Releases",
-      "detection": "new_official_publication",
-      "source_text_chars": 2589,
-      "text_extraction": "success",
-      "source_format": "html",
-      "source_text_url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261110-3/",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKMA发布《Northern Metropolis Financial…》。正文：will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby…",
-      "key_points": [
-        "This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects."
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects."
-      ],
-      "source_excerpt": "To further strengthen the banking sector’s financing support for Northern Metropolis (NM) projects, the HKMA proposes to amend the Banking (Capital) Rules to designate government-related entities, including 11 post-secondary institutions and three park companies, as Domestic Public Sector Entities. This measure will help lower banks’ capital costs, assist these entities in obtaining bank financing, and thereby accelerate the implementation of NM projects. The HKMA intends to submit the amendments to the Legislative Council in the first quarter of 2027, with a view to their taking effect in the second quarter of the same year.\n\nThe Northern Metropolis Financial Advisory Taskforce (Taskforce), jointly established by the Hong Kong Monetary Authority (HKMA) and The Hong Kong Association of Banks (HKAB), convened its third meeting today (10 November). Meeting participants included representatives from the HKMA, HKAB, the Development Bureau, the Education Bureau (EDB), The Financial Services and the Treasury Bureau, the Innovation, Technology and Industry Bureau and 25 participating banks in the Taskforce (see Annex).\n\nAt the meeting, the EDB presented the latest development of the Northern Metropolis University Town (NMUT), including the positioning of the three university towns1, development of campus areas and related financial arrangements.\n\nBackground\n\n10 November 2026\n\n1 San Tin University Town, Hung Shui Kiu University Town and Ta Kwu Ling University Town.",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Exchange’s Disciplinary Action against Two Former Directors of TOMO Holdings Limited (Stock Code: 6928)",
-      "official_url": "https://www.hkex.com.hk/News/Regulatory-Announcements/2026/261110news?sc_lang=en",
-      "source_id": "DEDUP-00033",
-      "source_label": "HKEX Regulatory Announcements",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "enforcement",
-      "change_type": "official_release",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Stock Admission - New Listing of Securities pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_399_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 2074,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_399_2026.pdf",
-      "regulatory_domain": "listing_rules",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Stock Admission - New Listing of…》。正文：The following securities have been approved for admission into CCASS for clearing, settlement,",
-      "key_points": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty",
-        "case such trades will be settled on a trade-for-trade (TFT) basis.",
-        "Effective Date for Settlement (Exchange trades) and Deposits Note 2"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "The following securities have been approved for admission into CCASS for clearing, settlement,",
-        "the said securities will be cleared inside CCASS and automatically settled on a Continuous Net",
-        "Settlement (CNS) basis unless they are isolated from the CNS System by the counterparty"
-      ],
-      "source_excerpt": "The following securities have been approved for admission into CCASS for clearing, settlement,\n\nthe said securities will be cleared inside CCASS and automatically settled on a Continuous Net\n\nSettlement (CNS) basis unless they are isolated from the CNS System by the counterparty\n\ncase such trades will be settled on a trade-for-trade (TFT) basis.\n\nEffective Date for Settlement (Exchange trades) and Deposits Note 2\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Stock Admission - New Listing of Securities\n\nEnquiry: CCASS Hotline : 2979 7111/ E-mail : clearingps@hkex.com.hk\n\nwithdrawals and deposits. With effect from their respective listing dates, the Exchange trades of\n\nExchange Participants at the time of trade or isolated from the CNS System by HKSCC, in which\n\nStock Name Stock Code Board Lot\n\nEffective Date for Clearing (SI) and Withdrawals Note 1\n\nI. Ordinary Shares\n\n1. Amicro Technology Co., Ltd. 2065 500 11/11/2026 12/11/2026\n\n2. HOSIN Electronics Co., LTD. 2681 100 11/11/2026 12/11/2026\n\n3. Adaspace Technology Co., Ltd. 6935 100 12/11/2026 13/11/2026\n\n編號 Ref. No.: PT/NIS/CCASS/399/2026\n\n日期 Date: 10/11/2026\n\nII. Provisional Allotment Letters relating to Nil-paid Rights\n\nCoolpad Group Limited – Provisional Allotment Letters relating to Nil-paid Rights\n\n2999 5,000 12/11/2026 13/11/2026\n\nProcedures.\n\nNotes:",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Margin Rates pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_294_2026.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 967,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKCC/2026/ce_HKCC_DCRC_294_2026.pdf",
-      "regulatory_domain": "other_regulatory",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Margin Rates》；对象：Exchange Participants。正文：determined that, with effect from the commencement of trading on 12 November 2026 (including the…",
-      "key_points": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
-        "• Meituan",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients.",
-        "The details of the revised margin levels can be found here .",
-        "Exchange Participants should set their margin requirements according to each client’s individual circumstances."
-      ],
-      "key_dates": [
-        {
-          "date": "12 November 2026",
-          "kind": "effective",
-          "evidence": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised."
-        }
-      ],
-      "affected_parties": [
-        "Exchange Participants"
-      ],
-      "evidence": [
-        "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised.",
-        "• Meituan",
-        "Please be reminded that minimum margin rates are for your firm’s financially strongest clients."
-      ],
-      "source_excerpt": "Please be advised that, pursuant to Exchange Rule 617(d) and HKCC Rule 402, the Exchange and the Clearing House have determined that, with effect from the commencement of trading on 12 November 2026 (including the mandatory intra-day variation adjustment and margin call, if applicable), the margin levels for the following Futures Contract will be revised. The details of the revised margin levels can be found here .\n\n• Meituan\n\nPlease be reminded that minimum margin rates are for your firm’s financially strongest clients. Exchange Participants should set their margin requirements according to each client’s individual circumstances.\n\n香 港 期 貨 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HKFE CLEARING CORPORATION LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Margin Rates Enquiry: 2211-6901\n\nSally Tai Vice President Operations Risk Management Operations Division\n\n編號 Ref. No.: ORM/CRC/294/2026 日期 Date: 10/11/2026",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Futures Contracts -Special Dividend pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_236_26_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 5217,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKFE/2026/MO_DT_236_26_e.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Trading and Clearing Operational…》。正文：will be made on the ex-date based on the corporate action announced:",
-      "key_points": [
-        "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:",
-        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
-        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf",
-        "Please refer to the following link for HKEX privacy policy statement: Privacy Notice",
-        "The trading arrangements for the existing Li Ning stock futures under trading symbol LNI will be as follows:"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:",
-        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
-        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf"
-      ],
-      "source_excerpt": "Participants are requested to note that capital adjustment to the stock futures contracts below will be made on the ex-date based on the corporate action announced:\n\nCorporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026\n\nFor details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf\n\n1 All calls to the HKATS and DCASS hotlines would be recorded. Please refer to the following link for HKEX privacy policy statement: Privacy Notice\n\nThe trading arrangements for the existing Li Ning stock futures under trading symbol LNI will be as follows:\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nUnderlying Stock Name of the Stock Futures Contracts (Stock Code) Li Ning Company Limited ( “ Li Ning ” ) (02331)\n\nHKATS Code LNI\n\nSubject: Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Futures Contracts – Special Dividend Enquiry: HKATS Hotline 1 Tel: 2211-6360 DCASS Hotline 1 Tel: 2979-7222\n\n編號 Ref. No.: MO/DT/236/26 日期 Date: 10/11/2026\n\nTrading Arrangements\n\nInform Your Staff and Clients",
-      "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-10",
-      "title": "Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Option Contracts -Special Dividend pdf",
-      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_237_26_e.pdf",
-      "source_id": "HKEX-PARTICIPANT-CIRC",
-      "source_label": "HKEX Participant and Members Circulars",
-      "detection": "new_official_publication",
-      "source_text_chars": 7643,
-      "text_extraction": "success",
-      "source_format": "pdf",
-      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2026/MO_DT_237_26_e.pdf",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "participant_circular",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "HKEX发布《Trading and Clearing Operational…》。正文：will be made on the ex-date based on the corporate action announced:",
-      "key_points": [
-        "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:",
-        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
-        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf",
-        "Please refer to the following link for HKEX privacy policy statement: Privacy Notice",
-        "The trading arrangements for the existing Li Ning stock options under trading symbol LNI will be as follows:"
-      ],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [
-        "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:",
-        "Corporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026",
-        "For details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf"
-      ],
-      "source_excerpt": "Participants are requested to note that capital adjustment to the stock option contracts below will be made on the ex-date based on the corporate action announced:\n\nCorporate Action Special Dividend of RMB 2.32 per share, the equivalent amount of such Special Dividend payable in Hong Kong Dollars is HKD 2.71 per share Ex-date 18 November 2026\n\nFor details of the announcements made by Li Ning on 5 November 2026, please refer to the hyperlinks below: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500848.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500920.pdf\n\n1 All calls to the HKATS and DCASS hotlines would be recorded. Please refer to the following link for HKEX privacy policy statement: Privacy Notice\n\nThe trading arrangements for the existing Li Ning stock options under trading symbol LNI will be as follows:\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nUnderlying Stock Name of the Stock Option Contracts (Stock Code) Li Ning Company Limited ( “ Li Ning ” ) (02331)\n\nHKATS Code LNI\n\nSubject: Trading and Clearing Operational Arrangements Relating to the Capital Adjustment of Li Ning Company Limited Stock Option Contracts – Special Dividend Enquiry: HKATS Hotline 1 Tel: 2211-6360 DCASS Hotline 1 Tel: 2979-7222\n\n編號 Ref. No.: MO/DT/237/26 日期 Date: 10/11/2026\n\nTrading Arrangements\n\nInform Your Staff and Clients",
-      "summary_method": "extractive"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 0,
-    "succeeded": 0,
+    "attempted": 8,
+    "succeeded": 8,
     "failed": 0,
     "pending": 0
   }
