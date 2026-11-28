@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-11-28T07:46:16.591Z",
+  "generated_at": "2026-11-28T20:00:06.454Z",
   "monitor_request": "Monitor current Hong Kong regulatory updates",
-  "duration_ms": 4919,
+  "duration_ms": 6422,
   "sources_checked": 14,
   "source_runs": [
     {
       "source_id": "DEDUP-00033",
       "label": "HKEX Regulatory Announcements",
       "status": "fulfilled",
-      "duration_ms": 2247,
+      "duration_ms": 4423,
       "count": 10
     },
     {
       "source_id": "HKEX-CORP-NEWS",
       "label": "HKEX Corporate News Releases",
       "status": "fulfilled",
-      "duration_ms": 3192,
+      "duration_ms": 3382,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-COMMS",
       "label": "HKEX Market Communications",
       "status": "fulfilled",
-      "duration_ms": 3119,
+      "duration_ms": 3777,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-CONSULT",
       "label": "HKEX Market Consultations",
       "status": "fulfilled",
-      "duration_ms": 2687,
+      "duration_ms": 3725,
       "count": 10
     },
     {
       "source_id": "HKEX-PARTICIPANT-CIRC",
       "label": "HKEX Participant and Members Circulars",
       "status": "fulfilled",
-      "duration_ms": 2852,
+      "duration_ms": 5571,
       "count": 10
     },
     {
       "source_id": "HKEX-MARKET-DATA-NOTICES",
       "label": "HKEX Market Data Client Notices",
       "status": "fulfilled",
-      "duration_ms": 3309,
+      "duration_ms": 4742,
       "count": 10
     },
     {
       "source_id": "HKEX-HOSTING-NOTICES",
       "label": "HKEX Hosting Subscriber Notices",
       "status": "fulfilled",
-      "duration_ms": 3028,
+      "duration_ms": 4992,
       "count": 10
     },
     {
       "source_id": "DEDUP-00031",
       "label": "HKMA Press Releases",
       "status": "fulfilled",
-      "duration_ms": 3711,
+      "duration_ms": 4812,
       "count": 10
     },
     {
       "source_id": "HKMA-CIRCULARS",
       "label": "HKMA Circulars",
       "status": "fulfilled",
-      "duration_ms": 3050,
+      "duration_ms": 3021,
       "count": 12
     },
     {
       "source_id": "HKMA-GUIDELINES",
       "label": "HKMA Guidelines",
       "status": "fulfilled",
-      "duration_ms": 3049,
+      "duration_ms": 3019,
       "count": 1
     },
     {
       "source_id": "HKMA-SPM",
       "label": "HKMA Supervisory Policy Manual",
       "status": "fulfilled",
-      "duration_ms": 3049,
+      "duration_ms": 3019,
       "count": 4
     },
     {
       "source_id": "HKMA-CONSULTATIONS",
       "label": "HKMA Consultation Papers",
       "status": "fulfilled",
-      "duration_ms": 3049,
+      "duration_ms": 3019,
       "count": 3
     },
     {
       "source_id": "HKMA-GTA",
       "label": "HKMA Guide to Authorization",
       "status": "fulfilled",
-      "duration_ms": 3049,
+      "duration_ms": 3019,
       "count": 7
     },
     {
       "source_id": "HKMA-CODES",
       "label": "HKMA Codes of Practice",
       "status": "fulfilled",
-      "duration_ms": 3049,
+      "duration_ms": 3019,
       "count": 5
     }
   ],
@@ -855,6 +855,39 @@
         "This circular has been issued in the English language with a separate Chinese language translation."
       ],
       "source_excerpt": "Pursuant to the Regulations for Trading Stock Futures Contracts (Section 018) of Hong Kong Futures Exchange, the trading fee tier levels of the following stock futures contracts will be changed, effective from 4 January 2027 , as a result of the annual review:\n\nThe full list of stock futures contracts and the new tier levels are set forth in the Attachment for reference.\n\nThis circular has been issued in the English language with a separate Chinese language translation. If there is any conflict in the circulars between the meaning of Chinese words or terms in the Chinese language version and English words in the English language version, the meaning of the English words shall prevail.\n\nList of Stock Futures Contracts Available for Trading (Effective from 4 January 2027)\n\nThe following list of stock futures contracts are available for trading on the HKATS. Exchange Participants and their clients should be aware that stock futures contracts may or may not have market makers to provide bid / offer quotes for trading. Investors should exercise due caution and understand the liquidity risk involved when trading stock futures without market makers.\n\n香 港 期 貨 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG FUTURES EXCHANGE LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\nSubject: Annual Review of Stock Futures Trading Fee Tier Classification Enquiry: HKATS Hotline (Tel: 2211-6360)\n\nLtd. 1171 YZC Anhui Conch Cement Co.\n\nLtd. 914 ACC\n\n編號 Ref.",
+      "summary_method": "extractive"
+    },
+    {
+      "publication_date": "2026-11-27",
+      "title": "United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) / United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 / United Nations Sanctions (Libya) Regulation 2019 (Cap. 537CF) / United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB) pdf",
+      "official_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/093_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_Libya_Central-Africa-Republic_e.pdf",
+      "source_id": "HKEX-PARTICIPANT-CIRC",
+      "source_label": "HKEX Participant and Members Circulars",
+      "detection": "new_official_publication",
+      "source_text_chars": 1681,
+      "text_extraction": "success",
+      "source_format": "pdf",
+      "source_text_url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/093_26_HKSCCUNSanctions_AntiTerrorism_Measures_ISIL_and_AlQaida_Libya_Central-Africa-Republic_e.pdf",
+      "regulatory_domain": "enforcement",
+      "change_type": "participant_circular",
+      "impact_status": "review_required",
+      "human_review_required": true,
+      "summary": "HKEX发布《United Nations (Anti-Terrorism…》。正文：published on the following dates: - 23 November 2026 - the updated list of terrorists and terrorist…",
+      "key_points": [
+        "Participants of HKSCC are requested to note that the following information was published on the following dates:",
+        "- 23 November 2026 - the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575);",
+        "- 20 November 2026 - United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026;",
+        "- 26 November 2026 - the updated list of individuals and entities under the United Nations Sanctions (Libya) Regulation 2019 (Cap. 537CF); and",
+        "- 21 November 2026 - the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)."
+      ],
+      "key_dates": [],
+      "affected_parties": [],
+      "evidence": [
+        "Participants of HKSCC are requested to note that the following information was published on the following dates:",
+        "- 23 November 2026 - the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575);",
+        "- 20 November 2026 - United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026;"
+      ],
+      "source_excerpt": "Participants of HKSCC are requested to note that the following information was published on the following dates:\n\n- 23 November 2026 - the updated list of terrorists and terrorist associates specified under the United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575);\n\n- 20 November 2026 - United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026;\n\n- 26 November 2026 - the updated list of individuals and entities under the United Nations Sanctions (Libya) Regulation 2019 (Cap. 537CF); and\n\n- 21 November 2026 - the updated list of individuals and entities under the United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB).\n\n香 港 中 央 結 算 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) HONG KONG SECURITIES CLEARING COMPANY LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n編號 Ref. No.: LSD/093/2026 日期 Date: 27/11/2026\n\nSubject: United Nations (Anti-Terrorism Measures) Ordinance (Cap. 575) United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 United Nations Sanctions (Libya) Regulation 2019 (Cap. 537CF) United Nations Sanctions (ISIL and Al-Qaida) Regulation (Cap. 537CB)\n\nEnquiry: Ms Ruby Chan 2840 3044\n\n(A) in the Gazette:\n\n(B) on the website of the Commerce and Economic Development Bureau (“CEDB”):\n\nChow Koon Ying Director",
       "summary_method": "extractive"
     },
     {
@@ -4297,34 +4330,12 @@
       ],
       "source_excerpt": "Pursuant to the share consolidation timetable issued by Ocean Star Technology Group Limited (“ Ocean Star ”), the share consolidation of 10 existing shares of HK$0.01 each in Ocean Star into 1 consolidated share of HK$0.10 each will become effective on 16 November 2026 . Shareholders, investors and market participants should read the Ocean Star ’s circulars and regulatory announcements in full including the terms and conditions of Ocean Star ’s share consolidation in dealing with Ocean Star ’s shares. If they are in doubt, they should consult their professional adviser(s). As an OTP-C standard practice for share consolidation and for reference only, an Adjusted Previous Closing Price will be displayed in the “PRV CLOSE” field of Ocean Star ’s OTP -C temporary stock page (stock code 8561) on 16 November 2026 . Calculation of the Adjusted Previous Closing Price will be based on Ocean Star ’s closing price on 13 November 2026 (i.e. the day immediately before the share consolidation becoming effective) and by using the following standard adjustment formula for share consolidation generally.\n\nAdjusted Previous Closing Price = Closing Price on the day immediately before Share Consolidation becoming effective x R\n\n香 港 聯 合 交 易 所 有 限 公 司 ( 香港交易及結算所有限公司全資附屬公司 ) THE STOCK EXCHANGE OF HONG KONG LIMITED (A wholly-owned subsidiary of Hong Kong Exchanges and Clearing Limited)\n\n通告 CIRCULAR\n\n香港聯合交易所有限公司竭力確保其提供之資料準確可靠，惟不保證該等資料絕對正確，亦不對由於任何資料不確或遺漏所引之損失或損 害負上責任 ( 不論是民事侵權行為責任或合約責任或其他 ) 。\n\n…/2",
       "summary_method": "extractive"
-    },
-    {
-      "publication_date": "2026-11-13",
-      "title": "HKEX to Launch Digital Payment Solution for Derivatives After-Hours Trading from December 2026",
-      "official_url": "https://www.hkex.com.hk/News/Market-Communications/2026/261113news?sc_lang=en",
-      "source_id": "HKEX-MARKET-COMMS",
-      "source_label": "HKEX Market Communications",
-      "detection": "new_official_publication",
-      "source_text_chars": 0,
-      "text_extraction": "failed",
-      "text_extraction_error": "HTML contains no usable body text (possibly a JavaScript-only page)",
-      "regulatory_domain": "market_infrastructure",
-      "change_type": "market_communication",
-      "impact_status": "review_required",
-      "human_review_required": true,
-      "summary": "仅能获取标题，未能抽取正文",
-      "key_points": [],
-      "key_dates": [],
-      "affected_parties": [],
-      "evidence": [],
-      "source_excerpt": "",
-      "summary_method": "title_only"
     }
   ],
   "enrichment": {
     "limit": 12,
-    "attempted": 8,
-    "succeeded": 8,
+    "attempted": 1,
+    "succeeded": 1,
     "failed": 0,
     "pending": 0
   }
